@@ -271,64 +271,75 @@ function goToChapter(index, options = {}) {
   const ch = chapters[index];
   if (!readerContent) return;
 
-  readerContent.innerHTML = ch.content || `<h1>${ch.title}</h1><p>(Không có nội dung)</p>`;
-
-  // Update page badge
-  const badge = document.getElementById("page-badge");
-  if (badge) {
-    badge.textContent = ch.page ? `Trang ${ch.page} / ${chapterCount}` : "";
-    badge.style.display = ch.page ? "block" : "none";
+  // Transition Logic
+  if (!readerContent.classList.contains("fade-animated")) {
+    readerContent.classList.add("fade-animated");
   }
 
-  highlightTOCItem(index);
+  // Fade out
+  readerContent.classList.add("fade-out");
 
-  try { localStorage.setItem(LS_CHAPTER_INDEX, String(index)); } catch (e) { }
+  // Wait for fade out, then swap content
+  setTimeout(() => {
+    readerContent.innerHTML = ch.content || `<h1>${ch.title}</h1><p>(Không có nội dung)</p>`;
 
-  /* =========================
-     XỬ LÝ CUỘN (ưu tiên h2)
-     ========================= */
+    // Update page badge
+    const badge = document.getElementById("page-badge");
+    if (badge) {
+      badge.textContent = ch.page ? `Trang ${ch.page} / ${chapterCount}` : "";
+      badge.style.display = ch.page ? "block" : "none";
+    }
 
-  const positions = loadScrollPositions();
+    highlightTOCItem(index);
 
-  // 1️⃣ Nếu có yêu cầu nhảy tới mục (h2)
-  if (typeof options.sectionIndex === "number") {
-    setTimeout(() => {
+    try { localStorage.setItem(LS_CHAPTER_INDEX, String(index)); } catch (e) { }
+
+    /* =========================
+       XỬ LÝ CUỘN (ưu tiên h2)
+       ========================= */
+
+    const positions = loadScrollPositions();
+
+    // 1️⃣ Nếu có yêu cầu nhảy tới mục (h2)
+    if (typeof options.sectionIndex === "number") {
       const h2s = readerContent.querySelectorAll("h2");
       if (h2s[options.sectionIndex]) {
         h2s[options.sectionIndex].scrollIntoView({
-          behavior: "smooth",
+          behavior: "auto",
           block: "start"
         });
       } else {
         readerContent.scrollTop = 0;
       }
-    }, 0);
 
-    // 2️⃣ Nếu reset scroll
-  } else if (options.resetScroll === true || typeof positions[ch.id] === "undefined") {
-    readerContent.scrollTop = 0;
+      // 2️⃣ Nếu reset scroll
+    } else if (options.resetScroll === true || typeof positions[ch.id] === "undefined") {
+      readerContent.scrollTop = 0;
 
-    // 3️⃣ Restore scroll cũ
-  } else if (options.scrollToBottom === true) {
-    setTimeout(() => {
+      // 3️⃣ Restore scroll cũ
+    } else if (options.scrollToBottom === true) {
       readerContent.scrollTop = readerContent.scrollHeight;
-    }, 0);
-  } else {
-    const pos = positions[ch.id];
-    setTimeout(() => {
+    } else {
+      const pos = positions[ch.id];
       readerContent.scrollTop = Math.min(
         pos,
         readerContent.scrollHeight - readerContent.clientHeight
       );
-    }, 0);
-  }
+    }
 
-  if (options.focus && readerContent) readerContent.focus();
+    // Fade in
+    readerContent.classList.remove("fade-out");
 
-  // restore highlights/notes UI for this chapter
-  restoreHighlightsForCurrentChapter();
-  renderHighlightsUI();
-  renderNotesUI();
+    if (options.focus && readerContent) readerContent.focus();
+
+    // restore highlights/notes UI for this chapter
+    restoreHighlightsForCurrentChapter();
+    renderHighlightsUI();
+    renderNotesUI();
+
+  }, 300); // 300ms matches CSS transition time
+
+
 }
 
 /* next / prev */
