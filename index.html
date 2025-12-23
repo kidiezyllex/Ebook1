@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ebook - Giao diện cơ bản</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Lora:wght@400;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- background -->
+  <div id="bg"></div>
+
+  <!-- top-left home button -->
+  <button id="btn-home" class="icon-btn top-left" data-tooltip="Trang chủ">
+    <img src="assets/icons/ebook_img/nut_home.png" alt="home">
+  </button>
+
+  <!-- bottom-left toc button -->
+  <button id="btn-toc" class="icon-btn bottom-left" data-tooltip="Mục lục">
+    <img src="assets/icons/ebook_img/muc_luc.png" alt="mục lục">
+  </button>
+
+  <!-- center reader frame -->
+  <main id="main-wrap">
+    <div id="reader-frame">
+      <!-- <header class=" reader-header">
+      <h1 id="chapter-title">Tên chương</h1>
+      <h2 id="section-title">Tên mục</h2>
+      </header> -->
+
+      <div id="reader">
+        <div id="reader-content" tabindex="0">
+          <!-- nội dung chương (render từ script.js) -->
+        </div>
+      </div>
+
+      <!-- right vertical arrows -->
+      <div id="vertical-controls">
+        <button id="btn-top" class="arrow-btn" data-tooltip="Scroll lên đầu trang">
+          <img src="assets/icons/ebook_img/mui_ten.svg" alt="lên đầu">
+        </button>
+        <button id="btn-bottom" class="arrow-btn" data-tooltip="Scroll xuống cuối trang">
+          <img src="assets/icons/ebook_img/mui_ten.svg" alt="xuống cuối">
+        </button>
+      </div>
+
+      <!-- bottom toolbar (z-index cao) -->
+      <nav id="bottom-toolbar">
+        <button id="btn-fullscreen" class="tool-btn" data-tooltip="Toàn màn hình">
+          <img src="assets/icons/ebook_img/toan_man_hinh.png" alt="fullscreen">
+        </button>
+        <button id="btn-note" class="tool-btn" data-tooltip="Ghi chú">
+          <img src="assets/icons/ebook_img/ghi_chu.svg" alt="ghi chú">
+        </button>
+        <button id="btn-highlight" class="tool-btn" data-tooltip="Highlight">
+          <img src="assets/icons/ebook_img/highlight.svg" alt="highlight">
+        </button>
+        <button id="btn-settings" class="tool-btn" data-tooltip="Cài đặt">
+          <img src="assets/icons/ebook_img/cai_dat2.png" alt="cài đặt">
+        </button>
+        <button id="btn-zoomout" class="tool-btn" data-tooltip="Thu nhỏ">
+          <img src="assets/icons/ebook_img/thu_nho.png" alt="thu nhỏ">
+        </button>
+        <button id="btn-zoomin" class="tool-btn" data-tooltip="Phóng to">
+          <img src="assets/icons/ebook_img/phong_to.png" alt="phóng to">
+        </button>
+      </nav>
+    </div>
+  </main>
+
+  <aside id="sidebar-left" class="sidebar">
+    <button class="close-btn" id="close-left">✖</button>
+    <div id="sidebar-left-content" class="sidebar-content">
+      <!-- injected: intro or toc -->
+      <div id="intro-content" class="side-panel intro-sidebar">
+
+        <!-- Bìa 1 -->
+        <div class="intro-cover">
+          <img src="assets/icons/ebook_img/bia_1.png" alt="Bìa sách Dấu chân du lịch Việt Nam">
+        </div>
+
+        <!-- Tên sách -->
+        <h3 class="intro-title">Dấu chân du lịch Việt Nam</h3>
+
+        <!-- Tác giả -->
+        <div class="intro-author">Nhiều tác giả</div>
+
+        <!-- Mô tả -->
+        <p class="intro-desc">
+          “Dấu chân du lịch Việt Nam” là bản thảo do nhóm sinh viên Khoa Xuất bản –
+          Học viện Báo chí và Tuyên truyền sưu tầm và biên soạn từ nhiều nguồn tư liệu
+          chính thống, uy tín. Cuốn sách cung cấp cái nhìn tổng quan và hệ thống về sự
+          hình thành, phát triển của du lịch Việt Nam. Nội dung kết hợp hài hòa giữa cơ
+          sở lý luận và thực tiễn, làm nổi bật các giá trị tự nhiên – văn hóa đặc sắc.
+          Qua đó, sách góp phần định hướng những chiến lược phát triển du lịch bền vững
+          trong tương lai.
+        </p>
+
+      </div>
+
+      <div id="toc-panel" class="side-panel" style="display:none;">
+        <h3>MỤC LỤC</h3>
+        <div id="toc" class="toc-list"></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Right settings sidebar -->
+  <aside id="sidebar-right" class="sidebar right">
+    <button class="close-btn" id="close-right" aria-label="Đóng">✖</button>
+
+    <div class="sidebar-content">
+      <h3>Cài đặt đọc</h3>
+
+      <div class="control-row control-typography">
+        <label class="label-inline">Cỡ chữ</label>
+        <div class="btn-group">
+          <button id="btn-decrease" class="icon-small" aria-label="Giảm cỡ chữ" onclick="decreaseFontSize()">A-</button>
+          <button id="btn-increase" class="icon-small" aria-label="Tăng cỡ chữ" onclick="increaseFontSize()">A+</button>
+        </div>
+      </div>
+
+      <div class="control-row">
+        <label class="label-inline">Font</label>
+        <select id="font-select" class="form-select" aria-label="Chọn font" onchange="setFontByKey(this.value)">
+          <option value="times">Times New Roman</option>
+          <option value="roboto">Roboto</option>
+          <option value="lora">Lora (đậm)</option>
+        </select>
+      </div>
+
+      <div class="control-row">
+        <label class="label-inline">Màu nền</label>
+        <div id="bg-palette" class="color-palette"></div>
+      </div>
+
+      <div class="control-row">
+        <label class="label-inline">Màu chữ</label>
+        <div id="text-palette" class="color-palette"></div>
+      </div>
+
+      <hr class="sep">
+
+      <!-- TABS: Highlights / Notes -->
+      <div class="tabs" role="tablist" aria-label="Chọn xem highlight hoặc ghi chú">
+        <button id="tab-highlights" role="tab" aria-selected="true" class="tab active">Highlights</button>
+        <button id="tab-notes" role="tab" aria-selected="false" class="tab">Ghi chú</button>
+      </div>
+
+      <!-- LIST CONTAINERS: chỉ hiện 1 trong 2 -->
+      <div id="panels">
+        <div id="highlights-panel" class="panel" role="tabpanel" aria-hidden="false">
+          <div id="highlights-list" class="list-panel"></div>
+        </div>
+
+        <div id="notes-panel" class="panel" role="tabpanel" aria-hidden="true" style="display:none;">
+          <div id="notes-list" class="list-panel"></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- overlay to close sidebars -->
+  <div id="overlay"></div>
+
+  <!-- load data & scripts -->
+  <script src="data/chapters.js"></script>
+  <script src="script.js"></script> <!-- your main logic -->
+  <script src="ui.js"></script> <!-- UI wiring (below) -->
+</body>
+
+</html>

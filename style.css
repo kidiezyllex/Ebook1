@@ -1,0 +1,1104 @@
+:root {
+  --reader-height: calc(100vh - 200px);
+  --reader-width: 900px;
+  --frame-bg: #f4ecd8;
+  --frame-border: rgba(0, 0, 0, 0.12);
+  --primary: #2f1b11;
+  --toolbar-height: 56px;
+  --font-sans: Arial, sans-serif;
+  --font-serif: "Times New Roman", Times, serif;
+  --font-lora: "Lora", serif;
+  --reader-font-size: 16px;
+  --reader-font-family: var(--font-serif);
+  --reader-bg-color: #fff;
+  --reader-text-color: #111;
+}
+
+/* page bg */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+
+#bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: url('assets/icons/ebook_img/anh_nen_giao_dien.png');
+  background-size: cover;
+  background-position: center;
+  filter: saturate(1.05);
+}
+
+/* icon buttons */
+.icon-btn {
+  position: fixed;
+  z-index: 30;
+  width: 48px;
+  height: auto;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.icon-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.top-left {
+  left: 16px;
+  top: 16px;
+}
+
+.bottom-left {
+  left: 16px;
+  bottom: 16px;
+}
+
+/* main center */
+#main-wrap {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+#reader-frame {
+  width: var(--reader-width);
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 80vh;
+}
+
+/* parchment like frame */
+.reader-header {
+  text-align: center;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+#chapter-title {
+  margin: -60px 0 0 0;
+  font-size: 28px;
+  color: var(--primary);
+}
+
+#section-title {
+  margin: 2px 0 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+#reader {
+  background: var(--frame-bg);
+  border: 1px solid var(--frame-border);
+  padding: 5px;
+  flex: 1;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* reader content is scrollable */
+#reader-content {
+  height: 100%;
+  overflow-y: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: var(--reader-font-size);
+  font-family: var(--reader-font-family);
+  font-weight: var(--reader-font-weight, 400);
+  background: var(--reader-bg-color);
+  color: var(--reader-text-color);
+}
+
+#reader-content h1 {
+  padding-left: 24px;
+}
+
+#reader-content h2 {
+  padding-left: 24px;
+}
+
+/* vertical arrows */
+#vertical-controls {
+  position: absolute;
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  z-index: 15;
+}
+
+.arrow-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.arrow-btn img {
+  width: 100%;
+}
+
+/* bottom toolbar */
+#bottom-toolbar {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  background: url('assets/icons/ebook_img/bottom-toolbar-bg.png') no-repeat center center;
+  background-size: 100% 100%;
+  padding: 12px 64px;
+  border-radius: 28px;
+  z-index: 9999;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+  height: 56px;
+  box-sizing: border-box;
+}
+
+.tool-btn {
+  width: auto;
+  height: auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0px;
+  max-height: 28px;
+  height: 28px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
+  /* Tooltips need relative parent */
+}
+
+.tool-btn:hover {
+  transform: scale(1.05) translateY(-2px);
+}
+
+.tool-btn img {
+  height: 28px;
+  width: auto;
+  transition: filter 0.3s ease;
+}
+
+.tool-btn:hover img {
+  filter: brightness(1.2) saturate(0.5);
+}
+
+/* Tooltips */
+
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+  z-index: 20000;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Tooltip positions */
+
+/* Default / Bottom Toolbar Buttons: Tooltip Top */
+.tool-btn[data-tooltip]::after {
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 10px;
+  transform: translateX(-50%) translateY(4px);
+}
+
+.tool-btn[data-tooltip]:hover::after {
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Arrows: Tooltip Left */
+.arrow-btn {
+  position: relative;
+}
+
+.arrow-btn[data-tooltip]::after {
+  top: 50%;
+  right: 100%;
+  margin-right: 12px;
+  transform: translateY(-50%) translateX(4px);
+  /* Reset default if needed */
+  bottom: auto;
+  left: auto;
+}
+
+.arrow-btn[data-tooltip]:hover::after {
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Home / TOC: Tooltip Right */
+#btn-home[data-tooltip]::after,
+#btn-toc[data-tooltip]::after {
+  top: 50%;
+  left: 100%;
+  margin-left: 12px;
+  transform: translateY(-50%) translateX(-4px);
+  /* Reset */
+  bottom: auto;
+  right: auto;
+}
+
+#btn-home[data-tooltip]:hover::after,
+#btn-toc[data-tooltip]:hover::after {
+  transform: translateY(-50%) translateX(0);
+}
+
+/* sidebars */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.98);
+  z-index: 60;
+  transform: translateX(-110%);
+  box-shadow: 6px 0 24px rgba(0, 0, 0, 0.3);
+  transition: transform .28s ease;
+  overflow: auto;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.sidebar.right {
+  right: 0;
+  left: auto;
+  transform: translateX(110%);
+  box-shadow: -6px 0 24px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sidebar-content h3 {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.side-panel p {
+  margin: 8px 0;
+}
+
+/* TOC: style cho các mục (h2) */
+.sidebar .toc-item.toc-chapter {
+  font-weight: 700;
+  margin-top: 8px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.sidebar .toc-item.toc-section {
+  padding-left: 22px;
+  /* mức indent — tăng nếu muốn lùi sâu hơn */
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* palettes and lists */
+.color-palette {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.color-swatch {
+  width: 34px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.toc-item {
+  text-align: left;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.toc-item.active {
+  background: #f0e6d8;
+  font-weight: 600;
+}
+
+.list-panel {
+  max-height: 180px;
+  overflow: auto;
+  border-top: 1px dashed #ddd;
+  padding-top: 8px;
+}
+
+.hl-row,
+.note-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.hl-snippet,
+.note-text {
+  flex: 1;
+  font-size: 13px;
+  color: #222;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 55;
+  display: none;
+}
+
+/* small responsive */
+@media (max-width: 1000px) {
+  :root {
+    --reader-width: 92vw;
+    --reader-height: 58vh;
+  }
+
+  #vertical-controls {
+    display: none;
+  }
+}
+
+@media (max-height: 680px) {
+  :root {
+    --reader-height: calc(100vh - 180px);
+  }
+
+  /* giảm tiếp trên màn nhỏ */
+}
+
+/* =========================
+   Sidebar: màu nền giống thanh toolbar, chữ trắng,
+   bo góc (left: bo phải; right: bo trái), header căn giữa
+   ========================= */
+
+.sidebar {
+  /* same look as bottom toolbar (dark wood) */
+  background: linear-gradient(180deg, #2d1f14 0%, #402619 100%);
+  color: #ffffff;
+  /* round right corners for left sidebar */
+  border-radius: 0 18px 18px 0;
+  /* ensure text readable */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* right sidebar: round left corners instead */
+.sidebar.right {
+  border-radius: 18px 0 0 18px;
+  /* keep same gradient */
+  background: linear-gradient(180deg, #2d1f14 0%, #402619 100%);
+  color: #ffffff;
+}
+
+/* Ensure close button is visible on dark bg */
+.sidebar .close-btn {
+  color: #ffffff;
+  background: transparent;
+  font-weight: 700;
+  border: none;
+}
+
+/* Make header text centered and white */
+#sidebar-left .sidebar-content h3,
+#sidebar-left .side-panel h3,
+#sidebar-left h3 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* General text and toc items in sidebar: white */
+.sidebar .side-panel,
+.sidebar .toc-list,
+.sidebar .toc-item,
+.sidebar p,
+.sidebar .muted {
+  color: #ffffff;
+}
+
+/* Toc item appearance on dark bg */
+.sidebar .toc-item {
+  background: transparent;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.sidebar .toc-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.sidebar .toc-item.active {
+  background: rgba(255, 255, 255, 0.06);
+  font-weight: 700;
+}
+
+/* Lists inside sidebar (highlights/notes) */
+.sidebar .list-panel {
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  max-height: 220px;
+  overflow: auto;
+  color: #fff;
+}
+
+/* Make snippet text lighter */
+.hl-snippet,
+.note-text {
+  color: #f6f0e8;
+  font-size: 13px;
+}
+
+/* =========================
+   Scrollbar styling (WebKit & Firefox)
+   Applies to sidebars and list panels and reader-content
+   ========================= */
+
+/* Firefox */
+.sidebar,
+.sidebar .list-panel,
+#reader-content {
+  scrollbar-width: thin;
+  scrollbar-color: #351f14 #c9ad88;
+  /* thumb color, track color */
+}
+
+/* =========================
+   Scrollbar styling (đã đảo màu)
+   ========================= */
+
+/* WebKit browsers */
+.sidebar::-webkit-scrollbar,
+.sidebar .list-panel::-webkit-scrollbar,
+#reader-content::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* TRACK – sáng (đảo từ thumb cũ) */
+.sidebar::-webkit-scrollbar-track,
+.sidebar .list-panel::-webkit-scrollbar-track,
+#reader-content::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #c9ad88 0%, #8b6a4a 100%);
+  border-radius: 10px;
+  margin: 6px 0;
+}
+
+/* THUMB – tối (đảo từ track cũ) */
+.sidebar::-webkit-scrollbar-thumb,
+.sidebar .list-panel::-webkit-scrollbar-thumb,
+#reader-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3b2a1f 0%, #2d1f14 100%);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-clip: padding-box;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* Hover */
+.sidebar::-webkit-scrollbar-thumb:hover,
+.sidebar .list-panel::-webkit-scrollbar-thumb:hover,
+#reader-content::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4a3324 0%, #351f14 100%);
+}
+
+
+/* make scrollbar track edge rounded visually */
+.sidebar::-webkit-scrollbar-corner,
+.sidebar .list-panel::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Slight padding inside sidebar so scrollbar doesn't touch content edge */
+.sidebar .sidebar-content {
+  padding-right: 12px;
+}
+
+/* If you want a subtle inset border on the sidebar edge to match the frame */
+.sidebar {
+  box-shadow: 6px 0 18px rgba(0, 0, 0, 0.35) inset;
+}
+
+/* Adjust overlay visibility contrast when sidebars open (optional) */
+#overlay {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* small tweak: ensure icons in close/top area visible */
+.sidebar .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+/* ensure color swatches visible on dark background */
+.color-swatch {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset;
+}
+
+/* If sidebars were originally translucent, force fully opaque to match toolbar */
+.sidebar {
+  background-clip: padding-box;
+  z-index: 10000;
+}
+
+/* TOC hierarchy */
+.toc-chapter {
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.toc-section {
+  padding-left: 18px;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* RIGHT SIDEBAR - polished controls */
+.sidebar .control-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.label-inline {
+  width: 92px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #f3e9df;
+}
+
+.form-select {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.sidebar select {
+  background: linear-gradient(180deg, #3b2a1f, #2d1f14);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+/* dropdown items */
+.sidebar select option {
+  background-color: #2d1f14;
+  /* giống nền sidebar */
+  color: #ffffff;
+}
+
+/* small icon buttons */
+.icon-small {
+  min-width: 40px;
+  height: 34px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(90deg, #c9ad88, #a57a50);
+  color: #2b140c;
+  cursor: pointer;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+}
+
+.icon-small:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-1px);
+}
+
+/* group */
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+/* Color palette layout (bigger swatches) */
+.color-palette {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.color-swatch {
+  width: 36px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+/* separator */
+.sep {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin: 12px 0;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.tab {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: linear-gradient(90deg, #c9ad88, #a57a50);
+  color: #2b140c;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Panel */
+.panel {
+  margin-top: 6px;
+}
+
+.list-panel {
+  max-height: 260px;
+  overflow: auto;
+  padding: 6px 4px;
+}
+
+/* Highlight/Note rows styling */
+.hl-row,
+.note-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+}
+
+.hl-jump,
+.note-jump {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(90deg, #c9ad88, #a57a50);
+  color: #2b140c;
+  cursor: pointer;
+}
+
+.hl-remove,
+.note-remove {
+  margin-left: 8px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* snippet */
+.hl-snippet,
+.note-text {
+  color: #f6f0e8;
+  font-size: 13px;
+  flex: 1;
+  word-break: break-word;
+}
+
+/* responsive tweak */
+@media (max-width: 800px) {
+  .label-inline {
+    width: 78px;
+    font-size: 13px;
+  }
+
+  .tab {
+    font-size: 13px;
+    padding: 7px;
+  }
+}
+
+/* =========================
+   Modal / popup trung tâm
+   ========================= */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 12000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: popup-fade-in .16s ease;
+}
+
+@keyframes popup-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup {
+  width: min(480px, 96%);
+  max-width: 480px;
+  background: #f4ecd8;
+  /* theo yêu cầu */
+  color: #2b140c;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  font-family: var(--font-sans);
+  box-sizing: border-box;
+}
+
+/* Popup header / message */
+.popup .popup-message {
+  margin: 0 0 18px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #2b140c;
+}
+
+/* Buttons row */
+.popup .popup-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+/* primary action button: gold gradient with dark text */
+.popup .btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 72px;
+  transition: transform .12s ease, filter .12s ease;
+}
+
+/* primary look (confirm / ok) */
+.popup .btn-primary {
+  background: linear-gradient(90deg, #c9ad88, #a57a50);
+  color: #2b140c;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* secondary look (cancel) */
+.popup .btn-secondary {
+  background: transparent;
+  color: #2b140c;
+  border: 2px solid rgba(43, 20, 12, 0.08);
+}
+
+/* hover / active */
+.popup .btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.02);
+}
+
+.popup .btn:active {
+  transform: translateY(0);
+  filter: brightness(0.98);
+}
+
+/* Small screens: center content, buttons stacked */
+@media (max-width: 420px) {
+  .popup {
+    padding: 14px;
+  }
+
+  .popup .popup-actions {
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
+
+  .popup .btn {
+    width: 100%;
+  }
+}
+
+#reader:fullscreen #bottom-toolbar {
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+}
+
+#reader:fullscreen .sidebar.right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 9999;
+}
+
+.page-center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* căn giữa dọc */
+  justify-content: center;
+  /* căn giữa ngang */
+}
+
+.page-content {
+  max-width: 520px;
+  /* giới hạn nội dung */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 18px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+.intro-sidebar {
+  padding: 16px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Bìa */
+.intro-cover {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.intro-cover img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Tên sách */
+.intro-title {
+  text-align: center;
+  margin: 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Tác giả */
+.intro-author {
+  text-align: right;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+/* Mô tả */
+.intro-desc {
+  text-align: justify;
+}
+
+#sidebar-right {
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+#sidebar-right.open {
+  transform: translateX(0);
+}
+
+#sidebar-left {
+  border-top-right-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+#sidebar-left {
+  overflow-y: auto !important;
+}
+
+
+#sidebar-left::-webkit-scrollbar,
+#sidebar-left *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#sidebar-left::-webkit-scrollbar-track,
+#sidebar-left *::-webkit-scrollbar-track {
+  background: #C9AD88;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+#sidebar-left::-webkit-scrollbar-thumb,
+#sidebar-left *::-webkit-scrollbar-thumb {
+  background-color: #351F14;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  background-clip: content-box;
+}
+
+#sidebar-left::-webkit-scrollbar-thumb:hover,
+#sidebar-left *::-webkit-scrollbar-thumb:hover {
+  background-color: #403633;
+}
+
+/* Force remove all arrow buttons for this scrollbar - Strict Targeting */
+#sidebar-left::-webkit-scrollbar-button,
+#sidebar-left::-webkit-scrollbar-button:pseudo,
+#sidebar-left::-webkit-scrollbar-button:vertical,
+#sidebar-left::-webkit-scrollbar-button:start,
+#sidebar-left::-webkit-scrollbar-button:end,
+#sidebar-left::-webkit-scrollbar-button:decrement,
+#sidebar-left::-webkit-scrollbar-button:increment,
+#sidebar-left *::-webkit-scrollbar-button,
+#sidebar-left *::-webkit-scrollbar-button:pseudo,
+#sidebar-left *::-webkit-scrollbar-button:vertical,
+#sidebar-left *::-webkit-scrollbar-button:start,
+#sidebar-left *::-webkit-scrollbar-button:end,
+#sidebar-left *::-webkit-scrollbar-button:decrement,
+#sidebar-left *::-webkit-scrollbar-button:increment {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+#sidebar-left::-webkit-scrollbar-corner,
+#sidebar-left *::-webkit-scrollbar-corner {
+  background: transparent;
+  width: 0;
+  height: 0;
+}
+
+#btn-top {
+  transform: rotate(90deg);
+}
+
+#btn-top[data-tooltip]::after {
+  top: 100%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-top: 14px;
+  transform: translateX(-50%) rotate(-90deg);
+  transform-origin: center center;
+  white-space: nowrap;
+}
+
+#btn-top[data-tooltip]:hover::after {
+  transform: translateX(-50%) rotate(-90deg);
+}
+
+#btn-bottom {
+  transform: rotate(-90deg);
+}
+
+#btn-bottom[data-tooltip]::after {
+  bottom: 100%;
+  left: 50%;
+  right: auto;
+  top: auto;
+  margin-bottom: 14px;
+  transform: translateX(-50%) rotate(90deg);
+  transform-origin: center center;
+  white-space: nowrap;
+}
+
+#btn-bottom[data-tooltip]:hover::after {
+  transform: translateX(-50%) rotate(90deg);
+}
