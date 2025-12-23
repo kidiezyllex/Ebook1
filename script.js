@@ -1,8 +1,3 @@
-/* script.js - Ebook reader (settings, navigation, highlights, notes, anti-copy, watermark)
-   - Single-file version
-   - Ensure you load data/chapters.js (defines `chapters` array) BEFORE this script in index.html
-*/
-
 /* =========================
    Settings + Storage
    ========================= */
@@ -220,7 +215,7 @@ function renderTOC() {
     // CHƯƠNG (button)
     const chBtn = document.createElement("button");
     chBtn.className = "toc-item toc-chapter";
-    chBtn.textContent = chapter.title;
+    chBtn.innerHTML = `<span>${chapter.title}</span><span style="float:right; font-weight:normal; opacity:0.8; font-size:0.9em;">${chapter.page}</span>`;
     chBtn.dataset.index = chIndex; // dùng cho highlight
     chBtn.addEventListener("click", () => {
       goToChapter(chIndex, { focus: true, resetScroll: true });
@@ -278,6 +273,13 @@ function goToChapter(index, options = {}) {
 
   readerContent.innerHTML = ch.content || `<h1>${ch.title}</h1><p>(Không có nội dung)</p>`;
 
+  // Update page badge
+  const badge = document.getElementById("page-badge");
+  if (badge) {
+    badge.textContent = ch.page ? `Trang ${ch.page} / ${chapterCount}` : "";
+    badge.style.display = ch.page ? "block" : "none";
+  }
+
   highlightTOCItem(index);
 
   try { localStorage.setItem(LS_CHAPTER_INDEX, String(index)); } catch (e) { }
@@ -307,6 +309,10 @@ function goToChapter(index, options = {}) {
     readerContent.scrollTop = 0;
 
     // 3️⃣ Restore scroll cũ
+  } else if (options.scrollToBottom === true) {
+    setTimeout(() => {
+      readerContent.scrollTop = readerContent.scrollHeight;
+    }, 0);
   } else {
     const pos = positions[ch.id];
     setTimeout(() => {
@@ -365,6 +371,39 @@ function initReader() {
 
   if (readerContent) {
     readerContent.addEventListener("scroll", debouncedSaveScroll);
+
+    // Scroll-based navigation
+    let isNavigating = false;
+    // Debounce nav to prevent skipping multiple chapters at once
+    const resetNav = debounce(() => { isNavigating = false; }, 800);
+
+    readerContent.addEventListener("wheel", (e) => {
+      if (isNavigating) return;
+
+      const scrollTop = readerContent.scrollTop;
+      const scrollHeight = readerContent.scrollHeight;
+      const clientHeight = readerContent.clientHeight;
+      const t = 1; // Tolerance
+
+      // Check scroll UP at top
+      if (e.deltaY < 0 && scrollTop <= t) {
+        if (currentChapterIndex > 0) {
+          isNavigating = true;
+          goToChapter(currentChapterIndex - 1, { focus: true, scrollToBottom: true });
+          resetNav();
+          e.preventDefault();
+        }
+      }
+      // Check scroll DOWN at bottom
+      else if (e.deltaY > 0 && Math.abs(scrollHeight - clientHeight - scrollTop) <= t) {
+        if (currentChapterIndex < chapters.length - 1) {
+          isNavigating = true;
+          goToChapter(currentChapterIndex + 1, { focus: true, resetScroll: true });
+          resetNav();
+          e.preventDefault();
+        }
+      }
+    }, { passive: false });
   }
 
   document.addEventListener("keydown", (ev) => {

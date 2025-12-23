@@ -115,6 +115,25 @@ body {
   position: relative;
 }
 
+#page-badge {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  background: rgba(45, 31, 20, 0.75);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  z-index: 50;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: opacity 0.3s;
+}
+
 /* reader content is scrollable */
 #reader-content {
   height: 100%;
@@ -191,7 +210,15 @@ body {
   height: 28px;
   transition: transform 0.3s ease, filter 0.3s ease;
   position: relative;
-  /* Tooltips need relative parent */
+}
+
+#btn-fullscreen img,
+#btn-note img {
+  height: 24px !important;
+}
+
+#btn-settings img {
+  height: 30px !important;
 }
 
 .tool-btn:hover {

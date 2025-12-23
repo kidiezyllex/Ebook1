@@ -6,6 +6,7 @@ const chapters = [
       <div style="height:100%; display:flex; align-items:center; justify-content:center;">
         <img src="assets/icons/ebook_img/bia_1.png" alt="Bìa 1" style="max-height:100%; width:auto; display:block; object-fit:contain;" />
       </div>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 1 —</div>
     `
   },
 
@@ -41,6 +42,7 @@ const chapters = [
           </div>
         </div>
       </div>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 2 —</div>
     `
   },
 
@@ -61,6 +63,7 @@ const chapters = [
       <p>Không chỉ gợi mở điểm đến, cuốn sách còn khơi gợi cảm hứng khám phá Việt Nam một cách có trách nhiệm. Trên từng trang sách, thông điệp về phát triển du lịch bền vững, tôn trọng thiên nhiên, trân quý di sản và giữ gìn văn hóa được nhấn mạnh xuyên suốt. Sự kết hợp giữa tri thức học thuật và tinh thần nhân văn tạo nên một bản thảo vừa hữu ích về mặt nghiên cứu, vừa giàu giá trị truyền cảm hứng cho người đọc.</p>
 
       <p>Với tất cả những nội dung đó, “Dấu chân du lịch Việt Nam” không chỉ là một công trình tổng hợp thông tin, mà còn là sự kết nối giữa lý luận và thực tiễn, giữa tri thức và trải nghiệm, giữa hành trang quá khứ và định hướng tương lai. Tác phẩm hy vọng sẽ trở thành nguồn tham khảo tin cậy, đồng thời là người bạn đồng hành của mỗi độc giả trên hành trình khám phá đất nước Việt Nam giàu đẹp và đa sắc màu.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 3 —</div>
     `
   },
 
@@ -76,6 +79,7 @@ const chapters = [
       <p>Với hình thức trình bày khoa học, ngôn ngữ chuẩn mực và tính ứng dụng cao, “Dấu chân du lịch Việt Nam” là tài liệu tham khảo hữu ích cho nhà quản lý, nhà nghiên cứu, giảng viên, sinh viên và độc giả yêu thích du lịch. Nhà xuất bản Hà Nội tin tưởng rằng cuốn sách sẽ đóng góp tích cực vào việc lan tỏa giá trị văn hóa, lịch sử và vẻ đẹp thiên nhiên của Việt Nam đến đông đảo bạn đọc.</p>
 
       <p>Chúng tôi trân trọng giới thiệu.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 4 —</div>
     `
   },
 
@@ -89,6 +93,7 @@ const chapters = [
       <p>Trong quá trình thực hiện, chúng tôi nỗ lực bảo đảm tính khách quan, khoa học và độ chính xác cao nhất. Cuốn sách không chỉ nhằm phản ánh hiện trạng và tiềm năng du lịch Việt Nam, mà còn mong muốn góp phần gợi mở những suy nghĩ tích cực về con đường phát triển bền vững trong tương lai.</p>
 
       <p>Chúng tôi hy vọng rằng những thông tin và góc nhìn được chia sẻ trong sách sẽ trở thành nguồn tham khảo hữu ích, đồng thời mang lại cảm hứng khám phá cho độc giả yêu mến văn hóa và cảnh quan của đất nước. Xin trân trọng cảm ơn sự đồng hành và ủng hộ của quý bạn đọc.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 5 —</div>
     `
   },
 
@@ -99,6 +104,7 @@ const chapters = [
       <h1>LỜI MỞ ĐẦU</h1>
       <p>Du lịch đã và đang trở thành một trong những ngành kinh tế mũi nhọn, đóng góp quan trọng cho sự phát triển kinh tế - xã hội của nhiều quốc gia. Ở Việt Nam, cùng với xu hướng hội nhập và phát triển, du lịch không chỉ là nguồn thu ngoại tệ mà còn là phương tiện để bảo tồn văn hóa, phát triển hạ tầng và góp phần nâng cao đời sống nhân dân.</p>
       <p>Báo cáo này nhằm phân tích thực trạng, nguồn lực, những thuận lợi và khó khăn của ngành du lịch Việt Nam; đồng thời đề xuất các định hướng và giải pháp để phát triển bền vững đến năm 2030 và tầm nhìn 2045.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 6 —</div>
     `
   },
 
@@ -130,6 +136,7 @@ const chapters = [
       <p>Di tích văn hóa nghệ thuật: các công trình kiến trúc có giá trị , các tác phẩm nghệ thuật nổi tiếng, các trường đại học, thư viện quốc gia,…( Kim Tự Tháp, Đấu trường La Mã, Tháp nghiêng Pisa, Tháp Effen, Vạn Lý trường thành, Kinh đô Huế). Di tích lịch sử - ghi dấu các sự kiện lịch sử, đặc điểm lịch sử tiêu biểu của các dân tộc trong quá trình phát triển.</p>
       <p>Di chỉ khảo cổ học: Các di chỉ cư trí hay mộ táng về những thời kỳ lịch sử vào thời gian nào đó tròn lịch sử phát triển của xã hội loài người như các thành phố cổ, các khu mộ cổ, thánh địa cổ,…( Thánh địa Mỹ Sơn, Thánh địa Cát Tiên, Angkor wat, thành phố cổ Tanis, thành phố cổ Pompei, khu lăng mộ Tần Thủy Hoàng,…  	</p>
       <p></p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 7 —</div>
     `
   },
 
@@ -152,6 +159,7 @@ const chapters = [
 
       <h2>2.5. Vai trò của du lịch văn hóa trong chiến lược phát triển quốc gia</h2>
       <p>Du lịch văn hóa giúp giữ gìn, phát huy bản sắc dân tộc, đồng thời tạo sản phẩm du lịch đặc sắc, thu hút khách quốc tế. Nhà nước khuyến khích phục dựng, tôn tạo di tích, lễ hội và phát triển du lịch dựa trên giá trị văn hóa bản địa.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 8 —</div>
     `
   },
 
@@ -167,6 +175,7 @@ const chapters = [
       <h2>3.2. Tài nguyên du lịch văn hóa - lịch sử</h2>
       <p>Việt Nam có bề dày lịch sử và nền văn hóa phong phú với nhiều di tích, lễ hội, truyền thống nghề thủ công và ẩm thực đặc sắc. Các di sản thế giới và di tích quốc gia là yếu tố hấp dẫn du khách trong và ngoài nước.</p>
       <p>Phát triển tour du lịch văn hóa cần kết hợp câu chuyện, trải nghiệm địa phương và đảm bảo bảo tồn giá trị lịch sử gốc.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 9 —</div>
     `
   },
 
@@ -183,6 +192,7 @@ const chapters = [
 
       <h2>4.3. Hệ thống cơ sở vật chất và dịch vụ du lịch</h2>
       <p>Hạ tầng giao thông, sân bay, cảng biển và hệ thống khách sạn ngày càng được đầu tư. Tuy nhiên chất lượng dịch vụ, tiêu chuẩn vệ sinh, an toàn và nguồn nhân lực vẫn cần nâng cao để đáp ứng yêu cầu khách cao cấp và quốc tế.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 10 —</div>
     `
   },
 
@@ -199,6 +209,7 @@ const chapters = [
 
       <h2>5.3. Vùng Đông Nam Bộ và Đồng bằng sông Cửu Long</h2>
       <p>Vùng Đông Nam Bộ có nền du lịch phát triển mạnh (TP. HCM, Vũng Tàu, Phú Quốc). Đồng bằng sông Cửu Long nổi bật với du lịch miệt vườn, sông nước, văn hóa dân gian và nông nghiệp trải nghiệm.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 11 —</div>
     `
   },
 
@@ -212,6 +223,7 @@ const chapters = [
 
       <h2>6.2. Du lịch miền núi phía Bắc</h2>
       <p>Miền núi phía Bắc (Sapa, Hà Giang...) nổi tiếng bởi cảnh quan hùng vĩ, ruộng bậc thang, văn hóa đặc sắc của đồng bào dân tộc. Phát triển du lịch cần chú trọng bảo vệ môi trường và giữ gìn văn hóa truyền thống.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 12 —</div>
     `
   },
 
@@ -225,6 +237,7 @@ const chapters = [
 
       <h2>7.2. Nguyên nhân của những hạn chế</h2>
       <p>Nguyên nhân bao gồm thiếu đầu tư có trọng điểm, phân tán nguồn lực, đào tạo nguồn nhân lực chưa phù hợp, quy hoạch và quản lý điểm đến chưa đồng bộ, cũng như tác động của biến đổi khí hậu và các rủi ro toàn cầu như đại dịch.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 13 —</div>
     `
   },
 
@@ -238,6 +251,7 @@ const chapters = [
 
       <h2>8.2. Bài học cho Việt Nam</h2>
       <p>Việt Nam có thể học hỏi cách xây dựng thương hiệu điểm đến, nâng cao chất lượng nhân lực, triển khai chương trình xúc tiến lâu dài và tối ưu hóa liên kết vùng. Việc áp dụng công nghệ số trong quản lý, phân phối sản phẩm và tiếp thị cũng là bài học quan trọng.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 14 —</div>
     `
   },
 
@@ -251,6 +265,7 @@ const chapters = [
 
       <h2>9.2. Quan điểm và mục tiêu phát triển</h2>
       <p>Mục tiêu là xây dựng du lịch thành ngành kinh tế mũi nhọn, tăng giá trị trên mỗi khách, phân bố đều lợi ích cho các vùng miền và đảm bảo phát triển bền vững. Quan điểm phát triển cần gắn kết du lịch với bảo tồn tài nguyên, phát triển cộng đồng và chuyển đổi số.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 15 —</div>
     `
   },
 
@@ -271,6 +286,7 @@ const chapters = [
       </ul>
 
       <p>Sự phối hợp giữa trung ương và địa phương, cùng với sự tham gia của cộng đồng và khu vực tư nhân, là yếu tố quyết định để thực hiện các giải pháp này hiệu quả.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 16 —</div>
     `
   },
 
@@ -281,6 +297,7 @@ const chapters = [
       <p>1. Báo cáo Chiến lược phát triển du lịch Việt Nam (tài liệu tham khảo - ví dụ).</p>
       <p>2. Các nghiên cứu, bài báo khoa học về du lịch bền vững, quản lý điểm đến và phát triển sản phẩm du lịch.</p>
       <p>3. Các nguồn thông tin chính thức từ Bộ Văn hóa, Thể thao và Du lịch Việt Nam, các ấn phẩm địa phương và tài liệu quốc tế về phát triển du lịch.</p>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 17 —</div>
     `
   },
 
@@ -290,6 +307,7 @@ const chapters = [
       <div style="height:100%; display:flex; align-items:center; justify-content:center;">
         <img src="assets/icons/ebook_img/bia_4.jpg" alt="Bìa 4" style="max-height:100%; width:auto; display:block; object-fit:contain;" />
       </div>
+      <div class="page-number-display" style="text-align: center; margin-top: 40px; margin-bottom: 30px; opacity: 0.7; font-size: 0.95em; font-family: var(--font-sans); color: #555;">— 18 —</div>
     `
   },
 ];
