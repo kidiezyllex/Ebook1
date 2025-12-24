@@ -894,7 +894,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tích thấp hơn. Quá trình này tiếp diễn không ngưng nghỉ, làm mòn để những khe nứt trở nên rộng hơn và hình thành ra những hang động khổng lồ. Rồi cũng chính nhờ nước khi gặp vật cản trong quá trình lưu thông sẽ để lại những khoáng chất bên trong tại một điểm. Quá trình này diễn ra bền bỉ liên tiếp đã tạo nên những khối thạch nhũ lớn nhỏ với đầy đủ hình hài, sắc màu.Tất cả đó dần tạo nên những kỳ quan tráng lệ như hang Sơn Đoòng, hệ thống hang Hổ, động ướt Phong Nha, động khô Thiên Đường, hang Én…</p>
-        <p class="p-justify-indent">Hang Sơn Đoòng - hang động lớn nhất thế giới. (Ảnh: Báo Pháp luật)</p>
+        <img src="assets/images/chuong_3/3_hangsondoong-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Hang Sơn Đoòng - hang động lớn nhất thế giới. (Ảnh: Báo Pháp luật)</p>
         <p class="p-justify-indent">Chưa ai có thể tính đếm nổi hang động ở Phong Nha - Kẻ Bàng dừng  lại con số bao nhiêu. Nhưng, riêng số lượng các chuyên gia khảo sát được tính đến nay đã có gần 450 hang động.</p>
       </div>
     `
@@ -918,7 +919,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">Bên cạnh đó, nhiều loài động, thực vật mới đã được phát phát hiện như: 2 loài bọ cạp mới sống trong hang động không ánh sáng mặt trời; chim chích trên núi đá vôi; dương xỉ mọc trong hang động; bách xanh đá; các loại lan hài; 10 loài cá mới, 1 loài cá lạ có thể bơi ngược nước thác mạnh; 4 loài bò sát; tái phát hiện sau 50 năm loài rắn lục sừng…</p>
         <p class="p-justify-indent">Đặc biệt nhất, chuột đá Lào - loài được khẳng định là đã tuyệt chủng 11 triệu năm trước - được Tổ chức Bảo tồn động thực vật hoang dã quốc tế (FFI) và một nhóm điều tra Việt Nam phát hiện vẫn sống trong rừng sâu Vườn Quốc gia này. Đó là những bí ẩn cần được khoa học thế giới công nhận và khẳng định cho Phong Nha - Kẻ Bàng.</p>
-        <p class="p-justify-indent">Kỳ lạ loài chuột đá Lào tưởng chừng đã tuyệt chủng 11 triệu năm trước vẫn tồn tại trong rừng Phong Nha. (Ảnh: Báo Pháp luật)</p>
+        <img src="assets/images/chuong_3/4_chuotdalao-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Kỳ lạ loài chuột đá Lào tưởng chừng đã tuyệt chủng 11 triệu năm trước vẫn tồn tại trong rừng Phong Nha. (Ảnh: Báo Pháp luật)</p>
       </div>
     `
   },
@@ -940,7 +942,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Khu danh thắng Tràng An - Tam Cốc - Bích Động và Khu rừng nguyên sinh đặc dụng Hoa Lư, trong đó vùng đệm có diện tích 6.026ha. Vào năm 2014, quần thể danh thắng Tràng An chính là di sản hỗn hợp đầu tiên và duy nhất của khu vực Đông Nam Á được UNESCO công nhận là Di sản Văn hóa và Thiên nhiên thế giới bởi đáp ứng được tiêu chí V về văn hóa và hai tiêu chí VII, VIII về thiên nhiên là vẻ đẹp thẩm mỹ và địa chất địa mạo.</p>
-        <p class="p-justify-indent">Di sản Văn hóa và Thiên nhiên thế giới Tràng An (Ninh Bình). (Ảnh: Báo Hà Nội mới)</p>
+        <img src="assets/images/chuong_3/5_trangan-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di sản Văn hóa và Thiên nhiên thế giới Tràng An (Ninh Bình). (Ảnh: Báo Hà Nội mới)</p>
         <p class="p-justify-indent">Nằm trong Quần thể danh thắng Tràng An, Khu du lịch sinh thái Tràng An được biết đến với hệ thống núi đá vôi địa hình karst đặc trưng cùng hệ sinh thái rừng, hang động, đầm lầy vô cùng phong phú. Với lịch sử hình thành hàng trăm triệu năm, trải qua quá trình biến đổi về địa chất của trái đất, khí hậu cũng như</p>
       </div>
     `
@@ -985,7 +988,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đó là thông tin mà TS Đoàn Mạnh Cương (Văn phòng Quốc hội) đưa ra, khi lý giải nguyên nhân khiến “du lịch xanh đang trở thành xu hướng chủ đạo ở rất nhiều quốc gia” là nhờ nắm giữ vai trò to lớn trong bảo vệ đa dạng sinh học, văn hóa cộng đồng và đóng góp tích cực cho sự phát triển kinh tế - xã hội. “Ðiều này khẳng định, yếu tố xanh không những bảo đảm cho phát triển du lịch bền vững, mà còn là giải pháp giúp gia tăng lượng khách có mức chi tiêu cao, có  ý thức và hành động văn minh khi tham gia du lịch”, ông nhấn mạnh.</p>
-        <p class="p-justify-indent">Du lịch sinh thái trên thuyền tại di sản UNESCO Tràng An. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
+        <img src="assets/images/chuong_3/6_trangan2-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Du lịch sinh thái trên thuyền tại di sản UNESCO Tràng An. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
         <p class="p-justify-indent">Một khu cắm trại ẩn mình giữa đại ngàn xanh thẳm của Di sản thiên nhiên thế giới - Vườn Quốc gia Phong Nha Kẻ Bàng đã trở thành mô hình du lịch xanh đầu tiên hướng tới mục tiêu</p>
       </div>
     `
@@ -1032,7 +1036,8 @@ const chapters = [
     id: "trang-67", page: "67", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Ngọ Môn - Cố đô Huế. (Ảnh: Bùi Ngọc Long - Báo Thanh niên)</p>
+        <img src="assets/images/chuong_3/7_hue-chuong3-3.2.jpg6_trangan2-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Ngọ Môn - Cố đô Huế. (Ảnh: Bùi Ngọc Long - Báo Thanh niên)</p>
         <p class="p-justify-indent">Tiêu biểu nhất là Quần thể Di tích Cố đô Huế đã được sánh ngang hàng với các kỳ quan hàng ngàn năm tuổi của nhân loại trong danh mục Di sản Văn hóa thế giới của UNESCO, được UNESCO công nhận là Di sản Văn hóa thế giới ngày 11/12/1993.</p>
         <p class="p-justify-indent">Đó là Kinh thành Huế, Hoàng thành Huế, Tử cấm thành Huế, ba tòa thành lồng vào nhau được bố trí đăng đối trên một trục dọc xuyên suốt từ mặt Nam ra mặt Bắc. Hệ thống thành quách ở đây là một mẫu mực của sự kết hợp hài hòa, nhuần nhuyễn giữa tinh hoa kiến trúc Đông và Tây; được đặt trong một khung cảnh thiên nhiên kỳ tú với nhiều yếu tố biểu tượng sẵn có tự nhiên đến mức người ta mặc nhiên xem đó là những bộ phận của Kinh thành Huế - đó là núi Ngự Bình, dòng Hương Giang, cồn Giã Viên.</p>
       </div>
@@ -1105,7 +1110,8 @@ const chapters = [
     id: "trang-73", page: "73", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent"><strong>Phố cổ Hội An. (Ảnh: Vietnam Tourist)</strong></p>
+        <img src="assets/images/chuong_3/8_hoian-chuong3-3.2.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Phố cổ Hội An. (Ảnh: Vietnam Tourist)</p>
         <p class="p-justify-indent">Trong đó, một trải nghiệm thú vị phải thử khi đến Hội An là thả đèn hoa đăng. Từ bến Bạch Đằng, những chiếc thuyền nhỏ nhẹ nhàng trôi theo dòng sông Hoài thơ mộng, du khách hãy thưởng ngoạn phong cảnh phố cổ về đêm, cảm nhận không khí dịu mát se lạnh trong từng cơn gió, lắng nghe những câu chuyện hấp dẫn của phố Hội và tự tay thả những chiếc đèn hoa đăng huyền ảo. Theo quan niệm của người dân địa phương, thả đèn hoa đăng tựa như thả những âu lo muộn phiền và mang lại cảm giác bình an, hạnh phúc.</p>
         <p class="p-justify-indent">Dạo bước tại Hội An, du khách sẽ có cơ hội ghé thăm những ngôi chùa có niên đại hàng trăm năm tuổi (như Chùa Cầu, Chùa Phước Lâm, Chùa Vạn Đức…), chiêm ngưỡng các công trình Hội quán của người Hoa với lối kiến trúc cầu kỳ, sặc sỡ, hòa mình vào không khí lễ hội nhộn nhịp với các trò chơi dân gian như hát bài chòi, hò khoan, đấu cờ tướng…</p>
       </div>
@@ -1143,7 +1149,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">hùng vĩ. Nơi đây từng là trung tâm chính trị, văn hóa và tôn giáo của vương quốc Chăm Pa trong suốt hơn một ngàn năm, lưu giữ những giá trị lịch sử và văn hóa vô cùng độc đáo.</p>
-        <p class="p-justify-indent">Di sản văn hóa thế giới Mỹ Sơn sở hữu vị trí đặc biệt giữa núi non hùng vĩ</p>
+        <img src="assets/images/chuong_3/9_myson-chuong3-3.2.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di sản văn hóa thế giới Mỹ Sơn sở hữu vị trí đặc biệt giữa núi non hùng vĩ</p>
         <p class="p-base">(Ảnh: eduavagi - heritage vietnamairlines)</p>
         <p class="p-justify-indent">Với những công trình kiến trúc tuyệt đẹp và tinh xảo, Mỹ Sơn được UNESCO công nhận là Di sản văn hóa thế giới vào tháng 12/1999.</p>
         <p class="p-justify-indent">Thánh địa Mỹ Sơn không chỉ là địa điểm nổi tiếng thu hút khách du lịch, mà còn là niềm tự hào của dân tộc Việt Nam khi được UNESCO công nhận là Di sản văn hóa thế giới vào năm</p>
@@ -1196,8 +1203,9 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">người Chăm xinh đẹp trong tiếng trống Paranưng và tiếng kèn Saranai sẽ làm mê hoặc mọi du khách.</p>
         <p class="p-justify-indent">Mỗi đền tháp được trang trí các họa tiết cùng những biểu tượng ẩn chứa giá trị và ý nghĩa riêng về các giai đoạn lịch sử Chăm Pa cổ đại, đồng thời thể hiện niềm tin tôn giáo và tín ngưỡng của những người đã tạo nên công trình kỳ vĩ này. Di sản văn hóa Mỹ Sơn được sánh ngang hàng với các di tích nổi tiếng ở Đông Nam Á như: Borobudur (Indonesia), Pagan (Myanmar), Angkor Wat (Campuchia)…</p>
-        <p class="p-justify-indent">Những tòa tháp với kiến trúc độc đáo tại Di tích văn hóa thế giới Mỹ Sơn</p>
-        <p class="p-base">(Ảnh: claudiotedeschi - heritage vietnam airlines)</p>
+        <img src="assets/images/chuong_3/10_myson2-chuong3-3.2.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Những tòa tháp với kiến trúc độc đáo tại Di tích văn hóa thế giới Mỹ Sơn</p>
+        <p class="p-center" style="font-style: italic">(Ảnh: claudiotedeschi - heritage vietnam airlines)</p>
       </div>
     `
   },
@@ -1244,7 +1252,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nam được thành lập, chính thức đánh dấu sự ra đời của ngành Du lịch nước nhà. Trong bối cảnh chiến tranh, khi cả nước đang dồn sức cho công cuộc xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh giải phóng miền Nam, việc xác lập một lĩnh vực kinh tế mới như du lịch là một bước đi táo bạo, mang tính chiến lược lâu dài của Đảng và Nhà nước.</p>
-        <p class="p-justify-indent">Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc (Ảnh: Cổng TTĐT Bộ Văn hóa, thể thao và du lịch)</p>
+        <img src="assets/images/chuong_4/11_tamdao-chuong4-4.1.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc (Ảnh: Cổng TTĐT Bộ Văn hóa, thể thao và du lịch)</p>
         <p class="p-justify-indent">Dù còn non trẻ, ngành Du lịch Việt Nam thời kỳ đầu đã được tổ chức một cách bài bản nhằm đáp ứng yêu cầu nhiệm vụ đón và phục vụ các đoàn khách của Đảng, Nhà nước ta, các đoàn chuyên gia quốc tế đến đóng góp vào công cuộc xây dựng chủ nghĩa xã hội ở miền Bắc. Không chỉ vậy, hoạt động du lịch còn phục vụ cán bộ, thương bệnh binh và công nhân nghỉ dưỡng. Các cơ sở lưu trú, điểm nghỉ dưỡng lần lượt hình thành tại các vùng có khí hậu mát mẻ, cảnh quan đẹp như Sa Pa, Tam Đảo, Đồ Sơn…</p>
       </div>
     `
@@ -1279,7 +1288,8 @@ const chapters = [
     id: "trang-87", page: "87", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Biểu đồ về sự tăng trưởng lượt khách du lịch tại Việt Nam (Ảnh: Cục du lịch Quốc gia Việt Nam)</p>
+      <img src="assets/images/chuong_4/12_bieudo1-chuong4-4.1.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Biểu đồ về sự tăng trưởng lượt khách du lịch tại Việt Nam (Ảnh: Cục du lịch Quốc gia Việt Nam)</p>
         <p class="p-justify-indent">Sự gia tăng này phản ánh rõ định hướng phát triển đa dạng các sản phẩm, dịch vụ, từ du lịch văn hóa, biển đảo, mạo hiểm, tâm linh đến du lịch sinh thái, cộng đồng.</p>
         <p class="p-justify-indent">Ngành du lịch Việt Nam không chỉ góp phần vào tăng trưởng kinh tế mà còn thúc đẩy phát triển về mặt xã hội, bảo tồn văn hóa và nâng cao vị thế của đất nước trên trường quốc tế. Nhìn nhận rõ vai trò này sẽ giúp chúng ta hiểu hơn về tầm quan trọng của ngành đối với sự phát triển bền vững đất nước.</p>
         <p class="p-justify-indent">Theo các báo cáo mới nhất, du lịch Việt Nam đóng góp khoảng 9,2% vào GDP quốc gia, trở thành một trong những ngành kinh tế phát triển nhanh nhất. Nhiều doanh nghiệp du lịch, khách sạn, vận chuyển, dịch vụ ăn uống, lữ hành đã tạo ra hàng triệu việc làm trực tiếp và gián tiếp cho người dân các vùng miền.</p>
@@ -1316,7 +1326,8 @@ const chapters = [
     id: "trang-90", page: "90", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Cục Du lịch Quốc gia Việt Nam lần thứ 4 được vinh danh Cơ quan quản lý du lịch hàng đầu châu Á (Ảnh: Cổng TTĐT Bộ Văn hóa, thể thao và du lịch)</p>
+      <img src="assets/images/chuong_4/13_vinhdanh-chuong4-4.1.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Cục Du lịch Quốc gia Việt Nam lần thứ 4 được vinh danh Cơ quan quản lý du lịch hàng đầu châu Á (Ảnh: Cổng TTĐT Bộ Văn hóa, thể thao và du lịch)</p>
         <p class="p-justify-indent">Những nỗ lực của Du lịch Việt Nam đã được cộng đồng quốc tế, các tổ chức giải thưởng, các hãng truyền thông quốc tế ghi nhận. Tiêu biểu là Tổ chức Giải thưởng du lịch thế giới (World Travel Awards) đã 5 lần vinh danh Việt Nam là &quot;Điểm đến di sản hàng đầu thế giới&quot;; 6 lần &quot;Điểm đến hàng đầu châu Á&quot;. Cục Du lịch Quốc gia Việt Nam 4 lần được vinh danh &quot;Cơ quan quản lý du lịch hàng đầu châu Á&quot; (2017, 2021, 2022, 2023).</p>
         <p class="p-justify-indent">Thành tựu của ngành Du lịch Việt Nam trong 65 năm qua là kết quả của sự quan tâm, chỉ đạo sát sao của Đảng, Nhà nước, sự ủng hộ, phối hợp hiệu quả của các bộ, ngành, địa phương, sự đồng hành của doanh nghiệp, đối tác quốc tế và đặc biệt là tâm huyết của các thế hệ lãnh đạo, cán bộ, người lao động trong ngành du lịch.</p>
       </div>
@@ -1375,7 +1386,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Theo thống kê từ Tổng cục Du lịch, giai đoạn 2010-2019 (trước đại dịch Covid-19), lượng khách đến các địa phương ven biển luôn tăng nhanh hơn tốc độ tăng trưởng bình quân của cả nước, đạt mức tăng 13,6%/năm với khách quốc tế và 12,3%/năm với khách nội địa. Đơn cử, trong năm 2019, lượng khách quốc tế đến các tỉnh ven biển chiếm 71,9% tổng lượng khách quốc tế đến Việt Nam; lượng khách nội địa đến các tỉnh ven biển chiếm 59% tổng lượng khách nội địa; tổng thu từ khách du lịch của 28 tỉnh, thành phố ven biển chiếm 67% tổng thu từ khách du lịch cả nước. Số buồng lưu trú ở các tỉnh ven biển cũng chiếm tới 2/3 tổng số buồng lưu trú cả nước; phần lớn các khách sạn 4-5 sao cũng tập trung ở các tỉnh, thành phố ven biển. Nhiều khu nghỉ dưỡng ven biển đã giành được những giải thưởng danh giá của các tổ chức du lịch uy tín thế giới…</p>
-        <p class="p-base">Biểu đồ khách quốc tế đến Việt Nam. (Nguồn: Tổng hợp từ số liệu cục Thống kê)</p>
+        <img src="assets/images/chuong_4/14_bieudo2-chuong4-4.2.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Biểu đồ khách quốc tế đến Việt Nam. (Nguồn: Tổng hợp từ số liệu cục Thống kê)</p>
       </div>
     `
   },
@@ -1407,8 +1419,9 @@ const chapters = [
     id: "trang-98", page: "98", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Truyền thống gói bánh chưng ngày Tết. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
-        <p class="p-base">Làng cổ</p>
+      <img src="assets/images/chuong_4/15_banhchung-chuong4-4.2.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Truyền thống gói bánh chưng ngày Tết. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
+        <p class="p-center" style="font-style: italic">Làng cổ</p>
         <p class="p-justify-indent">Việt Nam có nhiều đình, chùa, đền, miếu, cổng làng, cây đa, bến nước, điếm canh, nhà thờ họ và những ngôi nhà cổ mang đặc trưng của vùng châu thổ sông Hồng. Đường Lâm được ví là “Bảo tàng lối sống nông thôn, lối sống nông nghiệp” của Việt Nam. Các điểm tham quan: đền thờ và lăng Ngô Quyền, đình Mông Phụ thờ Phùng Hưng, nhà thờ họ Giang, chùa Mía, một số ngôi nhà cổ 200 – 400 năm tuổi…</p>
         <p class="p-justify-indent">Làng cổ Phước Tích (Huế) và một số làng cổ khác ở miền Trung còn giữ khá nguyên vẹn những dấu ấn cổ xưa với những</p>
       </div>
@@ -1420,7 +1433,7 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhà thờ họ, nhà rường cổ, hàng rào chè tàu uốn lượn theo trục đường làng, ngõ xóm và lối đi vào từng nhà.</p>
-        <p class="p-base">Làng nghề</p>
+        <p class="p-center" style="font-style: italic">Làng nghề</p>
         <p class="p-justify-indent">Hiện còn nhiều làng nghề làm ra các sản phẩm thủ công như mây tre đan, gốm sứ, sản phẩm từ cói, điêu khắc gỗ, sơn mài, thêu ren, điêu khắc đá, dệt thủ công, giấy, tranh nghệ thuật, vàng bạc, tranh dân gian... Các làng nghề truyền thống hầu hết tập trung ở vùng đồng bằng Bắc Bộ như Hà Nội, Bắc Ninh, Hưng Yên, Ninh Bình... Một số ít rải rác ở các vùng cao, miền Trung và miền Nam.</p>
         <p class="p-justify-indent">Một số làng nghề nổi tiếng: làng gốm Bát Tràng, làng dệt lụa Vạn Phúc, làng mây tre đan Phú Vinh, làng khảm trai Chuôn Ngọ, làng sơn mài Hạ Thái, làng gỗ Đồng Kỵ (Bắc Ninh), làng đá mỹ nghệ Non Nước (Đà Nẵng), làng gốm Bàu Trúc (Ninh Thuận), làng nghề kẹo dừa (Khánh Hòa)…</p>
         <p class="p-base">Chợ quê, chợ phiên</p>
@@ -1437,7 +1450,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">lớp xã hội và tôn giáo khác nhau. Tập trung vào dịp đầu năm âm lịch, các lễ hội lần lượt diễn ra trong suốt năm ở khắp mọi miền đất nước. Việt Nam là nước duy nhất trên thế giới có lễ hội độc đáo thờ cúng tổ tiên chung của dân tộc Việt, đó là lễ hội đền Hùng.</p>
         <p class="p-justify-indent">Nhiều lễ hội cổ truyền lớn nhỏ trải rộng khắp đất nước suốt cả năm đóng vai trò quan trọng trong đời sống tín ngưỡng, tâm linh của người Việt Nam. Lễ hội lưu truyền từ thế hệ này qua thế hệ khác. Mỗi lễ hội mang một nét tiêu biểu và giá trị riêng. Lễ hội gắn liền với văn hóa làng xã, vùng đất như một thành tố không thể thiếu vắng trong đời sống cộng đồng.</p>
-        <p class="p-justify-indent">Lễ hội truyền thống của đồng bào dân tộc Việt Nam. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
+        <img src="assets/images/chuong_4/16_lehoi-chuong4-4.2.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Lễ hội truyền thống của đồng bào dân tộc Việt Nam. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
       </div>
     `
   },
@@ -1514,7 +1528,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Chính vì thế, trong những năm gần đây, xu hướng du lịch bền vững và du lịch gắn với trách nhiệm môi trường ngày càng được quan tâm.</p>
-        <p class="p-justify-indent">Du khách tìm hiểu nghề làm muối ở Thiềng Liềng, xã Thạnh An. (Ảnh: Báo Nhân dân)</p>
+        <img src="assets/images/chuong_4/17_lammuoi-chuong4-4.2.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Du khách tìm hiểu nghề làm muối ở Thiềng Liềng, xã Thạnh An. (Ảnh: Báo Nhân dân)</p>
         <p class="p-justify-indent">Du khách không chỉ mong muốn tham quan, nghỉ dưỡng, mà còn tìm kiếm những trải nghiệm giúp họ hiểu hơn về nguồn gốc thực phẩm, môi trường sống và câu chuyện của cộng đồng địa phương. Chính điều này đã mở ra cơ hội nổi bật cho du lịch nông nghiệp xanh - một loại hình du lịch dựa trên nền tảng sản xuất nông nghiệp bền vững, tôn trọng hệ sinh thái và đề cao giá trị lao động.</p>
         <p class="p-justify-indent">Sự phong phú của du lịch tâm linh và du lịch nông thôn cho thấy mỗi vùng đất của Việt Nam đều sở hữu những giá trị riêng biệt, từ cảnh quan, văn hóa đến tri thức bản địa. Chính sự đa</p>
       </div>
@@ -1658,7 +1673,8 @@ const chapters = [
     id: "trang-114", page: "114", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Sơ đồ cơ cấu hướng dẫn viên du lịch của Việt Nam năm 2024. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
+      <img src="assets/images/chuong_4/18_huongdanvien-chuong4-4.3.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Sơ đồ cơ cấu hướng dẫn viên du lịch của Việt Nam năm 2024. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
         <p class="p-justify-indent">Năng lực ngoại ngữ là một yếu tố cốt lõi quyết định chất lượng của đội ngũ hướng dẫn viên du lịch, đặc biệt là trong bối cảnh du lịch Việt Nam đang nỗ lực hội nhập quốc tế và phục vụ các thị trường khách du lịch đa quốc gia. Theo Cục Du lịch Quốc gia Việt Nam, tính đến hết năm 2024, trong tổng số 23.998 hướng dẫn viên du lịch quốc tế, có đến 12.810 người sử dụng tiếng Anh, chiếm 53,4%. Đây là con số đáng ghi nhận, phản ánh vai trò trung tâm của tiếng Anh như một ngôn ngữ quốc tế phổ biến trong hoạt động du lịch. Tiếp theo là hướng dẫn viên sử dụng tiếng Trung Quốc với 6.095 người (chiếm 25,4%), tiếng Pháp 1.308 người (5,5%), tiếng Nhật 712 người (3,0%), tiếng Nga 372 người (1,6%), tiếng Đức 354 người (1,5%) và khoảng 2.080 hướng dẫn</p>
       </div>
     `
