@@ -2441,7 +2441,8 @@ const chapters = [
     id: "trang-164", page: "164", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Du khách cưỡi voi vượt sông Srêpôk tại Trung tâm du lịch Buôn Đôn. (Nguồn: Báo Dân Trí)</p>
+      <img src="assets/images/chuong_6/Du_khach_cuoi_voi.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Du khách cưỡi voi vượt sông Srêpôk tại Trung tâm du lịch Buôn Đôn. (Nguồn: Báo Dân Trí)</p>
         <p class="p-justify-indent">Tây Nguyên là vùng có sự liên kết chặt chẽ về địa hình, giao thông với các vùng khác, như Duyên hải miền Trung, Đông Nam Bộ; nhiều tuyến du lịch lớn đã được hình thành, như: “Con đường di sản miền Trung”, “Con đường xanh Tây Nguyên”, tuyến du lịch xuyên Á nối Việt Nam với các nước Đông Dương, xa hơn là với các nước trong khối ASEAN và quốc tế,... Xác định du lịch là ngành kinh tế tổng hợp mang tính liên ngành, liên vùng với phương châm “muốn đi xa phải đồng hành cùng nhau”. Trên con đường phát triển du lịch, bước đầu các tỉnh đã có sự hợp tác, liên kết nội vùng, liên vùng trên cơ sở những lợi thế so sánh để cùng thúc đẩy du lịch phát triển. Ví dụ như việc xây dựng thành công tuyến du lịch “Con đường xanh Tây Nguyên” khởi nguồn từ Đà Nẵng và kết thúc ở Lâm Đồng với nhiều sản phẩm du lịch sinh thái đặc sắc cho thấy tầm quan trọng cũng như vai trò của liên kết</p>
       </div>
     `
@@ -2452,7 +2453,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">trong phát triển du lịch giữa Nam Trung Bộ và Tây Nguyên. Do đó, các hoạt động liên kết, hợp tác là chiến lược lâu dài, phù hợp và quan trọng đối với sự phát triển du lịch của vùng Tây Nguyên hiện nay.</p>
-        <p class="p-justify-indent">Đấu Chiêng của đồng bào dân tộc ở Tây Nguyên (Nguồn: Báo An Giang Online)</p>
+        <img src="assets/images/chuong_6/Dau_Chieng.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Đấu Chiêng của đồng bào dân tộc ở Tây Nguyên (Nguồn: Báo An Giang Online)</p>
         <p class="p-justify-indent">Những năm gần đây, Đảng bộ, chính quyền các tỉnh vùng Tây Nguyên đã chỉ đạo, ban hành nhiều văn bản có tầm chiến lược, nhằm định hướng hợp tác, liên kết phát triển du lịch, mang lại một số kết quả tích cực cho ngành du lịch của Tây Nguyên trong việc liên kết hợp tác nội vùng và ngoại vùng, cụ thể: Tỉnh Lâm Đồng đang thực hiện các chương trình liên kết, hợp tác phát triển du lịch giữa tỉnh với các địa phương trong và ngoài vùng Tây Nguyên (Lâm Đồng - Khánh Hòa; Lâm Đồng - Thành phố</p>
       </div>
     `
@@ -2474,7 +2476,8 @@ const chapters = [
     id: "trang-167", page: "167", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Nhà cổ Chúng Pủa có tuổi đời trăm năm ở xã Mèo Vạc, Tuyên Quang. (Ảnh: Vinh Gấu)</p>
+        <img src="assets/images/chuong_6/Nha_co_Chung_Pua.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Nhà cổ Chúng Pủa có tuổi đời trăm năm ở xã Mèo Vạc, Tuyên Quang. (Ảnh: Vinh Gấu)</p>
         <p class="p-justify-indent">Đây còn là nơi sinh sống của 17 dân tộc anh em, hội tụ và giao thoa văn hóa đa dạng qua nhiều thế hệ. Những bản làng nép bên sườn đá, nếp nhà trình tường cổ, chợ phiên vùng cao, lễ hội khèn Mông, lễ cấp sắc của người Dao hay chợ tình Khau Vai đều là minh chứng cho sức sống văn hóa bền bỉ giữa thiên nhiên hùng vĩ.</p>
         <p class="p-justify-indent"><strong>b) Lào Cai - Sa Pa: Du lịch vùng cao, ruộng bậc thang</strong></p>
         <p class="p-justify-indent">Ruộng bậc thang Sa Pa là biểu tượng văn hóa lâu đời của đồng bào các dân tộc thiểu số, phản ánh phương thức canh tác truyền thống và bản sắc địa phương. Trên nền tảng đó, nhiều sản phẩm du lịch trải nghiệm, đi bộ ngắm cảnh, homestay và quán cà phê sinh thái được phát triển theo hướng thân thiện với môi</p>
@@ -2488,7 +2491,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">trường, giữ nguyên không gian canh tác. Mô hình du lịch này vừa nâng cao giá trị cảnh quan, vừa góp phần bảo tồn văn hóa và phát triển du lịch bền vững cho Sa Pa.</p>
         <p class="p-justify-indent">Từ tháng 6 đến tháng 7 hằng năm, Sa Pa bước vào mùa lúa xanh, khi những thửa ruộng bậc thang trải dài khắp thung lũng Mường Hoa và các bản Tả Van, Bản Hồ, Mường Bo, tạo nên khung cảnh trong lành, yên bình và giàu sức hút. Vẻ đẹp của ruộng bậc thang không chỉ hấp dẫn du khách trong nước mà còn để lại ấn tượng mạnh với khách quốc tế nhờ sự hòa quyện giữa thiên nhiên hùng vĩ và nét nên thơ của vùng cao.</p>
-        <p class="p-justify-indent">​ Bản làng thanh bình giữa mùa lúa xanh ở Sa Pa. (Ảnh: Đình Minh)</p>
+        <img src="assets/images/chuong_6/Bang_lang_thanh_binh_giua_mua_lua_xanh.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Bản làng thanh bình giữa mùa lúa xanh ở Sa Pa. (Ảnh: Đình Minh)</p>
       </div>
     `
   },
@@ -2497,8 +2501,10 @@ const chapters = [
     id: "trang-169", page: "169", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">​ Du khách thích thú khi được đi bộ trên những con đường nhỏ giữa cánh đồng. (Ảnh: Đình Minh)</p>
-        <p class="p-justify-indent">​ Những quán cà phê gần gũi với thiên nhiên được du khách yêu thích. (Nguồn: Vietnamnet)</p>
+      <img src="assets/images/chuong_6/Du_khach_thich_thu.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">​Du khách thích thú khi được đi bộ trên những con đường nhỏ giữa cánh đồng. (Ảnh: Đình Minh)</p>
+        <img src="assets/images/chuong_6/Nhung_quan_ca_phe.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">​Những quán cà phê gần gũi với thiên nhiên được du khách yêu thích. (Nguồn: Vietnamnet)</p>
       </div>
     `
   },
@@ -2510,7 +2516,8 @@ const chapters = [
         <p class="p-justify-indent">Mùa lúa xanh không chỉ là món quà của thiên nhiên, mà còn là điểm nhấn để du lịch Sa Pa phát triển bền vững, gắn với bản sắc và đời sống của người dân vùng cao.</p>
         <p class="p-justify-indent"><strong>c) Điện Biên: Du lịch di tích lịch sử</strong></p>
         <p class="p-justify-indent">Tháng 5, tới tỉnh Điện Biên thăm những di tích lịch sử là một trải nghiệm ý nghĩa, tưởng nhớ những mất mát, hy sinh của bao máu xương quân và dân để làm nên chiến thắng “Lừng lẫy năm châu, chấn động địa cầu”. Nếu tới Điện Biên trong tháng 5 này, bạn đừng bỏ qua những điểm thăm quan ý nghĩa này nhé.</p>
-        <p class="p-justify-indent">Một phần trong bức tranh panorama tại Bảo tàng Chiến thắng Điện Biên Phủ (Ảnh: VOV)</p>
+        <img src="assets/images/chuong_6/Mot_phan_trong_buc_tranh.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Một phần trong bức tranh panorama tại Bảo tàng Chiến thắng Điện Biên Phủ (Ảnh: VOV)</p>
         <p class="p-justify-indent">Tọa lạc  tại Phố 1, Phường Mường Thanh, Thành phố Điện Biên Phủ, tỉnh Điện Biên, Bảo tàng Điện Biên Phủ được xây</p>
       </div>
     `
@@ -2522,7 +2529,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-base">dựng vào năm 1984 nhân dịp kỷ niệm 30 năm chiến thắng lịch sử Điện Biên Phủ.</p>
         <p class="p-justify-indent">Bảo tàng có năm khu trưng bày với 274 hiện vật và 122 bức tranh theo từng chủ đề: Vị trí chiến lược của Điện Biên Phủ; Tập đoàn cứ điểm của địch tại Điện Biên Phủ; Đảng chuẩn bị đường lối chỉ đạo cho chiến dịch Điện Biên Phủ; Ảnh hưởng của chiến thắng Điện Biên Phủ; Điện Biên Phủ ngày nay.</p>
-        <p class="p-justify-indent">Bảo tàng Chiến thắng lịch sử Điện Biên Phủ (Ảnh: REDSVN)</p>
+        <img src="assets/images/chuong_6/Bao_tang_chien_thang_lich_su_Dien_Bien_Phu.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Bảo tàng Chiến thắng lịch sử Điện Biên Phủ (Ảnh: REDSVN)</p>
         <p class="p-justify-indent">Năm nay, khi đến thăm Bảo tàng, bạn sẽ được chiêm ngưỡng bức tranh panorama lớn nhất thế giới “Trận chiến Điện Biên Phủ”. Bức tranh thể hiện tất cả giai đoạn của Chiến dịch Điện Biên Phủ một cách sinh động và hấp dẫn.</p>
       </div>
     `
@@ -2535,7 +2543,8 @@ const chapters = [
         <p class="p-justify-indent">Lựa chọn Bảo tàng là điểm đến đầu tiên trong chuyến thăm quan lịch sử sẽ giúp bạn có hiểu biết toàn cảnh hơn và hiểu sâu hơn ý nghĩa của những địa điểm lịch sử tiếp theo.</p>
         <p class="p-justify-indent">Tượng đài chiến thắng Điện Biên Phủ được đặt trên đồi D1 nằm ở vị trí trung tâm thành phố Điện Biên Phủ - tỉnh Điện Biên, Tượng đài chiến thắng Điện Biên Phủ nằm ở vị trí trung tâm khu di tích, cao khoảng 50m so với cánh đồng Mường Thanh.</p>
         <p class="p-justify-indent">Cụm Tượng đài Chiến thắng Điện Biên Phủ là nhóm tượng đồng cao, to và nặng nhất Việt Nam từ trước đến nay. Tượng có chiều cao 12,6m được đúc bằng 217 tấn đồng, dựng trên bệ cao 3,6m và gồm 12 thớt, trong đó có những thớt nặng 40 tấn.</p>
-        <p class="p-justify-indent">Cụm Tượng đài Chiến thắng Điện Biên Phủ trên đồi D1 (Ảnh: REDSVN)</p>
+        <img src="assets/images/chuong_6/Cum_tuong_dai.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+       <p class="p-center" style="font-style: italic">Cụm Tượng đài Chiến thắng Điện Biên Phủ trên đồi D1 (Ảnh: REDSVN)</p>
       </div>
     `
   },
@@ -2547,7 +2556,8 @@ const chapters = [
         <p class="p-justify-indent">Tượng đài chiến thắng Điện Biên Phủ là niềm tự hào của nhân dân các dân tộc tỉnh Điện Biên. Đây cũng là điểm dừng chân không thể bỏ qua mỗi khi du khách đến mảnh đất lịch sử anh hùng Điện Biên.</p>
         <p class="p-justify-indent">Đồi A1 nằm ở phường Mường Thanh, thành phố Điện Biên Phủ, tỉnh Điện Biên. Trong chiến dịch Điện Biên Phủ, đồi A1 nằm ở vị  trí chiến lược đặc biệt quan trọng, được coi là “cuống họng” bảo vệ phân khu trung tâm, trực tiếp bảo vệ căn hầm của tướng De Castries.</p>
         <p class="p-justify-indent">Tên A1 là tên quân đội ta đặt cho ngọn đồi này, còn trước đây ngọn đồi này có những tên gọi khác nhau như Lạng Chượng, Eliane 2.</p>
-        <p class="p-justify-indent"><strong>Dấu tích hố Bộc phá trên đồi A1 (Ảnh: NDĐT)</strong></p>
+        <img src="assets/images/chuong_6/Dau_tich_ho_boc_pha.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Dấu tích hố Bộc phá trên đồi A1 (Ảnh: NDĐT)</p>
       </div>
     `
   },
@@ -2567,7 +2577,8 @@ const chapters = [
     id: "trang-175", page: "175", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent"><strong>Nghĩa trang liệt sĩ quốc gia đồi A1. (Ảnh: dulichdienbien)</strong></p>
+      <img src="assets/images/chuong_6/Nghia_trang.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Nghĩa trang liệt sĩ quốc gia đồi A1. (Ảnh: dulichdienbien)</p>
         <p class="p-justify-indent">Nơi đây là nơi an nghỉ của 644 cán bộ, chiến sĩ quân đội đã hy sinh anh dũng để bảo vệ tổ quốc trong chiến dịch Điện Biên Phủ. Năm 1994, nghĩa trang được tu bổ, quy hoạch và xây dựng thành một công trình lịch sử văn hóa, một nghĩa trang công viên với nhiều hạng mục. Bên trong khuôn viên là nhà quản trang được thiết kế theo kiểu ngôi nhà sàn đặc trưng của người Thái Điện Biên, lễ đài bên ngoài được thiết kế theo lối Khuê Văn Các, hai bên là hai kiểu tường thành cổ với hai hào nước phía trước rộng 6m. Bên ngoài tường thành là bức phù điêu đắp nổi tái hiện lại sự chiến đấu anh dũng của quân và dân ta trong suốt chín năm kháng chiến trường kỳ giành lại độc lập dân tộc.</p>
         <p class="p-justify-indent">Được mệnh danh là căn hầm kiên cố nhất Đông Dương một thời - Căn hầm chỉ huy của tướng De Castries ở Điện Biên Phủ được thực dân Pháp xây dựng rất kỳ công, ở trung tâm tập</p>
       </div>
@@ -2579,7 +2590,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">đoàn cứ điểm Điện Biên Phủ, thuộc cánh đồng Mường Thanh, huyện Điện Biên, tỉnh Điện Biên.</p>
-        <p class="p-justify-indent">Di tích hầm De Castries vẫn được giữ nguyên vẹn (Ảnh: REDSVN)</p>
+        <img src="assets/images/chuong_6/Di_tich_ham_De_Castries.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di tích hầm De Castries vẫn được giữ nguyên vẹn (Ảnh: REDSVN)</p>
         <p class="p-justify-indent">Hiện nay, cấu trúc và cách bố trí, sắp xếp của căn hầm vẫn còn được giữ nguyên. Chung quanh hầm là hàng rào phòng thủ với hệ thống dây kẽm gai dày đặc và bốn chiếc xe tăng. Hầm De Castries dài 20m và rộng 8m, bao gồm bốn gian dùng cho cả nơi ở và làm việc của tướng De Castries và quân lính.</p>
         <p class="p-justify-indent">Di tích Sở Chỉ huy Chiến dịch Điện Biên Phủ tại Mường Phăng nằm ở độ cao trên 1.000 m so với mực nước biển, ẩn mình dưới tán rừng cổ thụ, dưới chân núi Pú Đồn, cách trung tâm thành phố Điện Biên Phủ khoảng 40 km.</p>
       </div>
@@ -2590,8 +2602,8 @@ const chapters = [
     id: "trang-177", page: "177", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Toàn cảnh khu di tích Sở Chỉ huy chiến dịch Điện Biên Phủ</p>
-        <p class="p-base">(Ảnh: dulichdienbienphu)</p>
+        <img src="assets/images/chuong_6/Toan_canh.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Toàn cảnh khu di tích Sở Chỉ huy chiến dịch Điện Biên Phủ (Ảnh: dulichdienbienphu)</p>
         <p class="p-justify-indent">Mường Phăng là địa điểm thứ ba và cuối cùng của Sở Chỉ huy thứ ba Chiến  dịch Điện Biên Phủ  (từ 31/1/1954 đến 15/5/1954). Tại đây, Đại tướng - Tổng tư lệnh Võ Nguyên Giáp và Bộ Chỉ huy Chiến dịch đã đưa ra những chỉ thị, mệnh lệnh tấn công có tính chất quyết định, đỉnh cao là lệnh tổng công kích trên toàn mặt trận vào sáng 7/5/1954, làm nên chiến thắng “Lừng lẫy năm châu, chấn động địa cầu”.</p>
       </div>
     `
@@ -2601,7 +2613,8 @@ const chapters = [
     id: "trang-178", page: "178", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Di tích Lán ở và làm việc của Đại tướng Võ Nguyên Giáp (Ảnh: dulichdienbien)</p>
+      <img src="assets/images/chuong_6/Di_tich_Lang.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di tích Lán ở và làm việc của Đại tướng Võ Nguyên Giáp (Ảnh: dulichdienbien)</p>
         <p class="p-justify-indent">Các công trình của Sở Chỉ huy được bố trí thành một hệ thống liên hoàn, bao bọc trước sau, có hầm hào, lán trại thuận tiện, đảm bảo bí mật và an toàn tuyệt đối.</p>
         <p class="p-justify-indent">Nơi đây hiện còn lưu giữ nhiều di tích có giá trị lịch sử như: Lán ở và làm việc của Đại tướng Võ Nguyên Giáp, Phó Tổng Tham mưu trưởng Hoàng Văn Thái, Trưởng ban thông tin liên lạc Hoàng Đạo Thúy,… Dù trải qua nhiều thăng trầm của thời gian, di tích Sở Chỉ huy chiến dịch Điện Biên Phủ vẫn giữ nguyên vẻ hoang sơ, hào hùng của lịch sử dân tộc.</p>
         <p class="p-justify-indent">Nhắc tới Chiến dịch Điện Biên Phủ, chắc hẳn không ai có thể quên câu thơ “Dốc Pha Đin, chị gánh anh thồ” của nhà thơ Tố Hữu trong bài thơ “Hoan hô chiến sĩ Điện Biên”.</p>
