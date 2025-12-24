@@ -45,7 +45,7 @@ const chapters = [
 
   // MỤC LỤC 2 (Page 3)
   {
-    id: "trang-3", page: "3", title: "MỤC LỤC (tiếp)",
+    id: "trang-3", page: "3", title: "",
     content: `
       <div class="toc-page-list">
         <div class="toc-row"><div class="toc-label toc-level-2">4.2. Phát triển các loại hình và sản phẩm du lịch</div><div class="toc-page-num">89</div></div>
@@ -78,7 +78,7 @@ const chapters = [
 
   // MỤC LỤC 3 (Page 4 - NEW)
   {
-    id: "trang-4", page: "4", title: "MỤC LỤC (tiếp)",
+    id: "trang-4", page: "4", title: "",
     content: `
       <div class="toc-page-list">
         <div class="toc-row"><div class="toc-label toc-level-1">CHƯƠNG 7: HẠN CHẾ VÀ THÁCH THỨC CỦA DU LỊCH VIỆT NAM</div><div class="toc-page-num">176</div></div>
@@ -113,13 +113,13 @@ const chapters = [
     id: "trang-5", page: "5", title: "TRANG TRÁCH NHIỆM",
     content: `
       <div class="content-container" style="text-align: center;">
-        <h3 class="h3-uppercase">DẤU CHÂN DU LỊCH VIỆT NAM</h3>
+        <p class="p-justify-indent"><strong>DẤU CHÂN DU LỊCH VIỆT NAM</strong></p>
         
         <p class="p-base">Không phần nào trong xuất bản phẩm này được xuất bản hoặc phát hành dưới bất kỳ hình thức nào nếu không có sự cho phép của Nhà xuất bản Hà Nội</p>
         
         <div style="width: 50%; border-top: 1px solid #999; margin: 15px auto;"></div>
         
-        <h4 class="h4-uppercase">NHÀ XUẤT BẢN HÀ NỘI</h4>
+        <p class="p-justify-indent"><strong>NHÀ XUẤT BẢN HÀ NỘI</strong></p>
         <p class="p-base">Số 4, Tống Duy Tân, Hàng Bông, Hoàn Kiếm, Hà Nội</p>
         <p class="p-base"><strong>Điện thoại:</strong> (024) 3 825 2916 &nbsp;&nbsp; <strong>Fax:</strong> (024) 3 928 9143</p>
 
@@ -164,9 +164,8 @@ const chapters = [
     `
   },
 
-  // TRANG 7
   {
-    id: "trang-7", page: "7", title: "TRANG 7",
+    id: "trang-7", page: "7", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify">"Dấu chân du lịch Việt Nam" là cuốn cẩm nang hữu ích dành cho những ai muốn khám phá Việt Nam một cách có hệ thống. Cuốn sách không chỉ gợi ý những điểm đến mà còn mang đến những trải nghiệm phong phú, những nét văn hóa độc đáo, những lễ hội đặc trưng của từng vùng miền, từ Nam Trung Bộ sôi động đến Tây Nguyên gió lộng, từ Đông Bắc hùng vĩ đến những vùng đất khác của đất nước. Mỗi điểm đến không chỉ được mô tả bởi vẻ đẹp thiên nhiên mà còn qua những câu chuyện, giá trị văn hóa và chiều sâu lịch sử, nhằm giúp độc giả hiểu, cảm nhận và ghi nhớ những giá trị tiềm ẩn.</p>
@@ -223,7 +222,7 @@ const chapters = [
         
         <p class="p-justify-indent">Trong bối cảnh hội nhập sâu rộng và sự dịch chuyển mạnh mẽ của nền kinh tế toàn cầu, du lịch đang trở thành một trong những ngành kinh tế dịch vụ có tốc độ tăng trưởng cao nhất, đóng vai trò quan trọng trong chiến lược phát triển kinh tế – xã hội của nhiều quốc gia. Việt Nam, với lợi thế về tài nguyên thiên nhiên phong phú, nền văn hóa đa dạng và bề dày lịch sử, đang đứng trước cơ hội lớn để khẳng định vị thế là một điểm đến hấp dẫn trên bản đồ du lịch thế giới. Tuy nhiên, bên cạnh những thành tựu đáng ghi nhận, hoạt động du lịch Việt Nam vẫn đối mặt với nhiều hạn chế, thách thức cần được phân tích sâu sắc để định hướng phát triển bền vững trong tương lai. Chính từ yêu cầu đó, cuốn sách "Dấu chân du lịch Việt Nam" được hình thành như một nỗ lực tổng hợp, đánh giá và định hướng toàn diện về lĩnh vực du lịch nước ta.</p>
 
-        <h2 class="h2-indent">Tính cấp thiết của chủ đề</h2>
+        <p class="p-justify-indent"><strong>Tính cấp thiết của chủ đề</strong></p>
 
         <p class="p-justify-indent">Trong hơn ba thập niên đổi mới, du lịch Việt Nam đã đạt nhiều cột mốc quan trọng về tăng trưởng khách, mở rộng sản phẩm và nâng cao vị thế trên trường quốc tế. Sự xuất hiện của nhiều thương hiệu du lịch mới, sự cải thiện đáng kể cơ sở hạ tầng, cùng sự thay đổi trong nhu cầu và hành vi của du khách đã tạo ra môi trường phát triển đầy năng động. Tuy vậy, ngành du lịch vẫn đang chịu tác động của nhiều biến động: cạnh tranh khu vực gay gắt, tác động của biến đổi khí hậu, yêu cầu ngày càng cao về chất lượng dịch vụ, cũng như áp lực bảo tồn tài nguyên và gìn giữ bản sắc văn hóa.</p>
       </div>
@@ -232,12 +231,12 @@ const chapters = [
 
   // TRANG 11 (tiếp LỜI MỞ ĐẦU)
   {
-    id: "loi-mo-dau-2", page: "11", title: "LỜI MỞ ĐẦU (tiếp)",
+    id: "loi-mo-dau-2", page: "11", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Việc nhận diện đúng những cơ hội và thách thức, đánh giá khách quan thực trạng và năng lực cạnh tranh của du lịch Việt Nam trở nên cấp thiết hơn bao giờ hết. Đây là tiền đề quan trọng để hoạch định chiến lược, định hướng chính sách và xây dựng các mô hình phát triển phù hợp trong giai đoạn mới.</p>
 
-        <h2 class="h2-indent">Mục đích và ý nghĩa nghiên cứu</h2>
+        <p class="p-justify-indent"><strong>Mục đích và ý nghĩa nghiên cứu</strong></p>
 
         <p class="p-justify-indent">Cuốn sách được biên soạn nhằm đạt ba mục tiêu chính</p>
 
@@ -257,7 +256,7 @@ const chapters = [
     id: "ket-cau-cuon-sach", page: "12", title: "KẾT CẤU CỦA CUỐN SÁCH",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Kết cấu của cuốn sách "Dấu chân du lịch Việt Nam":</h2>
+        <p class="p-justify-indent"><strong>Kết cấu của cuốn sách "Dấu chân du lịch Việt Nam":</strong></p>
         
         <p class="p-justify-indent">"Dấu chân du lịch Việt Nam" gồm 10 chương, được triển khai theo logic từ cơ sở lý luận, thực tiễn đến định hướng và giải pháp phát triển:</p>
 
@@ -278,7 +277,7 @@ const chapters = [
 
   // TRANG 13 (tiếp Kết cấu của cuốn sách)
   {
-    id: "ket-cau-cuon-sach-2", page: "13", title: "KẾT CẤU CỦA CUỐN SÁCH (tiếp)",
+    id: "ket-cau-cuon-sach-2", page: "13", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sản phẩm, phát triển cơ sở hạ tầng và nâng cao năng lực cạnh tranh</p>
@@ -300,11 +299,11 @@ const chapters = [
     `
   },
   {
-    id: "trang-14", page: "14", title: "TRANG 14",
+    id: "trang-14", page: "14", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Dự báo xu hướng, đề xuất các định hướng chiến lược cho giai đoạn mới, phù hợp với bối cảnh hội nhập và yêu cầu nâng cao chất lượng tăng trưởng.</p>
-        <h2 class="h2-indent">Chương 10: Giải pháp thúc đẩy phát triển du lịch bền vững của Việt Nam</h2>
+        <p class="p-justify-indent"><strong>Chương 10: Giải pháp thúc đẩy phát triển du lịch bền vững của Việt Nam</strong></p>
         <p class="p-justify-indent">Đề xuất các giải pháp khả thi về cơ chế chính sách, quản trị điểm đến, phát triển sản phẩm, chuyển đổi số, đào tạo nguồn nhân lực và bảo tồn tài nguyên.</p>
         <p class="p-justify-indent">Cuốn sách là hành trình tổng hợp những dấu ấn, thành tựu, khó khăn và hướng đi mới của du lịch Việt Nam. Tác giả hy vọng rằng, thông qua từng trang sách, độc giả sẽ không chỉ nhìn thấy một ngành du lịch đang chuyển mình mạnh mẽ mà còn cảm nhận được trách nhiệm chung trong việc gìn giữ và lan tỏa giá trị của đất nước trên bản đồ du lịch thế giới.</p>
       </div>
@@ -312,12 +311,12 @@ const chapters = [
   },
 
   {
-    id: "trang-15", page: "15", title: "TRANG 15",
+    id: "trang-15", page: "15", title: "CHƯƠNG 1: DU LỊCH VÀ PHÁT TRIỂN DU LỊCH",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 1: DU LỊCH VÀ PHÁT TRIỂN DU LỊCH</h1>
         <h2 class="h2-indent">1.1. Khái niệm, đặc điểm và phân loại du lịch</h2>
-        <h2 class="h2-indent">1.1.1. Khái niệm du lịch và hoạt động du lịch</h2>
+        <p class="p-justify-indent"><strong>1.1.1. Khái niệm du lịch và hoạt động du lịch</strong></p>
         <p class="p-justify-indent">Ngày nay du lịch trở thành một hiện tượng kinh tế xã hội phổ biến. Hiệp hội lữ hành quốc tế đã công nhận du lịch là một ngành kinh tế lớn nhất thế giới vượt lên cả ngành sản xuất ô tô, thép điện tử và nông nghiệp. Vì vậy, du lịch đã trở thành một ngành kinh tế mũi nhọn của nhiều quốc gia trên thế giới. Thuật ngữ du lịch đã trở nên khá thông dụng, nó bắt nguồn từ tiếng Hy Lạp với ý nghĩa là đi một vòng. Du lịch gắn liền với nghỉ ngơi, giải trí, tuy nhiên do hoàn cảnh, thời gian và khu vực khác nhau, dưới mỗi góc độ nghiên cứu khác nhau nên khái niệm du lịch cũng không giống nhau.</p>
         <p class="p-justify-indent">Luật Du lịch Việt Nam 2005 đã đưa ra khái niệm như sau: <span style="font-style: italic">Du lịch là các hoạt động liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên của mình nhằm đáp ứng nhu cầu tham quan, tìm hiểu, giải trí, nghỉ dưỡng trong một khoảng thời gian nhất định.</span></p>
         <p class="p-justify-indent">Theo liên hiệp Quốc các tổ chức lữ hành chính thức (International Union of Official Travel Oragnization: IUOTO): <span style="font-style: italic">Du lịch được hiểu là hành động du hành đến một nơi khác với địa điểm cư trú thường xuyên của mình nhằm mục đích không phải để làm ăn, tức không phải để làm một nghề hay một việc kiếm tiền sinh sống.</span></p>
@@ -326,52 +325,52 @@ const chapters = [
   },
 
   {
-    id: "trang-16", page: "16", title: "TRANG 16",
+    id: "trang-16", page: "16", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Tại hội nghị LHQ về du lịch họp tại Roma - Italia (21/8 – 5/9/1963), các chuyên gia đưa ra định nghĩa về du lịch: <span style="font-style: italic">Du lịch là tổng hợp các mối quan hệ, hiện tượng và các hoạt động kinh tế bắt nguồn từ các cuộc hành trình và lưu trú của cá nhân hay tập thể ở bên ngoài nơi ở thường xuyên của họ hay ngoài nước họ với mục đích hòa bình. Nơi họ đến lưu trú không phải là nơi làm việc của họ.</span></p>
         <p class="p-justify-indent">Đồng thời, du lịch là một hiện tượng. Trước thế kỷ thứ XIX đến đầu thế kỷ XX du lịch hầu như vẫn được coi là đặc quyền của tầng lớp giàu có, quý tộc và người ta chỉ coi đây như một hiện tượng cá biệt trong đời sống kinh tế - xã hội. Trong thời kỳ này người ta du lịch như là một hiện tượng xã hội góp phần làm phong phú thêm cuộc sống và nhận thức của con người. Đó là hiện tượng con người rời khỏi nơi cư trú thường xuyên của mình để đến một nơi xa lạ vì nhiều mục đích khác nhau ngoại trừ mục đích kiếm tiền, kiếm việc làm và ở đó họ phải tiêu tiền mà họ đã kiếm được ở nơi khác.</p>
         <p class="p-justify-indent">Điều 3 Luật Du lịch 2017 quy định: <span style="font-style: italic">Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp với mục đích hợp pháp khác. Hoạt động du lịch là hoạt động của khách du lịch, tổ chức, cá nhân kinh doanh du lịch và cơ quan, tổ chức, cá nhân, cộng đồng dân cư có liên quan đến du lịch</span></p>
-        <h2 class="h2-indent">1.1.2. Đặc điểm cơ bản của ngành du lịch</h2>
+        <p class="p-justify-indent"><strong>1.1.2. Đặc điểm cơ bản của ngành du lịch</strong></p>
       </div>
     `
   },
 
   {
-    id: "trang-17", page: "17", title: "TRANG 17",
+    id: "trang-17", page: "17", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">a. Du lịch có ngành nghề đa dạng</h2>
+        <p class="p-justify-indent"><strong>a. Du lịch có ngành nghề đa dạng</strong></p>
         <p class="p-justify-indent">Du lịch là ngành cung cấp các dịch vụ tham quan, nghỉ dưỡng cho du khách. Chính bởi xuất phát từ nhu cầu của khách hàng mà các sản phẩm du lịch rất đa dạng, không hề mang tính khuôn mẫu. Thậm chí, nó được hình thành ngay tức thời để làm hài lòng yêu cầu của du khách. Có thể thấy rằng, tâm lý khách hàng là yếu tố rất quan trọng để đánh giá sản phẩm du lịch. Nếu doanh nghiệp có khả năng nắm bắt tâm lý khách hàng tốt, xây dựng được những chiến lược du lịch hấp dẫn, chắc chắn sẽ thu hút được số lượng lớn khách hàng.</p>
-        <h2 class="h2-indent">b. Ngành du lịch gắn liền với sự phát triển kinh tế của đất nước</h2>
+        <p class="p-justify-indent"><strong>b. Ngành du lịch gắn liền với sự phát triển kinh tế của đất nước</strong></p>
         <p class="p-justify-indent">Cuộc sống con người ngày càng cải thiện kéo theo nhu cầu về các hoạt động giải trí, thư giãn tinh thần. Ở nhiều quốc gia, du lịch trở thành ngành kinh tế mũi nhọn. Ngay tại Việt Nam, lượng công ty kinh doanh các hoạt động du lịch tăng lên đáng kể hàng năm. Việt Nam là một trong những quốc gia có tốc độ tăng trưởng du lịch nhanh nhất thế giới. Cho đến nay, du lịch Việt Nam cũng đạt nhiều giải thưởng danh giá mang tầm vóc châu lục và thế giới.</p>
-        <h2 class="h2-indent">c. Khách hàng phong phú</h2>
+        <p class="p-justify-indent"><strong>c. Khách hàng phong phú</strong></p>
         <p class="p-justify-indent">Khách hàng của ngành du lịch vô cùng phong phú, đa dạng. Người làm du lịch có thể tiếp xúc với mọi người thuộc nhiều tầng lớp, địa vị, quốc gia. Không chỉ vậy, mỗi khách hàng lại có những đặc điểm tâm lý riêng và nhu cầu sử dụng dịch vụ</p>
       </div>
     `
   },
 
   {
-    id: "trang-18", page: "18", title: "TRANG 18",
+    id: "trang-18", page: "18", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">khác nhau. Để đảm bảo chất lượng dịch vụ tốt nhất, người làm du lịch cần nắm chắc nhu cầu, tâm lý của từng đối tượng khách hàng. Từ đó, xây dựng, triển khai kế hoạch kinh doanh hiệu quả nhất có thể.</p>
-        <h2 class="h2-indent">d. Ngành Du lịch chịu sự chi phối của các quy luật nhất định</h2>
+        <p class="p-justify-indent"><strong>d. Ngành Du lịch chịu sự chi phối của các quy luật nhất định</strong></p>
         <p class="p-justify-indent">Quy luật tự nhiên: Đây là quy luật có sự chi phối lớn nhất đến hoạt động kinh doanh ngành Du lịch – Khách sạn. Chẳng hạn như các địa điểm du lịch biển thường thu hút nhiều du khách vào mùa hè kéo theo đó sẽ rất nhiều dịch vụ phục vụ khách hàng trong những đợt cao điểm và ngược lại.</p>
         <p class="p-justify-indent">Quy luật kinh tế – xã hội: Quy luật này trực tiếp ảnh hưởng tới hoạt động kinh doanh bởi nó quyết định nhu cầu và khả năng chi trả của khách hàng.</p>
         <p class="p-justify-indent">Quy luật tâm lý con người: Đây là quy luật mà bất kỳ ai kinh doanh ngành Du lịch – Khách sạn cũng không được bỏ qua, nếu muốn mang lại lợi nhuận cao nhất cho doanh nghiệp của mình. Thực tế, các doanh nghiệp thường dựa trên sự phân tích các đặc điểm về tâm lý, nhân khẩu học của đối tượng khách hàng để đưa sản phẩm dịch vụ của mình đến gần hơn với họ.</p>
-        <h2 class="h2-indent">1.1.3. Các loại hình du lịch chủ yếu</h2>
-        <p class="p-justify-indent">Để gia tăng mức độ cạnh tranh trên thị trường, các loại hình du lịch ở Việt Nam giờ đây ngày càng phát triển cả chiều sâu lẫn chiều rộng. Nó được hiểu là phương thức du lịch, cách khai</p>
+        <p class="p-justify-indent"><strong>1.1.3. Các loại hình du lịch chủ yếu</strong></p>
+        <p class="p-justify-indent">Để gia tăng mức độ cạnh tranh trên thị trường, các loại hình du lịch ở Việt Nam giờ đây ngày càng phát triển cả chiều sâu lẫn chiều rộng. Nó được hiểu là phương thức du lịch, cách khai thác, sử dụng các tài nguyên du lịch để tạo ra giá trị cho du khách.</p>
       </div>
     `
   },
 
   {
-    id: "trang-19", page: "19", title: "TRANG 19",
+    id: "trang-19", page: "19", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thác thị hiếu, sở thích cũng như nhu cầu của khách hàng để có thể đáp ứng tốt nhất mong đợi khách hàng.</p>
-        <h2 class="h2-indent">a. Phân loại theo mục đích chuyến đi: Du lịch nghỉ dưỡng, du lịch sinh thái, du lịch văn hóa lịch sử, du lịch tham quan - khám phá, du lịch Team Building</h2>
+        <p class="p-justify-indent"><strong>a. Phân loại theo mục đích chuyến đi: Du lịch nghỉ dưỡng, du lịch sinh thái, du lịch văn hóa lịch sử, du lịch tham quan - khám phá, du lịch Team Building</strong></p>
         <p class="p-base" style="font-style: italic">Du lịch nghỉ dưỡng</p>
         <p class="p-justify-indent">Loại hình này dần trở thành lựa chọn tối ưu của nhiều nhóm khách hàng khi các tour du lịch hiện nay gần như có thể đáp ứng được tất cả những yêu cầu của mà họ mong muốn. Khi cuộc sống tất bật, nhiều áp lực thì nhu cầu nghỉ ngơi, thư giãn sẽ càng tăng cao. Bạn mong muốn tìm đến các khu nghỉ dưỡng cao cấp để tái tạo năng lượng thì đây chính là loại hình du lịch phù hợp nhất.</p>
         <p class="p-justify-indent">Một số điểm đến du lịch nghỉ dưỡng bạn không nên bỏ qua: Phú Quốc, Vũng Tàu, Nha Trang, Phan Thiết, Côn Đảo,..</p>
@@ -383,14 +382,13 @@ const chapters = [
   },
 
   {
-    id: "trang-20", page: "20", title: "TRANG 20",
+    id: "trang-20", page: "20", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Du lịch văn hoá là loại hình du lịch giúp phản ánh giá trị lịch sử nhân văn, từ đó giúp khách quan thấy được lịch sử văn hóa từng vùng miền của đất nước. Thông thường đây sẽ là chuyến du lịch nhóm, kết hợp tham quan cảnh đẹp đồng thời tìm hiểu văn hóa giúp chuyến đi thêm phần thú vị.</p>
         <p class="p-justify-indent">Có nhiều điểm đến văn hóa lịch sử như: Huế - Đà Nẵng – Hội An, địa đạo Củ Chi, Du lịch Sài Gòn,..</p>
         <p class="p-base" style="font-style: italic">Du lịch tham quan – khám phá</p>
         <p class="p-justify-indent">Cũng là một trong những loại hình du lịch khá phổ biến, du lịch tham quan – khám phá cực kì thu hút du khách đến tìm hiểu chính bởi những cảnh sắc tuyệt vời được thiên nhiên ưu đãi. Các điểm du lịch khám phá ghi dấu ấn nhất ở Việt Nam như: Vịnh Hạ Long, Sapa với những cung đường trekking đẹp tuyệt vời, Tam Cốc – Bích Động – Ninh Bình, Phong Nha – Kẻ Bàng,..</p>
-        <h2 class="h2-indent">b. Loại hình du lịch phân loại theo lãnh thổ: Du lịch trong nước, du lịch nước ngoài:</h2>
         <p class="p-base" style="font-style: italic">Du lịch trong nước</p>
         <p class="p-justify-indent">Inbound hay còn gọi là du lịch quốc tế - đây chính là hình thức du lịch mà khách tham quan ở Việt Nam hoặc từ nước ngoài về Việt Nam để khám phá.</p>
         <p class="p-base" style="font-style: italic">Du lịch nước ngoài</p>
@@ -400,11 +398,11 @@ const chapters = [
   },
 
   {
-    id: "trang-21", page: "21", title: "TRANG 21",
+    id: "trang-21", page: "21", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">đang sống ở quốc gia này đến quốc gia khách để du lịch và khám phá.</p>
-        <h2 class="h2-indent">c. Phân loại theo đặc điểm địa lý của điểm du lịch: Du lịch biển, du lịch núi, du lịch dã ngoại, du lịch miệt vườn.</h2>
+        <p class="p-justify-indent"><strong>c. Phân loại theo đặc điểm địa lý của điểm du lịch: Du lịch biển, du lịch núi, du lịch dã ngoại, du lịch miệt vườn.</strong></p>
         <p class="p-base" style="font-style: italic">Du lịch biển</p>
         <p class="p-justify-indent">Là hình thức du lịch dựa vào thiên nhiên. Sẽ là các tỉnh thành có bãi biển dài, đẹp được đầu tư nhằm phục vụ du lịch, tắm biển, nghỉ dưỡng và giải trí.</p>
         <p class="p-base" style="font-style: italic">Du lịch núi</p>
@@ -418,10 +416,10 @@ const chapters = [
   },
 
   {
-    id: "trang-22", page: "22", title: "TRANG 22",
+    id: "trang-22", page: "22", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">c. Các cách phân loại loại hình du lịch khác</h2>
+        <p class="p-justify-indent"><strong>c. Các cách phân loại loại hình du lịch khác</strong></p>
         <p class="p-justify-indent">Bên cạnh những cách phân loại du lịch kể trên thì còn rất nhiều loại hình khác như:</p>
         <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo phương tiện giao thông:</span> Du lịch xe đạp, ô tô, máy bay,..</p>
         <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo phương tiện lưu trú:</span> Khách sạn, nhà trọ, bãi cắm trại, nhà nghỉ, làng du lịch,..</p>
@@ -436,7 +434,7 @@ const chapters = [
   },
 
   {
-    id: "trang-23", page: "23", title: "TRANG 23",
+    id: "trang-23", page: "23", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">khoản thuế phải nộp của các doanh nghiệp du lịch kinh doanh trên địa bàn. Du lịch góp phần thúc đẩy các ngành kinh tế khác phát triển theo.</p>
@@ -448,7 +446,7 @@ const chapters = [
   },
 
   {
-    id: "trang-24", page: "24", title: "TRANG 24",
+    id: "trang-24", page: "24", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sẽ theo giá bán buôn). Được trao đổi thông qua con đường du lịch, các hàng hoá được xuất khẩu mà không phải chịu hàng rào thuế quan mậu dịch quốc tế.</p>
@@ -461,7 +459,7 @@ const chapters = [
   },
 
   {
-    id: "trang-25", page: "25", title: "TRANG 25",
+    id: "trang-25", page: "25", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Phần lớn du lịch cộng đồng hiện nay tập trung phát triển ở các vùng nông thôn và phát triển mạnh ở các quốc gia đang phát triển. Đặc trưng của cộng đồng không phải nơi nào cũng giống nhau trên thế giới và ở trong cùng quốc gia, điều đó cũng có nghĩa là không phải cộng đồng trên thế giới giới đều có tiềm năng phát triển du lịch cộng đồng. Việc phát triển này thường theo dự án của các tổ chức quốc tế phát triển cộng đồng như Tổ chức phát triển Hà Lan (SNV) hướng đến giảm nghèo, hay phát triển theo hướng tự phát. Địa phương có khả năng phát triển du lịch cần có tiềm năng du lịch về tự nhiên và giá trị văn hóa đặc trưng của địa phương, ngoài ra còn có các yếu tố hỗ trợ như cơ sở hạ tầng, cơ sở vật chất kỹ thuật (không cần hiện đại nhưng cần có một số phương tiện cần thiết như đường sá, phòng nghỉ, nhà vệ sinh…).</p>
@@ -472,7 +470,7 @@ const chapters = [
   },
 
   {
-    id: "trang-26", page: "26", title: "TRANG 26",
+    id: "trang-26", page: "26", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tạo ra công ăn việc làm, tăng thu nhập, cải thiện đời sống cho nhân dân. Cao hơn nữa, sự tham gia của cộng đồng địa phương phải ở cấp độ họ có quyền đóng góp tiếng nói vào những quyết định quan trọng có liên quan đến cộng đồng của mình, chỉ có như thế du lịch mới thực sự trở thành công cụ giảm nghèo hữu hiệu.</p>
@@ -484,7 +482,7 @@ const chapters = [
   },
 
   {
-    id: "trang-27", page: "27", title: "TRANG 27",
+    id: "trang-27", page: "27", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">- Diễn ra tại những những vùng hẻo lánh có nhiều dân tộc thiểu số sinh sống Hoạt động du lịch diễn ra tại những khu vực trên thường có ý nghĩa quan trọng và đóng vai trò như một công cụ hữu hiệu trong hành động giảm nghèo vì tại những khu vực này cộng đồng thường sở hữu nguồn tài nguyên du lịch nhân văn hết sức độc đáo đồng thời cảnh quan thiên nhiên hoang sơ có sức thu hút rất lớn đối với du khách hiện nay. Tuy nhiên, do sự cách trở về giao thông và các điều kiện kinh tế</p>
@@ -495,7 +493,7 @@ const chapters = [
   },
 
   {
-    id: "trang-28", page: "28", title: "TRANG 28",
+    id: "trang-28", page: "28", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">phụ nữ; Tạo điều kiện để phát triển kinh tế địa phương thông qua việc bán sản phẩm và dịch vụ du lịch</p>
@@ -507,7 +505,7 @@ const chapters = [
   },
 
   {
-    id: "trang-29", page: "29", title: "TRANG 29",
+    id: "trang-29", page: "29", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Chúng ta có quyền tự hào về bề dày lịch sử ngàn đời của đất nước với 54 dân tộc anh em đã để lại cho hôm nay một kho tàng di sản văn hóa đồ sộ, vô cùng phong phú, đa dạng và độc đáo. Đến nay đã có 24 di sản văn hóa vật thể, phi vật thể và di sản thiên nhiên được UNESCO3 vinh danh là di sản thế giới; trong đó có 8 di sản thiên nhiên và di sản văn hóa vật thể (Vịnh Hạ Long, Hoàng Thành Thăng Long, quần thể danh thắng Tràng An, Thành Nhà Hồ, Phong Nha Kẻ Bàng, Cố đô Huế, Phố cổ Hội An, Di tích Mỹ Sơn); 12 di sản văn hóa phi vật thể (Nhã nhạc Cung đình Huế, Không gian văn hóa Cồng chiêng Tây Nguyên, Dân ca Quan họ, Lễ hội Gióng, Ca Trù, Hát Xoan, Tín ngưỡng thờ cúng Hùng Vương, Tín ngưỡng thờ Mẫu Việt Nam, Dân ca Ví Giặm Nghệ Tĩnh, Nghi lễ kéo co, Đờn ca Tài tử Nam Bộ; Bài Chòi Trung Bộ); và 4 di sản tư liệu (Bia Tiến sĩ Văn Miếu Quốc Tử Giám, Mộc bản Triều Nguyễn, Châu bản Triều Nguyễn, Mộc bản Kinh Phật Thiền phái Trúc Lâm chùa Vĩnh Nghiêm tỉnh Bắc Giang). Cùng với đó là hàng vạn di tích lịch sử, văn hóa và danh lam thắng cảnh được công nhận di sản. Chỉ tính riêng di sản văn hóa vật thể ước tính có hơn 3.000 di sản cấp quốc gia và khoảng 7.500 di sản cấp tỉnh và nhiều công trình di tích vẫn đang được thống kê; hệ thống các lễ hội, làng nghề truyền thống; văn hóa ẩm thực của các vùng miền, của các dân tộc; các di sản văn hóa văn nghệ dân gian…</p>
@@ -518,7 +516,7 @@ const chapters = [
   },
 
   {
-    id: "trang-30", page: "30", title: "TRANG 30",
+    id: "trang-30", page: "30", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sản đã phát triển mạnh mẽ, lượng khách tham quan trong nước và quốc tế không ngừng gia tăng, đặc biệt di sản sau khi được Nhà nước lập hồ sơ công nhận và được UNESCO vinh danh. Sức hấp dẫn của di sản đã tạo động lực cho phát triển du lịch mang lại nhiều lợi ích về thu nhập, việc làm và phát triển kinh tế-xã hội địa phương. Cụ thể như Quần thể di tích cố đô Huế, năm 2017 đón 3 triệu lượt khách du lịch, trong đó 1,8 triệu khách du lịch quốc tế, thu được 320 tỷ đồng riêng từ vé tham quan; Phố cổ Hội An đón 1,96 triệu lượt khách, thu về 219 tỷ đồng riêng từ vé tham quan. Các di sản nổi tiếng như Hạ Long, Phong Nha-Kẻ Bàng, Tràng An, Yên Tử, Núi Bà Đen… những năm gần đây không ngừng được đầu tư phát triển. Qua đó, du lịch di sản đã đóng góp to lớn vào sự phát triển vượt bậc của ngành du lịch thời gian qua. Cụ thể giai đoạn từ 2010 đến nay, lượng khách quốc tế đến Việt Nam đã tăng gấp hơn 2,5 lần, từ 5 triệu lượt năm 2010 lên 12,9 triệu lượt năm 2017, trung bình tăng 14,5% năm (đặc biệt năm 2017 tăng tới 29,1% so với 2016). Khách du lịch nội địa tăng gấp 2,6 lần, từ 28 triệu lượt năm 2010 lên 73,2 triệu lượt năm 2017, tăng trung bình 14,6%. Tổng thu du lịch tăng trên 5 lần, từ 96.000 tỷ năm 2010 lên 510.000 tỷ năm 2017, trung bình tăng 26,9%, đóng góp trên 7% GDP và tác động lan tỏa trên 13,9% GDP; tạo ra trên 1,2 triệu việc làm trực tiếp và 3,6 triệu việc làm gián tiếp. Nhiều sản phẩm du lịch di sản đã trở thành thương hiệu đặc trưng cho du lịch Việt Nam. Đặc biệt, di sản văn hoá còn là yếu tố quan trọng tạo nên sự khác biệt cho hệ thống điểm đến và sản phẩm du lịch của Việt Nam, kết nối và đa dạng hoá các tuyến du lịch xuyên vùng và quốc tế.</p>
@@ -528,7 +526,7 @@ const chapters = [
   },
 
   {
-    id: "trang-31", page: "31", title: "TRANG 31",
+    id: "trang-31", page: "31", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">phẩm du lịch cơ bản. Đặc biệt đối với các quốc gia, vùng lãnh thổ có chiều sâu văn hóa đo bằng hệ thống di sản đậm đặc như nước ta thì du lịch di sản trở thành một trong những thế mạnh nổi trội. Ngày nay, du lịch di sản hướng thu hút khách tìm đến những giá trị về nguồn, tìm hiểu, tương tác, trải nghiệm để thẩm thấu những giá  trị di sản văn hóa đậm đà bản sắc của các dân tộc, các tộc người. Ở nước ta, chủ trương phát triển du lịch trên cơ sở bảo tồn và phát huy các giá trị di sản văn hóa truyền thống tốt đẹp của dân tộc đã được thể hiện trong Nghị quyết 08-NQ/TW của Bộ Chính trị về phát triển du lịch trở thành ngành kinh tế mũi nhọn. Du lịch văn hóa vì vậy là một dòng sản phẩm chủ đạo của du lịch Việt Nam, từ tham quan di tích lịch sử văn hóa, hệ thống bảo tàng, các công trình văn hóa, hoạt động nghệ thuật, cho tới tìm hiểu, tương tác, trải nghiệm văn hóa, lễ hội, lối sống địa phương, thưởng thức ẩm thực, sản vật vùng miền…</p>
@@ -538,7 +536,7 @@ const chapters = [
   },
 
   {
-    id: "trang-32", page: "32", title: "TRANG 32",
+    id: "trang-32", page: "32", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sản là không nhỏ và được chia sẻ đến doanh nghiệp, người dân. Một phần doanh thu từ du lịch di sản được quay trở lại tái đầu tư vào việc bảo tồn, tôn tạo, tôn vinh, phục dựng và quản lý di sản. Với ý nghĩa đó, du lịch di sản đóng góp to lớn cho bảo tồn và phát huy bền vững di sản văn hóa.</p>
@@ -551,7 +549,7 @@ const chapters = [
   },
 
   {
-    id: "trang-33", page: "33", title: "TRANG 33",
+    id: "trang-33", page: "33", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">động biện chứng lẫn nhau. Vì vậy, khái niệm phát triển du lịch bền vững không tách rời khái niệm phát triển bền vững.</p>
@@ -566,7 +564,7 @@ const chapters = [
   },
 
   {
-    id: "trang-34", page: "34", title: "TRANG 34",
+    id: "trang-34", page: "34", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đáp ứng sự thỏa mãn của khách du lịch: Cung cấp những dịch vụ an toàn, chất lượng thỏa mãn tối đa các nhu cầu của du khách.</p>
@@ -580,7 +578,7 @@ const chapters = [
   },
 
   {
-    id: "trang-35", page: "35", title: "TRANG 35",
+    id: "trang-35", page: "35", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bảo vệ môi trường: Giảm thiểu ô nhiễm không khí, nước, đất và rác thải từ du khách và các hãng du lịch.</p>
@@ -594,12 +592,12 @@ const chapters = [
   },
 
   {
-    id: "trang-36", page: "36", title: "TRANG 36",
+    id: "trang-36", page: "36", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thành phố cổ Tanis, thành phố cổ Pompei, khu lăng mộ Tần Thủy Hoàng,…  ​</p>
         <p class="p-justify-indent">Lễ hội: Làng nghề truyền thống; Các đối tượng du lịch khác gắn với văn hóa dân tộc:</p>
-        <h2 class="h2-indent">Di tích văn hóa nghệ thuật ở Việt Nam:</h2>
+        <p class="p-justify-indent"><strong>Di tích văn hóa nghệ thuật ở Việt Nam:</strong></p>
         <p class="p-justify-indent">Hát Chèo: Hát Chèo là một dạng hình văn hóa nghệ thuật truyền thống của Việt Nam. Nó kết hợp giữa hát, diễn kịch và nhạc cụ truyền thống để trình diễn các câu chuyện và tình huống trong cuộc sống.</p>
         <p class="p-justify-indent">Múa Rối Nước: Múa rối nước là một hình thức biểu diễn nghệ thuật truyền thống nổi tiếng của Việt Nam. Trong múa rối nước, các nhân vật bằng gỗ được điều khiển bằng tay và trình diễn trên một mặt nước, thường là hồ hoặc ao.</p>
         <p class="p-justify-indent">Mỹ Thuật Đông Sơn: Mỹ thuật Đông Sơn là một di sản văn hoá nghệ thuật có từ thời kỳ Đông Sơn (1.000 - 200 TCN). Nó được biểu hiện qua các tác phẩm gốm sứ, trong đó có các hình vẽ chân dung, động vật và các yếu tố thiên nhiên.</p>
@@ -610,20 +608,20 @@ const chapters = [
   },
 
   {
-    id: "trang-37", page: "37", title: "TRANG 37",
+    id: "trang-37", page: "37", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">cụ và các kỹ thuật biểu diễn đặc trưng. Đờn ca tài tử thường được trình diễn trong các buổi hòa nhạc và sự kiện văn hóa.</p>
         <p class="p-center" style="font-style: italic">Một tiết mục Đờn ca tài tử được biểu diễn tại Liên hoan Đờn ca tài tử “Hải Phòng - Miền di sản 2024”. Nguồn: ARTTIMES</p>
         <p class="p-justify-indent">Mỹ thuật Tranh Dân Gian: Mỹ thuật tranh dân gian là một di sản nghệ thuật đặc trưng của Việt Nam. Nó thường biểu thị qua các bức tranh trên giấy, vải hoặc gốm sứ, thể hiện các chủ đề văn hóa, tín ngưỡng và cuộc sống hàng ngày.</p>
-        <h2 class="h2-indent">Di chỉ khảo cổ học ở Việt Nam:</h2>
+        <p class="p-justify-indent"><strong>Di chỉ khảo cổ học ở Việt Nam:</strong></p>
         <p class="p-justify-indent">Di tích Cổ Loa: Nằm ở xã Đông Anh, Hà Nội, Cổ Loa là kinh đô của nhà nước Âu Lạc dưới thời An Dương Vương. Đây là</p>
       </div>
     `
   },
 
   {
-    id: "trang-38", page: "38", title: "TRANG 38",
+    id: "trang-38", page: "38", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">một trong những khu di tích cổ quan trọng nhất, với cấu trúc thành lũy phức tạp và hệ thống hào bảo vệ.</p>
@@ -635,10 +633,10 @@ const chapters = [
   },
 
   {
-    id: "trang-39", page: "39", title: "TRANG 39",
+    id: "trang-39", page: "39", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Hang Con Moong: Nằm ở tỉnh Thanh Hóa, Hang Con</h2>
+        <p class="p-justify-indent"><strong>Hang Con Moong: Nằm ở tỉnh Thanh Hóa, Hang Con</strong></p>
         <p class="p-justify-indent">Địa điểm Hoàng thành Thăng Long: Khu di tích này nằm ở trung tâm Hà Nội và bao gồm nhiều di tích từ thời kỳ phong kiến, bắt đầu từ thời kỳ Đinh, Lý, Trần cho đến thời Lê. Hoàng thành Thăng Long đã được UNESCO công nhận là Di sản thế giới vào năm 2010.</p>
         <p class="p-justify-indent">Di chỉ Tràng An: Nằm ở tỉnh Ninh Bình, Tràng An là khu di sản hỗn hợp với cảnh quan thiên nhiên tuyệt đẹp và các di tích khảo cổ học quan trọng, như các hang động, đền đài và di chỉ tiền sử. Tràng An đã được UNESCO công nhận là Di sản thế giới vào năm 2014.</p>
         <p class="p-base">Tổng hợp: Tính đến thời điểm tháng 5/2023, Việt Nam đã được UNESCO công nhận:</p>
@@ -649,11 +647,11 @@ const chapters = [
   },
 
   {
-    id: "trang-40", page: "40", title: "TRANG 40",
+    id: "trang-40", page: "40", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Khu Dự trữ Sinh quyển Thế giới:  Khu dự trữ sinh quyển Cần Giờ, Khu dự trữ sinh quyển Cát Tiên, Khu dự trữ sinh quyển Cù Lao Chàm - Hội An</p>
-        <h2 class="h2-indent">Công viên Địa chất Toàn cầu UNESCO: Công viên Địa</h2>
+        <p class="p-justify-indent"><strong>Công viên Địa chất Toàn cầu UNESCO: Công viên Địa</strong></p>
         <p class="p-justify-indent">Cơ sở hạ tầng và cơ sở vật chất kỹ thuật</p>
         <p class="p-justify-indent">Theo nghĩa rộng, cơ sở vật chất kĩ thuật du lịch được hiểu là phương tiện vật chất kĩ thuật được huy động tham gia vào việc khai thác các tài nguyên du lịch nhằm tạo ra và thực hiện các dịch vụ và hàng hóa thỏa mãn nhu cầu của du khách trong các chuyến hành trình của họ. Theo cách hiểu này, cơ sở vật chất kĩ thuật du lịch bao gồm cả cơ sở vật chất kĩ thuật thuộc bản thân ngành du lịch và cơ sở vật chất kĩ thuật của các ngành khác cũng như của cả nền kinh  tế quốc dân tham gia vào việc khai thác tiềm năng du lịch như hệ thống đường sá, cầu cống, bưu chính viễn thông, điện nước  ... Những yếu tố này được gọi chung là yếu tố thuộc cơ sở hạ tầng xã hội. Cơ sở hạ tầng xã hội được xem là những yếu tố đảm bảo điều kiện chung cho việc phát triển du lịch. Điều này cũng khẳng định mối liên hệ mật thiết giữa du lịch với các ngành khác trong mối liên hệ ngành. Theo nghĩa hẹp, cơ sở vật chất kĩ thuật du  lịch được hiểu  là toàn bộ các phương tiện vật chất kĩ thuật do các tổ chức du lịch tạo ra để khai thác các tiềm năng du lịch, tạo ra các sản phẩm dịch vụ và hàng hóa cung cấp và làm thỏa mãn nhu cầu của du khách.</p>
       </div>
@@ -661,7 +659,7 @@ const chapters = [
   },
 
   {
-    id: "trang-41", page: "41", title: "TRANG 41",
+    id: "trang-41", page: "41", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Chúng bao gồm hệ thống các khách sạn, nhà hàng, các khu vui chơi giải trí, phương tiện vận chuyển ... Đây chính là các yếu tố đặc trưng trong hệ thống cơ sở vật chất kĩ thuật của ngành du lịch. Nếu thiếu những yếu tố này thì nhu cầu của khách du lịch không được thỏa mãn. Do vậy, đây chính là yếu tố trực tiếp đối với việc đảm bảo điều kiện cho các dịch vụ du lịch được tạo ra và cung ứng cho du khách.</p>
@@ -673,7 +671,7 @@ const chapters = [
   },
 
   {
-    id: "trang-42", page: "42", title: "TRANG 42",
+    id: "trang-42", page: "42", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">NNL du lịch là lực lượng lao động đang và sẽ làm việc trực tiếp trong ngành du lịch, bao gồm: (1) lao động thuộc các cơ quan quản lý nhà nước về du lịch và các đơn vị sự nghiệp trong ngành từ trung ương đến địa phương; (2) lao động trong các doanh nghiệp du lịch gồm đội ngũ cán bộ quản lý, đội ngũ lao động nghiệp vụ trong các cơ sở lưu trú, công ty lữ hành, vận chuyển du lịch...; (3) lao động làm công tác đào tạo du lịch trong các trường dạy nghề, trung cấp chuyên nghiệp, cao đẳng và đại học.</p>
@@ -684,7 +682,7 @@ const chapters = [
   },
 
   {
-    id: "trang-43", page: "43", title: "TRANG 43",
+    id: "trang-43", page: "43", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tiêu đến năm 2025, du lịch Việt Nam sẽ tạo việc làm cho khoảng 5,5-6 triệu việc làm, trong đó có 2 triệu lao động trực tiếp; đến năm 2030 có khoảng 8,5 triệu việc làm, trong đó có khoảng 3 triệu việc làm trực tiếp. Tuy nhiên, theo Tổng cục Du lịch (Cục Du lịch Quốc gia Việt Nam) đến nay, tỷ lệ lao động có chuyên môn về du lịch chiếm khoảng 42%/tổng số lao động toàn ngành du lịch Việt Nam, 38% được đào tạo từ các ngành khác chuyển sang và khoảng 20% chưa qua đào tạo chính quy. Trong tổng số 42% lao động được đào tạo về du lịch thì chỉ có 10% lao động có trình độ đại học và sau đại học (chiếm 3,5%); 50% lao động có trình độ sơ cấp, trung cấp và cao đẳng (chiếm 20%); 40% còn lại là lao động được bồi dưỡng qua các lớp ngắn hạn; khoảng 60% lao động trong lĩnh vực biết và sử dụng các ngoại ngữ khác nhau. Với tốc độ tăng trưởng như hiện nay, mỗi năm ngành cần 40.000 nhân viên mới và 25.000 nhân viên cần được đào tạo lại.</p>
@@ -694,7 +692,7 @@ const chapters = [
   },
 
   {
-    id: "trang-44", page: "44", title: "TRANG 44",
+    id: "trang-44", page: "44", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đánh giá về chất lượng nhân lực du lịch của Việt Nam thời gian qua cho thấy, bên cạnh ưu điểm là số lượng nhân lực của ngành du lịch ngày càng tăng lên, có ý thức trách nhiệm, nhiệt tình, chịu thương chịu khó... Song vấn đề hạn chế lớn nhất và có ảnh hưởng mạnh đến hiệu quả và khả năng đáp ứng thị trường du lịch ngày càng cao và khắt khe, điều đó được thể hiện rõ ở việc so với thực tế để phục vụ cho hoạt động du lịch cũng như xu hướng phát triển của những năm tới đây thì số lượng nhân lực còn ít, cơ cấu chưa đồng bộ và năng lực thực tiễn chưa tương xứng với bằng cấp; nhân lực có tay nghề cao chưa nhiều, chủ yếu là nhân lực nông thôn, gián tiếp tham gia vào hoạt động du lịch, còn thiếu những cán bộ đầu đàn làm nòng cốt trong đào tạo nhân lực trẻ; kiến thức hội nhập, ngoại ngữ, tin học, chưa nắm bắt được đầy đủ thông tin nên chưa đủ năng lực phân tích, đánh giá, sáng tạo... để hình thành các sản phẩm du lịch đặc trưng, đồng thời lãnh đạo, quản lý, quản  trị và kinh nghiệm thực tiễn còn hạn chế, chưa tương xứng với sự phát triển của ngành, và khả năng hội nhập với thị trường du lịch thế giới chưa cao.</p>
@@ -705,7 +703,7 @@ const chapters = [
   },
 
   {
-    id: "trang-45", page: "45", title: "TRANG 45",
+    id: "trang-45", page: "45", title: "CHƯƠNG 2: QUAN ĐIỂM CỦA ĐẢNG VÀ NHÀ",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 2: QUAN ĐIỂM CỦA ĐẢNG VÀ NHÀ</h1>
@@ -718,7 +716,7 @@ const chapters = [
   },
 
   {
-    id: "trang-46", page: "46", title: "TRANG 46",
+    id: "trang-46", page: "46", title: "",
     content: `
       <div class="content-container">
         <h2 class="h2-indent">2.3. Chương trình hành động và các đề án triển khai Nghị quyết số 08-NQ/TW</h2>
@@ -730,7 +728,7 @@ const chapters = [
   },
 
   {
-    id: "trang-47", page: "47", title: "TRANG 47",
+    id: "trang-47", page: "47", title: "",
     content: `
       <div class="content-container">
         <h2 class="h2-indent">2.5. Vai trò của du lịch văn hóa trong chiến lược phát triển quốc gia</h2>
@@ -740,7 +738,7 @@ const chapters = [
   },
 
   {
-    id: "trang-48", page: "48", title: "TRANG 48",
+    id: "trang-48", page: "48", title: "CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM</h1>
@@ -752,10 +750,11 @@ const chapters = [
   },
 
   {
-    id: "trang-49", page: "49", title: "TRANG 49",
+    id: "trang-49", page: "49", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Di sản thiên nhiên Vịnh Hạ Long. (Ảnh: Báo Nhân dân)</p>
+       <img src="assets/images/chuong_3/1_vinhhalong-chuong3-3.1.jpg" alt="Vịnh Hạ Long" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di sản thiên nhiên Vịnh Hạ Long. (Ảnh: Báo Nhân dân)</p>
         <p class="p-justify-indent">Nằm ở phía Đông Bắc của Việt Nam, thuộc địa phận tỉnh Quảng Ninh, cách thủ đô Hà Nội 165 km, Vịnh Hạ Long có diện tích 1.553 km2, bao gồm 1.969 hòn đảo (trong đó 980 hòn đảo đã có tên). Khu vực Di sản thế giới được UNESCO công nhận có diện tích 434 km2, bao gồm 775 hòn đảo, trong đó có 411 hòn đảo đã được đặt tên. Đây là nơi tập trung rất nhiều đảo đá, hang động và bãi tắm đẹp nổi tiếng.</p>
         <p class="p-justify-indent">Sự hiện diện của Vịnh và những hòn đảo trên Vịnh là những minh chứng độc đáo về lịch sử phát triển của trái đất, bao gồm đặc điểm địa chất và quá trình vận động, phát triển liên tục của dạng địa hình Karst4 hệ Fengcong và Fengling. Địa hình đặc</p>
         <p class="p-justify-indent">4 Địa hình karst: Là địa hình của các kiểu phân rã đặc trưng thông thường được đánh dấu bởi các hệ thống thoát nước theo hang động ngầm dưới đất. Đây là các khu vực mà ở đó nền đá có lớp bị hòa tan hoặc các lớp, thông thường (nhưng không phải luôn luôn) là đá carbonat</p>
@@ -764,21 +763,22 @@ const chapters = [
   },
 
   {
-    id: "trang-50", page: "50", title: "TRANG 50",
+    id: "trang-50", page: "50", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">biệt của Vịnh Hạ Long có liên quan chặt chẽ tới lịch sử khí hậu và quá trình vận động kiến tạo của trái đất. Những hòn đảo ở đây là mẫu hình khá lý tưởng về Karst hình thành trong điều kiện nhiệt đới, ẩm. Toàn bộ khu vực Vịnh Hạ Long là một cảnh quan Karst qua nhiều triệu năm, với các tháp karst hình chóp, hình tháp, bị bào mòn, tạo nên cảnh đẹp nổi bật, độc đáo toàn thế giới.</p>
         <p class="p-justify-indent">Hàng nghìn hòn đảo, hàng chục hang động đẹp đã tạo nên giá trị thẩm mỹ của Vịnh. Vẻ đẹp của Hạ Long được tạo nên từ 3 yếu tố: đá, nước và bầu trời. Hệ thống đảo đá ở Hạ Long muôn hình vạn trạng quyện với trời biển, tạo ra một bức tranh thủy mặc. Phía trong những đảo đá lớn lại hấp dẫn bởi những hang động đẹp đẽ, kỳ lạ. Hang Đầu Gỗ gợi cảm giác choáng ngợp, với những nhũ đá muôn hình dáng vẻ.</p>
+         <img src="assets/images/chuong_3/2_dongthiencung-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
         <p class="p-justify-indent">chẳng hạn như đá vôi hay dolomit. Trong những chỗ như thế có rất ít hoặc thậm chí không có hệ thống thoát nước trên bề mặt.</p>
       </div>
     `
   },
 
   {
-    id: "trang-51", page: "51", title: "TRANG 51",
+    id: "trang-51", page: "51", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Động Thiên cung. (Ảnh: Ban Quản lý Vịnh Hạ Long)</p>
+        <p class="p-center" style="font-style: italic">Động Thiên cung. (Ảnh: Ban Quản lý Vịnh Hạ Long)</p>
         <p class="p-justify-indent">Động Thiên Cung như một đền đài hoành tráng, mỹ lệ. Hang Bồ Nâu có cửa uốn vòng cung, với vô số nhũ đá buông xuống mềm mại như cành liễu. Hang Sửng Sốt đẹp đến bất ngờ, với nhũ đá mang hình hài của gà rừng, cóc, rồng, thác nước, cùng với nhiều hình hài khác, như mở ra một thế giới cổ tích. Những hang động như Tam Cung, Trinh Nữ, Ba Hang, Tiên Long,… Mỗi hang đều có những vẻ đẹp độc đáo, kỳ thú.</p>
         <p class="p-justify-indent">Bên cạnh giá trị địa chất và giá trị thẩm mỹ độc đáo toàn cầu, trong khu vực Vịnh Hạ Long hiện nay còn lưu giữ được nhiều hệ sinh thái điển hình của vùng biển nhiệt đới như: đồi núi, hang động, rừng ngập mặn, tùng áng, rạn san hô, cỏ biển … Các hệ sinh thái đó được phân bố trong một khu vực có khí hậu tương đối ôn hòa, nhiệt độ nước biển trung bình từ 19 - 25 độ C, là môi trường sống rất thuận lợi đối với các loài sinh vật.</p>
         <p class="p-justify-indent">Bảng thống kê đa dạng sinh học Vịnh Hạ Long</p>
@@ -791,7 +791,7 @@ const chapters = [
   },
 
   {
-    id: "trang-52", page: "52", title: "TRANG 52",
+    id: "trang-52", page: "52", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">4        Động vật phù du               141</p>
@@ -807,7 +807,7 @@ const chapters = [
   },
 
   {
-    id: "trang-53", page: "53", title: "TRANG 53",
+    id: "trang-53", page: "53", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Sự đa dạng về nguồn gen đã khẳng định được sự khác biệt của Hạ Long so với các vùng khác trong khu vực. Rất nhiều loài sinh vật sinh sống tại vịnh Hạ Long mang nguồn gen đặc hữu, quý hiếm, nguồn gen dược liệu hoặc có giá trị kinh tế cao. Hiện nay, các nhà khoa học đã xác định được 102 loài đang bị đe dọa ở các cấp độ khác nhau (64 loài động vật và 38 loài thực vật). Một số nhóm sinh vật có số lượng ít nhưng hầu hết đều mang nguồn gen đặc hữu của vịnh Hạ Long, tiêu biểu trong số đó là: á Niếc hang Hạ Long, cua hang Hạ Long, tôm Alpheoid, rết chân dài... và 17 loài thực vật đặc hữu đã được công bố.</p>
@@ -819,7 +819,7 @@ const chapters = [
   },
 
   {
-    id: "trang-54", page: "54", title: "TRANG 54",
+    id: "trang-54", page: "54", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Hạ Long cũng có sự giao thoa giữa các quá trình địa chất và sinh học, tạo ra một hệ sinh thái phong phú và đa dạng.</p>
@@ -832,7 +832,7 @@ const chapters = [
   },
 
   {
-    id: "trang-55", page: "55", title: "TRANG 55",
+    id: "trang-55", page: "55", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tích thấp hơn. Quá trình này tiếp diễn không ngưng nghỉ, làm mòn để những khe nứt trở nên rộng hơn và hình thành ra những hang động khổng lồ. Rồi cũng chính nhờ nước khi gặp vật cản trong quá trình lưu thông sẽ để lại những khoáng chất bên trong tại một điểm. Quá trình này diễn ra bền bỉ liên tiếp đã tạo nên những khối thạch nhũ lớn nhỏ với đầy đủ hình hài, sắc màu.Tất cả đó dần tạo nên những kỳ quan tráng lệ như hang Sơn Đoòng, hệ thống hang Hổ, động ướt Phong Nha, động khô Thiên Đường, hang Én…</p>
@@ -843,7 +843,7 @@ const chapters = [
   },
 
   {
-    id: "trang-56", page: "56", title: "TRANG 56",
+    id: "trang-56", page: "56", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Từ các dữ liệu khảo sát trên khắp thế giới cho thấy, chưa một nơi nào trên thế giới có nhiều hệ thống hang động đồ sộ, kỳ vĩ và tráng lệ như ở Di sản thiên nhiên thế giới này. Tất cả đó đều lộng lẫy, kỳ vĩ như những tác phẩm điêu khắc bằng nhũ đá từ một bàn tay màu nhiệm tạo ra để sẵn sàng làm say đắm những ai muốn khám phá…</p>
@@ -855,7 +855,7 @@ const chapters = [
   },
 
   {
-    id: "trang-57", page: "57", title: "TRANG 57",
+    id: "trang-57", page: "57", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bên cạnh đó, nhiều loài động, thực vật mới đã được phát phát hiện như: 2 loài bọ cạp mới sống trong hang động không ánh sáng mặt trời; chim chích trên núi đá vôi; dương xỉ mọc trong hang động; bách xanh đá; các loại lan hài; 10 loài cá mới, 1 loài cá lạ có thể bơi ngược nước thác mạnh; 4 loài bò sát; tái phát hiện sau 50 năm loài rắn lục sừng…</p>
@@ -866,7 +866,7 @@ const chapters = [
   },
 
   {
-    id: "trang-58", page: "58", title: "TRANG 58",
+    id: "trang-58", page: "58", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Năm 2003, Tổ chức Giáo dục, khoa học và văn hóa Liên hợp quốc (UNESCO) đã công nhận Phong Nha - Kẻ Bàng ở tỉnh Quảng Bình là Di sản Thiên nhiên thế giới ở tiêu chí địa chất địa mạo. Đến năm 2015, với những giá  trị ngoại hạng của mình, Vườn Quốc gia này tiếp tục được UNESCO vinh danh là Di sản Thiên nhiên thế giới lần 2 với các tiêu chí: Hệ sinh thái và đa dạng sinh học. Suốt nhiều năm qua, các hãng thông tấn, báo chí quốc  tế lớn như: The New York Times, The Guardian, The Mirror, The Huffington Post... và hơn 50 tạp chí trên thế giới đã liên tục có rất nhiều bài viết ca ngợi.</p>
@@ -878,7 +878,7 @@ const chapters = [
   },
 
   {
-    id: "trang-59", page: "59", title: "TRANG 59",
+    id: "trang-59", page: "59", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Khu danh thắng Tràng An - Tam Cốc - Bích Động và Khu rừng nguyên sinh đặc dụng Hoa Lư, trong đó vùng đệm có diện tích 6.026ha. Vào năm 2014, quần thể danh thắng Tràng An chính là di sản hỗn hợp đầu tiên và duy nhất của khu vực Đông Nam Á được UNESCO công nhận là Di sản Văn hóa và Thiên nhiên thế giới bởi đáp ứng được tiêu chí V về văn hóa và hai tiêu chí VII, VIII về thiên nhiên là vẻ đẹp thẩm mỹ và địa chất địa mạo.</p>
@@ -889,7 +889,7 @@ const chapters = [
   },
 
   {
-    id: "trang-60", page: "60", title: "TRANG 60",
+    id: "trang-60", page: "60", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sự tiến, thoái của biển, Tràng An sở hữu 31 hồ đầm được nối thông bởi 48 hang động. Hệ thống hang động này đã làm nên sự độc đáo cho Khu du lịch sinh thái Tràng An với những chặng khám phá bằng thuyền trên một cung đường mà họ không phải quay lại như những nơi khác. Tràng An cũng có hệ sinh thái thủy vực đa dạng với nhiều loài động, thực vật dưới nước quý hiếm, trong đó có thể kể tới hàng nghìn loại rong, rêu được các nhà khoa học đánh giá như “cánh rừng nguyên sinh” dưới nước. Sự hài hòa giữa cảnh quan thiên nhiên và sự đa dạng sinh học đã tạo nên vẻ đẹp kỳ vĩ hiếm có cho Tràng An.</p>
@@ -900,7 +900,7 @@ const chapters = [
   },
 
   {
-    id: "trang-61", page: "61", title: "TRANG 61",
+    id: "trang-61", page: "61", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thức sâu sắc về giá trị và tiềm năng phát triển du lịch của những di sản hiện có, tỉnh đã ban hành nhiều nghị quyết, chương trình hành động nhằm đưa Ninh Bình trở thành trung tâm du lịch lớn của cả nước. Song song với đó là định hướng phát triển du lịch bền vững, chú trọng phát triển loại hình du lịch sinh thái, văn hóa để làm sản phẩm đặc thù, thu hút du khách trong và ngoài nước.</p>
@@ -912,7 +912,7 @@ const chapters = [
   },
 
   {
-    id: "trang-62", page: "62", title: "TRANG 62",
+    id: "trang-62", page: "62", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">quốc tế. Ninh Bình cũng kỳ vọng, với những nỗ lực trong công tác bảo tồn, phát huy giá trị di sản gắn với phát triển du lịch bền vững, tỉnh sẽ sớm khẳng định vị thế là một trong những trung tâm du lịch sinh thái, văn hóa, tâm linh lớn nhất miền Bắc và là một “dấu chấm xanh” trên bản đồ du lịch thế giới trong những năm tới.</p>
@@ -923,7 +923,7 @@ const chapters = [
   },
 
   {
-    id: "trang-63", page: "63", title: "TRANG 63",
+    id: "trang-63", page: "63", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đó là thông tin mà TS Đoàn Mạnh Cương (Văn phòng Quốc hội) đưa ra, khi lý giải nguyên nhân khiến “du lịch xanh đang trở thành xu hướng chủ đạo ở rất nhiều quốc gia” là nhờ nắm giữ vai trò to lớn trong bảo vệ đa dạng sinh học, văn hóa cộng đồng và đóng góp tích cực cho sự phát triển kinh tế - xã hội. “Ðiều này khẳng định, yếu tố xanh không những bảo đảm cho phát triển du lịch bền vững, mà còn là giải pháp giúp gia tăng lượng khách có mức chi tiêu cao, có  ý thức và hành động văn minh khi tham gia du lịch”, ông nhấn mạnh.</p>
@@ -934,7 +934,7 @@ const chapters = [
   },
 
   {
-    id: "trang-64", page: "64", title: "TRANG 64",
+    id: "trang-64", page: "64", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Net Zero6. Sử dụng nguồn năng lượng tái tạo - pin mặt trời, tái sử dụng-tái chế để giảm thiểu sản xuất và xử lý rác, giảm tối đa chặt cây và bê-tông hóa bằng cách xây dựng hạ tầng cơ sở lắp ghép, những lối đi trong rừng được thiết kế dạng cầu treo để tránh ảnh hưởng hệ sinh thái... là những đặc điểm khiến Blue Diamond Camp trở nên khác biệt với phần đa những mô hình camping (cắm trại) hoặc glamping (cắm trại kiểu cao cấp, sang trọng) cùng loại.</p>
@@ -946,7 +946,7 @@ const chapters = [
   },
 
   {
-    id: "trang-65", page: "65", title: "TRANG 65",
+    id: "trang-65", page: "65", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">những giải pháp đồng bộ. Thúc đẩy phát triển du lịch xanh tại Việt Nam trong thời gian tới đòi hỏi sự kết hợp giữa đầu tư hạ tầng, nâng cao nhận thức, xây dựng chính sách và ứng phó biến đổi khí hậu. Các giải pháp như phát triển giao thông xanh, giáo dục cộng đồng, ban hành tiêu chuẩn du lịch xanh và xây dựng cơ sở thích ứng không chỉ giải quyết các thách thức hiện tại mà còn tạo nền tảng cho sự phát triển bền vững. Với tiềm năng thiên nhiên và văn hóa dồi dào, cùng sự quyết tâm từ chính phủ, doanh nghiệp và cộng đồng, Việt Nam hoàn toàn có thể biến du lịch xanh thành động lực kinh tế, bảo vệ môi trường và khẳng định vị thế trên bản đồ du lịch toàn cầu trong tương lai gần.</p>
@@ -959,7 +959,7 @@ const chapters = [
   },
 
   {
-    id: "trang-66", page: "66", title: "TRANG 66",
+    id: "trang-66", page: "66", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">vương quốc Chăm Pa cổ đại… Tất cả đan cài vào nhau tạo nên một bản hòa tấu di sản tuyệt mỹ. Một miền đất nơi mỗi bước chân đều chạm vào lịch sử, mỗi ánh nhìn đều có thể mở ra cả một kho báu văn hóa vô giá.</p>
@@ -971,7 +971,7 @@ const chapters = [
   },
 
   {
-    id: "trang-67", page: "67", title: "TRANG 67",
+    id: "trang-67", page: "67", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ngọ Môn - Cố đô Huế. (Ảnh: Bùi Ngọc Long - Báo Thanh niên)</p>
@@ -982,7 +982,7 @@ const chapters = [
   },
 
   {
-    id: "trang-68", page: "68", title: "TRANG 68",
+    id: "trang-68", page: "68", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nằm giữa lòng Huế, bên bờ Bắc của con sông Hương chảy từ Tây sang Đông là hệ thống kiến trúc biểu thị cho quyền uy của chế độ trung ương tập quyền Nguyễn. Ba tòa thành – Kinh thành, Hoàng thành và Tử cấm thành - lồng vào nhau và được bố trí đăng đối trên một trục dọc xuyên suốt từ mặt Nam ra mặt Bắc.</p>
@@ -995,7 +995,7 @@ const chapters = [
   },
 
   {
-    id: "trang-69", page: "69", title: "TRANG 69",
+    id: "trang-69", page: "69", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Được xây theo luật “dịch lý” và “phong thủy”, nhà vườn Huế là tập hợp của một hệ thống kiến trúc sắp xếp theo chiều Bắc-Nam. Tuy rộng hẹp khác nhau, nhưng nhà nào cũng có kiến trúc tổng thể giống nhau, bao gồm: cổng, ngõ, bình phong, hòn non bộ, bể cạn, sân, nhà rường. Một số nhà vườn hiện nay còn nguyên vẹn, tiêu biểu như nhà vườn An Hiên, nhà vườn công chúa Ngọc Sơn, Lạc Tịnh, nhà vườn Ý Thảo.</p>
@@ -1007,7 +1007,7 @@ const chapters = [
   },
 
   {
-    id: "trang-70", page: "70", title: "TRANG 70",
+    id: "trang-70", page: "70", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tàng vô giá, một bảo tàng kỳ lạ, độc đáo của nền văn hoá vật chất và tinh thần của Việt Nam.</p>
@@ -1018,7 +1018,7 @@ const chapters = [
   },
 
   {
-    id: "trang-71", page: "71", title: "TRANG 71",
+    id: "trang-71", page: "71", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Những năm qua, thành phố mộng mơ này đã xây dựng nhiều chương trình hấp dẫn để khai thác hiệu quả di sản, tạo nhiều trải nghiệm mới cho ngành “công nghiệp không khói7.”</p>
@@ -1031,7 +1031,7 @@ const chapters = [
   },
 
   {
-    id: "trang-72", page: "72", title: "TRANG 72",
+    id: "trang-72", page: "72", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Được hình thành và phát triển từ thế kỷ 16, Hội An từng là một trong những thương cảng quốc tế sầm uất bậc nhất khu vực.</p>
@@ -1044,10 +1044,10 @@ const chapters = [
   },
 
   {
-    id: "trang-73", page: "73", title: "TRANG 73",
+    id: "trang-73", page: "73", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Phố cổ Hội An. (Ảnh: Vietnam Tourist)</h2>
+        <p class="p-justify-indent"><strong>Phố cổ Hội An. (Ảnh: Vietnam Tourist)</strong></p>
         <p class="p-justify-indent">Trong đó, một trải nghiệm thú vị phải thử khi đến Hội An là thả đèn hoa đăng. Từ bến Bạch Đằng, những chiếc thuyền nhỏ nhẹ nhàng trôi theo dòng sông Hoài thơ mộng, du khách hãy thưởng ngoạn phong cảnh phố cổ về đêm, cảm nhận không khí dịu mát se lạnh trong từng cơn gió, lắng nghe những câu chuyện hấp dẫn của phố Hội và tự tay thả những chiếc đèn hoa đăng huyền ảo. Theo quan niệm của người dân địa phương, thả đèn hoa đăng tựa như thả những âu lo muộn phiền và mang lại cảm giác bình an, hạnh phúc.</p>
         <p class="p-justify-indent">Dạo bước tại Hội An, du khách sẽ có cơ hội ghé thăm những ngôi chùa có niên đại hàng trăm năm tuổi (như Chùa Cầu, Chùa Phước Lâm, Chùa Vạn Đức…), chiêm ngưỡng các công trình Hội quán của người Hoa với lối kiến trúc cầu kỳ, sặc sỡ, hòa mình vào không khí lễ hội nhộn nhịp với các trò chơi dân gian như hát bài chòi, hò khoan, đấu cờ tướng…</p>
       </div>
@@ -1055,7 +1055,7 @@ const chapters = [
   },
 
   {
-    id: "trang-74", page: "74", title: "TRANG 74",
+    id: "trang-74", page: "74", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Các di tích kiến trúc nghệ thuật, thuộc các công trình dân dụng (nhà ở, cầu, giếng, chợ), công trình tín ngưỡng (đình, chùa, lăng, miếu, hội quán, nhà thờ tộc) và công trình đặc thù (mộ). Mỗi loại hình kiến trúc đều có những đặc điểm, sắc thái riêng nhưng đó là sự kết hợp hài hòa giữa không gian, bố cục và sự đan quyện tài tình giữa các phong cách kiến trúc Việt-Hoa-Nhật-Phương Tây, góp phần tăng thêm tính phong phú, đa dạng văn hóa của Đô thị cổ Hội An.</p>
@@ -1068,7 +1068,7 @@ const chapters = [
   },
 
   {
-    id: "trang-75", page: "75", title: "TRANG 75",
+    id: "trang-75", page: "75", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đặc biệt, vào ngày 14 âm lịch hàng tháng, Lễ hội đèn lồng biến phố Hội thành một bức tranh lộng lẫy, đầy màu sắc.</p>
@@ -1081,7 +1081,7 @@ const chapters = [
   },
 
   {
-    id: "trang-76", page: "76", title: "TRANG 76",
+    id: "trang-76", page: "76", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">hùng vĩ. Nơi đây từng là trung tâm chính trị, văn hóa và tôn giáo của vương quốc Chăm Pa trong suốt hơn một ngàn năm, lưu giữ những giá trị lịch sử và văn hóa vô cùng độc đáo.</p>
@@ -1094,7 +1094,7 @@ const chapters = [
   },
 
   {
-    id: "trang-77", page: "77", title: "TRANG 77",
+    id: "trang-77", page: "77", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">1999. Nơi đây ghi dấu lịch sử và nền văn hóa Chăm Pa cổ đại với những công trình kiến trúc được xem là “báu vật” nhân loại.</p>
@@ -1108,7 +1108,7 @@ const chapters = [
   },
 
   {
-    id: "trang-78", page: "78", title: "TRANG 78",
+    id: "trang-78", page: "78", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thánh địa Mỹ Sơn được vua Bhadravarman9 cho khởi công từ thế kỷ IV và kết thúc vào cuối thế kỷ XIII. Trong suốt hơn một thiên niên kỷ này, các vua Chăm Pa đã liên tục xây dựng và mở rộng Thánh địa Mỹ Sơn, tạo nên một quần thể với hơn 70 đền tháp mang đậm dấu ấn kiến trúc Ấn Độ giáo, đặc biệt là thờ thần Shiva. Các công trình này được xây dựng trong một thung lũng có đường kính khoảng 2 km, bao quanh bởi đồi núi, tạo nên một cảnh quan hùng vĩ và linh thiêng.</p>
@@ -1120,7 +1120,7 @@ const chapters = [
   },
 
   {
-    id: "trang-79", page: "79", title: "TRANG 79",
+    id: "trang-79", page: "79", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Điều đặc biệt là mỗi đền tháp tại Mỹ Sơn sẽ thờ một triều đại vua hoặc một vị thần khác nhau, chính vì điều này mà mỗi một công trình được xem là mảnh ghép quan trọng qua từng triều đại của Chăm Pa.</p>
@@ -1133,7 +1133,7 @@ const chapters = [
   },
 
   {
-    id: "trang-80", page: "80", title: "TRANG 80",
+    id: "trang-80", page: "80", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">người Chăm xinh đẹp trong tiếng trống Paranưng và tiếng kèn Saranai sẽ làm mê hoặc mọi du khách.</p>
@@ -1145,7 +1145,7 @@ const chapters = [
   },
 
   {
-    id: "trang-81", page: "81", title: "TRANG 81",
+    id: "trang-81", page: "81", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Di sản văn hóa thế giới Mỹ Sơn là một trong những dấu ấn vàng son của nền văn hóa Chăm Pa, giao thoa văn hóa của người bản địa với sự ảnh hưởng của văn hóa bên ngoài như nghệ thuật và kiến trúc của Ấn Độ đã tạo nên một nền nghệ thuật kiến trúc ấn tượng. Việc lưu giữ và bảo tồn thánh địa Mỹ Sơn chính là cách nhớ về và truyền lại những di sản văn hóa một thời của vương quốc Chăm Pa.</p>
@@ -1157,7 +1157,7 @@ const chapters = [
   },
 
   {
-    id: "trang-82", page: "82", title: "TRANG 82",
+    id: "trang-82", page: "82", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Khi nhìn vào những di sản ấy, ta không chỉ thấy quá khứ mà còn nhìn thấy cả trách nhiệm của hiện tại, đó là trách nhiệm gìn giữ, tôn vinh và trao truyền những giá trị đã được hun đúc qua hàng ngàn năm. Bởi mỗi viên gạch cổ, mỗi mái ngói rêu phong, mỗi nét chạm khắc tinh xảo đều đang kể những câu chuyện mà nếu chúng ta không bảo tồn, thời gian sẽ lấy đi mãi mãi.</p>
@@ -1167,7 +1167,7 @@ const chapters = [
   },
 
   {
-    id: "trang-83", page: "83", title: "TRANG 83",
+    id: "trang-83", page: "83", title: "CHƯƠNG 4: PHÁT TRIỂN DU LỊCH VIỆT NAM",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 4: PHÁT TRIỂN DU LỊCH VIỆT NAM</h1>
@@ -1182,7 +1182,7 @@ const chapters = [
   },
 
   {
-    id: "trang-84", page: "84", title: "TRANG 84",
+    id: "trang-84", page: "84", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nam được thành lập, chính thức đánh dấu sự ra đời của ngành Du lịch nước nhà. Trong bối cảnh chiến tranh, khi cả nước đang dồn sức cho công cuộc xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh giải phóng miền Nam, việc xác lập một lĩnh vực kinh tế mới như du lịch là một bước đi táo bạo, mang tính chiến lược lâu dài của Đảng và Nhà nước.</p>
@@ -1193,7 +1193,7 @@ const chapters = [
   },
 
   {
-    id: "trang-85", page: "85", title: "TRANG 85",
+    id: "trang-85", page: "85", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thập niên 1980-1990, mở ra làn sóng đổi mới, chuyển hướng sang nền kinh tế thị trường, ngành du lịch bắt đầu nhận được sự hỗ trợ mạnh mẽ từ nhà nước, xây dựng các cơ sở hạ tầng, khách sạn, nhà hàng, đồng thời khởi động quảng bá hình ảnh đất nước. Các địa phương như Quảng Ninh, Huế, Đà Nẵng cũng bắt đầu đẩy mạnh phát triển du lịch để thu hút du khách nội địa.</p>
@@ -1206,7 +1206,7 @@ const chapters = [
   },
 
   {
-    id: "trang-86", page: "86", title: "TRANG 86",
+    id: "trang-86", page: "86", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">này đánh dấu một bước chuyển mình lớn về nhận thức và hành động ở cấp cao nhất của Đảng, Nhà nước đối với sự nghiệp phát triển du lịch Việt Nam.</p>
@@ -1218,7 +1218,7 @@ const chapters = [
   },
 
   {
-    id: "trang-87", page: "87", title: "TRANG 87",
+    id: "trang-87", page: "87", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Biểu đồ về sự tăng trưởng lượt khách du lịch tại Việt Nam (Ảnh: Cục du lịch Quốc gia Việt Nam)</p>
@@ -1230,7 +1230,7 @@ const chapters = [
   },
 
   {
-    id: "trang-88", page: "88", title: "TRANG 88",
+    id: "trang-88", page: "88", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Sự tăng trưởng này không chỉ nâng cao đời sống của người lao động mà còn kích thích phát triển các ngành liên quan như nông nghiệp, thủ công mỹ nghệ, vận tải. Nhờ đó, các khu vực du lịch trở thành trung tâm kinh tế, góp phần giảm đói nghèo, thúc đẩy phúc lợi cộng đồng.</p>
@@ -1243,7 +1243,7 @@ const chapters = [
   },
 
   {
-    id: "trang-89", page: "89", title: "TRANG 89",
+    id: "trang-89", page: "89", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thời tạo ra cơ hội thu hút đầu tư, liên kết hợp tác thương mại, du lịch đến mọi miền đất nước.</p>
@@ -1255,7 +1255,7 @@ const chapters = [
   },
 
   {
-    id: "trang-90", page: "90", title: "TRANG 90",
+    id: "trang-90", page: "90", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cục Du lịch Quốc gia Việt Nam lần thứ 4 được vinh danh Cơ quan quản lý du lịch hàng đầu châu Á (Ảnh: Cổng TTĐT Bộ Văn hóa, thể thao và du lịch)</p>
@@ -1266,7 +1266,7 @@ const chapters = [
   },
 
   {
-    id: "trang-91", page: "91", title: "TRANG 91",
+    id: "trang-91", page: "91", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Với khát vọng vươn xa, tinh thần đổi mới và niềm tin vào tương lai, ngành Du lịch Việt Nam sẵn sàng bước vào giai đoạn phát triển mới - toàn diện, chuyên nghiệp, bền vững, khẳng định vai trò ngành kinh tế mũi nhọn, góp phần hiện thực hóa khát vọng phát triển đất nước giàu mạnh và thịnh vượng trong kỷ nguyên mới.</p>
@@ -1277,7 +1277,7 @@ const chapters = [
   },
 
   {
-    id: "trang-92", page: "92", title: "TRANG 92",
+    id: "trang-92", page: "92", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">treo Bãi Cháy (hơn 5.000 tỷ đồng)... Hiện nay, du lịch Việt Nam cũng vẫn đang chứng minh sức hấp dẫn với các nhà đầu tư chiến lược, nhất là ở phân khúc dịch vụ cao cấp. Nhiều tập đoàn lớn đang tiếp tục đầu tư, đưa vào khai thác hàng loạt sản phẩm, dịch vụ nghỉ dưỡng, vui chơi giải trí mang đẳng cấp quốc tế tại nhiều địa phương.</p>
@@ -1288,7 +1288,7 @@ const chapters = [
   },
 
   {
-    id: "trang-93", page: "93", title: "TRANG 93",
+    id: "trang-93", page: "93", title: "",
     content: `
       <div class="content-container">
         <h2 class="h2-indent">4.2. Phát triển các loại hình và sản phẩm du lịch</h2>
@@ -1301,7 +1301,7 @@ const chapters = [
   },
 
   {
-    id: "trang-94", page: "94", title: "TRANG 94",
+    id: "trang-94", page: "94", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Với đường bờ biển dài hơn 3.260 km cùng khoảng 3.000 hòn đảo lớn nhỏ, hàng trăm bãi biển đẹp, bờ cát trắng, vịnh biển hoang sơ, Việt Nam sở hữu nguồn tài nguyên vô cùng dồi dào để phát triển du lịch biển, đảo.</p>
@@ -1313,7 +1313,7 @@ const chapters = [
   },
 
   {
-    id: "trang-95", page: "95", title: "TRANG 95",
+    id: "trang-95", page: "95", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Theo thống kê từ Tổng cục Du lịch, giai đoạn 2010-2019 (trước đại dịch Covid-19), lượng khách đến các địa phương ven biển luôn tăng nhanh hơn tốc độ tăng trưởng bình quân của cả nước, đạt mức tăng 13,6%/năm với khách quốc tế và 12,3%/năm với khách nội địa. Đơn cử, trong năm 2019, lượng khách quốc tế đến các tỉnh ven biển chiếm 71,9% tổng lượng khách quốc tế đến Việt Nam; lượng khách nội địa đến các tỉnh ven biển chiếm 59% tổng lượng khách nội địa; tổng thu từ khách du lịch của 28 tỉnh, thành phố ven biển chiếm 67% tổng thu từ khách du lịch cả nước. Số buồng lưu trú ở các tỉnh ven biển cũng chiếm tới 2/3 tổng số buồng lưu trú cả nước; phần lớn các khách sạn 4-5 sao cũng tập trung ở các tỉnh, thành phố ven biển. Nhiều khu nghỉ dưỡng ven biển đã giành được những giải thưởng danh giá của các tổ chức du lịch uy tín thế giới…</p>
@@ -1323,7 +1323,7 @@ const chapters = [
   },
 
   {
-    id: "trang-96", page: "96", title: "TRANG 96",
+    id: "trang-96", page: "96", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Có thể khẳng định, du lịch biển, đảo đã đóng góp đáng kể cho kinh tế - xã hội các địa phương, và tạo động lực mạnh mẽ cho kinh tế xanh của đất nước.</p>
@@ -1336,7 +1336,7 @@ const chapters = [
   },
 
   {
-    id: "trang-97", page: "97", title: "TRANG 97",
+    id: "trang-97", page: "97", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Văn minh lúa nước</p>
@@ -1346,7 +1346,7 @@ const chapters = [
   },
 
   {
-    id: "trang-98", page: "98", title: "TRANG 98",
+    id: "trang-98", page: "98", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Truyền thống gói bánh chưng ngày Tết. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
@@ -1358,7 +1358,7 @@ const chapters = [
   },
 
   {
-    id: "trang-99", page: "99", title: "TRANG 99",
+    id: "trang-99", page: "99", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhà thờ họ, nhà rường cổ, hàng rào chè tàu uốn lượn theo trục đường làng, ngõ xóm và lối đi vào từng nhà.</p>
@@ -1374,7 +1374,7 @@ const chapters = [
   },
 
   {
-    id: "trang-100", page: "100", title: "TRANG 100",
+    id: "trang-100", page: "100", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">lớp xã hội và tôn giáo khác nhau. Tập trung vào dịp đầu năm âm lịch, các lễ hội lần lượt diễn ra trong suốt năm ở khắp mọi miền đất nước. Việt Nam là nước duy nhất trên thế giới có lễ hội độc đáo thờ cúng tổ tiên chung của dân tộc Việt, đó là lễ hội đền Hùng.</p>
@@ -1385,7 +1385,7 @@ const chapters = [
   },
 
   {
-    id: "trang-101", page: "101", title: "TRANG 101",
+    id: "trang-101", page: "101", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Nghệ thuật biểu diễn</p>
@@ -1399,7 +1399,7 @@ const chapters = [
   },
 
   {
-    id: "trang-102", page: "102", title: "TRANG 102",
+    id: "trang-102", page: "102", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">món ăn cung đình và các món ăn thường được nhắc đến như các món chè, bánh Huế, bún bò Huế, mỳ Quảng, bánh tráng cuốn thịt Đà Nẵng, bánh canh… Ẩm thực Nam Bộ với các món ăn dân dã như lẩu, đồ nướng hải sản, hủ tiếu, bánh xèo, gỏi cuốn… và vô vàn các loại trái cây nhiệt đới thơm ngon.</p>
@@ -1412,7 +1412,7 @@ const chapters = [
   },
 
   {
-    id: "trang-103", page: "103", title: "TRANG 103",
+    id: "trang-103", page: "103", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bên cạnh du lịch sinh thái và du lịch cộng đồng đang phát huy hiệu quả tại nhiều địa phương, bức tranh du lịch Việt Nam còn trở nên đa dạng hơn với sự xuất hiện của các loại hình hiện đại, trong đó nổi bật là du lịch MICE11. Đây được xem là hướng phát triển quan trọng, bổ sung cho các loại hình truyền thống và đáp ứng nhu cầu ngày càng tăng của thị trường.</p>
@@ -1425,7 +1425,7 @@ const chapters = [
   },
 
   {
-    id: "trang-104", page: "104", title: "TRANG 104",
+    id: "trang-104", page: "104", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thủ đô Hà Nội, Thành phố Hồ Chí Minh, Quảng Ninh, Ninh Bình, Đà Nẵng, Nha Trang, Vũng Tàu, Bình Thuận,… là những địa phương có tiềm năng để phát triển du lịch MICE và nhiều địa phương khác nữa nếu có kế hoạch đầu tư bài bản. Nhiều thành phố của Việt Nam đã có kinh nghiệm tổ chức rất nhiều hội nghị, hội thảo, diễn đàn lớn với quy mô và tầm cỡ quốc tế. Các điều kiện, tiềm năng đều có thể biến Việt Nam thành điểm đến du lịch MICE hấp dẫn.</p>
@@ -1439,7 +1439,7 @@ const chapters = [
   },
 
   {
-    id: "trang-105", page: "105", title: "TRANG 105",
+    id: "trang-105", page: "105", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">sóc sức khỏe đồng bộ. Các khu spa với phương pháp trị liệu cũng được xây dựng trong khuôn viên resort để du khách có thể phục hồi sức khỏe, tìm được sự cân bằng trong tâm hồn.</p>
@@ -1452,7 +1452,7 @@ const chapters = [
   },
 
   {
-    id: "trang-106", page: "106", title: "TRANG 106",
+    id: "trang-106", page: "106", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Chính vì thế, trong những năm gần đây, xu hướng du lịch bền vững và du lịch gắn với trách nhiệm môi trường ngày càng được quan tâm.</p>
@@ -1464,7 +1464,7 @@ const chapters = [
   },
 
   {
-    id: "trang-107", page: "107", title: "TRANG 107",
+    id: "trang-107", page: "107", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">dạng ấy đã tạo nền tảng để các địa phương phát triển các sản phẩm du lịch đặc thù, phù hợp với lợi thế tự nhiên và bản sắc vùng miền. Đây cũng là định hướng quan trọng trong chiến lược phát triển du lịch quốc gia, nhằm tạo ra những sản phẩm mới mẻ, hấp dẫn và có khả năng cạnh tranh cao.</p>
@@ -1478,7 +1478,7 @@ const chapters = [
   },
 
   {
-    id: "trang-108", page: "108", title: "TRANG 108",
+    id: "trang-108", page: "108", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Năm            Số cơ sở lưu trú     Số buồng (buồng) (cơ sở)</p>
@@ -1497,7 +1497,7 @@ const chapters = [
   },
 
   {
-    id: "trang-109", page: "109", title: "TRANG 109",
+    id: "trang-109", page: "109", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhiều du khách lựa chọn thông qua các website tư vấn du lịch quốc tế.</p>
@@ -1511,7 +1511,7 @@ const chapters = [
   },
 
   {
-    id: "trang-110", page: "110", title: "TRANG 110",
+    id: "trang-110", page: "110", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">theo nơi nhà hàng liên kết mà có những tên gọi khác nhau như nhà hàng trong khách sạn, nhà hàng chuỗi thương hiệu, nhà hàng trong trung tâm thương mại,…</p>
@@ -1523,7 +1523,7 @@ const chapters = [
   },
 
   {
-    id: "trang-111", page: "111", title: "TRANG 111",
+    id: "trang-111", page: "111", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Sự độc đáo về nguyên liệu theo chiều dài đất nước, từ vùng núi đến vùng biển,tạo nên một “bản hòa tấu” chứa đựng nhiều cung bậc cảm xúc, khiến du khách quốc tế không thể có một ngày nào nhàm chán trong hành trình tìm hiểu, khám phá Việt Nam.</p>
@@ -1535,7 +1535,7 @@ const chapters = [
   },
 
   {
-    id: "trang-112", page: "112", title: "TRANG 112",
+    id: "trang-112", page: "112", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ẩm thực các dân tộc thiểu số: Ẩm thực của mỗi dân tộc thiểu số đều có những bản sắc riêng biệt. Nổi tiếng như món thịt lợn sống trộn phèo non của các dân tộc Tây Nguyên, bánh cuốn trứng (Cao Bằng, Lạng Sơn), bánh coong phù dân tộc Tày, Lợn sữa và vịt quay móc mật, khâu nhục Lạng Sơn, phở chua, cháo nhộng ong, phở cồn sủi, thắng cố, các món xôi nếp nương của người Thái, thịt chua Thanh Sơn, Phú Thọ…</p>
@@ -1549,7 +1549,7 @@ const chapters = [
   },
 
   {
-    id: "trang-113", page: "113", title: "TRANG 113",
+    id: "trang-113", page: "113", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">điểm di tích Nhà tù Hỏa Lò (Hà Nội) đã có sự tăng trưởng đột phá về lượng khách sau khi có sự “bắt tay” với lữ hành để hình thành các tour đêm đặc sắc…</p>
@@ -1561,7 +1561,7 @@ const chapters = [
   },
 
   {
-    id: "trang-114", page: "114", title: "TRANG 114",
+    id: "trang-114", page: "114", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Sơ đồ cơ cấu hướng dẫn viên du lịch của Việt Nam năm 2024. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
@@ -1571,7 +1571,7 @@ const chapters = [
   },
 
   {
-    id: "trang-115", page: "115", title: "TRANG 115",
+    id: "trang-115", page: "115", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">viên sử dụng các ngôn ngữ khác như Hàn Quốc, Tây Ban Nha, Thái Lan, Ả Rập…</p>
@@ -1583,7 +1583,7 @@ const chapters = [
   },
 
   {
-    id: "trang-116", page: "116", title: "TRANG 116",
+    id: "trang-116", page: "116", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Mỗi loại hình giao thông vận tải từ hàng không, đường bộ, đường sắt đến đường thủy, tất cả đều góp phần thúc đẩy sự phát triển chung của ngành du lịch. Đặc biệt, dịch vụ di chuyển hiện đại hay các giải pháp di chuyển xanh cũng đang trở thành xu hướng, mang đến cho bạn sự tiện lợi, trải nghiệm thoải mái mà vẫn bảo vệ môi trường.</p>
@@ -1597,7 +1597,7 @@ const chapters = [
   },
 
   {
-    id: "trang-117", page: "117", title: "TRANG 117",
+    id: "trang-117", page: "117", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Các loại hình di chuyển tại đường bộ như xe buýt, xe ô tô, xe máy,... vẫn là lựa chọn di chuyển phổ biến nhất trong du lịch, đặc biệt là các tour du lịch trong nước hoặc di chuyển giữa các điểm lân cận. Việc lựa chọn các phương tiện phù hợp có thể giúp bạn thoải mái khám phá, tận hưởng vẻ đẹp của các điểm đến. Hơn nữa, trên thị trường có rất nhiều các đơn vị cho thuê xe du lịch bạn có thể chọn, giúp bạn linh hoạt hơn về lịch trình và tối ưu chi phí.</p>
@@ -1611,7 +1611,7 @@ const chapters = [
   },
 
   {
-    id: "trang-118", page: "118", title: "TRANG 118",
+    id: "trang-118", page: "118", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">chuyển chạy bằng năng lượng tái tạo, hệ thống xe buýt thông minh hay xe điện hiện đại đang được nhiều thành phố du lịch lựa chọn.</p>
@@ -1625,7 +1625,7 @@ const chapters = [
   },
 
   {
-    id: "trang-119", page: "119", title: "TRANG 119",
+    id: "trang-119", page: "119", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tỏa và khả năng cạnh tranh cao. Song song với đó, Quy hoạch mới đã xác định 61 địa điểm tiềm năng phát triển Khu du lịch quốc gia trong thời kỳ 2021–2030, trải rộng trên 6 vùng du lịch của cả nước, bao gồm miền núi, đồng bằng, ven biển, hải đảo và các khu vực có giá trị nổi bật về tài nguyên tự nhiên, văn hóa và lịch sử.</p>
@@ -1637,7 +1637,7 @@ const chapters = [
   },
 
   {
-    id: "trang-120", page: "120", title: "TRANG 120",
+    id: "trang-120", page: "120", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">ngoài dễ dàng hơn và tương tác hiệu quả hơn với người dân địa phương.</p>
@@ -1650,7 +1650,7 @@ const chapters = [
   },
 
   {
-    id: "trang-121", page: "121", title: "TRANG 121",
+    id: "trang-121", page: "121", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">đẩy mạnh với sản phẩm đáng chú ý nhất là bản đồ du lịch tương tác thông minh kèm tính năng hướng dẫn viên ảo tại các điểm đến được du khách đánh giá cao. Nhiều địa phương khác như: Quảng Ninh, Đà Nẵng, Ninh Bình... cũng đẩy mạnh sử dụng công nghệ trí tuệ nhân tạo (AI), công nghệ 360 độ thực tế ảo (VR 360), thanh toán bằng hình thức quét mã QR... góp phần thúc đẩy phát triển du lịch (Vũ Quỳnh, 2024).</p>
@@ -1660,20 +1660,20 @@ const chapters = [
   },
 
   {
-    id: "trang-122", page: "122", title: "TRANG 122",
+    id: "trang-122", page: "122", title: "CHƯƠNG 5: DU LỊCH CÁC VÙNG KINH TẾ",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 5: DU LỊCH CÁC VÙNG KINH TẾ</h1>
         <h2 class="h2-indent">5.1. Vùng Đồng bằng sông Hồng</h2>
         <p class="p-justify-indent">Vùng Đồng bằng sông Hồng là một trong những khu vực trọng điểm du lịch của Việt Nam, với lợi thế về di sản văn hóa, lịch sử và cảnh quan thiên nhiên phong phú. Là trung tâm kinh tế - xã hội phía Bắc, vùng này thu hút hàng triệu du khách mỗi năm nhờ sự kết hợp hài hòa giữa đô thị hiện đại, di tích cổ kính và kỳ quan thiên nhiên.</p>
-        <p class="p-justify-indent">a) Hà Nội - Trung tâm du lịch văn hóa, chính trị</p>
+        <h3 class="h3-indent">a) Hà Nội - Trung tâm du lịch văn hóa, chính trị</h3>
         <p class="p-justify-indent">Hà Nội - “thủ đô nghìn năm văn hiến” không chỉ là trái tim chính trị, văn hóa và kinh tế của Việt Nam mà còn là điểm hội tụ của những giá trị lịch sử, kiến trúc và đời sống đô thị đặc sắc. Với vẻ đẹp giao thoa giữa truyền thống và hiện đại, Hà Nội giữ vai trò là một trong những trung tâm du lịch lớn nhất cả nước, thu hút du khách bởi những di sản lâu đời, những không gian xanh giữa lòng phố thị, nền ẩm thực phong phú cùng nhịp sống thanh bình mà tràn đầy sức sống.</p>
       </div>
     `
   },
 
   {
-    id: "trang-123", page: "123", title: "TRANG 123",
+    id: "trang-123", page: "123", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thủ đô Hà Nội là trung tâm du lịch hàng đầu của cả nước. (Ảnh: Vin Wonders)</p>
@@ -1684,12 +1684,12 @@ const chapters = [
   },
 
   {
-    id: "trang-124", page: "124", title: "TRANG 124",
+    id: "trang-124", page: "124", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">vững tại Làng cổ Đường Lâm (thị xã Sơn Tây) năm 2025; công nhận điểm du lịch Làng nghề gỗ mỹ nghệ Thiết Úng,… và mới đây là chương trình “Du lịch Hà Nội chào 2025 - Get on Hanoi 2025” nhằm khởi động, quảng bá chuỗi hoạt động du lịch trên địa bàn…</p>
         <p class="p-justify-indent">Với bề dày lịch sử hơn 1.000 năm, vào thế kỷ XI - năm 1010, đất Thăng Long xưa - Hà Nội nay được Vua Lý Thái Tổ chọn làm Kinh đô của nước Đại Việt và đặt tên là Thăng Long với mong muốn Kinh đô ngày càng phồn thịnh như linh vật rồng thiêng bay lên. Trong suốt hơn 10 thế kỷ, từ thời Lý (thế kỷ XI - thế kỷ XII) đến thời Nguyễn (thế kỷ XIX - thế kỷ XX), các triều đại phong kiến Việt Nam đã liên tục kế thừa, xây dựng và phát triển với vai trò, vị trí là trung tâm chính trị, văn hóa, kinh tế của cả nước.</p>
-        <p class="p-justify-indent">b) Quảng Ninh - Vịnh Hạ Long kỳ quan thế giới</p>
+        <h3 class="h3-indent">b) Quảng Ninh - Vịnh Hạ Long kỳ quan thế giới</h3>
         <p class="p-justify-indent">Quảng Ninh là một trong những điểm đến du lịch đặc sắc và giàu trải nghiệm nhất của Việt Nam. Nổi tiếng với Vịnh Hạ Long – Di sản thiên nhiên thế giới được UNESCO công nhận hai lần. Quảng Ninh còn sở hữu hệ sinh thái biển, đảo và rừng đa dạng, những bãi biển trong xanh, các hang động kỳ ảo cùng nền văn hóa bản địa phong phú.</p>
         <p class="p-justify-indent">Phải khẳng định rằng, một trong những thế mạnh lớn nhất của du lịch Quảng Ninh là du lịch biển đảo. Với dải bờ biển dài hơn 250 km, thiên nhiên đã tạo cho Quảng Ninh một hệ thống tài nguyên du lịch biển liên hoàn nối liền Vịnh Hạ Long với Vịnh Bái Tử Long, Vườn Quốc gia Bái Tử Long, đảo Cô Tô, Trà Cổ,</p>
       </div>
@@ -1697,7 +1697,7 @@ const chapters = [
   },
 
   {
-    id: "trang-125", page: "125", title: "TRANG 125",
+    id: "trang-125", page: "125", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Vĩnh Thực,...</p>
@@ -1709,7 +1709,7 @@ const chapters = [
   },
 
   {
-    id: "trang-126", page: "126", title: "TRANG 126",
+    id: "trang-126", page: "126", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">trên địa bàn tỉnh Quảng Ninh còn rất nhiều điểm di tích lịch sử văn hoá có giá trị khác như: Chùa Quỳnh Lâm (Đông Triều), đền thờ Trần Hưng Đạo, miếu Vua Bà, đình Phong Cốc (TX Quảng Yên), chùa Xuân Lan, đình Xã Tắc (TP Móng Cái),... chưa thực sự thu hút được nhiều du khách đến tham quan.</p>
@@ -1720,30 +1720,30 @@ const chapters = [
   },
 
   {
-    id: "trang-127", page: "127", title: "TRANG 127",
+    id: "trang-127", page: "127", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cảnh quan hùng vĩ của Vịnh Hạ Long. (Ảnh: Vietnam Tourist)</p>
         <p class="p-justify-indent">Năm 2023, ngành du lịch phục hồi mạnh mẽ với lượng khách du lịch đạt 8,6 triệu lượt, tổng thu từ du lịch đạt 19.000 tỷ đồng. Đánh giá về chặng đường phát triển của Hạ Long, nhiều chuyên gia khẳng định, du lịch Hạ Long đang ngày một thay đổi theo hướng bền vững. Trên đà tăng trưởng này, mục tiêu trở thành trung tâm du lịch đẳng cấp quốc tế của Hạ Long, Quảng Ninh, đang dần thành hiện thực.</p>
-        <p class="p-justify-indent">c) Ninh Bình - Tràng An và danh thắng Tam Cốc, Bích Động</p>
+        <h3 class="h3-indent">c) Ninh Bình - Tràng An và danh thắng Tam Cốc, Bích Động</h3>
         <p class="p-justify-indent">Ninh Bình được mệnh danh là vùng đất hội tụ vẻ đẹp ngoạn mục của thiên nhiên và chiều sâu văn hóa, lịch sử. Được thiên nhiên ưu ái ban tặng hệ thống núi đá vôi hùng vĩ, những dòng sông uốn lượn giữa thảm thực vật xanh mướt và quần thể hang động kỳ ảo, Ninh Bình trở thành một trong những điểm đến nổi bật nhất của du lịch Việt Nam.</p>
       </div>
     `
   },
 
   {
-    id: "trang-128", page: "128", title: "TRANG 128",
+    id: "trang-128", page: "128", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Quần thể danh thắng Tràng An có diện tích 6.172 ha thuộc địa bàn các huyện Hoa Lư, Gia Viễn, Nho Quan, thị xã Tam Điệp và thành phố Ninh Bình, cách thủ đô Hà Nội khoảng 90km về phía đông nam. Quần thể danh thắng Tràng An bao gồm ba vùng được bảo vệ liền kề nhau là khu di tích lịch sử văn hóa cố đô Hoa Lư, khu danh thắng Tràng An - Tam Cốc - Bích Động và rừng nguyên sinh đặc dụng Hoa Lư.</p>
-        <h2 class="h2-indent">Quần thể danh thắng Tràng An. (Ảnh: Vietnam Tourism)</h2>
+        <p class="p-justify-indent"><strong>Quần thể danh thắng Tràng An. (Ảnh: Vietnam Tourism)</strong></p>
         <p class="p-justify-indent">Tràng An được ví như một “Hạ Long trên cạn” với vẻ đẹp tráng lệ được tạo nên bởi hệ thống núi đá muôn hình vạn trạng soi bóng xuống những dòng suối nhỏ quanh co, uốn lượn nối liền các hang động và thung lũng hoang sơ. Vẻ hài hòa của núi đá, sông nước, rừng cây và bầu trời ở Tràng An tạo nên một thế giới tự nhiên sống động, đầy quyến rũ. Nơi đây còn là nơi bảo tồn và lưu giữ nhiều hệ sinh thái rừng ngập nước, rừng trên núi đá vôi, các di chỉ khảo cổ học và các di tích lịch sử văn hóa đặc sắc.</p>
       </div>
     `
   },
 
   {
-    id: "trang-129", page: "129", title: "TRANG 129",
+    id: "trang-129", page: "129", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cùng với khu du lịch sinh thái Tràng An, khu du lịch Tam Cốc - Bích Động là một trong những khu hấp dẫn của tỉnh Ninh Bình. Tam Cốc nghĩa là 3 hang, gồm hang Cả, hang Hai và hang Ba. Đến với Tam Cốc, du khách sẽ được ngồi thuyền tham quan, ngắm cảnh trời, mây, sông nước, núi non hùng vĩ. Mỗi mùa một vẻ, Tam Cốc luôn quyến rũ du khách đến chiêm ngưỡng vẻ đẹp mà tạo hóa đã ban tặng cho nơi đây. Bích Động, nghĩa là động xanh, được mệnh danh là “Nam thiên đệ nhị động”. Bích Động cùng chùa Bích Động là tác phẩm nghệ thuật cổ kính, trang nghiêm của con người, hòa nhập trong khung cảnh thiên nhiên tươi xanh, tĩnh lặng, góp thêm cho bức tranh toàn cảnh của Quần thể danh thắng Tràng An được hoàn mỹ.</p>
@@ -1754,21 +1754,21 @@ const chapters = [
   },
 
   {
-    id: "trang-130", page: "130", title: "TRANG 130",
+    id: "trang-130", page: "130", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">và châu Á,... Chính vì vậy, tìm hiểu và khám phá những di tích và giá trị văn hóa cũng chính là một trong những trải nghiệm không thể bỏ lỡ trong chuyến hành trình khám phá danh thắng Tràng An.</p>
         <p class="p-justify-indent">Với những giá trị đặc sắc về văn hóa, vẻ đẹp thẩm mỹ và địa chất - địa mạo, Quần thể danh thắng Tràng An đã được Ủy ban Di sản Thế giới thuộc Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp quốc (UNESCO) công nhận là Di sản Văn hóa và Thiên nhiên thế giới vào năm 2014.</p>
         <h2 class="h2-indent">5.2. Vùng Bắc Trung Bộ và Duyên hải miền Trung</h2>
         <p class="p-justify-indent">Vùng Bắc Trung Bộ và Duyên hải miền Trung sở hữu hệ sinh thái đa dạng từ hang động, di sản cổ đến bãi biển dài, là cầu nối du lịch Bắc - Nam. Với hơn 20 di sản UNESCO, vùng này hướng tới du lịch bền vững, kết hợp văn hóa với mạo hiểm và biển đảo. Nơi đây dự kiến đón 25 triệu lượt khách trong năm 2025, theo kế hoạch Tổng cục Du lịch.</p>
-        <p class="p-justify-indent">a) Nghệ An - Biển xanh và dấu ấn cách mạng trường tồn</p>
+        <h3 class="h3-indent">a) Nghệ An - Biển xanh và dấu ấn cách mạng trường tồn</h3>
         <p class="p-justify-indent">Nghệ An - mảnh đất địa linh nhân kiệt, là điểm đến hội tụ vẻ đẹp thiên nhiên hùng vĩ, văn hóa đậm đà và lịch sử hào hùng. Với đường bờ biển dài, xanh trong, vùng núi Trường Sơn trùng điệp, những cánh đồng mênh mông và hệ thống di tích gắn với nhiều danh nhân, Nghệ An mang đến trải nghiệm du lịch đa dạng cho mọi du khách. Từ biển Cửa Lò rực rỡ nắng vàng, Làng Sen quê Bác linh thiêng, đến các bản làng cộng đồng vùng Tây Nghệ yên bình và giàu bản sắc, mỗi hành trình tại Nghệ An đều là cơ</p>
       </div>
     `
   },
 
   {
-    id: "trang-131", page: "131", title: "TRANG 131",
+    id: "trang-131", page: "131", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">hội để khám phá, cảm nhận và yêu thêm mảnh đất nghĩa tình, nồng hậu.</p>
@@ -1780,7 +1780,7 @@ const chapters = [
   },
 
   {
-    id: "trang-132", page: "132", title: "TRANG 132",
+    id: "trang-132", page: "132", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">huyện Quỳ Châu, đã từng đón Vua Bảo Đại và Hoàng hậu Nam Phương trong chuyến kinh lý Nghệ An, để cùng tham dự một lễ hội với những sắc màu văn hóa mang đậm yếu tố tâm linh và huyền thoại về vùng đất, con người miền Tây hào phóng, mến khách.</p>
@@ -1792,7 +1792,7 @@ const chapters = [
   },
 
   {
-    id: "trang-133", page: "133", title: "TRANG 133",
+    id: "trang-133", page: "133", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bảng 5.1. Cơ sở du lịch và lao động du lịch giai đoạn 2018-2023​ của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</p>
@@ -1803,7 +1803,7 @@ const chapters = [
   },
 
   {
-    id: "trang-134", page: "134", title: "TRANG 134",
+    id: "trang-134", page: "134", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">2021 - 2023 (Nguồn: Sở Du lịch Nghệ An)</p>
@@ -1818,7 +1818,7 @@ const chapters = [
   },
 
   {
-    id: "trang-135", page: "135", title: "TRANG 135",
+    id: "trang-135", page: "135", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Trải qua 995 năm (1030 - 2025) và 95 năm Xô viết - Nghệ Tĩnh (12/9/1930 - 12/9/2025), Nghệ An trở thành biểu tượng của một vùng “địa linh nhân kiệt”15, nơi sản sinh nhiều anh hùng hào kiệt, ghi dấu trong những trang sử vàng dựng nước và giữ nước.</p>
@@ -1832,7 +1832,7 @@ const chapters = [
   },
 
   {
-    id: "trang-136", page: "136", title: "TRANG 136",
+    id: "trang-136", page: "136", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">số hơn 9 triệu lượt khách đến thăm chỉ riêng trong năm 2024 - một con số ấn tượng về sức hấp dẫn không ngừng tăng của vùng đất xứ Nghệ.</p>
@@ -1845,11 +1845,11 @@ const chapters = [
   },
 
   {
-    id: "trang-137", page: "137", title: "TRANG 137",
+    id: "trang-137", page: "137", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đến với Cửa Lò, ngoài tắm biển, du khách còn có thể tham gia một số trò chơi và hoạt động thể thao biển rất thú vị như: mô tô nước, tàu lượn, dù lượn, lướt sóng và đặc biệt là hoạt động trải nghiệm câu mực đêm cùng ngư dân. Chuyến đi câu mực đêm chắc chắn sẽ mang lại cho du khách nhiều kỉ niệm thú vị, khó quên.</p>
-        <p class="p-justify-indent">b) Quảng Bình cũ (Quảng Trị) - Vương quốc hang động</p>
+        <h3 class="h3-indent">b) Quảng Bình cũ (Quảng Trị) - Vương quốc hang động</h3>
         <p class="p-justify-indent">Quảng Bình cũ (nay thuộc Quảng Trị) là vùng đất mang đậm dấu ấn lịch sử và sở hữu cảnh quan thiên nhiên mộc mạc của miền Trung. Khi đến đây, du khách có thể cảm nhận vẻ đẹp núi sông thanh bình, những di tích lưu giữ ký ức một thời và nét văn hóa đặc trưng của cư dân địa phương.</p>
         <p class="p-base">Tại sao Quảng Bình lại thu hút du khách?</p>
         <p class="p-justify-indent">Quảng Bình cũ (nay là Quảng Trị) không chỉ nổi tiếng với hệ thống hang động kỳ vĩ mà còn sở hữu bờ biển dài tuyệt đẹp, những di tích lịch sử hào hùng và nền ẩm thực độc đáo. Vùng đất này thu hút du khách bởi vẻ đẹp hoang sơ, hùng vĩ của thiên nhiên, sự đa dạng trong trải nghiệm du lịch và lòng hiếu khách của người dân địa phương. Từ những hang động lớn nhất thế giới như hang Sơn Đoòng, đến những bãi biển xanh ngắt và các điểm đến tâm linh ý nghĩa, Quảng Bình mang đến một hành trình khám phá đầy bất ngờ và đáng nhớ. Đây là điểm đến lý tưởng cho những ai yêu thích phiêu lưu, khám phá thiên nhiên và tìm hiểu văn hóa lịch sử.</p>
@@ -1858,7 +1858,7 @@ const chapters = [
   },
 
   {
-    id: "trang-138", page: "138", title: "TRANG 138",
+    id: "trang-138", page: "138", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Du lịch phiêu lưu, du lịch sinh thái</p>
@@ -1871,7 +1871,7 @@ const chapters = [
   },
 
   {
-    id: "trang-139", page: "139", title: "TRANG 139",
+    id: "trang-139", page: "139", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">lớn... Tất cả tạo nên một “vương quốc hang động”, định vị thương hiệu cho du lịch Quảng Bình.</p>
@@ -1884,11 +1884,11 @@ const chapters = [
   },
 
   {
-    id: "trang-140", page: "140", title: "TRANG 140",
+    id: "trang-140", page: "140", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Chính phủ xếp hạng Danh lam thắng cảnh quốc gia đặc biệt năm 2009. Ngày 3/7/2003, tại Kỳ họp lần thứ 27 của Ủy ban Di sản Thế giới, Vườn quốc gia Phong Nha - Kẻ Bàng được UNESCO công nhận là Di sản Thiên nhiên Thế giới lần thứ nhất. Ngày 3/7/2015, tại Kỳ họp lần thứ 39 của Ủy ban Di sản Thế giới, Vườn quốc gia Phong Nha - Kẻ Bàng được công nhận lần thứ hai, với diện tích vùng lõi là 123.326 ha và vùng đệm là 220.055 ha. Vườn quốc gia Phong Nha - Kẻ Bàng có chung ranh giới tự nhiên với Vườn quốc gia Hin Nậm Nô của Lào.</p>
-        <p class="p-justify-indent">c) Thừa Thiên Huế - Cố đô và di sản văn hóa triều Nguyễn</p>
+        <h3 class="h3-indent">c) Thừa Thiên Huế - Cố đô và di sản văn hóa triều Nguyễn</h3>
         <p class="p-justify-indent">Huế - kinh đô xưa của đất nước, là nơi lưu giữ trọn vẹn nhất những giá trị vàng son của triều Nguyễn và tinh hoa văn hóa Việt Nam. Được mệnh danh là “thành phố di sản”, Huế gây thương nhớ bởi vẻ đẹp trầm mặc của Kinh thành, lăng tẩm, chùa chiền cổ kính; bởi dòng Hương thơ mộng ôm lấy nhịp sống chậm rãi, thanh bình. Không chỉ giàu di sản vật thể và phi vật thể được UNESCO công nhận, Huế còn hấp dẫn du khách với ẩm thực cung đình tinh tế, lễ hội truyền thống đặc sắc và những vùng đồi núi, biển, đầm, phá tuyệt đẹp bao quanh.</p>
         <p class="p-justify-indent">Du lịch Thành phố Huế đã khẳng định được vị thế trên bản đồ du lịch trong nước và quốc tế. Hiệu quả từ ngành du lịch mang lại dù đã có nhiều khởi sắc, tuy nhiên vẫn chưa tương xứng với tiềm năng, thế mạnh sẵn có. Với việc được lựa chọn đăng cai tổ chức Năm Du lịch quốc gia 2025, Thành phố Huế kỳ vọng đây sẽ là cơ hội lớn để ngành du lịch bứt phá, phát triển toàn diện, bền vững.</p>
       </div>
@@ -1896,7 +1896,7 @@ const chapters = [
   },
 
   {
-    id: "trang-141", page: "141", title: "TRANG 141",
+    id: "trang-141", page: "141", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ngoài bề dày văn hóa, chiều sâu lịch sử, Huế cũng là vùng đất có thế núi, hình sông độc đáo với nhiều di sản thiên nhiên kỳ vĩ, làm say đắm lòng người như: Sông Hương, núi Ngự, vịnh Lăng Cô, Vườn quốc gia Bạch Mã,... Những giá trị cảnh quan thiên nhiên kết hợp “văn hóa Huế”, “con người Huế” và những sản phẩm du lịch hấp dẫn đã tạo nên một bức tranh văn hóa, du lịch đa sắc màu, thu hút du khách trong và ngoài nước tìm đến tham quan, khám phá.</p>
@@ -1907,7 +1907,7 @@ const chapters = [
   },
 
   {
-    id: "trang-142", page: "142", title: "TRANG 142",
+    id: "trang-142", page: "142", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Toàn cảnh Quần thể Di tích Cố đô Huế (Ảnh: Viet Going)</p>
@@ -1918,11 +1918,11 @@ const chapters = [
   },
 
   {
-    id: "trang-143", page: "143", title: "TRANG 143",
+    id: "trang-143", page: "143", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">cảnh, đậm đà bản sắc truyền thống dân tộc, hoà quyện vào cảnh quan kỳ diệu của thiên nhiên, có giá trị đặc biệt về lịch sử và về văn hoá nghệ thuật. Đó chính là nhân tố chủ yếu cấu thành đặc thù của Huế, là nền tảng để Huế trở thành trung tâm văn hoá du lịch của cả nước.</p>
-        <p class="p-justify-indent">d) Đà Nẵng - phát triển du lịch năng động</p>
+        <h3 class="h3-indent">d) Đà Nẵng - phát triển du lịch năng động</h3>
         <p class="p-justify-indent">Đà Nẵng là thành phố trẻ năng động bên bờ biển miền Trung. Từ lâu, nơi đây đã trở thành điểm đến mơ ước của du khách trong và ngoài nước. Sở hữu đường bờ biển quyến rũ, khí hậu ôn hòa, con người hiếu khách cùng hạ tầng du lịch hiện đại, Đà Nẵng được mệnh danh là “thành phố đáng sống nhất Việt Nam.”</p>
         <p class="p-justify-indent">Đà Nẵng là điểm giao hòa tuyệt đẹp giữa thiên nhiên và đô thị: có Bán đảo Sơn Trà xanh mát, Ngũ Hành Sơn kỳ vĩ, Bà Nà Hills mờ sương và những cây cầu biểu tượng rực sáng mỗi đêm. Không chỉ hấp dẫn bởi cảnh quan, Đà Nẵng còn mang đến những trải nghiệm văn hóa, ẩm thực đa dạng, các lễ hội biển sôi động và dịch vụ du lịch chuyên nghiệp.</p>
         <p class="p-justify-indent">Với sự thân thiện, trong lành và đầy năng lượng, Đà Nẵng luôn chào đón du khách đến khám phá, nghỉ dưỡng và tận hưởng trọn vẹn những khoảnh khắc khó quên.</p>
@@ -1932,7 +1932,7 @@ const chapters = [
   },
 
   {
-    id: "trang-144", page: "144", title: "TRANG 144",
+    id: "trang-144", page: "144", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đà Nẵng là địa phương dẫn đầu cả nước về chỉ số năng lực cạnh tranh điểm đến du lịch cấp tỉnh Việt Nam năm 2022; giải thưởng “Điểm đến sự kiện, lễ hội hàng đầu châu Á” năm 2022; 36 điểm ẩm thực được tuyển chọn Michelin Guide và tiếptục được vinh danh 1 trong 10 điểm đến ẩm thực nổi bật toàn cầu cùng với Amsterdam (Hà Lan), Bangkok (Thái Lan), Osaka (Nhật Bản).</p>
@@ -1944,7 +1944,7 @@ const chapters = [
   },
 
   {
-    id: "trang-145", page: "145", title: "TRANG 145",
+    id: "trang-145", page: "145", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Phố cổ Hội An bên dòng sông Hoài (Ảnh: Báo Chính Phủ)</p>
@@ -1955,7 +1955,7 @@ const chapters = [
   },
 
   {
-    id: "trang-146", page: "146", title: "TRANG 146",
+    id: "trang-146", page: "146", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Du lịch nông thôn “xanh”</p>
@@ -1969,12 +1969,12 @@ const chapters = [
   },
 
   {
-    id: "trang-147", page: "147", title: "TRANG 147",
+    id: "trang-147", page: "147", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thiếu, doanh nghiệp vừa và nhỏ vẫn còn gặp khó khăn về nguồn lực để chuyển đổi xanh.</p>
         <p class="p-justify-indent">Vì vậy, thời gian tới, Đà Nẵng sẽ ưu tiên đầu tư hạ tầng xanh, phát triển giao thông công cộng bền vững. Song song là thúc đẩy mạnh mẽ các mô hình du lịch sinh thái, du lịch cộng đồng miền núi, du lịch nông nghiệp và sản phẩm OCOP,... nhằm tạo ra đa dạng trải nghiệm cho khách du lịch và trải đều nguồn khách đến với các địa phương.</p>
-        <p class="p-justify-indent">e) Khánh Hòa - Du lịch biển đẳng cấp quốc tế</p>
+        <h3 class="h3-indent">e) Khánh Hòa - Du lịch biển đẳng cấp quốc tế</h3>
         <p class="p-justify-indent">Khánh Hòa là điểm đến nổi bật với những bãi biển trải dài, làn nước trong vắt và khí hậu ôn hòa quanh năm. Nơi đây không chỉ sở hữu thành phố biển Nha Trang nổi tiếng quốc tế mà còn quy tụ hệ sinh thái biển đảo phong phú, văn hóa Chăm độc đáo và nhiều lễ hội đặc sắc. Khánh Hòa thu hút du khách bởi vẻ đẹp tự nhiên, quyến rũ, dịch vụ du lịch hiện đại và nhịp sống biển trẻ trung, năng động. Đây là vùng đất lý tưởng để trải nghiệm nghỉ dưỡng, khám phá thiên nhiên và tận hưởng những khoảnh khắc bình yên giữa đại dương xanh.</p>
         <p class="p-justify-indent">Theo Sở Văn hóa, Thể thao và Du lịch tỉnh Khánh Hòa, trong 11 tháng năm 2025, Khánh Hòa đã đón hơn 15,6 triệu lượt khách, tăng 16,4% so với cùng kỳ, đạt 99,7% kế hoạch năm. Trong đó, khách quốc tế hơn 5,1 triệu lượt, tăng 17,5%, đạt 94,7% kế hoạch; khách nội địa đạt hơn 10,5 triệu lượt, tăng 15,9%, vượt 2,25% kế hoạch. Tổng thu từ du lịch trong 11 tháng đạt hơn 62.579 tỷ đồng, tăng 18,4%.</p>
       </div>
@@ -1982,7 +1982,7 @@ const chapters = [
   },
 
   {
-    id: "trang-148", page: "148", title: "TRANG 148",
+    id: "trang-148", page: "148", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Trong thời gian qua, Sở Văn hóa, Thể thao và Du lịch tỉnh Khánh Hòa đã phối hợp với các đơn vị tại Cảng Hàng không quốc tế Cam Ranh xử lý tình trạng ùn tắc tại cửa khẩu, xây dựng kế hoạch kích cầu du lịch cuối năm, hoàn thiện hồ sơ công nhận Khu du lịch Quốc gia Bắc Bán đảo Cam Ranh và triển khai thử nghiệm Bộ tiêu chuẩn du lịch xanh.</p>
@@ -1994,10 +1994,10 @@ const chapters = [
   },
 
   {
-    id: "trang-149", page: "149", title: "TRANG 149",
+    id: "trang-149", page: "149", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Nha Trang (Ảnh: Vin Wonders)</h2>
+        <p class="p-justify-indent"><strong>Nha Trang (Ảnh: Vin Wonders)</strong></p>
         <p class="p-justify-indent">Những năm gần đây, Thành phố Nha Trang đã phát triển rất nhanh. Cơ sở hạ tầng phục vụ du lịch không ngừng được đầu tư; sản phẩm du lịch ngày càng đa dạng. Việc ứng dụng công nghệ thông tin trong quản lý, phục vụ du lịch ngày càng được đẩy mạnh. Theo thống kê của Sở Du lịch, đến nay, Nha Trang có hơn 800 cơ sở lưu trú với hơn 36.000 phòng nghỉ, trong đó có hơn 100 cơ sở lưu trú chất lượng 3 - 5 sao, đáp ứng nhu cầu lưu trú của du khách kể cả mùa cao điểm. Sự phát triển của du lịch Nha Trang không chỉ ở những con số về cơ sở lưu trú, ở lượng khách du lịch mà còn ở chất lượng dịch vụ.</p>
         <p class="p-justify-indent">Bên cạnh lợi thế về “biển xanh, cát trắng, nắng vàng”, cộng đồng làm du lịch của thành phố còn biết tạo ra những sản phẩm du lịch hấp dẫn như: Tắm bùn, lặn biển, các môn thể thao</p>
       </div>
@@ -2005,7 +2005,7 @@ const chapters = [
   },
 
   {
-    id: "trang-150", page: "150", title: "TRANG 150",
+    id: "trang-150", page: "150", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nước,... Đặc biệt, khu vui chơi giải trí VinWonders Nha Trang và Vinpearl Harbour đã trở thành điểm check-in nổi tiếng nhất của thành phố biển. Các nhà đầu tư đã xây dựng các trung tâm mua sắm  hiện  đại như: Nha Trang Center, Vincom Plaza, Gold Coast…; xây dựng các sân golf đẳng cấp,… để phục vụ du khách. Sự xuất hiện của các tập đoàn quản lý khách sạn hàng đầu thế giới như:  Marriott,  InterContinental, Best Western, Park Hyatt,… trong vai trò quản lý, điều hành đã góp phần nâng cao chất lượng dịch vụ du lịch của Nha Trang.</p>
@@ -2018,11 +2018,11 @@ const chapters = [
   },
 
   {
-    id: "trang-151", page: "151", title: "TRANG 151",
+    id: "trang-151", page: "151", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">và sông nước miệt vườn. Tập trung MICE, nghỉ dưỡng cao cấp và sinh  thái, vùng đón 40 triệu lượt khách 2025, theo Vietnam Tourism.</p>
-        <p class="p-justify-indent">a) Thành phố Hồ Chí Minh - Trung tâm du lịch lớn nhất cả nước</p>
+        <h3 class="h3-indent">a) Thành phố Hồ Chí Minh - Trung tâm du lịch lớn nhất cả nước</h3>
         <p class="p-justify-indent">Năm 2025, Thành phố Hồ Chí Minh đón khoảng 53,5 triệu lượt khách, trong đó có 8,5 triệu lượt khách quốc tế và 45 triệu lượt khách nội địa. Tổng thu du lịch ước đạt 260 nghìn tỷ đồng, tăng mạnh so với năm 2024. Thành phố hiện có gần 5.000 cơ sở lưu trú với hơn 102.000 phòng, bao gồm 84 khách sạn từ 4 - 5 sao và nhiều cơ sở đang được thẩm định nâng hạng.</p>
         <p class="p-justify-indent">Sau sáp nhập, Thành phố Hồ Chí Minh có mạng lưới doanh nghiệp du lịch phát triển mạnh với hơn 1.800 doanh nghiệp lữ hành nội địa, hàng chục đại lý lữ hành và văn phòng đại diện doanh nghiệp du lịch nước ngoài. Thành phố chú trọng phát triển các sản phẩm du lịch đặc trưng, tăng cường liên kết liên tỉnh, liên vùng nhằm nâng cao sức cạnh tranh.</p>
         <p class="p-justify-indent">MICE được xác định là sản phẩm chiến lược, góp phần khẳng định vị thế của Thành phố Hồ Chí Minh là điểm đến hội nghị, sự kiện hàng đầu khu vực. Bên cạnh đó, du lịch y tế ngày càng phát triển, chiếm khoảng 30 - 40% lượng khách, gắn kết khám chữa bệnh với nghỉ dưỡng và phục hồi tại các địa phương lân cận, qua đó tạo chuỗi giá trị bền vững giữa du lịch, y tế và dịch vụ chăm sóc sức khỏe.</p>
@@ -2031,7 +2031,7 @@ const chapters = [
   },
 
   {
-    id: "trang-152", page: "152", title: "TRANG 152",
+    id: "trang-152", page: "152", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cảnh quan đô thị bậc nhất nước ta - Thành phố Hồ Chí Minh (Ảnh: Báo Chính phủ)</p>
@@ -2043,11 +2043,11 @@ const chapters = [
   },
 
   {
-    id: "trang-153", page: "153", title: "TRANG 153",
+    id: "trang-153", page: "153", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">cho hành trình kiến tạo một hệ sinh thái sức khỏe toàn diện, nơi Thành phố Hồ Chí Minh đóng vai trò hạt nhân, cùng với các tỉnh, thành lân cận tạo ra những sản phẩm du lịch y tế độc đáo, có sức cạnh tranh vượt ra ngoài biên giới quốc gia.</p>
-        <p class="p-justify-indent">b) Đồng bằng sông Cửu Long - Du lịch sông nước, vườn trái cây</p>
+        <h3 class="h3-indent">b) Đồng bằng sông Cửu Long - Du lịch sông nước, vườn trái cây</h3>
         <p class="p-justify-indent">Đồng bằng sông Cửu Long - vùng đất chín rồng trù phú, là không gian văn hóa sông nước độc đáo bậc nhất Việt Nam. Được bồi đắp bởi phù sa sông Mekong, nơi đây mang đến cảnh quan mướt xanh của những cánh đồng lúa bạt ngàn, những miệt vườn trái cây sum suê và hệ thống sông rạch chằng chịt, tạo nên nhịp sống đặc trưng miền sông nước.</p>
         <p class="p-base">Tài nguyên du lịch đa dạng</p>
         <p class="p-justify-indent">Đồng bằng sông Cửu Long có hệ sinh thái đa dạng, từ hệ sinh thái biển, đảo, cửa sông, đất ngập nước, rừng ngập mặn, cù lao châu thổ, với nhiều khu dự trữ sinh quyển, vườn quốc gia, khu bảo tồn thiên nhiên như: Vườn Quốc gia Mũi Cà Mau, U Minh Hạ (Cà Mau); U Minh Thượng, Phú Quốc (Kiên Giang); Tràm Chim (Đồng Tháp); vườn chim Bạc Liêu; vườn chim Đồng Tháp.</p>
@@ -2057,7 +2057,7 @@ const chapters = [
   },
 
   {
-    id: "trang-154", page: "154", title: "TRANG 154",
+    id: "trang-154", page: "154", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Du lịch sông nước kết hợp với du lịch nông nghiệp</p>
@@ -2068,19 +2068,19 @@ const chapters = [
   },
 
   {
-    id: "trang-155", page: "155", title: "TRANG 155",
+    id: "trang-155", page: "155", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Sông nước ở miền Tây (Ảnh: Booking Tour)</h2>
+        <p class="p-justify-indent"><strong>Sông nước ở miền Tây (Ảnh: Booking Tour)</strong></p>
         <p class="p-justify-indent">Một địa phương khác cũng ở Đồng bằng sông Cửu Long được bao bọc bởi sông Tiền và sông Hậu và các kênh, rạch mang nhiều phù sa bồi đắp cho miệt vườn, ruộng đồng là tỉnh Đồng Tháp cũng đang tận dụng lợi thế để phát triển du lịch.</p>
-        <p class="p-justify-indent">c) Phú Quốc (An Giang) - &quot;Đảo Ngọc&quot; điểm đến nghỉ dưỡng cao cấp</p>
+        <h3 class="h3-indent">c) Phú Quốc (An Giang) - &quot;Đảo Ngọc&quot; điểm đến nghỉ dưỡng cao cấp</h3>
         <p class="p-justify-indent">Phú Quốc “đảo Ngọc” của Việt Nam là thiên đường nghỉ dưỡng nổi tiếng với những bãi biển trong xanh, cát trắng mịn và hệ sinh thái nguyên sơ hiếm có. Nằm trong vịnh Thái Lan, Phú Quốc cuốn hút du khách bởi vẻ đẹp dung hòa giữa biển trời khoáng đạt và những trải nghiệm văn hóa, ẩm thực đặc sắc. Từ những khu nghỉ dưỡng sang trọng, những làng chài bình yên, cho đến rừng nguyên sinh kỳ vĩ, Phú Quốc mang đến hành trình khám phá đa dạng, phù hợp cho mọi du khách. Không chỉ vậy, hòn đảo này còn là điểm đến du lịch xanh đang phát triển mạnh, hướng đến sự bền vững và cân bằng với thiên nhiên.</p>
       </div>
     `
   },
 
   {
-    id: "trang-156", page: "156", title: "TRANG 156",
+    id: "trang-156", page: "156", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Phú quốc - Đảo Ngọc của Đông Nam Á (Ảnh: VTV)</p>
@@ -2091,7 +2091,7 @@ const chapters = [
   },
 
   {
-    id: "trang-157", page: "157", title: "TRANG 157",
+    id: "trang-157", page: "157", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Những năm gần đây, nhờ sự quan tâm của Trung ương, sự nỗ lực không ngừng của toàn hệ thống chính trị, doanh nghiệp và người dân, Phú Quốc đã phát triển vượt bậc, mạnh mẽ. Thương hiệu “Du lịch Phú Quốc” ngày càng được khẳng định trên bản đồ du lịch thế giới, trở thành điểm đến của hàng triệu du khách, đóng góp quan trọng vào tăng trưởng chung.</p>
@@ -2104,7 +2104,7 @@ const chapters = [
   },
 
   {
-    id: "trang-158", page: "158", title: "TRANG 158",
+    id: "trang-158", page: "158", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Hòn Thơm Paradise Island, quần thể nghỉ dưỡng, giải trí cao cấp, biệt thự sang trọng, cáp treo 3 dây dài nhất thế giới 7,999 km, Sun Grand City Hillside Residence &amp; Sun Premier Village Primavera, khu đô thị ven biển mang phong cách Địa Trung Hải, quảng trường, tháp đồng hồ, các tuyến phố nghệ thuật.</p>
@@ -2116,7 +2116,7 @@ const chapters = [
   },
 
   {
-    id: "trang-159", page: "159", title: "TRANG 159",
+    id: "trang-159", page: "159", title: "CHƯƠNG 6: DU LỊCH VÙNG TÂY NGUYÊN VÀ",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 6: DU LỊCH VÙNG TÂY NGUYÊN VÀ</h1>
@@ -2129,20 +2129,20 @@ const chapters = [
   },
 
   {
-    id: "trang-160", page: "160", title: "TRANG 160",
+    id: "trang-160", page: "160", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đáng chú ý, một số nhóm loại hình, sản phẩm du lịch mà chỉ Tây Nguyên mới có như: Không gian đặc trưng của các buôn làng, các giá trị kiến trúc nghệ thuật như nhà rông - nơi sinh hoạt văn hóa cộng đồng, nhà dài - đặc trưng kiến trúc cư trú, nhà mồ và nghệ thuật tượng nhà mồ; kho tàng âm nhạc hết sức phong phú và độc đáo với nhiều loại, nhóm và chất liệu khác nhau.</p>
         <p class="p-justify-indent">Bên cạnh đó, các sản phẩm du lịch sinh thái tiêu biểu của vùng gồm thám hiểm, nghiên cứu các hệ sinh thái vườn quốc gia, hang động, núi lửa; du lịch có trách nhiệm với cộng đồng và môi trường; du lịch sinh thái nông nghiệp nông thôn, du lịch trang trại (Farmstay); du lịch sinh thái nghỉ dưỡng núi và hồ trên núi,…</p>
         <p class="p-justify-indent">Những giá trị, tài nguyên đặc sắc này nếu được khai thác, phát  triển, sẽ tạo nên các sản phẩm du lịch độc đáo cho Tây Nguyên nói riêng và cả nước nói chung. Từ đó, vừa góp phần bảo tồn các giá trị văn hóa truyền thống, đồng thời tạo nên thương hiệu và hình ảnh cho du lịch Tây Nguyên trên thị trường trong nước và quốc tế.</p>
-        <p class="p-base">a)​ Du lịch cộng đồng và văn hóa các dân tộc thiểu số</p>
+        <p class="p-justify-indent"><strong>a) Du lịch cộng đồng và văn hóa các dân tộc thiểu số</strong></p>
         <p class="p-justify-indent">Các tộc người thiểu số ở Việt Nam thường sinh sống thành cộng đồng, chủ yếu ở các vùng núi cao, vùng biên giới,… Họ có truyền thống văn hóa rất phong phú và đa dạng. Đây là nguồn tài nguyên quan trọng cho phát triển du lịch, tạo nên các sản phẩm du lịch văn hóa mang tính đặc thù, mang dấu ấn tộc người đậm nét. Trong 15 di sản văn hóa phi vật thể của Việt Nam được UNESCO ghi danh, có nhiều di sản thuộc về cộng đồng dân tộc thiểu số. Cho đến nay, đã có 127 di sản văn hóa truyền thống</p>
       </div>
     `
   },
 
   {
-    id: "trang-161", page: "161", title: "TRANG 161",
+    id: "trang-161", page: "161", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">của các tộc người thiểu số được ghi danh là di sản văn hóa phi vật thể quốc gia.</p>
@@ -2157,11 +2157,11 @@ const chapters = [
   },
 
   {
-    id: "trang-162", page: "162", title: "TRANG 162",
+    id: "trang-162", page: "162", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">mừng lúa mới, xuống đồng, là biểu hiện của tín ngưỡng, là phương tiện giao tiếp với siêu nhiên. Tất cả các lễ hội trong năm, từ lễ thổi tai cho trẻ sơ sinh đến lễ bỏ mả, lễ cúng máng nước, lễ mừng cơm mới, lễ đóng cửa kho, lễ đâm trâu, hay trong một buổi nghe khan,... đều phải có tiếng cồng chiêng như sợi dây kết nối những con người trong cùng một cộng đồng. Chính các đồng bào dân tộc ở Tây Nguyên đã thổi hồn và tiếp thêm sức sống cho Cồng chiêng Tây Nguyên để những âm thanh vang vọng khi ngân nga sâu lắng, khi thôi thúc trầm hùng, hòa quyện với tiếng suối, tiếng gió và tiếng lòng của đồng bào. Cồng chiêng là bằng chứng độc đáo, là nét đặc trưng của truyền thống văn hóa các dân tộc Tây Nguyên.</p>
-        <p class="p-justify-indent">b)​ Các điểm đến nổi bật: Đà Lạt, Pleiku, Buôn Ma Thuột</p>
+        <p class="p-justify-indent"><strong>b) Các điểm đến nổi bật: Đà Lạt, Pleiku, Buôn Ma Thuột</strong></p>
         <p class="p-justify-indent">Tây Nguyên là vùng cao nguyên rộng lớn, nổi tiếng với cảnh quan thiên nhiên hùng vĩ, nền văn hóa đa dạng của các dân tộc thiểu số, và là trung tâm sản xuất cà phê lớn nhất của Việt Nam. Ngoài ra, khí hậu mát mẻ, ôn hòa và con người thân thiện nơi đây sẽ níu bước chân du khách và mong một lần trở lại. Lễ hội cà phê, được Thủ tướng chính phủ công nhận mang tầm vóc một lễ hội cấp Quốc gia, tổ chức định kỳ hai năm một lần. Tại đây, quảng bá hình ảnh Buôn Ma Thuột, Đăk Lăk là vùng đất huyền thoại, giàu bản sắc dân tộc. Lễ hội nhằm tôn vinh cây cà phê.</p>
         <p class="p-justify-indent">Buôn Ma Thuột: các điểm du lịch như Bản Đôn, Thác Dray Sap, Thác Dray Nur, Bảo tàng dân tộc Đăk Lăk, Nhà đày Buôn Ma Thuột, Buôn Ako Dhong, Chùa Sắc Tứ Khải Đoan, Công viên nước Đăk Lăk, Làng cafe Trung Nguyên, Bảo tàng dân</p>
       </div>
@@ -2169,18 +2169,18 @@ const chapters = [
   },
 
   {
-    id: "trang-163", page: "163", title: "TRANG 163",
+    id: "trang-163", page: "163", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tộc Tây Nguyên, bảo tàng cafe thế giới, chợ Buôn Mê Thuột,... Lễ hội đâm trâu của người Ba Na là một lễ hội nhằm mục đích tế thần linh hoặc những người đã có công chủ trì thành lập buôn làng, ăn mừng chiến thắng, ăn mừng mùa màng bội thu hay ăn mừng các sự kiện quan trọng khác. Đây là một trong những lễ hội truyền thống của các dân tộc Tây Nguyên ở Việt Nam.</p>
-        <h2 class="h2-indent">Pleiku, Gia  Lai:  với  các điểm như Biển Hồ (Hồ</h2>
+        <p class="p-justify-indent"><strong>Pleiku, Gia  Lai:  với  các điểm như Biển Hồ (Hồ</strong></p>
         <p class="p-justify-indent">Đà Lạt không chỉ níu chân du khách bởi không khí mát lạnh dễ chịu mà còn những thắng cảnh thơ mộng, hữu tình như Hồ Xuân Hương, Thung Lũng Vàng, Đồi Mộng Mơ, Thung Lũng Tình Yêu, Langbiang, Thiền Viện Trúc Lâm, Đường Hầm Đất Sét,… hay trải nghiệm trong các nhà vườn dâu Hiệp Lực, vườn dâu Biofresh hay Làng hoa Thái Phiên. Đà Lạt có lễ hội lớn nhất là Festival Hoa Đà Lạt, được tổ chức 2 năm 1 lần, vào các năm lẻ dịp cuối năm.</p>
       </div>
     `
   },
 
   {
-    id: "trang-164", page: "164", title: "TRANG 164",
+    id: "trang-164", page: "164", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Du khách cưỡi voi vượt sông Srêpôk tại Trung tâm du lịch Buôn Đôn. (Nguồn: Báo Dân Trí)</p>
@@ -2190,7 +2190,7 @@ const chapters = [
   },
 
   {
-    id: "trang-165", page: "165", title: "TRANG 165",
+    id: "trang-165", page: "165", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">trong phát triển du lịch giữa Nam Trung Bộ và Tây Nguyên. Do đó, các hoạt động liên kết, hợp tác là chiến lược lâu dài, phù hợp và quan trọng đối với sự phát triển du lịch của vùng Tây Nguyên hiện nay.</p>
@@ -2201,31 +2201,31 @@ const chapters = [
   },
 
   {
-    id: "trang-166", page: "166", title: "TRANG 166",
+    id: "trang-166", page: "166", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Hồ Chí Minh; Lâm Đồng - An Giang; Lâm Đồng - Đồng Nai; Lâm Đồng - Quảng Trị, Lâm Đồng - Nghệ An,...). Tỉnh Đắk Lắk tổ chức hợp tác, liên kết phát triển du lịch với các tỉnh nội vùng (Lâm Đồng, Gia Lai, Quảng Ngãi) và các tỉnh, thành phố ngoại vùng (Hà Nội, Thành phố Hồ Chí Minh, Đà Nẵng, Đắk Lắk, Gia Lai, Quảng Ngãi, Thành phố Huế, Hà Tĩnh, Quảng Ninh). Tỉnh Gia Lai cũng có các chương trình hợp tác tương tự như hợp tác ngoại vùng (Thủ đô Hà Nội, Thành phố Hồ Chí Minh, Đắk Lắk, Gia Lai) và hợp tác với các tỉnh nội vùng (Quảng Ngãi, Đắk Lắk).</p>
         <h2 class="h2-indent">6.2. Du lịch miền núi phía Bắc</h2>
-        <p class="p-justify-indent">a)​ Hà Giang - Cao nguyên đá Đồng Văn (Công viên địa chất toàn cầu)</p>
+        <p class="p-justify-indent"><strong>a) Hà Giang - Cao nguyên đá Đồng Văn (Công viên địa chất toàn cầu)</strong></p>
         <p class="p-justify-indent">Cao nguyên đá Đồng Văn được vinh danh là “Điểm đến văn hóa hàng đầu châu Á” tại Giải thưởng Du lịch Thế giới (WTA) khu vực châu Á - châu Đại Dương năm 2025, ghi nhận những thành tựu nổi bật trong bảo tồn văn hóa bản địa, phát triển du lịch bền vững và bảo vệ hệ sinh thái. Trước đó, Hà Giang liên tiếp được WTA trao danh hiệu “Điểm đến du lịch mới nổi hàng đầu châu Á” năm 2023 và “Điểm đến văn hóa hàng đầu châu Á” năm 2024, khẳng định vị thế ngày càng nổi bật trên bản đồ du lịch khu vực.</p>
       </div>
     `
   },
 
   {
-    id: "trang-167", page: "167", title: "TRANG 167",
+    id: "trang-167", page: "167", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Nhà cổ Chúng Pủa có tuổi đời trăm năm ở xã Mèo Vạc, Tuyên Quang. (Ảnh: Vinh Gấu)</p>
         <p class="p-justify-indent">Đây còn là nơi sinh sống của 17 dân tộc anh em, hội tụ và giao thoa văn hóa đa dạng qua nhiều thế hệ. Những bản làng nép bên sườn đá, nếp nhà trình tường cổ, chợ phiên vùng cao, lễ hội khèn Mông, lễ cấp sắc của người Dao hay chợ tình Khau Vai đều là minh chứng cho sức sống văn hóa bền bỉ giữa thiên nhiên hùng vĩ.</p>
-        <p class="p-justify-indent">b)​ Lào Cai - Sa Pa: Du lịch vùng cao, ruộng bậc thang</p>
+        <p class="p-justify-indent"><strong>b) Lào Cai - Sa Pa: Du lịch vùng cao, ruộng bậc thang</strong></p>
         <p class="p-justify-indent">Ruộng bậc thang Sa Pa là biểu tượng văn hóa lâu đời của đồng bào các dân tộc thiểu số, phản ánh phương thức canh tác truyền thống và bản sắc địa phương. Trên nền tảng đó, nhiều sản phẩm du lịch trải nghiệm, đi bộ ngắm cảnh, homestay và quán cà phê sinh thái được phát triển theo hướng thân thiện với môi</p>
       </div>
     `
   },
 
   {
-    id: "trang-168", page: "168", title: "TRANG 168",
+    id: "trang-168", page: "168", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">trường, giữ nguyên không gian canh tác. Mô hình du lịch này vừa nâng cao giá trị cảnh quan, vừa góp phần bảo tồn văn hóa và phát triển du lịch bền vững cho Sa Pa.</p>
@@ -2236,7 +2236,7 @@ const chapters = [
   },
 
   {
-    id: "trang-169", page: "169", title: "TRANG 169",
+    id: "trang-169", page: "169", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">​ Du khách thích thú khi được đi bộ trên những con đường nhỏ giữa cánh đồng. (Ảnh: Đình Minh)</p>
@@ -2246,11 +2246,11 @@ const chapters = [
   },
 
   {
-    id: "trang-170", page: "170", title: "TRANG 170",
+    id: "trang-170", page: "170", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Mùa lúa xanh không chỉ là món quà của thiên nhiên, mà còn là điểm nhấn để du lịch Sa Pa phát triển bền vững, gắn với bản sắc và đời sống của người dân vùng cao.</p>
-        <p class="p-base">c)​ Điện Biên: Du lịch di tích lịch sử</p>
+        <p class="p-justify-indent"><strong>c) Điện Biên: Du lịch di tích lịch sử</strong></p>
         <p class="p-justify-indent">Tháng 5, tới tỉnh Điện Biên thăm những di tích lịch sử là một trải nghiệm ý nghĩa, tưởng nhớ những mất mát, hy sinh của bao máu xương quân và dân để làm nên chiến thắng “Lừng lẫy năm châu, chấn động địa cầu”. Nếu tới Điện Biên trong tháng 5 này, bạn đừng bỏ qua những điểm thăm quan ý nghĩa này nhé.</p>
         <p class="p-justify-indent">Một phần trong bức tranh panorama tại Bảo tàng Chiến thắng Điện Biên Phủ (Ảnh: VOV)</p>
         <p class="p-justify-indent">Tọa lạc  tại Phố 1, Phường Mường Thanh, Thành phố Điện Biên Phủ, tỉnh Điện Biên, Bảo tàng Điện Biên Phủ được xây</p>
@@ -2259,7 +2259,7 @@ const chapters = [
   },
 
   {
-    id: "trang-171", page: "171", title: "TRANG 171",
+    id: "trang-171", page: "171", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">dựng vào năm 1984 nhân dịp kỷ niệm 30 năm chiến thắng lịch sử Điện Biên Phủ.</p>
@@ -2271,7 +2271,7 @@ const chapters = [
   },
 
   {
-    id: "trang-172", page: "172", title: "TRANG 172",
+    id: "trang-172", page: "172", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Lựa chọn Bảo tàng là điểm đến đầu tiên trong chuyến thăm quan lịch sử sẽ giúp bạn có hiểu biết toàn cảnh hơn và hiểu sâu hơn ý nghĩa của những địa điểm lịch sử tiếp theo.</p>
@@ -2283,19 +2283,19 @@ const chapters = [
   },
 
   {
-    id: "trang-173", page: "173", title: "TRANG 173",
+    id: "trang-173", page: "173", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Tượng đài chiến thắng Điện Biên Phủ là niềm tự hào của nhân dân các dân tộc tỉnh Điện Biên. Đây cũng là điểm dừng chân không thể bỏ qua mỗi khi du khách đến mảnh đất lịch sử anh hùng Điện Biên.</p>
         <p class="p-justify-indent">Đồi A1 nằm ở phường Mường Thanh, thành phố Điện Biên Phủ, tỉnh Điện Biên. Trong chiến dịch Điện Biên Phủ, đồi A1 nằm ở vị  trí chiến lược đặc biệt quan trọng, được coi là “cuống họng” bảo vệ phân khu trung tâm, trực tiếp bảo vệ căn hầm của tướng De Castries.</p>
         <p class="p-justify-indent">Tên A1 là tên quân đội ta đặt cho ngọn đồi này, còn trước đây ngọn đồi này có những tên gọi khác nhau như Lạng Chượng, Eliane 2.</p>
-        <h2 class="h2-indent">Dấu tích hố Bộc phá trên đồi A1 (Ảnh: NDĐT)</h2>
+        <p class="p-justify-indent"><strong>Dấu tích hố Bộc phá trên đồi A1 (Ảnh: NDĐT)</strong></p>
       </div>
     `
   },
 
   {
-    id: "trang-174", page: "174", title: "TRANG 174",
+    id: "trang-174", page: "174", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Trên đỉnh đồi có căn hầm cố thủ, vốn là hầm rượu vang của toà công sứ Pháp trước năm 1945. Sau khi nhảy dù chiếm đóng Điện Biên Phủ, quân Pháp đã cho củng cố căn hầm ngầm thành một cứ điểm quân sự. Hầm được chia thành hai ngăn, trong đó một ngăn là nơi làm việc của bộ phận thông tin điện đài. Hầm được làm bằng những vật liệu vô cùng chắc chắn bốn bên là tường gạch kiên cố, mái hầm được đổ những lớp bê tông dày, khi cần thiết có thể dùng làm nơi ẩn nấp cho hàng chục người. Trên đồi A1 vẫn vẹn nguyên dấu tích hố Bộc phá được tạo thành bởi 960kg thuốc nổ.</p>
@@ -2306,10 +2306,10 @@ const chapters = [
   },
 
   {
-    id: "trang-175", page: "175", title: "TRANG 175",
+    id: "trang-175", page: "175", title: "",
     content: `
       <div class="content-container">
-        <h2 class="h2-indent">Nghĩa trang liệt sĩ quốc gia đồi A1. (Ảnh: dulichdienbien)</h2>
+        <p class="p-justify-indent"><strong>Nghĩa trang liệt sĩ quốc gia đồi A1. (Ảnh: dulichdienbien)</strong></p>
         <p class="p-justify-indent">Nơi đây là nơi an nghỉ của 644 cán bộ, chiến sĩ quân đội đã hy sinh anh dũng để bảo vệ tổ quốc trong chiến dịch Điện Biên Phủ. Năm 1994, nghĩa trang được tu bổ, quy hoạch và xây dựng thành một công trình lịch sử văn hóa, một nghĩa trang công viên với nhiều hạng mục. Bên trong khuôn viên là nhà quản trang được thiết kế theo kiểu ngôi nhà sàn đặc trưng của người Thái Điện Biên, lễ đài bên ngoài được thiết kế theo lối Khuê Văn Các, hai bên là hai kiểu tường thành cổ với hai hào nước phía trước rộng 6m. Bên ngoài tường thành là bức phù điêu đắp nổi tái hiện lại sự chiến đấu anh dũng của quân và dân ta trong suốt chín năm kháng chiến trường kỳ giành lại độc lập dân tộc.</p>
         <p class="p-justify-indent">Được mệnh danh là căn hầm kiên cố nhất Đông Dương một thời - Căn hầm chỉ huy của tướng De Castries ở Điện Biên Phủ được thực dân Pháp xây dựng rất kỳ công, ở trung tâm tập</p>
       </div>
@@ -2317,7 +2317,7 @@ const chapters = [
   },
 
   {
-    id: "trang-176", page: "176", title: "TRANG 176",
+    id: "trang-176", page: "176", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">đoàn cứ điểm Điện Biên Phủ, thuộc cánh đồng Mường Thanh, huyện Điện Biên, tỉnh Điện Biên.</p>
@@ -2329,7 +2329,7 @@ const chapters = [
   },
 
   {
-    id: "trang-177", page: "177", title: "TRANG 177",
+    id: "trang-177", page: "177", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Toàn cảnh khu di tích Sở Chỉ huy chiến dịch Điện Biên Phủ</p>
@@ -2340,7 +2340,7 @@ const chapters = [
   },
 
   {
-    id: "trang-178", page: "178", title: "TRANG 178",
+    id: "trang-178", page: "178", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Di tích Lán ở và làm việc của Đại tướng Võ Nguyên Giáp (Ảnh: dulichdienbien)</p>
@@ -2352,7 +2352,7 @@ const chapters = [
   },
 
   {
-    id: "trang-179", page: "179", title: "TRANG 179",
+    id: "trang-179", page: "179", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Một điểm check-in săn mây trên đèo Pha Đin được du khách yêu thích</p>
@@ -2364,7 +2364,7 @@ const chapters = [
   },
 
   {
-    id: "trang-180", page: "180", title: "TRANG 180",
+    id: "trang-180", page: "180", title: "CHƯƠNG 7: HẠN CHẾ VÀ THÁCH THỨC CỦA",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 7: HẠN CHẾ VÀ THÁCH THỨC CỦA</h1>
@@ -2377,7 +2377,7 @@ const chapters = [
   },
 
   {
-    id: "trang-181", page: "181", title: "TRANG 181",
+    id: "trang-181", page: "181", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Môi trường du lịch tại một số điểm đến có dấu hiệu ô nhiễm và xuống cấp. Tình trạng rác thải, nước thải chưa được xử lý triệt để, xây dựng thiếu kiểm soát, xâm lấn cảnh quan tự nhiên và di sản văn hóa diễn ra ở không ít nơi. Việc chạy theo lợi ích kinh tế ngắn hạn đã làm suy giảm giá trị tài nguyên, ảnh hưởng đến tính bền vững của du lịch trong dài hạn.</p>
@@ -2390,7 +2390,7 @@ const chapters = [
   },
 
   {
-    id: "trang-182", page: "182", title: "TRANG 182",
+    id: "trang-182", page: "182", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Các hạn chế của du lịch Việt Nam xuất phát từ cả nguyên nhân khách quan và chủ quan. Về khách quan, điều kiện kinh tế - xã hội còn nhiều khó khăn, nguồn lực đầu tư cho du lịch chưa đáp ứng nhu cầu phát triển nhanh của ngành. Bên cạnh đó, các biến động toàn cầu như dịch bệnh, khủng hoảng kinh tế, biến đổi khí hậu đã tác động mạnh đến hoạt động du lịch, làm gián đoạn chuỗi cung ứng và thay đổi hành vi tiêu dùng của du khách.</p>
@@ -2402,7 +2402,7 @@ const chapters = [
   },
 
   {
-    id: "trang-183", page: "183", title: "TRANG 183",
+    id: "trang-183", page: "183", title: "CHƯƠNG 8: KINH NGHIỆM PHÁT TRIỂN DU LỊCH CỦA",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 8: KINH NGHIỆM PHÁT TRIỂN DU LỊCH CỦA</h1>
@@ -2416,7 +2416,7 @@ const chapters = [
   },
 
   {
-    id: "trang-184", page: "184", title: "TRANG 184",
+    id: "trang-184", page: "184", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cũng tại sự kiện, Bộ trưởng Du lịch và Thể thao Thái Lan Sudawan Wangsupakitkosol đã công bố “5 chiến lược” của Chính phủ Thái Lan nhằm thúc đẩy du lịch sau khi tham khảo ý kiến của các cơ quan, doanh nghiệp trong lĩnh vực này trong thời gian qua.</p>
@@ -2430,7 +2430,7 @@ const chapters = [
   },
 
   {
-    id: "trang-185", page: "185", title: "TRANG 185",
+    id: "trang-185", page: "185", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">- Chiến lược 5 nhằm biến Thái Lan trở thành trung tâm sự kiện đẳng cấp thế giới. Thái Lan sẽ được quảng bá là điểm đến của các lễ hội đẳng cấp thế giới về âm nhạc, thể thao, ẩm thực và phong cách sống. Các sự kiện đã được xác nhận sẽ tổ chức ở Thái Lan gồm Summer Sonic Bangkok 2024, KAWS Arts, Moto GP và Giải vô địch bóng chuyền thế giới.</p>
@@ -2445,7 +2445,7 @@ const chapters = [
   },
 
   {
-    id: "trang-186", page: "186", title: "TRANG 186",
+    id: "trang-186", page: "186", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhỏ&quot;. Tổng cục Du lịch Singapore đang hợp tác chặt chẽ với các bên liên quan trong ngành du lịch nhằm thực hiện chiến lược và lộ trình bền vững của điểm đến cho ngành du lịch phù hợp với Kế hoạch Xanh.</p>
@@ -2456,7 +2456,7 @@ const chapters = [
   },
 
   {
-    id: "trang-187", page: "187", title: "TRANG 187",
+    id: "trang-187", page: "187", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Singapore đã hợp tác chặt chẽ với Australia, Chile, New Zealand và Mỹ để phát triển công nghệ carbon thấp như thu giữ, sử dụng và lưu trữ carbon (CCUS).</p>
@@ -2470,7 +2470,7 @@ const chapters = [
   },
 
   {
-    id: "trang-188", page: "188", title: "TRANG 188",
+    id: "trang-188", page: "188", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Du khách Việt tham quan quảng trường Merdeka, với tòa tháp Merdeka 118 tầng, có biểu tượng độc lập của Malaysia. (Ảnh: Báo Nhân dân)</p>
@@ -2483,7 +2483,7 @@ const chapters = [
   },
 
   {
-    id: "trang-189", page: "189", title: "TRANG 189",
+    id: "trang-189", page: "189", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">diện tới các thị trường chính như Trung Quốc, Ấn Độ, Indonesia, Việt Nam và Australia, cùng các thị trường thứ cấp như Hàn Quốc, Saudi Arabia và Vương quốc Anh.</p>
@@ -2497,7 +2497,7 @@ const chapters = [
   },
 
   {
-    id: "trang-190", page: "190", title: "TRANG 190",
+    id: "trang-190", page: "190", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ông Wisnu nhấn mạnh: “Nhiều làng du lịch sở hữu những nét độc đáo cả về môi trường tự nhiên lẫn văn hóa. Do vậy, đây sẽ là điểm thu hút khách du lịch đến tham quan.”</p>
@@ -2511,7 +2511,7 @@ const chapters = [
   },
 
   {
-    id: "trang-191", page: "191", title: "TRANG 191",
+    id: "trang-191", page: "191", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Những lâu đài cổ kính là điểm hấp dẫn du khách tại Nhật Bản (Ảnh: VOV)</p>
@@ -2522,7 +2522,7 @@ const chapters = [
   },
 
   {
-    id: "trang-192", page: "192", title: "TRANG 192",
+    id: "trang-192", page: "192", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">gạo” mà không lo bị chặt chém hay bị ăn bớt dịch vụ. Hầu hết dịch vụ du lịch tại Nhật Bản đều rất rõ ràng, minh bạch, tạo sự yên tâm; điều đó vô cùng cần thiết để giữ chân du khách, cũng như chào mời du khách quay lại.</p>
@@ -2536,7 +2536,7 @@ const chapters = [
   },
 
   {
-    id: "trang-193", page: "193", title: "TRANG 193",
+    id: "trang-193", page: "193", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Andong là một trong những ngôi làng cổ truyền của Hàn Quốc. Nó được bảo tồn rất tốt và là điểm đến du lịch văn hóa hấp dẫn của đất nước.</p>
@@ -2549,7 +2549,7 @@ const chapters = [
   },
 
   {
-    id: "trang-194", page: "194", title: "TRANG 194",
+    id: "trang-194", page: "194", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">pháo hoa lớn nhất của Hàn Quốc. Nó được tổ chức vào tháng 4 hàng năm tại thành phố Daegu và thu hút hàng trăm nghìn du khách); Lễ hội Bongeunsa (một trong những lễ hội Phật giáo lớn nhất của Hàn Quốc. Nó được tổ chức vào tháng 5 hàng năm tại đền Bongeunsa ở Seoul); Festival Hoa Anh Đào (một trong những sự kiện văn hóa nổi tiếng tại Hàn Quốc. Festival này được tổ chức hàng năm vào mùa xuân tại Seoul và các thành phố khác trên toàn quốc). Du khách có thể tham gia vào các tour du lịch văn hóa tại Hàn Quốc trong thời gian này để tận hưởng vẻ đẹp tuyệt vời của hoa anh đào và tham gia các hoạt động văn hóa truyền thống.</p>
@@ -2560,7 +2560,7 @@ const chapters = [
   },
 
   {
-    id: "trang-195", page: "195", title: "TRANG 195",
+    id: "trang-195", page: "195", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">hướng toàn cầu và đưa Hàn Quốc trở thành một điểm du lịch mới cho những người yêu thích K-drama.</p>
@@ -2574,7 +2574,7 @@ const chapters = [
   },
 
   {
-    id: "trang-196", page: "196", title: "TRANG 196",
+    id: "trang-196", page: "196", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đối với Việt Nam, việc xây dựng thương hiệu du lịch quốc gia cần được tiếp cận một cách bài bản hơn. Hiện nay, hình ảnh du lịch Việt Nam vẫn còn phân tán, thiếu điểm nhấn rõ ràng và chưa tạo được dấu ấn mạnh mẽ trong tâm trí du khách quốc tế. Do đó, Việt Nam cần xác định rõ giá trị cốt lõi của thương hiệu du lịch, tập trung vào những lợi thế nổi trội như di sản văn hóa, thiên nhiên đa dạng, ẩm thực đặc sắc và con người thân thiện, từ đó phát triển thông điệp truyền thông thống nhất trên các thị trường trọng điểm.</p>
@@ -2586,7 +2586,7 @@ const chapters = [
   },
 
   {
-    id: "trang-197", page: "197", title: "TRANG 197",
+    id: "trang-197", page: "197", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Travel, 72% du khách quốc tế tìm kiếm thông tin qua nền tảng trực tuyến trước khi quyết định điểm đến. Do đó, đầu tư vào chiến lược quảng bá kỹ thuật số, sử dụng mạng xã hội, hợp tác với các influencer du lịch nổi tiếng và tối ưu hóa công cụ tìm kiếm (SEO) trên các trang web du lịch là giải pháp quan trọng để nâng cao nhận diện thương hiệu du lịch Việt Nam.</p>
@@ -2598,7 +2598,7 @@ const chapters = [
   },
 
   {
-    id: "trang-198", page: "198", title: "TRANG 198",
+    id: "trang-198", page: "198", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Một góc VinWonders Phú Quốc được đầu tư quy mô và hiện đại. (Ảnh: CTV/Vietnam+)</p>
@@ -2610,7 +2610,7 @@ const chapters = [
   },
 
   {
-    id: "trang-199", page: "199", title: "TRANG 199",
+    id: "trang-199", page: "199", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Capital…, hàng loạt các khu nghỉ dưỡng, trung tâm giải trí lớn ở các vùng du lịch trọng điểm như chuỗi khách sạn Vinpearl Nha Trang, Phú Quốc, Hạ Long, hệ thống cáp treo tại Đà Nẵng, Sa Pa, Hạ Long… đã ra đời.</p>
@@ -2623,7 +2623,7 @@ const chapters = [
   },
 
   {
-    id: "trang-200", page: "200", title: "TRANG 200",
+    id: "trang-200", page: "200", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ngoài ra, kết nối hàng không quốc tế và nội địa đóng vai trò đặc biệt quan trọng. Việc mở thêm các đường bay thẳng, tăng tần suất chuyến bay và nâng cao chất lượng dịch vụ hàng không sẽ giúp Việt Nam tiếp cận gần hơn với các thị trường du lịch lớn, giảm chi phí và thời gian di chuyển cho du khách.</p>
@@ -2636,7 +2636,7 @@ const chapters = [
   },
 
   {
-    id: "trang-201", page: "201", title: "TRANG 201",
+    id: "trang-201", page: "201", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nhằm chinh phục dòng khách này, những năm qua, hàng loạt cơ sở lưu trú cao cấp 4-5 sao đã được đầu tư xây dựng tại nước ta, cùng với đó là sự phát triển của nhiều sản phẩm du lịch cao cấp như du lịch golf, du lịch tàu biển, du lịch trực thăng, bay khinh khí cầu…</p>
@@ -2649,7 +2649,7 @@ const chapters = [
   },
 
   {
-    id: "trang-202", page: "202", title: "TRANG 202",
+    id: "trang-202", page: "202", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">●​Phát triển du lịch bền vững, có trách nhiệm</p>
@@ -2663,7 +2663,7 @@ const chapters = [
   },
 
   {
-    id: "trang-203", page: "203", title: "TRANG 203",
+    id: "trang-203", page: "203", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">động trọng tâm của ngành, đơn vị trong phát triển du lịch có trách nhiệm ở mỗi thời điểm cụ thể.</p>
@@ -2677,7 +2677,7 @@ const chapters = [
   },
 
   {
-    id: "trang-204", page: "204", title: "TRANG 204",
+    id: "trang-204", page: "204", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">chất của mình trước khi đặt phòng, bộ phận sales có thể áp dụng công nghệ này để giảm chi phí công tác mà vẫn đảm bảo giới thiệu sản phẩm đến với các đối tác.</p>
@@ -2689,7 +2689,7 @@ const chapters = [
   },
 
   {
-    id: "trang-205", page: "205", title: "TRANG 205",
+    id: "trang-205", page: "205", title: "CHƯƠNG 9: ĐỊNH HƯỚNG PHÁT TRIỂN DU LỊCH VIỆT",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 9: ĐỊNH HƯỚNG PHÁT TRIỂN DU LỊCH VIỆT</h1>
@@ -2703,7 +2703,7 @@ const chapters = [
   },
 
   {
-    id: "trang-206", page: "206", title: "TRANG 206",
+    id: "trang-206", page: "206", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ước tính, tổng giá trị xuất khẩu từ du lịch trên toàn cầu (bao gồm cả vận chuyển hành khách) đạt mức kỷ lục 1,9 nghìn tỷ USD năm 2024, tăng khoảng 3% so với so với năm 2019.</p>
@@ -2716,7 +2716,7 @@ const chapters = [
   },
 
   {
-    id: "trang-207", page: "207", title: "TRANG 207",
+    id: "trang-207", page: "207", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">bất ổn xã hội khi lượng khách du lịch giảm đi do tác động của khí hậu nóng lên.</p>
@@ -2729,7 +2729,7 @@ const chapters = [
   },
 
   {
-    id: "trang-208", page: "208", title: "TRANG 208",
+    id: "trang-208", page: "208", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thách thức như chất lượng sản phẩm chưa đồng đều, nguồn nhân lực còn hạn chế, hạ tầng và xúc tiến quốc tế chưa tương xứng, cũng như sự cạnh tranh gay gắt từ các quốc gia trong khu vực.</p>
@@ -2743,7 +2743,7 @@ const chapters = [
   },
 
   {
-    id: "trang-209", page: "209", title: "TRANG 209",
+    id: "trang-209", page: "209", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">130–135 tỷ USD, đóng góp 15–17% GDP, tạo khoảng 8,5 triệu việc làm; đón ít nhất 50 triệu lượt khách quốc tế và 160 triệu lượt khách nội địa.</p>
@@ -2755,7 +2755,7 @@ const chapters = [
   },
 
   {
-    id: "trang-210", page: "210", title: "TRANG 210",
+    id: "trang-210", page: "210", title: "CHƯƠNG 10: GIẢI PHÁP PHÁT TRIỂN DU LỊCH VIỆT",
     content: `
       <div class="content-container">
         <h1 class="h1-center">CHƯƠNG 10: GIẢI PHÁP PHÁT TRIỂN DU LỊCH VIỆT</h1>
@@ -2770,7 +2770,7 @@ const chapters = [
   },
 
   {
-    id: "trang-211", page: "211", title: "TRANG 211",
+    id: "trang-211", page: "211", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Một yếu tố quan trọng khác là định vị thương hiệu du lịch quốc gia. Du lịch Việt Nam chưa xây dựng được hình ảnh du lịch quốc gia nhất quán như nhiều quốc gia khác. Để nâng cao sức cạnh tranh, Việt Nam cần đầu tư trọng điểm, lựa chọn hình ảnh đại diện đủ tầm cỡ để quảng bá ra quốc tế.</p>
@@ -2782,7 +2782,7 @@ const chapters = [
   },
 
   {
-    id: "trang-212", page: "212", title: "TRANG 212",
+    id: "trang-212", page: "212", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Về giải pháp tăng cường hỗ trợ của nhà nước cho phát triển du lịch, Nghị quyết xác định quan điểm “Ưu tiên đầu tư để phát triển du lịch thực sự trở thành ngành kinh tế mũi nhọn thông qua các chương trình, đề án, chính sách ưu đãi”.</p>
@@ -2795,7 +2795,7 @@ const chapters = [
   },
 
   {
-    id: "trang-213", page: "213", title: "TRANG 213",
+    id: "trang-213", page: "213", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Theo Nghị quyết 52-NQ/TW năm 2019 thì Đổi mới tư duy, thống nhất nhận thức, tăng cường vai trò lãnh đạo của Đảng, quản lý của Nhà nước, phát huy sự tham gia của Mặt trận Tổ quốc, các tổ chức chính trị-xã hội như sau:</p>
@@ -2808,7 +2808,7 @@ const chapters = [
   },
 
   {
-    id: "trang-214", page: "214", title: "TRANG 214",
+    id: "trang-214", page: "214", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tư. Xây dựng cơ chế hợp tác giữa Nhà nước và các doanh nghiệp, hiệp hội doanh nghiệp trong xây dựng và thực thi các chính sách.</p>
@@ -2821,7 +2821,7 @@ const chapters = [
   },
 
   {
-    id: "trang-215", page: "215", title: "TRANG 215",
+    id: "trang-215", page: "215", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bộ Văn hóa, Thể thao và Du lịch đề nghị các cơ quan, đơn vị triển khai thực hiện các nhiệm vụ trong quá trình thực hiện sắp xếp, sáp nhập tổ chức bộ máy, cụ thể như sau:</p>
@@ -2837,7 +2837,7 @@ const chapters = [
   },
 
   {
-    id: "trang-216", page: "216", title: "TRANG 216",
+    id: "trang-216", page: "216", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">+ Xây dựng dự thảo chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của đơn vị theo mẫu tại Phụ lục 04.</p>
@@ -2852,20 +2852,20 @@ const chapters = [
   },
 
   {
-    id: "trang-217", page: "217", title: "TRANG 217",
+    id: "trang-217", page: "217", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">+ Cung cấp danh sách đối tượng có nguyện vọng nghỉ hưu trước tuổi, thôi việc theo quy định tại Nghị định 178/2024/NĐ-CP theo mẫu tại Phụ lục 05.</p>
         <p class="p-base">●​Tăng cường phối hợp liên ngành</p>
         <p class="p-justify-indent">Tăng cường liên kết, hợp tác là yếu tố then chốt đổi mới, nâng cao hiệu quả quảng bá xúc tiến du lịch</p>
-        <h2 class="h2-indent">Các đại biểu tham dự hội nghị. Ảnh: TITC</h2>
+        <p class="p-justify-indent"><strong>Các đại biểu tham dự hội nghị. Ảnh: TITC</strong></p>
         <p class="p-justify-indent">Sự quay lại của các hoạt động xúc tiến sôi động, quy mô lớn. Phát biểu tại hội nghị, Thứ trưởng Hồ An Phong nhấn mạnh ý nghĩa quan trọng của hội nghị nhằm bàn về việc thúc đẩy, đổi mới công tác xúc tiến du lịch - được xác định là một nhiệm vụ chính trị trọng tâm của ngành Du lịch năm 2025 và những năm tiếp theo theo chỉ đạo của Chính phủ, Thủ tướng Chính phủ tại Nghị quyết 82/NQ-CP và Chỉ thị 08/CT-TTg.</p>
       </div>
     `
   },
 
   {
-    id: "trang-218", page: "218", title: "TRANG 218",
+    id: "trang-218", page: "218", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thứ trưởng Bộ VHTTDL Hồ An Phong phát biểu tại hội nghị. Ảnh: TITC</p>
@@ -2875,7 +2875,7 @@ const chapters = [
   },
 
   {
-    id: "trang-219", page: "219", title: "TRANG 219",
+    id: "trang-219", page: "219", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Với yêu cầu đặt ra là cần đi vào tăng trưởng theo chiều sâu, chất lượng, công tác quảng bá xúc tiến du lịch cũng cần được đổi mới, nâng cao chất lượng, hiệu quả hoạt động, phân khúc thị trường, quảng bá du lịch trúng đích. Thứ trưởng nhấn mạnh, năm 2025, kế hoạch của Bộ VHTTDL bao gồm nhiều nhiệm vụ quảng bá xúc tiến và hỗ trợ phát triển du lịch. Trong đó, điểm nhấn sẽ là quảng bá Năm Du lịch Quốc gia 2025.</p>
@@ -2888,7 +2888,7 @@ const chapters = [
   },
 
   {
-    id: "trang-220", page: "220", title: "TRANG 220",
+    id: "trang-220", page: "220", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Pháp luật trong lĩnh vực du lịch là hệ thống các quy phạm pháp luật do Nhà nước ban hành hoặc thừa nhận và bảo đảm thực hiện để điều chỉnh các quan hệ xã hội phát sinh trong quá trình tổ chức và hoạt động du lịch, bao gồm các quy định về: tài nguyên du lịch; quy hoạch phát triển du lịch; khu du lịch, điểm du lịch, tuyến du lịch và đô thị du lịch; khách du lịch; kinh doanh du lịch; hướng dẫn du lịch; xúc tiến du lịch; hợp tác quốc tế về du lịch; thanh tra du lịch, giải quyết yêu cầu, kiến nghị của khách du lịch.</p>
@@ -2902,7 +2902,7 @@ const chapters = [
   },
 
   {
-    id: "trang-221", page: "221", title: "TRANG 221",
+    id: "trang-221", page: "221", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">- Tổ chức, cá nhân kinh doanh du lịch được hưởng mức ưu đãi, hỗ trợ đầu tư cao nhất khi Nhà nước ban hành, áp dụng các chính sách về ưu đãi và hỗ trợ đầu tư.</p>
@@ -2922,7 +2922,7 @@ const chapters = [
   },
 
   {
-    id: "trang-222", page: "222", title: "TRANG 222",
+    id: "trang-222", page: "222", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">+ Phát triển du lịch tại nơi có tiềm năng du lịch; sử dụng nhân lực du lịch tại địa phương;</p>
@@ -2937,7 +2937,7 @@ const chapters = [
   },
 
   {
-    id: "trang-223", page: "223", title: "TRANG 223",
+    id: "trang-223", page: "223", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">năm 2019 (trước dịch bệnh) doanh thu từ du lịch đạt 755.000 tỷ đồng, tương đương 12,5% GDP hiện hành. Trong 9 tháng năm 2023, ngành du lịch tiếp tục có những đóng góp quan trọng khi doanh thu lưu trú, ăn uống và dịch vụ lữ hành đạt 526,5 nghìn tỷ đồng (tương đương 7,24% GDP ), trong đó doanh thu dịch vụ lưu trú, ăn uống tăng 16% và du lịch lữ hành tăng 47,7% so cùng kỳ năm trước.</p>
@@ -2948,7 +2948,7 @@ const chapters = [
   },
 
   {
-    id: "trang-224", page: "224", title: "TRANG 224",
+    id: "trang-224", page: "224", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">●​Cơ chế đặc thù phát triển du lịch</p>
@@ -2960,7 +2960,7 @@ const chapters = [
   },
 
   {
-    id: "trang-225", page: "225", title: "TRANG 225",
+    id: "trang-225", page: "225", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Phó Cục trưởng Cục Du lịch Quốc gia Việt Nam Phạm Văn Thủy</p>
@@ -2971,21 +2971,21 @@ const chapters = [
   },
 
   {
-    id: "trang-226", page: "226", title: "TRANG 226",
+    id: "trang-226", page: "226", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nhằm tháo gỡ những “điểm nghẽn”, tạo động lực đưa du lịch phát triển nhanh, bền vững, các đại biểu tham dự Hội nghị đã đóng góp nhiều đề xuất, giải pháp, tập trung vào các nội dung như: đẩy mạnh cải cách hành chính, cải thiện môi trường đầu tư du lịch; thực hiện các cơ chế, chính sách nhằm hỗ trợ phát triển du lịch, nâng cao năng lực cạnh tranh quốc gia về du lịch; tăng cường hợp tác công - tư để huy động các nguồn lực xã hội cho phát triển du lịch; chủ động nghiên cứu, dự báo để có phương án đào tạo, bổ sung nguồn nhân lực du lịch chất lượng cao; điều chỉnh Luật Du lịch năm 2017 và các văn bản quy định chi tiết Luật cho phù hợp tình hình thực tiễn, tạo hành lang pháp lý rõ ràng cho công tác quản lý nhà nước góp phần thúc đẩy ngành du lịch phát triển.</p>
         <h2 class="h2-indent">10.3. Phát triển sản phẩm du lịch đặc trưng, chất lượng cao</h2>
         <p class="p-justify-indent">●​Đa dạng hóa và nâng cao chất lượng sản phẩm</p>
         <p class="p-justify-indent">Trong những năm gần đây, du lịch đang ngày càng khẳng định vai trò là một trong những trụ cột quan trọng của nền kinh tế. Trong bối cảnh đó, việc đa dạng hóa hệ thống sản phẩm và dịch vụ không chỉ là xu hướng tất yếu mà còn là động lực thúc đẩy phát triển bền vững, gia tăng trải nghiệm và giá trị cho du khách.</p>
-        <h2 class="h2-indent">Gồm 4 dòng sản phẩm chính:</h2>
+        <p class="p-justify-indent"><strong>Gồm 4 dòng sản phẩm chính:</strong></p>
         <p class="p-justify-indent">Du lịch biển đảo được xác định là trụ cột mũi nhọn, động lực thu hút khách du lịch. Giải pháp là ưu tiên phát triển sản phẩm du lịch nghỉ dưỡng biển, đảo và du lịch thể thao, giải trí biển phù hợp định hướng Chiến lược phát triển bền vững kinh tế biển Việt Nam. Với đường bờ biển dài hơn 3.200km và hàng nghìn đảo lớn</p>
       </div>
     `
   },
 
   {
-    id: "trang-227", page: "227", title: "TRANG 227",
+    id: "trang-227", page: "227", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhỏ, cùng nhiều vịnh nổi tiếng như Hạ Long, Cát Bà, Nha Trang, Vĩnh Hy, Phú Quốc, Lý Sơn... cho thấy Việt Nam có tiềm năng to lớn để phát triển du lịch biển, đảo. Đây là dòng sản phẩm mũi nhọn, đóng vai trò quan trọng trong việc thu hút khách quốc tế và nội địa. Loại hình du lịch biển đảo không chỉ bao gồm nghỉ dưỡng, tắm biển, mà còn mở rộng sang du lịch thể thao biển, du lịch khám phá, du lịch tàu biển và du lịch kết hợp hội nghị (MICE).</p>
@@ -2996,7 +2996,7 @@ const chapters = [
   },
 
   {
-    id: "trang-228", page: "228", title: "TRANG 228",
+    id: "trang-228", page: "228", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bên cạnh đó, Việt Nam cũng đang tập trung khai thác thế mạnh ẩm thực đa dạng, đặc sắc của các vùng, miền để hình thành sản phẩm du lịch độc đáo, khác biệt, có lợi thế cạnh tranh, góp phần tạo dựng thương hiệu nổi bật của du lịch Việt Nam. Trong đó, xu hướng “trải nghiệm sống” đang được khai thác hiệu quả như homestay tại làng dân tộc, học nấu món ăn Việt, tham gia lễ hội dân gian... Từ đó tăng khả năng giữ chân khách lâu hơn, tăng chi tiêu và giá trị lan tỏa.</p>
@@ -3007,7 +3007,7 @@ const chapters = [
   },
 
   {
-    id: "trang-229", page: "229", title: "TRANG 229",
+    id: "trang-229", page: "229", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">vườn quốc gia, tạo nên một hệ sinh thái đa dạng phục vụ du khách trải nghiệm, khám phá thiên nhiên, tìm hiểu hệ động thực vật, trải nghiệm không gian xanh. Nhiều điểm đến nổi bật đã được đưa vào khai thác hiệu quả như Vườn quốc gia Cúc Phương, Phong Nha  - Kẻ Bàng, Cát Bà, Tràm Chim, Nam Cát Tiên, Mũi Cà Mau…</p>
@@ -3019,7 +3019,7 @@ const chapters = [
   },
 
   {
-    id: "trang-230", page: "230", title: "TRANG 230",
+    id: "trang-230", page: "230", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Thời gian qua, với vai trò quản lý nhà nước định hướng phát triển ngành, Cục Du lịch Quốc gia Việt Nam, Bộ Văn hóa, Thể thao và Du lịch đã chủ động kết nối du lịch với nhiều ngành, lĩnh vực liên quan khác để đa dạng hóa sản phẩm, thúc đẩy giá trị gia tăng trong trải nghiệm của du khách.</p>
@@ -3031,7 +3031,7 @@ const chapters = [
   },
 
   {
-    id: "trang-231", page: "231", title: "TRANG 231",
+    id: "trang-231", page: "231", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Việc phát triển du lịch gắn với bảo vệ tài nguyên, môi trường, bảo tồn, phát huy các giá trị di sản văn hóa cộng đồng là điều quan trọng để thúc đẩy phát triển bền vững tại nhiều địa phương. Điều này mang lại lợi ích to lớn trong thúc đẩy kinh tế - xã hội mỗi địa phương, đặc biệt, người dân được hưởng lợi từ chính di sản của cộng đồng của mình tạo ra.</p>
@@ -3043,7 +3043,7 @@ const chapters = [
   },
 
   {
-    id: "trang-232", page: "232", title: "TRANG 232",
+    id: "trang-232", page: "232", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đây là cách làm du lịch bảo tồn vẻ đẹp tự nhiên, văn hoá của tộc người, coi trọng vai trò cộng đồng, tránh làm mai một giá trị truyền thống. Nhờ phát triển du lịch, nhiều di sản văn hóa trước đây bị mai một thì nay đã được phục hồi, như nghề làm thuốc của người Dao, nghề thêu dệt thổ cẩm của người Thái ...</p>
@@ -3054,7 +3054,7 @@ const chapters = [
   },
 
   {
-    id: "trang-233", page: "233", title: "TRANG 233",
+    id: "trang-233", page: "233", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thiếu sự liên kết; chất lượng nguồn nhân lực đáp ứng không được đảm bảo... Tại nhiều địa phương, nhiều làng, bản của đồng bào dân tộc thiểu số có bản sắc văn hóa đa dạng nhưng phần lớn là các hộ gia đình nghèo, thiếu vốn hoặc kỹ năng để kinh doanh du lịch nên thường hợp tác với các doanh nghiệp để được hưởng lợi nhuận nhưng với tỷ lệ thấp và không ổn định. Sự chia sẻ lợi ích chưa công bằng giữa một số doanh nghiệp và cộng đồng dân cư địa phương dẫn tới việc chưa khuyến khích được người dân tham gia vào chuỗi hoạt động du lịch bền vững, chưa phát huy được vai trò chủ thể của người dân trong bảo tồn và phát huy giá trị di sản văn hóa, đồng thời đặt ra nhiều khó khăn trong giải quyết các vấn đề xã hội ở vùng đồng bào dân tộc thiểu số.</p>
@@ -3066,7 +3066,7 @@ const chapters = [
   },
 
   {
-    id: "trang-234", page: "234", title: "TRANG 234",
+    id: "trang-234", page: "234", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ứng dụng “Du lịch Việt Nam - Vietnam Travel” dành cho du khách trong và ngoài nước khi du lịch ở Việt Nam, hỗ trợ du khách tìm kiếm thông tin du lịch, bản đồ số du lịch, tra cứu doanh nghiệp lữ hành, cơ sở lưu trú, hướng dẫn viên, đặt phòng, đặt vé, thanh toán điện tử, quản lý tour du lịch, phản ánh tới cơ quan chức năng…</p>
@@ -3079,7 +3079,7 @@ const chapters = [
   },
 
   {
-    id: "trang-235", page: "235", title: "TRANG 235",
+    id: "trang-235", page: "235", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">đặc sắc, Việt Nam sẽ tiếp tục là điểm đến lý tưởng đối với du khách trên toàn cầu trong thời gian tới, góp phần hoàn thành các chỉ tiêu tăng trưởng của ngành.</p>
@@ -3092,7 +3092,7 @@ const chapters = [
   },
 
   {
-    id: "trang-236", page: "236", title: "TRANG 236",
+    id: "trang-236", page: "236", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Hệ thống giao thông vận tải của Việt Nam đã có sự liên kết bằng nhiều phương thức như: đường hàng không, đường biển và đường thủy, đường bộ, cũng như sự sẵn có của các dịch vụ hỗ trợ như: cung cấp nhiên liệu, nhà ga, bảo trì - sửa chữa phương tiện, trạm dừng chân... Các điều kiện này tương đối quan trọng để hệ thống giao thông vận tải có thể liên kết với các điểm đến du lịch tại các địa phương. Qua đó, có thể thấy, từ sự cải thiện của ngành Giao thông vận tải mà ngành Du lịch ngày càng được mở rộng, càng thể hiện được vai trò hỗ trợ lẫn nhau của hai ngành này trong phát triển kinh tế.</p>
@@ -3103,7 +3103,7 @@ const chapters = [
   },
 
   {
-    id: "trang-237", page: "237", title: "TRANG 237",
+    id: "trang-237", page: "237", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">trường hoặc tại các điểm đến du lịch. Đối với các khu vực đa dạng sinh học, sự phát triển của du lịch với việc tìm kiếm các điểm đến thay thế đã tạo ra một thị trường mới cho các khu bảo tồn thiên nhiên. Du lịch thiên nhiên được các chính phủ xem là một chiến lược kinh tế và bảo tồn được kết hợp chặt chẽ. Mặc dù các điểm đến du lịch được quy hoạch một cách cẩn thận, tuy nhiên, giao thông vận tải hiếm khi được xem xét trong quá trình này vì đôi khi chính Chính phủ ký các kế hoạch phát triển khai thác tài nguyên, môi trường  . Do đó, các nhà làm luật cần thiết phải nghiên cứu và ban hành các quy định để đảm bảo sự phát triển kinh tế một cách hài hòa trong từng lĩnh vực. Ngoài ra, phản biện của các chuyên gia và cả xã hội cũng có vai trò rất quan trọng để các cơ quan nhà nước có cách nhìn tổng thể hơn.</p>
@@ -3116,7 +3116,7 @@ const chapters = [
   },
 
   {
-    id: "trang-238", page: "238", title: "TRANG 238",
+    id: "trang-238", page: "238", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thành phần kinh tế để phát triển hạ tầng và cơ sở vật chất kỹ thuật phục vụ du lịch, trong đó có hệ thống cơ sở lưu trú du lịch. Qua quá trình tích lũy trong nhiều năm và những nỗ lực vượt bậc trong những năm gần đây, đến nay hệ thống cơ sở lưu trú du lịch Việt Nam đã vươn tầm phát triển cả về số lượng và chất lượng.</p>
@@ -3127,7 +3127,7 @@ const chapters = [
   },
 
   {
-    id: "trang-239", page: "239", title: "TRANG 239",
+    id: "trang-239", page: "239", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Khách sạn Continental Đà Nẵng Sun Peninsula Resort đạt nhiều giải thưởng danh giá ở trong nước và quốc tế</p>
@@ -3139,7 +3139,7 @@ const chapters = [
   },
 
   {
-    id: "trang-240", page: "240", title: "TRANG 240",
+    id: "trang-240", page: "240", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">vụ phân tích hành vi du khách, dự báo xu hướng thị trường, hỗ trợ công tác điều hành và xúc tiến.</p>
@@ -3152,7 +3152,7 @@ const chapters = [
   },
 
   {
-    id: "trang-241", page: "241", title: "TRANG 241",
+    id: "trang-241", page: "241", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Cửu Long; chia sẻ dữ liệu, kết nối sản phẩm và điểm đến qua biên giới địa phương; khuyến khích doanh nghiệp công nghệ cùng tham gia cung cấp giải pháp, cùng hưởng lợi từ hệ sinh thái du lịch số.</p>
@@ -3164,7 +3164,7 @@ const chapters = [
   },
 
   {
-    id: "trang-242", page: "242", title: "TRANG 242",
+    id: "trang-242", page: "242", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Mặc dù vậy, công tác bảo vệ môi trường tại các khu, điểm du lịch vẫn còn không ít khó khăn, bất cập. Vấn đề thu gom rác thải ở các bãi biển đã được cải thiện, song vẫn chưa được xử lý dứt điểm. Còn tại các khu di tích, việc thu gom, tiêu hủy rác còn chậm, nhất là thời điểm lễ hội. Nhiều doanh nghiệp không có hồ sơ đánh giá tác động môi trường, hoặc không thực hiện các biện pháp bảo vệ môi trường... Trong khi, môi trường tự nhiên có tầm quan trọng sống còn đối với ngành du lịch. Bởi môi trường không chỉ là nơi diễn ra các hoạt động du lịch; mà còn là nhân tố quyết định sức hấp dẫn của điểm đến. Chính vì lẽ đó, công tác bảo vệ môi trường cần được đặt ra và nhìn nhận một cách nghiêm túc, thấu đáo, để có giải pháp phù hợp và hiệu quả.</p>
@@ -3176,7 +3176,7 @@ const chapters = [
   },
 
   {
-    id: "trang-243", page: "243", title: "TRANG 243",
+    id: "trang-243", page: "243", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Trong bối cảnh Việt Nam hội nhập quốc tế ngày càng sâu rộng, ngành Du lịch đang gặp những thách thức không nhỏ về nhiều mặt, trong đó có yếu tố nguồn nhân lực. Nguồn nhân lực du lịch có vai trò quyết định đến chất lượng dịch vụ du lịch Việt Nam. Thời gian qua, công tác phát triển nguồn nhân lực du lịch mặc dù đã đạt được những kết quả nhất định, song vẫn còn tồn tại nhiều bất cập cần giải quyết nhằm đáp ứng yêu cầu hội nhập quốc tế. Nâng cao chất lượng đào tạo nguồn nhân lực du lịch chính là giải pháp quan trọng nhằm nâng cao chất lượng dịch vụ cho du lịch Việt Nam đáp ứng yêu cầu hội nhập quốc tế.</p>
@@ -3188,7 +3188,7 @@ const chapters = [
   },
 
   {
-    id: "trang-244", page: "244", title: "TRANG 244",
+    id: "trang-244", page: "244", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">2) Tuyển dụng nguồn nhân lực du lịch chất lượng cao, cho các vị trí làm việc ở tất cả các nhóm nhân lực quản lý nhà nước về du lịch, nhân lực sự nghiệp du lịch, nhân lực quản trị kinh doanh và nhân lực tác nghiệp;</p>
@@ -3202,7 +3202,7 @@ const chapters = [
   },
 
   {
-    id: "trang-245", page: "245", title: "TRANG 245",
+    id: "trang-245", page: "245", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Việc phát triển chất lượng nguồn nhân lực du lịch chất lượng cao chủ yếu được đánh giá thông qua các tiêu chí về sức khỏe, trình độ học vấn, chuyên môn và các năng lực phẩm chất cá nhân. Đặc trưng của ngành Du lịch là làm việc trực tiếp với cường độ kéo dài, áp lực lao động cao, vì thế điều kiện được xem là tiên quyết của nhân lực du lịch và nguồn nhân lực du lịch chất lượng cao là sức khỏe, gồm cả thể lực và trí lực. Người lao động cần rèn luyện để có một thể lực tốt bằng cách luyện tập thể dục, thể thao và có chế độ ăn uống hợp lý, chế độ nghỉ ngơi khoa học có thể đáp ứng được khối lượng lớn công việc dưới một áp lực khá cao. Chỉ khi có thể lực tốt thì mới có thể giữ cho tinh thần và trí tuệ được minh mẫn, sáng suốt, biến tri thức thành sức mạnh vật chất và tham gia vào quá trình lao động sản xuất trong hoạt động du lịch.</p>
@@ -3213,7 +3213,7 @@ const chapters = [
   },
 
   {
-    id: "trang-246", page: "246", title: "TRANG 246",
+    id: "trang-246", page: "246", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">cao, sự hài lòng của khách hàng phụ thuộc rất nhiều vào sự thuần thục của lực lượng nhân lực du lịch, trong đó có nguồn nhân lực du lịch chất lượng cao. Do đó, đòi hỏi tất cả những người hoạt động trong ngành Du lịch phải được đào tạo, dạy nghề, huấn luyện và bồi dưỡng qua các lớp nghiệp vụ, chuyên môn dài hạn hoặc ngắn hạn.</p>
@@ -3224,7 +3224,7 @@ const chapters = [
   },
 
   {
-    id: "trang-247", page: "247", title: "TRANG 247",
+    id: "trang-247", page: "247", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">việc thực hành các nghiệp vụ du lịch sẽ tạo tiền đề cho người học có kiến thức và kỹ năng vững vàng trước khi thực hiện các yêu cầu nghề nghiệp.</p>
@@ -3236,13 +3236,13 @@ const chapters = [
   },
 
   {
-    id: "trang-248", page: "248", title: "TRANG 248",
+    id: "trang-248", page: "248", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Việc phân chia cơ cấu nguồn nhân lực du lịch chất lượng cao du lịch hợp lý là khi cơ cấu giữa các nhóm nhân lực du lịch chất lượng cao tương ứng với các ngành nghề, vị trí công việc và sự phù hợp của các nhóm nhân lực du lịch chất lượng cao tương ứng với yêu cầu phát triển của doanh nghiệp, của không gian lãnh thổ du lịch, nhằm khai thác tối ưu nguồn lực doanh nghiệp và tài nguyên du lịch.</p>
         <p class="p-justify-indent">●​Đào tạo kỹ năng mềm và văn hóa ứng xử</p>
         <p class="p-justify-indent">Thực hiện Nghị quyết số 103/NQ-CP ngày 06/10/2017 của Chính phủ ban hành Chương trình hành động thực hiện Nghị quyết số 08-NQ/TW ngày 16/01/2017 của Bộ Chính trị khoá XII về phát triển du lịch trở thành ngành kinh tế mũi nhọn; thực hiện ý kiến chỉ đạo của Phó Thủ tướng Vũ Đức Đam tại Thông báo kết luận số 469/TB-VPCP ngày 06/10/2017 của Văn phòng Chính phủ về tình hình đào tạo nhân lực du lịch, theo đó, Bộ Giáo dục và Đào tạo ban hành Công văn số 4929/BGDĐT-GDĐH ngày 20/10/2017 hướng dẫn cơ chế đặc thù đào tạo nhân lực du lịch trình độ đại học giai đoạn 2017-2020 theo hướng đáp ứng tốt hơn yêu cầu của thị trường lao động và hội nhập quốc tế. Trong đó nhấn mạnh sự phối hợp chặt chẽ giữa các cơ sở giáo dục đại học với doanh nghiệp trong đào tạo là điều kiện bắt buộc để được thực hiện cơ chế đặc thù này.</p>
-        <h2 class="h2-indent">Về chương trình, nội dung, hình thức đào tạo:</h2>
+        <p class="p-justify-indent"><strong>Về chương trình, nội dung, hình thức đào tạo:</strong></p>
         <p class="p-justify-indent">1) Phải điều chỉnh theo hướng mở, dễ dàng chuyển đổi, liên thông; bao gồm các học phần cốt lõi và các học phần tự chọn.</p>
         <p class="p-justify-indent">2) Các học phần cốt lõi nhằm cung cấp kiến thức, kỹ năng nền tảng của ngành đào tạo.</p>
       </div>
@@ -3250,7 +3250,7 @@ const chapters = [
   },
 
   {
-    id: "trang-249", page: "249", title: "TRANG 249",
+    id: "trang-249", page: "249", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">3) Các học phần tự chọn theo hướng chuyên sâu về các lĩnh vực du lịch theo vùng miền, khu vực địa lý, loại hình du lịch...</p>
@@ -3265,7 +3265,7 @@ const chapters = [
   },
 
   {
-    id: "trang-250", page: "250", title: "TRANG 250",
+    id: "trang-250", page: "250", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">4) Khuyến khích sinh viên đã tốt nghiệp các ngành khác được chuyển sang học văn bằng thứ hai các ngành du lịch tại các cơ sở đào tạo du lịch.</p>
@@ -3278,7 +3278,7 @@ const chapters = [
   },
 
   {
-    id: "trang-251", page: "251", title: "TRANG 251",
+    id: "trang-251", page: "251", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">1) Thoả thuận doanh nghiệp là nơi thực hành, thực tập của cơ sở đào tạo; sử dụng cơ sở vật chất, trang thiết bị, phần mềm… của doanh nghiệp để đào tạo thực hành. Thời gian đào tạo tại các doanh nghiệp ít nhất bằng tổng thời gian thực hành, thực tập của chương trình đào tạo và không ít hơn 50% tổng thời gian thực hiện chương trình đào tạo.</p>
@@ -3292,7 +3292,7 @@ const chapters = [
   },
 
   {
-    id: "trang-252", page: "252", title: "TRANG 252",
+    id: "trang-252", page: "252", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Các doanh nghiệp cần chủ động theo dõi tình hình thị trường để tuyển dụng lao động nhằm bảo đảm số lượng, chất lượng lao động tương ứng với mức độ phục hồi của các thị trường khách du lịch. Để hỗ trợ, Sở Du lịch sẽ phối hợp, triển khai các chương trình đào tạo, tập huấn hỗ trợ doanh nghiệp du lịch. Trong đó, tập trung vào các khóa bồi dưỡng, tập huấn nghiệp vụ, kỹ năng phục vụ, chăm sóc khách hàng, thái độ phục vụ khách du lịch và tổ chức các chương trình giữ &quot;lửa nghề&quot; cho lao động ngành du lịch, tập huấn phòng, chống dịch Covid-19 trong hoạt động kinh doanh du lịch để bảo đảm chất lượng, nguồn nhân lực phục vụ du lịch.</p>
@@ -3305,7 +3305,7 @@ const chapters = [
   },
 
   {
-    id: "trang-253", page: "253", title: "TRANG 253",
+    id: "trang-253", page: "253", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">đam mê với ngành để có thể trở lại làm việc khi thị trường phục hồi.</p>
@@ -3318,7 +3318,7 @@ const chapters = [
   },
 
   {
-    id: "trang-254", page: "254", title: "TRANG 254",
+    id: "trang-254", page: "254", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Ngoài sự giúp đỡ của các địa phương, hiện, nhiều doanh nghiệp du lịch cũng đang liên kết với các trường đại học, vừa tuyển dụng nhân sự mới, vừa đào tạo lại, bổ sung các kỹ năng cho nhân sự cũ. Bên cạnh đó, họ cũng đưa ra các cam kết về thu nhập, nhằm thu hút trở lại các lao động có tay nghề cao trong ngành.</p>
@@ -3331,7 +3331,7 @@ const chapters = [
   },
 
   {
-    id: "trang-255", page: "255", title: "TRANG 255",
+    id: "trang-255", page: "255", title: "TÀI LIỆU THAM KHẢO",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đối với lực lượng lao động tuyển dụng mới, doanh nghiệp cần phối hợp với các cơ quan quản lý Nhà nước về du lịch, các cơ sở đào tạo để đào tạo về chuyên môn, nghiệp vụ, kỹ năng nghề nghiệp.</p>
@@ -3341,10 +3341,10 @@ const chapters = [
   },
 
   {
-    id: "trang-256", page: "256", title: "TRANG 256",
+    id: "trang-256", page: "256", title: "",
     content: `
       <div class="content-container">
-        <h4 class="h4-uppercase">TÀI LIỆU THAM KHẢO</h4>
+        <p class="p-justify-indent"><strong>TÀI LIỆU THAM KHẢO</strong></p>
         <p class="p-justify-indent">1.​ Bộ Văn hóa, Thể thao và Du lịch. (2020). Chiến lược phát triển du lịch Việt Nam đến năm 2030. Hà Nội.</p>
         <p class="p-justify-indent">2.​ Bộ Văn hóa, Thể thao và Du lịch. (2011). Quy hoạch tổng thể phát triển du lịch Việt Nam đến năm 2020, tầm nhìn đến năm 2030. Hà Nội.</p>
         <p class="p-justify-indent">3.​ Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam. (2017). Luật Du lịch. Nhà xuất bản Chính trị quốc gia Sự thật.</p>
@@ -3360,7 +3360,7 @@ const chapters = [
   },
 
   {
-    id: "trang-257", page: "257", title: "TRANG 257",
+    id: "trang-257", page: "257", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">11.​Trường Đại học Kinh tế Quốc dân. (2019). Giáo trình kinh tế du lịch. Nhà xuất bản Đại học Kinh tế Quốc dân.</p>
@@ -3372,10 +3372,10 @@ const chapters = [
   },
 
   {
-    id: "trang-258", page: "258", title: "TRANG 258",
+    id: "trang-258", page: "258", title: "",
     content: `
       <div class="content-container">
-        <h4 class="h4-uppercase">1. DANH MỤC BẢNG BIỂU</h4>
+        <h2 class="h2-indent">1. DANH MỤC BẢNG BIỂU</h2>
         <p class="p-justify-indent">Bảng 3.1. Bảng thống kê đa dạng sinh học Vịnh Hạ Long (Chương 3, mục 3.1)</p>
         <p class="p-justify-indent">Bảng 4.1. Phát triển hệ thống cơ sở lưu trú du lịch Việt Nam giai đoạn 1990–2019 (Chương 4, mục 4.3)</p>
       </div>
@@ -3383,7 +3383,7 @@ const chapters = [
   },
 
   {
-    id: "trang-259", page: "259", title: "TRANG 259",
+    id: "trang-259", page: "259", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bảng 4.2. Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam. (Ảnh: Trung tâm Thông tin Du lịch, 2025) (Chương 4, mục 4.3)</p>
@@ -3394,7 +3394,7 @@ const chapters = [
   },
 
   {
-    id: "trang-260", page: "260", title: "TRANG 260",
+    id: "trang-260", page: "260", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bảng 5.2. Vốn huy động từ NSNN cho PTDL tỉnh Nghệ An giai đoạn 2021 - 2023 (Nguồn: Sở Du lịch Nghệ An) (Chương 5 - Mục 5.2 - Ý a)</p>
@@ -3403,10 +3403,10 @@ const chapters = [
   },
 
   {
-    id: "trang-261", page: "261", title: "TRANG 261",
+    id: "trang-261", page: "261", title: "",
     content: `
       <div class="content-container">
-        <h3 class="h3-uppercase">2. CÁC YẾU TỐ ĐA PHƯƠNG TIỆN SỬ DỤNG TRONG BẢN</h3>
+        <h2 class="h2-indent">2. CÁC YẾU TỐ ĐA PHƯƠNG TIỆN SỬ DỤNG TRONG BẢN</h2>
         <p class="p-justify-indent">S   Tên file   Vị trí  Địn  Dung  Ngu   Nội dung ảnh T                 h    lượn  ồn T                 dạn  g g</p>
         <p class="p-justify-indent">1  Đờn  ca  Chư   JPG  264 tài tử    ơng        KB    ARTT  Một  tiết mục 1     -             IMES  Đờn ca  tài tử Mục                  được biểu diễn 1.3                             tại  Liên  hoan Đờn ca  tài tử “Hải  Phòng   - Miền   di  sản 2024”</p>
         <p class="p-justify-indent">2   2111.di_  Chư   JPG  211 san_van  ơng        KB    Cục    Di  tích Gò Cây _hoa_oc  1     -            Du     Thị A _eo-ba_  Mục                    lịch the1      1.3              Quốc Gia Việt Nam</p>
@@ -3416,7 +3416,7 @@ const chapters = [
   },
 
   {
-    id: "trang-262", page: "262", title: "TRANG 262",
+    id: "trang-262", page: "262", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">4   1.vinhha  Chư    jpg   581K  Báo    Di  sản   thiên long-chu  ơng        b     Nhân  nhiên  Vịnh Hạ ong3-3.   3     -             dân   Long 1.jpg    Mục 3.1</p>
@@ -3429,7 +3429,7 @@ const chapters = [
   },
 
   {
-    id: "trang-263", page: "263", title: "TRANG 263",
+    id: "trang-263", page: "263", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">9   6.tranga  Chư    jpg   1.28   Cục   Du lịch sinh thái n2-chuo  ơng        9Kb   Du     trên thuyền tại ng3-3.1.  3     -                   lịch     di sản UNESCO jpg     Mục             Quốc  Tràng An 3.1                    gia Việt Nam</p>
@@ -3442,7 +3442,7 @@ const chapters = [
   },
 
   {
-    id: "trang-264", page: "264", title: "TRANG 264",
+    id: "trang-264", page: "264", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Mục                   herit   tích văn hóa thế 3.2                age    giới Mỹ Sơn vietn am airlin es</p>
@@ -3454,7 +3454,7 @@ const chapters = [
   },
 
   {
-    id: "trang-265", page: "265", title: "TRANG 265",
+    id: "trang-265", page: "265", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">1   14.bieu   Chư    jpg   30Kb  Tổng   Biểu  đồ mức 7   do2-chu  ơng             hợp   khách quốc  tế ong4-4.   4     -              từ số  đến Việt Nam 2.jpg    Mục                   liệu 4.2                 cục Thốn g kê</p>
@@ -3467,7 +3467,7 @@ const chapters = [
   },
 
   {
-    id: "trang-266", page: "266", title: "TRANG 266",
+    id: "trang-266", page: "266", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Việt Nam</p>
@@ -3481,7 +3481,7 @@ const chapters = [
   },
 
   {
-    id: "trang-267", page: "267", title: "TRANG 267",
+    id: "trang-267", page: "267", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">5.2  -                 gia Ý b)              Phon g Nha- Kẻ Bàng</p>
@@ -3493,7 +3493,7 @@ const chapters = [
   },
 
   {
-    id: "trang-268", page: "268", title: "TRANG 268",
+    id: "trang-268", page: "268", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">3          Chư   JPG  276 0   Bản     ơng        KB    Đình  Bản làng thanh làng      6     -             Minh  bình giữa mùa thanh   Mục                         lúa xanh ở Sa Pa bình      6.2  - giữa     Ý b) mùa lúa xanh ở Sa Pa</p>
@@ -3504,7 +3504,7 @@ const chapters = [
   },
 
   {
-    id: "trang-269", page: "269", title: "TRANG 269",
+    id: "trang-269", page: "269", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">yêu thích.</p>
@@ -3515,7 +3515,7 @@ const chapters = [
   },
 
   {
-    id: "trang-270", page: "270", title: "TRANG 270",
+    id: "trang-270", page: "270", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">3          Chư   JPG  473 5  Cụm     ơng        KB    REDS  Cụm Tượng đài Tượng   6     -           VN    Chiến    thắng đài     Mục                    Điện Biên Phủ Chiến     6.2  -                        trên đồi D1 thắng    Ý c) Điện Biên Phủ trên đồi D1</p>
@@ -3527,7 +3527,7 @@ const chapters = [
   },
 
   {
-    id: "trang-271", page: "271", title: "TRANG 271",
+    id: "trang-271", page: "271", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">3          Chư   JPG  437 9   Toàn     ơng        KB      dulic   Toàn cảnh khu cảnh     6     -               hdie    di  tích Sở Chỉ khu   di  Mục                nbie   huy chiến dịch tích  Sở  6.2  -             nphu  Điện Biên Phủ Chỉ huy  Ý c) chiến dịch Điện Biên Phủ</p>
@@ -3538,7 +3538,7 @@ const chapters = [
   },
 
   {
-    id: "trang-272", page: "272", title: "TRANG 272",
+    id: "trang-272", page: "272", title: "",
     content: `
       <div class="content-container">
         <p class="p-base">Nguyên Giáp</p>
@@ -3550,7 +3550,7 @@ const chapters = [
   },
 
   {
-    id: "trang-273", page: "273", title: "TRANG 273",
+    id: "trang-273", page: "273", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">4   22.indo  Chư    jpg   126K   Indo  Một  ngôi  làng 5   nesia-ch  ơng        b      nesia  du lịch tại Bali, uong8-8  8     -                Trave  Indonesia. .1.jpg    Mục                               l 8.1</p>
@@ -3563,7 +3563,7 @@ const chapters = [
   },
 
   {
-    id: "trang-274", page: "274", title: "TRANG 274",
+    id: "trang-274", page: "274", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">5   congvan  Chư    jpg   82.6   Báo   Sắp  xếp,  kiện 0           ơng        Kb     điện   toàn tổ chức bộ 10   -             tử    máy của Bộ Văn Mục                       hóa, Thể  thao 10.1                       và Du lịch</p>
@@ -3577,7 +3577,7 @@ const chapters = [
   },
 
   {
-    id: "trang-275", page: "275", title: "TRANG 275",
+    id: "trang-275", page: "275", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">5   vanmieu  Chư    jpg   111K   Inter  Văn miếu Quốc 5  QTG     ơng        b      net   Tử Giám 10   - Mục 10.3</p>
@@ -3589,28 +3589,28 @@ const chapters = [
   },
 
   {
-    id: "trang-276", page: "276", title: "TRANG 276",
+    id: "trang-276", page: "276", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">3. DANH MỤC FOOTNOTE (chú thích)</p>
-        <h3 class="h3-uppercase">CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM</h3>
-        <h3 class="h3-uppercase">CHƯƠNG 4: PHÁT TRIỂN DU LỊCH VIỆT NAM THỜI KỲ ĐỔI</h3>
+        <h2 class="h2-indent">3. DANH MỤC FOOTNOTE (chú thích)</h2>
+        <p class="p-justify-indent"><strong>CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM</strong></p>
+        <p class="p-justify-indent"><strong>CHƯƠNG 4: PHÁT TRIỂN DU LỊCH VIỆT NAM THỜI KỲ ĐỔI</strong></p>
       </div>
     `
   },
 
   {
-    id: "trang-277", page: "277", title: "TRANG 277",
+    id: "trang-277", page: "277", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Nam Dân chủ Cộng hòa ký ban hành Nghị định số 26 CP về việc thành lập Công ty Du lịch Việt Nam trực thuộc Bộ Ngoại thương. 2. Du lịch MICE: Là loại hình du lịch kết hợp hội họp, khen thưởng, hội nghị và triển lãm, được tổ chức cho các doanh nghiệp, tổ chức hoặc đoàn khách lớn. Không chỉ dừng ở việc tham dự sự kiện, MICE còn gắn với lưu trú cao cấp, dịch vụ chuyên nghiệp và các hoạt động tham quan, trải nghiệm tại điểm đến. Đây là phân khúc du lịch có mức chi tiêu cao và đóng vai trò quan trọng trong việc nâng tầm hình ảnh điểm đến. 3. Trekking: Là hình thức du lịch đi bộ đường dài, thường diễn ra ở địa hình tự nhiên như rừng núi, đồi cao hoặc vùng hoang sơ, kết hợp khám phá cảnh quan và trải nghiệm đời sống bản địa.</p>
-        <h3 class="h3-uppercase">CHƯƠNG 5: DU LỊCH CÁC VÙNG KINH TẾ TRỌNG ĐIỂM</h3>
+        <p class="p-justify-indent"><strong>CHƯƠNG 5: DU LỊCH CÁC VÙNG KINH TẾ TRỌNG ĐIỂM</strong></p>
       </div>
     `
   },
 
   {
-    id: "trang-278", page: "278", title: "TRANG 278",
+    id: "trang-278", page: "278", title: "",
     content: `
       <div class="content-container">
         <p class="p-justify-indent">lịch đa dạng, góp phần nâng cao hình ảnh Malaysia trên bản đồ du lịch toàn cầu.</p>
@@ -3619,7 +3619,7 @@ const chapters = [
   },
 
   {
-    id: "trang-279", page: "279", title: "TRANG 279",
+    id: "trang-279", page: "279", title: "",
     content: `
       <div style="height:100%; display:flex; align-items:center; justify-content:center;">
         <img src="assets/icons/ebook_img/sample.png" alt="Sample Image" style="max-height:100%; width:auto; display:block; object-fit:contain;" />

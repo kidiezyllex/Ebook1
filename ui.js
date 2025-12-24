@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnFullscreen = document.getElementById("btn-fullscreen");
   const btnNote = document.getElementById("btn-note");
   const btnHighlight = document.getElementById("btn-highlight");
-  const btnSettings = document.getElementById("btn-settings");  
+  const btnSettings = document.getElementById("btn-settings");
 
   const reader = document.getElementById("reader");
   const readerContent = document.getElementById("reader-content");
@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (typeof scrollToBottom === "function") scrollToBottom();
   });
   overlay.addEventListener("click", () => {
-  closeRightSidebar();
-});
+    closeRightSidebar();
+  });
 
 
   /* =========================
@@ -213,52 +213,52 @@ document.addEventListener("DOMContentLoaded", () => {
   /* =========================
      Refresh header titles
      ========================= */
-function refreshHeader() {
-  const titleEl = document.getElementById("chapter-title");
-  const secEl = document.getElementById("section-title");
-  if (!titleEl || !secEl) return;
-  if (typeof chapters === "undefined" || typeof currentChapterIndex === "undefined") return;
+  function refreshHeader() {
+    const titleEl = document.getElementById("chapter-title");
+    const secEl = document.getElementById("section-title");
+    if (!titleEl || !secEl) return;
+    if (typeof chapters === "undefined" || typeof currentChapterIndex === "undefined") return;
 
-  const ch = chapters[currentChapterIndex];
-  if (!ch) {
-    titleEl.textContent = "";
-    secEl.textContent = "";
-    return;
-  }
-
-  titleEl.textContent = ch.title || "";
-
-  // lấy h2 hiện hành trong readerContent
-  if (!readerContent) {
-    secEl.textContent = "";
-    return;
-  }
-
-  const h2s = Array.from(readerContent.querySelectorAll("h2"));
-  if (h2s.length === 0) {
-    secEl.textContent = "";
-    return;
-  }
-
-  // chọn h2 "hiện hành" dựa trên scrollTop (h2 có offsetTop <= scrollTop + margin)
-  const margin = 8; // bạn có thể tinh chỉnh
-  const scrollTop = readerContent.scrollTop;
-
-  let currentText = "";
-  for (let i = 0; i < h2s.length; i++) {
-    const h = h2s[i];
-    const off = h.offsetTop;
-    if (off <= scrollTop + margin) {
-      currentText = h.textContent;
-    } else {
-      break;
+    const ch = chapters[currentChapterIndex];
+    if (!ch) {
+      titleEl.textContent = "";
+      secEl.textContent = "";
+      return;
     }
-  }
-  // nếu chưa có h2 nào thỏa (chưa cuộn xuống), lấy h2 đầu tiên
-  if (!currentText) currentText = h2s[0].textContent;
 
-  secEl.textContent = currentText || "";
-}
+    titleEl.textContent = ch.title || "";
+
+    // lấy h2 hiện hành trong readerContent
+    if (!readerContent) {
+      secEl.textContent = "";
+      return;
+    }
+
+    const subHeaders = Array.from(readerContent.querySelectorAll("h2, h3"));
+    if (subHeaders.length === 0) {
+      secEl.textContent = "";
+      return;
+    }
+
+    // chọn header "hiện hành" dựa trên scrollTop (offsetTop <= scrollTop + margin)
+    const margin = 10;
+    const scrollTop = readerContent.scrollTop;
+
+    let currentText = "";
+    for (let i = 0; i < subHeaders.length; i++) {
+      const h = subHeaders[i];
+      const off = h.offsetTop;
+      if (off <= scrollTop + margin) {
+        currentText = h.textContent;
+      } else {
+        break;
+      }
+    }
+    // nếu chưa có header nào thỏa (chưa cuộn xuống), lấy header đầu tiên
+    if (!currentText) currentText = subHeaders[0].textContent;
+
+    secEl.textContent = currentText || "";
+  }
   setInterval(refreshHeader, 700);
 
   /* =========================
@@ -266,161 +266,161 @@ function refreshHeader() {
      ========================= */
   if (typeof renderTOC === "function") renderTOC();
 
-/* === POPUP HELPERS (safe + global) === */
-function _createOverlay() {
-  const o = document.createElement("div");
-  o.className = "popup-overlay";
-  o.tabIndex = -1;
-  return o;
-}
+  /* === POPUP HELPERS (safe + global) === */
+  function _createOverlay() {
+    const o = document.createElement("div");
+    o.className = "popup-overlay";
+    o.tabIndex = -1;
+    return o;
+  }
 
-function _createPopup(messageHtml) {
-  const p = document.createElement("div");
-  p.className = "popup";
-  p.role = "dialog";
-  p.ariaModal = "true";
-  p.innerHTML = `<div class="popup-message">${messageHtml}</div>`;
-  return p;
-}
-function getPopupRoot() {
-  return document.fullscreenElement === reader ? reader : document.body;
-}
-/* showAlert */
-function showAlert(message, options = {}) {
-  return new Promise((resolve) => {
-    const modalOverlay = _createOverlay();
-    const popup = _createPopup(escapeHtml(message));
-    const actions = document.createElement("div");
-    actions.className = "popup-actions";
-    const okBtn = document.createElement("button");
-    okBtn.className = "btn btn-primary btn-ok";
-    okBtn.textContent = options.okText || "OK";
-    actions.appendChild(okBtn);
-    popup.appendChild(actions);
-    modalOverlay.appendChild(popup);
-    getPopupRoot().appendChild(modalOverlay);
+  function _createPopup(messageHtml) {
+    const p = document.createElement("div");
+    p.className = "popup";
+    p.role = "dialog";
+    p.ariaModal = "true";
+    p.innerHTML = `<div class="popup-message">${messageHtml}</div>`;
+    return p;
+  }
+  function getPopupRoot() {
+    return document.fullscreenElement === reader ? reader : document.body;
+  }
+  /* showAlert */
+  function showAlert(message, options = {}) {
+    return new Promise((resolve) => {
+      const modalOverlay = _createOverlay();
+      const popup = _createPopup(escapeHtml(message));
+      const actions = document.createElement("div");
+      actions.className = "popup-actions";
+      const okBtn = document.createElement("button");
+      okBtn.className = "btn btn-primary btn-ok";
+      okBtn.textContent = options.okText || "OK";
+      actions.appendChild(okBtn);
+      popup.appendChild(actions);
+      modalOverlay.appendChild(popup);
+      getPopupRoot().appendChild(modalOverlay);
 
-    function cleanup(result) {
-      try { modalOverlay.remove(); } catch(e) {}
-      document.removeEventListener("keydown", onKey);
-      resolve(result);
-    }
-    function onKey(e) {
-      if (e.key === "Escape") cleanup(false);
-      if (e.key === "Enter") cleanup(true);
-    }
+      function cleanup(result) {
+        try { modalOverlay.remove(); } catch (e) { }
+        document.removeEventListener("keydown", onKey);
+        resolve(result);
+      }
+      function onKey(e) {
+        if (e.key === "Escape") cleanup(false);
+        if (e.key === "Enter") cleanup(true);
+      }
 
-    okBtn.addEventListener("click", () => cleanup(true));
-    modalOverlay.addEventListener("click", (ev) => {
-      if (ev.target === modalOverlay && options.backdropClose) cleanup(false);
+      okBtn.addEventListener("click", () => cleanup(true));
+      modalOverlay.addEventListener("click", (ev) => {
+        if (ev.target === modalOverlay && options.backdropClose) cleanup(false);
+      });
+      document.addEventListener("keydown", onKey);
+      okBtn.focus();
     });
-    document.addEventListener("keydown", onKey);
-    okBtn.focus();
-  });
-}
+  }
 
-/* showConfirm */
-function showConfirm(message, options = {}) {
-  return new Promise((resolve) => {
-    const modalOverlay = _createOverlay();
-    const popup = _createPopup(escapeHtml(message));
-    const actions = document.createElement("div");
-    actions.className = "popup-actions";
+  /* showConfirm */
+  function showConfirm(message, options = {}) {
+    return new Promise((resolve) => {
+      const modalOverlay = _createOverlay();
+      const popup = _createPopup(escapeHtml(message));
+      const actions = document.createElement("div");
+      actions.className = "popup-actions";
 
-    const cancelBtn = document.createElement("button");
-    cancelBtn.className = "btn btn-secondary btn-cancel";
-    cancelBtn.textContent = options.cancelText || "Hủy";
+      const cancelBtn = document.createElement("button");
+      cancelBtn.className = "btn btn-secondary btn-cancel";
+      cancelBtn.textContent = options.cancelText || "Hủy";
 
-    const confirmBtn = document.createElement("button");
-    confirmBtn.className = "btn btn-primary btn-confirm";
-    confirmBtn.textContent = options.confirmText || "Xác nhận";
+      const confirmBtn = document.createElement("button");
+      confirmBtn.className = "btn btn-primary btn-confirm";
+      confirmBtn.textContent = options.confirmText || "Xác nhận";
 
-    actions.appendChild(cancelBtn);
-    actions.appendChild(confirmBtn);
-    popup.appendChild(actions);
-    modalOverlay.appendChild(popup);
-    getPopupRoot().appendChild(modalOverlay);
+      actions.appendChild(cancelBtn);
+      actions.appendChild(confirmBtn);
+      popup.appendChild(actions);
+      modalOverlay.appendChild(popup);
+      getPopupRoot().appendChild(modalOverlay);
 
-    function cleanup(result) {
-      try { modalOverlay.remove(); } catch(e) {}
-      document.removeEventListener("keydown", onKey);
-      resolve(result);
-    }
-    function onKey(e) {
-      if (e.key === "Escape") cleanup(false);
-      if (e.key === "Enter") cleanup(true);
-    }
+      function cleanup(result) {
+        try { modalOverlay.remove(); } catch (e) { }
+        document.removeEventListener("keydown", onKey);
+        resolve(result);
+      }
+      function onKey(e) {
+        if (e.key === "Escape") cleanup(false);
+        if (e.key === "Enter") cleanup(true);
+      }
 
-    confirmBtn.addEventListener("click", () => cleanup(true));
-    cancelBtn.addEventListener("click", () => cleanup(false));
-    modalOverlay.addEventListener("click", (ev) => {
-      if (ev.target === modalOverlay && options.backdropClose) cleanup(false);
+      confirmBtn.addEventListener("click", () => cleanup(true));
+      cancelBtn.addEventListener("click", () => cleanup(false));
+      modalOverlay.addEventListener("click", (ev) => {
+        if (ev.target === modalOverlay && options.backdropClose) cleanup(false);
+      });
+      document.addEventListener("keydown", onKey);
+      confirmBtn.focus();
     });
-    document.addEventListener("keydown", onKey);
-    confirmBtn.focus();
-  });
-}
+  }
 
-/* showPrompt (build input element safely) */
-function showPrompt(message, defaultValue = "") {
-  return new Promise((resolve) => {
-    const modalOverlay = _createOverlay();
-    const popup = _createPopup(escapeHtml(message));
+  /* showPrompt (build input element safely) */
+  function showPrompt(message, defaultValue = "") {
+    return new Promise((resolve) => {
+      const modalOverlay = _createOverlay();
+      const popup = _createPopup(escapeHtml(message));
 
-    const input = document.createElement("input");
-    input.type = "text";
-    input.className = "popup-input";
-    input.style.width = "100%";
-    input.style.padding = "8px";
-    input.style.borderRadius = "8px";
-    input.style.border = "1px solid rgba(0,0,0,0.2)";
-    input.style.marginBottom = "14px";
-    input.value = defaultValue; // set as property (no double-escaping)
+      const input = document.createElement("input");
+      input.type = "text";
+      input.className = "popup-input";
+      input.style.width = "100%";
+      input.style.padding = "8px";
+      input.style.borderRadius = "8px";
+      input.style.border = "1px solid rgba(0,0,0,0.2)";
+      input.style.marginBottom = "14px";
+      input.value = defaultValue; // set as property (no double-escaping)
 
-    const actions = document.createElement("div");
-    actions.className = "popup-actions";
+      const actions = document.createElement("div");
+      actions.className = "popup-actions";
 
-    const cancelBtn = document.createElement("button");
-    cancelBtn.className = "btn btn-secondary btn-cancel";
-    cancelBtn.textContent = "Hủy";
+      const cancelBtn = document.createElement("button");
+      cancelBtn.className = "btn btn-secondary btn-cancel";
+      cancelBtn.textContent = "Hủy";
 
-    const okBtn = document.createElement("button");
-    okBtn.className = "btn btn-primary btn-ok";
-    okBtn.textContent = "OK";
+      const okBtn = document.createElement("button");
+      okBtn.className = "btn btn-primary btn-ok";
+      okBtn.textContent = "OK";
 
-    actions.appendChild(cancelBtn);
-    actions.appendChild(okBtn);
+      actions.appendChild(cancelBtn);
+      actions.appendChild(okBtn);
 
-    popup.appendChild(input);
-    popup.appendChild(actions);
-    modalOverlay.appendChild(popup);
-    getPopupRoot().appendChild(modalOverlay);
+      popup.appendChild(input);
+      popup.appendChild(actions);
+      modalOverlay.appendChild(popup);
+      getPopupRoot().appendChild(modalOverlay);
 
-    function cleanup(result) {
-      try { modalOverlay.remove(); } catch(e) {}
-      document.removeEventListener("keydown", onKey);
-      resolve(result);
-    }
-    function onKey(e) {
-      if (e.key === "Escape") cleanup(null);
-      if (e.key === "Enter") cleanup(input.value);
-    }
+      function cleanup(result) {
+        try { modalOverlay.remove(); } catch (e) { }
+        document.removeEventListener("keydown", onKey);
+        resolve(result);
+      }
+      function onKey(e) {
+        if (e.key === "Escape") cleanup(null);
+        if (e.key === "Enter") cleanup(input.value);
+      }
 
-    okBtn.onclick = () => cleanup(input.value);
-    cancelBtn.onclick = () => cleanup(null);
-    modalOverlay.addEventListener("click", (ev) => {
-      if (ev.target === modalOverlay) cleanup(null);
+      okBtn.onclick = () => cleanup(input.value);
+      cancelBtn.onclick = () => cleanup(null);
+      modalOverlay.addEventListener("click", (ev) => {
+        if (ev.target === modalOverlay) cleanup(null);
+      });
+
+      document.addEventListener("keydown", onKey);
+      input.focus();
+      input.select();
     });
+  }
 
-    document.addEventListener("keydown", onKey);
-    input.focus();
-    input.select();
-  });
-}
-
-/* expose globally so script.js can call them */
-window.showAlert = showAlert;
-window.showConfirm = showConfirm;
-window.showPrompt = showPrompt;
+  /* expose globally so script.js can call them */
+  window.showAlert = showAlert;
+  window.showConfirm = showConfirm;
+  window.showPrompt = showPrompt;
 
 });

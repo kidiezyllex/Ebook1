@@ -433,15 +433,57 @@ body {
   margin-top: 8px;
   padding-left: 8px;
   font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.sidebar .toc-item.toc-chapter span:first-child {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.sidebar .toc-item.toc-chapter span:last-child {
+  flex-shrink: 0;
+  font-weight: normal;
+  opacity: 0.8;
+  font-size: 0.9em;
 }
 
 .sidebar .toc-item.toc-section {
   padding-left: 22px;
-  /* mức indent — tăng nếu muốn lùi sâu hơn */
   font-size: 14px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
+}
+
+.sidebar .toc-item.toc-section span:first-child {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.sidebar .toc-item.toc-subsection {
+  padding-left: 36px;
+  font-size: 13.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  opacity: 0.9;
+}
+
+.sidebar .toc-item.toc-subsection span:first-child {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1;
 }
 
 /* palettes and lists */
@@ -472,6 +514,8 @@ body {
   background: transparent;
   cursor: pointer;
   border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .toc-item.active {
@@ -1241,6 +1285,15 @@ hr {
 }
 
 .h2-indent {
+  text-indent: 30px;
+  padding-left: 0 !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: var(--reader-font-size);
+}
+
+.h3-indent {
   text-indent: 30px;
   padding-left: 0 !important;
   margin-top: 15px;

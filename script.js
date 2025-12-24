@@ -231,37 +231,38 @@ function renderTOC() {
   tocEl.innerHTML = "";
 
   chapters.forEach((chapter, chIndex) => {
-    // CHƯƠNG (button)
-    const chBtn = document.createElement("button");
-    chBtn.className = "toc-item toc-chapter";
-    chBtn.innerHTML = `<span>${chapter.title}</span><span style="float:right; font-weight:normal; opacity:0.8; font-size:0.9em;">${chapter.page}</span>`;
-    chBtn.dataset.index = chIndex; // dùng cho highlight
-    chBtn.addEventListener("click", () => {
-      goToChapter(chIndex, { focus: true, resetScroll: true });
-    });
-    tocEl.appendChild(chBtn);
+    // Only add chapter button if title is not empty
+    if (chapter.title && chapter.title.trim() !== "") {
+      const chBtn = document.createElement("button");
+      chBtn.className = "toc-item toc-chapter";
+      chBtn.innerHTML = `<span>${chapter.title}</span><span style="float:right; font-weight:normal; opacity:0.8; font-size:0.9em;">${chapter.page}</span>`;
+      chBtn.dataset.index = chIndex;
+      chBtn.addEventListener("click", () => {
+        goToChapter(chIndex, { focus: true, resetScroll: true });
+      });
+      tocEl.appendChild(chBtn);
+    }
 
-    // MỤC (h2) - lấy từ nội dung tạm
+    // MỤC (h2, h3) - always check content for sub-headers
     const temp = document.createElement("div");
     temp.innerHTML = chapter.content || "";
-    const h2List = temp.querySelectorAll("h2");
+    const subHeaders = temp.querySelectorAll("h2, h3");
 
-    if (h2List.length > 0) {
-      h2List.forEach((h2, h2Index) => {
-        const h2Btn = document.createElement("button");
-        h2Btn.className = "toc-item toc-section";
-        h2Btn.textContent = h2.textContent;
-        // lưu chapter + section để có thể highlight/kiểm tra
-        h2Btn.dataset.chapterIndex = chIndex;
-        h2Btn.dataset.sectionIndex = h2Index;
+    if (subHeaders.length > 0) {
+      subHeaders.forEach((sh, shIndex) => {
+        const btn = document.createElement("button");
+        const isH2 = sh.tagName.toLowerCase() === "h2";
+        btn.className = isH2 ? "toc-item toc-section" : "toc-item toc-subsection";
+        btn.innerHTML = `<span>${sh.textContent}</span><span style="font-weight:normal; opacity:0.8; font-size:0.9em; flex-shrink:0;">${chapter.page}</span>`;
+        btn.dataset.chapterIndex = chIndex;
+        btn.dataset.sectionIndex = shIndex;
 
-        // **GỌI ĐÚNG**: truyền options.sectionIndex
-        h2Btn.addEventListener("click", (e) => {
+        btn.addEventListener("click", (e) => {
           e.stopPropagation();
-          goToChapter(chIndex, { sectionIndex: h2Index, focus: true });
+          goToChapter(chIndex, { sectionIndex: shIndex, focus: true });
         });
 
-        tocEl.appendChild(h2Btn);
+        tocEl.appendChild(btn);
       });
     }
   });
@@ -319,11 +320,11 @@ function goToChapter(index, options = {}) {
 
     const positions = loadScrollPositions();
 
-    // 1️⃣ Nếu có yêu cầu nhảy tới mục (h2)
+    // 1️⃣ Nếu có yêu cầu nhảy tới mục (h2 hoặc h3)
     if (typeof options.sectionIndex === "number") {
-      const h2s = readerContent.querySelectorAll("h2");
-      if (h2s[options.sectionIndex]) {
-        h2s[options.sectionIndex].scrollIntoView({
+      const shs = readerContent.querySelectorAll("h2, h3");
+      if (shs[options.sectionIndex]) {
+        shs[options.sectionIndex].scrollIntoView({
           behavior: "auto",
           block: "start"
         });
