@@ -3662,8 +3662,71 @@ const chapters = [
     content: `
       <div class="content-container">
         <h2 class="h2-indent">1. DANH MỤC BẢNG BIỂU</h2>
-        <p class="p-justify-indent">Bảng 3.1. Bảng thống kê đa dạng sinh học Vịnh Hạ Long (Chương 3, mục 3.1)</p>
-        <p class="p-justify-indent">Bảng 4.1. Phát triển hệ thống cơ sở lưu trú du lịch Việt Nam giai đoạn 1990–2019 (Chương 4, mục 4.3)</p>
+        <p class="p-justify-indent"><strong>Bảng 3.1. Bảng thống kê đa dạng sinh học Vịnh Hạ Long (Chương 3, mục 3.1)</strong></p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">STT</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Nhóm loài</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Số lượng (loài)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">1</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Tổng số loài</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">~3.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Thực vật trên cạn</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">507</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">3</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Thực vật phù du</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">278</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">4</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Động vật phù du</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">141</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">5</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">San hô</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">110</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">6</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Cá biển</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">156</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">7</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Chim</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">71</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">8</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Thú</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">53</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">9</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Loài bị đe dọa</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">102 (64 động vật, 38 thực vật)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">10</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Thực vật đặc hữu</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">17</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <p class="p-justify-indent"><strong>Bảng 4.1. Phát triển hệ thống cơ sở lưu trú du lịch Việt Nam giai đoạn 1990–2019 (Chương 4, mục 4.3)</strong></p>
       </div>
     `
   },
@@ -3672,7 +3735,103 @@ const chapters = [
     id: "trang-259", page: "259", title: "",
     content: `
       <div class="content-container">
+      <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Năm</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Số cơ sở lưu trú (cơ sở)</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Số buồng (buồng)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">1990</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">350</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">16.700</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2000</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">3.200</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">72.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2005</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">6.600</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">145.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2010</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">12.000</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">237.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2015</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">19.000</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">370.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2019</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">30.000</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">650.000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
         <p class="p-base"><strong>Bảng 4.2. Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam. (Ảnh: Trung tâm Thông tin Du lịch, 2025) (Chương 4, mục 4.3)</strong></p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 2px solid #000; width: 40%;">Ngôn ngữ sử dụng</th>
+                <th style="text-align: center; padding: 8px; border: 2px solid #000;">Số lượng (người)</th>
+                <th style="text-align: center; padding: 8px; border: 2px solid #000;">Tỷ lệ (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Anh</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">12.810</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">53,4</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Trung Quốc</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">6.095</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">25,4</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Pháp</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">1.308</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">5,5</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Nhật Bản</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">712</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">3,0</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Nga</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">372</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">1,6</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Tiếng Đức</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">354</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">1,5</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 2px solid #000;">Ngôn ngữ khác</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">2.080</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000;">8,6</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000; font-weight: bold;">Tổng cộng</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000; font-weight: bold;">23.998</td>
+                <td style="text-align: center; padding: 8px; border: 2px solid #000; font-weight: bold;">100</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
         <p class="p-base"><strong>Bảng  5.1. Cơ sở du  lịch và lao động du  lịch  giai đoạn 2018-2023 của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</strong></p>
         <p class="p-base"><strong>(Chương 5 - Mục 5.2 - Ý a)</strong></p>
       </div>
