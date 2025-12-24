@@ -147,6 +147,10 @@ body {
   color: var(--reader-text-color);
 }
 
+#reader-content:focus {
+  outline: none;
+}
+
 #reader-content h1 {
   padding-left: 24px;
 }
@@ -1155,7 +1159,7 @@ hr {
 }
 
 #btn-top {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 #btn-top[data-tooltip]::after {
@@ -1164,17 +1168,17 @@ hr {
   right: auto;
   bottom: auto;
   margin-top: 14px;
-  transform: translateX(-50%) rotate(-90deg);
+  transform: translateX(-50%) rotate(90deg);
   transform-origin: center center;
   white-space: nowrap;
 }
 
 #btn-top[data-tooltip]:hover::after {
-  transform: translateX(-50%) rotate(-90deg);
+  transform: translateX(-50%) rotate(90deg);
 }
 
 #btn-bottom {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 
 #btn-bottom[data-tooltip]::after {
@@ -1183,13 +1187,13 @@ hr {
   right: auto;
   top: auto;
   margin-bottom: 14px;
-  transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%) rotate(-90deg);
   transform-origin: center center;
   white-space: nowrap;
 }
 
 #btn-bottom[data-tooltip]:hover::after {
-  transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%) rotate(-90deg);
 }
 
 /* Common content styling classes */

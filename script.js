@@ -64,6 +64,25 @@ function decreaseFontSize(step = 2) {
   const settings = loadSettings();
   setFontSize(settings.fontSize - step);
 }
+
+let currentReaderZoom = 1.0;
+function zoomPage(delta) {
+  const content = document.getElementById("reader-content");
+  if (!content) return;
+  currentReaderZoom += delta;
+  if (currentReaderZoom < 0.5) currentReaderZoom = 0.5;
+  if (currentReaderZoom > 3.0) currentReaderZoom = 3.0;
+
+  content.style.zoom = currentReaderZoom;
+}
+
+function zoomPageIn() {
+  zoomPage(0.1);
+}
+
+function zoomPageOut() {
+  zoomPage(-0.1);
+}
 function setFontByKey(key) {
   const root = document.documentElement;
 
@@ -383,10 +402,20 @@ function initReader() {
   if (readerContent) {
     readerContent.addEventListener("scroll", debouncedSaveScroll);
 
-    // Scroll-based navigation
     let isNavigating = false;
-    // Debounce nav to prevent skipping multiple chapters at once
     const resetNav = debounce(() => { isNavigating = false; }, 800);
+
+    let navDirection = 0;
+    let navLocked = false;
+
+    const unlockScroll = debounce(() => {
+      navLocked = false;
+    }, 150);
+
+    const resetScrollIntent = debounce(() => {
+      navDirection = 0;
+      navLocked = false;
+    }, 2000);
 
     readerContent.addEventListener("wheel", (e) => {
       if (isNavigating) return;
@@ -394,24 +423,50 @@ function initReader() {
       const scrollTop = readerContent.scrollTop;
       const scrollHeight = readerContent.scrollHeight;
       const clientHeight = readerContent.clientHeight;
-      const t = 1; // Tolerance
+      const t = 2;
 
-      // Check scroll UP at top
       if (e.deltaY < 0 && scrollTop <= t) {
         if (currentChapterIndex > 0) {
-          isNavigating = true;
-          goToChapter(currentChapterIndex - 1, { focus: true, scrollToBottom: true });
-          resetNav();
           e.preventDefault();
+
+          if (navDirection === -1 && !navLocked) {
+            isNavigating = true;
+            goToChapter(currentChapterIndex - 1, { focus: true, scrollToBottom: true });
+            resetNav();
+            navDirection = 0;
+            return;
+          }
+
+          if (navDirection !== -1) {
+            navDirection = -1;
+            navLocked = true;
+          }
+
+          navLocked = true;
+          unlockScroll();
+          resetScrollIntent();
         }
       }
-      // Check scroll DOWN at bottom
       else if (e.deltaY > 0 && Math.abs(scrollHeight - clientHeight - scrollTop) <= t) {
         if (currentChapterIndex < chapters.length - 1) {
-          isNavigating = true;
-          goToChapter(currentChapterIndex + 1, { focus: true, resetScroll: true });
-          resetNav();
           e.preventDefault();
+
+          if (navDirection === 1 && !navLocked) {
+            isNavigating = true;
+            goToChapter(currentChapterIndex + 1, { focus: true, resetScroll: true });
+            resetNav();
+            navDirection = 0;
+            return;
+          }
+
+          if (navDirection !== 1) {
+            navDirection = 1;
+            navLocked = true;
+          }
+
+          navLocked = true;
+          unlockScroll();
+          resetScrollIntent();
         }
       }
     }, { passive: false });
@@ -427,7 +482,6 @@ function initReader() {
   goToChapter(idx, { focus: false });
 }
 
-/* expose nav functions */
 window.goToChapter = goToChapter;
 window.goToNextChapter = goToNextChapter;
 window.goToPreviousChapter = goToPreviousChapter;
@@ -813,8 +867,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!readerContent) console.warn("Warning: element #reader-content not found in DOM");
 
   // Zoom buttons
-  document.getElementById("btn-zoomout")?.addEventListener("click", () => decreaseFontSize());
-  document.getElementById("btn-zoomin")?.addEventListener("click", () => increaseFontSize());
+  // Zoom buttons
+  document.getElementById("btn-zoomout")?.addEventListener("click", () => zoomPageOut());
+  document.getElementById("btn-zoomin")?.addEventListener("click", () => zoomPageIn());
 
   initReader();
 });
