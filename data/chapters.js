@@ -343,7 +343,7 @@ const chapters = [
       <div class="content-container">
         <h2 class="h2-indent">a. Du lịch có ngành nghề đa dạng</h2>
         <p class="p-justify-indent">Du lịch là ngành cung cấp các dịch vụ tham quan, nghỉ dưỡng cho du khách. Chính bởi xuất phát từ nhu cầu của khách hàng mà các sản phẩm du lịch rất đa dạng, không hề mang tính khuôn mẫu. Thậm chí, nó được hình thành ngay tức thời để làm hài lòng yêu cầu của du khách. Có thể thấy rằng, tâm lý khách hàng là yếu tố rất quan trọng để đánh giá sản phẩm du lịch. Nếu doanh nghiệp có khả năng nắm bắt tâm lý khách hàng tốt, xây dựng được những chiến lược du lịch hấp dẫn, chắc chắn sẽ thu hút được số lượng lớn khách hàng.</p>
-        <p class="p-justify-indent">b. Ngành du lịch gắn liền với sự phát triển kinh tế của đất nước</p>
+        <h2 class="h2-indent">b. Ngành du lịch gắn liền với sự phát triển kinh tế của đất nước</h2>
         <p class="p-justify-indent">Cuộc sống con người ngày càng cải thiện kéo theo nhu cầu về các hoạt động giải trí, thư giãn tinh thần. Ở nhiều quốc gia, du lịch trở thành ngành kinh tế mũi nhọn. Ngay tại Việt Nam, lượng công ty kinh doanh các hoạt động du lịch tăng lên đáng kể hàng năm. Việt Nam là một trong những quốc gia có tốc độ tăng trưởng du lịch nhanh nhất thế giới. Cho đến nay, du lịch Việt Nam cũng đạt nhiều giải thưởng danh giá mang tầm vóc châu lục và thế giới.</p>
         <h2 class="h2-indent">c. Khách hàng phong phú</h2>
         <p class="p-justify-indent">Khách hàng của ngành du lịch vô cùng phong phú, đa dạng. Người làm du lịch có thể tiếp xúc với mọi người thuộc nhiều tầng lớp, địa vị, quốc gia. Không chỉ vậy, mỗi khách hàng lại có những đặc điểm tâm lý riêng và nhu cầu sử dụng dịch vụ</p>
@@ -356,7 +356,7 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">khác nhau. Để đảm bảo chất lượng dịch vụ tốt nhất, người làm du lịch cần nắm chắc nhu cầu, tâm lý của từng đối tượng khách hàng. Từ đó, xây dựng, triển khai kế hoạch kinh doanh hiệu quả nhất có thể.</p>
-        <p class="p-justify-indent">d. Ngành Du lịch chịu sự chi phối của các quy luật nhất định</p>
+        <h2 class="h2-indent">d. Ngành Du lịch chịu sự chi phối của các quy luật nhất định</h2>
         <p class="p-justify-indent">Quy luật tự nhiên: Đây là quy luật có sự chi phối lớn nhất đến hoạt động kinh doanh ngành Du lịch – Khách sạn. Chẳng hạn như các địa điểm du lịch biển thường thu hút nhiều du khách vào mùa hè kéo theo đó sẽ rất nhiều dịch vụ phục vụ khách hàng trong những đợt cao điểm và ngược lại.</p>
         <p class="p-justify-indent">Quy luật kinh tế – xã hội: Quy luật này trực tiếp ảnh hưởng tới hoạt động kinh doanh bởi nó quyết định nhu cầu và khả năng chi trả của khách hàng.</p>
         <p class="p-justify-indent">Quy luật tâm lý con người: Đây là quy luật mà bất kỳ ai kinh doanh ngành Du lịch – Khách sạn cũng không được bỏ qua, nếu muốn mang lại lợi nhuận cao nhất cho doanh nghiệp của mình. Thực tế, các doanh nghiệp thường dựa trên sự phân tích các đặc điểm về tâm lý, nhân khẩu học của đối tượng khách hàng để đưa sản phẩm dịch vụ của mình đến gần hơn với họ.</p>
@@ -371,13 +371,13 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thác thị hiếu, sở thích cũng như nhu cầu của khách hàng để có thể đáp ứng tốt nhất mong đợi khách hàng.</p>
-        <p class="p-justify-indent">a. Phân loại theo mục đích chuyến đi: Du lịch nghỉ dưỡng, du lịch sinh thái, du lịch văn hóa lịch sử, du lịch tham quan - khám phá, du lịch Team Building</p>
-        <p class="p-base">Du lịch nghỉ dưỡng</p>
+        <h2 class="h2-indent">a. Phân loại theo mục đích chuyến đi: Du lịch nghỉ dưỡng, du lịch sinh thái, du lịch văn hóa lịch sử, du lịch tham quan - khám phá, du lịch Team Building</h2>
+        <p class="p-base" style="font-style: italic">Du lịch nghỉ dưỡng</p>
         <p class="p-justify-indent">Loại hình này dần trở thành lựa chọn tối ưu của nhiều nhóm khách hàng khi các tour du lịch hiện nay gần như có thể đáp ứng được tất cả những yêu cầu của mà họ mong muốn. Khi cuộc sống tất bật, nhiều áp lực thì nhu cầu nghỉ ngơi, thư giãn sẽ càng tăng cao. Bạn mong muốn tìm đến các khu nghỉ dưỡng cao cấp để tái tạo năng lượng thì đây chính là loại hình du lịch phù hợp nhất.</p>
         <p class="p-justify-indent">Một số điểm đến du lịch nghỉ dưỡng bạn không nên bỏ qua: Phú Quốc, Vũng Tàu, Nha Trang, Phan Thiết, Côn Đảo,..</p>
-        <p class="p-base">Du lịch sinh thái</p>
+        <p class="p-base" style="font-style: italic">Du lịch sinh thái</p>
         <p class="p-justify-indent">Đây là loại hình du lịch kết hợp: điều kiện tự nhiên với văn hóa. Điểm đến sẽ là các vùng có hệ sinh thái tự nhiên được bảo tồn tốt giúp quan khách có thể thưởng thức những giá trị mà thiên nhiên ban tặng. Những gợi ý nổi tiếng được nhắc đến như: Rừng tràm Trà Sư – An Giang, Vườn quốc gia Tràm Chim – Đồng Tháp,..</p>
-        <p class="p-base">Du lịch văn hóa - lịch sử</p>
+        <p class="p-base" style="font-style: italic">Du lịch văn hóa - lịch sử</p>
       </div>
     `
   },
@@ -388,12 +388,12 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">Du lịch văn hoá là loại hình du lịch giúp phản ánh giá trị lịch sử nhân văn, từ đó giúp khách quan thấy được lịch sử văn hóa từng vùng miền của đất nước. Thông thường đây sẽ là chuyến du lịch nhóm, kết hợp tham quan cảnh đẹp đồng thời tìm hiểu văn hóa giúp chuyến đi thêm phần thú vị.</p>
         <p class="p-justify-indent">Có nhiều điểm đến văn hóa lịch sử như: Huế - Đà Nẵng – Hội An, địa đạo Củ Chi, Du lịch Sài Gòn,..</p>
-        <p class="p-base">Du lịch tham quan – khám phá</p>
+        <p class="p-base" style="font-style: italic">Du lịch tham quan – khám phá</p>
         <p class="p-justify-indent">Cũng là một trong những loại hình du lịch khá phổ biến, du lịch tham quan – khám phá cực kì thu hút du khách đến tìm hiểu chính bởi những cảnh sắc tuyệt vời được thiên nhiên ưu đãi. Các điểm du lịch khám phá ghi dấu ấn nhất ở Việt Nam như: Vịnh Hạ Long, Sapa với những cung đường trekking đẹp tuyệt vời, Tam Cốc – Bích Động – Ninh Bình, Phong Nha – Kẻ Bàng,..</p>
-        <p class="p-justify-indent">b. Loại hình du lịch phân loại theo lãnh thổ: Du lịch trong nước, du lịch nước ngoài:</p>
-        <p class="p-base">Du lịch trong nước</p>
+        <h2 class="h2-indent">b. Loại hình du lịch phân loại theo lãnh thổ: Du lịch trong nước, du lịch nước ngoài:</h2>
+        <p class="p-base" style="font-style: italic">Du lịch trong nước</p>
         <p class="p-justify-indent">Inbound hay còn gọi là du lịch quốc tế - đây chính là hình thức du lịch mà khách tham quan ở Việt Nam hoặc từ nước ngoài về Việt Nam để khám phá.</p>
-        <p class="p-base">Du lịch nước ngoài</p>
+        <p class="p-base" style="font-style: italic">Du lịch nước ngoài</p>
         <p class="p-justify-indent">Outbound – Du lịch ra nước ngoài là thuật ngữ cực kì phổ biến trong kinh doanh dịch vụ lữ hành. Nghĩa là một người dân</p>
       </div>
     `
@@ -404,14 +404,14 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-base">đang sống ở quốc gia này đến quốc gia khách để du lịch và khám phá.</p>
-        <p class="p-justify-indent">c. Phân loại theo đặc điểm địa lý của điểm du lịch: Du lịch biển, du lịch núi, du lịch dã ngoại, du lịch miệt vườn.</p>
-        <p class="p-base">Du lịch biển</p>
+        <h2 class="h2-indent">c. Phân loại theo đặc điểm địa lý của điểm du lịch: Du lịch biển, du lịch núi, du lịch dã ngoại, du lịch miệt vườn.</h2>
+        <p class="p-base" style="font-style: italic">Du lịch biển</p>
         <p class="p-justify-indent">Là hình thức du lịch dựa vào thiên nhiên. Sẽ là các tỉnh thành có bãi biển dài, đẹp được đầu tư nhằm phục vụ du lịch, tắm biển, nghỉ dưỡng và giải trí.</p>
-        <p class="p-base">Du lịch núi</p>
+        <p class="p-base" style="font-style: italic">Du lịch núi</p>
         <p class="p-justify-indent">Là hoạt động du lịch diễn ra ở một không gian địa lý xác định. Nơi đây sẽ có đồi núi, địa hình đồng thời đa dạng sinh học hoặc cộng đồng địa phương sinh sống.</p>
-        <p class="p-base">Du lịch dã ngoại</p>
+        <p class="p-base" style="font-style: italic">Du lịch dã ngoại</p>
         <p class="p-justify-indent">Loại hình du lịch này cực bổ ích và thích hợp với mọi lứa tuổi. Thông qua việc vui chơi, giải trí hoặc vãng cảnh sẽ giúp nâng cao sức khỏe và cùng nhau khám phá điều mới lạ ngoài thiên nhiên.</p>
-        <p class="p-base">Du lịch miệt vườn</p>
+        <p class="p-base" style="font-style: italic">Du lịch miệt vườn</p>
         <p class="p-justify-indent">Kiểu du lịch này mới nổi và sẽ được khai thác ở các tỉnh đồng bằng hoặc nơi có khí hậu ôn đới. Du lịch miệt vườn sẽ là hoạt động đến các vườn trái cây, tận hưởng bầu không khí mát mẻ và thưởng thức trái cây thơm ngon.</p>
       </div>
     `
@@ -421,14 +421,13 @@ const chapters = [
     id: "trang-22", page: "22", title: "TRANG 22",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">c. Các cách phân loại loại hình du lịch khác</p>
+        <h2 class="h2-indent">c. Các cách phân loại loại hình du lịch khác</h2>
         <p class="p-justify-indent">Bên cạnh những cách phân loại du lịch kể trên thì còn rất nhiều loại hình khác như:</p>
-        <p class="p-justify-indent">- Phân loại theo phương tiện giao thông: Du lịch xe đạp, ô tô, máy bay,..</p>
-        <p class="p-justify-indent">- Phân loại theo phương tiện lưu trú: Khách sạn, nhà trọ, bãi cắm trại, nhà nghỉ, làng du lịch,..</p>
-        <p class="p-justify-indent">- Phân loại theo hình thức tổ chức: Du lịch theo đoàn, du lịch cá nhân, du lịch gia đình, du lịch trải nghiệm..</p>
-        <p class="p-justify-indent">- Phân loại theo phương thức hợp đồng: Du lịch trọn gói hay từng phần.</p>
-        <p class="p-justify-indent">- Phân loại theo lứa tuổi: Thiếu niên, thanh niên, trung niên, người cao tuổi.</p>
-        <p class="p-base">- Phân loại theo khoảng thời gian du lịch: Ngắn ngày hay dài ngày.</p>
+        <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo phương tiện giao thông:</span> Du lịch xe đạp, ô tô, máy bay,..</p>
+        <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo phương tiện lưu trú:</span> Khách sạn, nhà trọ, bãi cắm trại, nhà nghỉ, làng du lịch,..</p>
+        <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo hình thức tổ chức:</span> Du lịch theo đoàn, du lịch cá nhân, du lịch gia đình, du lịch trải nghiệm..</p>
+        <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo phương thức hợp đồng:</span> Du lịch trọn gói hay từng phần.</p>
+        <p class="p-justify-indent"> <span style="font-style: italic">- Phân loại theo lứa tuổi:</span> Thiếu niên, thanh niên, trung niên, người cao tuổi.</p>
         <h2 class="h2-indent">1.2. Vai trò của du lịch trong phát triển kinh tế - xã hội</h2>
         <p class="p-justify-indent">Du lịch với tăng trưởng kinh tế và xuất khẩu dịch vụ</p>
         <p class="p-justify-indent">Du lịch làm tăng nguồn thu ngân sách cho các địa phương phát triển du lịch. Hoạt động du lịch phát triển tạo nguồn thu ngân sách cho các địa phương từ các khoản trích nộp ngân sách của các cơ sở du lịch trực thuộc quản lý trực tiếp của địa phương và từ các</p>
@@ -614,8 +613,8 @@ const chapters = [
     id: "trang-37", page: "37", title: "TRANG 37",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">cụ và các kỹ thuật biểu diễn đặc trưng. Đờn ca tài tử thường được trình diễn trong các buổi hòa nhạc và sự kiện văn hóa.</p>
-        <p class="p-justify-indent">Một tiết mục Đờn ca tài tử được biểu diễn tại Liên hoan Đờn ca tài tử “Hải Phòng - Miền di sản 2024”. Nguồn: ARTTIMES</p>
+        <p class="p-base">cụ và các kỹ thuật biểu diễn đặc trưng. Đờn ca tài tử thường được trình diễn trong các buổi hòa nhạc và sự kiện văn hóa.</p>
+        <p class="p-center" style="font-style: italic">Một tiết mục Đờn ca tài tử được biểu diễn tại Liên hoan Đờn ca tài tử “Hải Phòng - Miền di sản 2024”. Nguồn: ARTTIMES</p>
         <p class="p-justify-indent">Mỹ thuật Tranh Dân Gian: Mỹ thuật tranh dân gian là một di sản nghệ thuật đặc trưng của Việt Nam. Nó thường biểu thị qua các bức tranh trên giấy, vải hoặc gốm sứ, thể hiện các chủ đề văn hóa, tín ngưỡng và cuộc sống hàng ngày.</p>
         <h2 class="h2-indent">Di chỉ khảo cổ học ở Việt Nam:</h2>
         <p class="p-justify-indent">Di tích Cổ Loa: Nằm ở xã Đông Anh, Hà Nội, Cổ Loa là kinh đô của nhà nước Âu Lạc dưới thời An Dương Vương. Đây là</p>
