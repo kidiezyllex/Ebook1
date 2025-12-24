@@ -781,11 +781,35 @@ const chapters = [
         <p class="p-center" style="font-style: italic">Động Thiên cung. (Ảnh: Ban Quản lý Vịnh Hạ Long)</p>
         <p class="p-justify-indent">Động Thiên Cung như một đền đài hoành tráng, mỹ lệ. Hang Bồ Nâu có cửa uốn vòng cung, với vô số nhũ đá buông xuống mềm mại như cành liễu. Hang Sửng Sốt đẹp đến bất ngờ, với nhũ đá mang hình hài của gà rừng, cóc, rồng, thác nước, cùng với nhiều hình hài khác, như mở ra một thế giới cổ tích. Những hang động như Tam Cung, Trinh Nữ, Ba Hang, Tiên Long,… Mỗi hang đều có những vẻ đẹp độc đáo, kỳ thú.</p>
         <p class="p-justify-indent">Bên cạnh giá trị địa chất và giá trị thẩm mỹ độc đáo toàn cầu, trong khu vực Vịnh Hạ Long hiện nay còn lưu giữ được nhiều hệ sinh thái điển hình của vùng biển nhiệt đới như: đồi núi, hang động, rừng ngập mặn, tùng áng, rạn san hô, cỏ biển … Các hệ sinh thái đó được phân bố trong một khu vực có khí hậu tương đối ôn hòa, nhiệt độ nước biển trung bình từ 19 - 25 độ C, là môi trường sống rất thuận lợi đối với các loài sinh vật.</p>
-        <p class="p-justify-indent">Bảng thống kê đa dạng sinh học Vịnh Hạ Long</p>
-        <p class="p-base">STT        Nhóm loài            Số lượng (loài)</p>
-        <p class="p-base">1          Tổng số loài                 ~3.000</p>
-        <p class="p-base">2        Thực vật trên cạn               507</p>
-        <p class="p-base">3         Thực vật phù du               278</p>
+        <p class="p-center"><strong>Bảng thống kê đa dạng sinh học Vịnh Hạ Long</strong></p>
+<div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">STT</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Nhóm loài</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Số lượng (loài)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Tổng số loài</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">~3.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Thực vật trên cạn</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">507</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Thực vật phù du</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">278</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -794,13 +818,47 @@ const chapters = [
     id: "trang-52", page: "52", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">4        Động vật phù du               141</p>
-        <p class="p-base">5             San hô                   110</p>
-        <p class="p-base">6           Cá biển                   156</p>
-        <p class="p-base">7            Chim                    71</p>
-        <p class="p-base">8             Thú                     53</p>
-        <p class="p-justify-indent">9           Loài bị đe dọa         102 (64 động vật, 38 thực vật)</p>
-        <p class="p-base">10        Thực vật đặc hữu               17</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">4</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Động vật phù du</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">141</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">5</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">San hô</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">110</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">6</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cá biển</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">156</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">7</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chim</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">71</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">8</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Thú</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">53</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">9</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Loài bị đe dọa</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">102 (64 động vật, 38 thực vật)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">10</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Thực vật đặc hữu</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">17</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
         <p class="p-justify-indent">Thế giới sinh vật tại vịnh Hạ Long rất đa dạng và phong phú, tập trung đầy đủ thành phần các loài sinh vật trên cạn, dưới nước, bậc thấp, bậc cao cùng sinh sống trong 10 hệ sinh thái biển và rừng khác nhau. Đến nay đã thống kê được gần 3.000 loài động thực vật sống trong khu vực, trong số đó có 507 loài thực vật trên cạn, 278 loài thực vật phù du, 141 loài động vật phù du, 110 loài san hô, 156 loài cá biển, 71 loài chim, 53 loài thú... Sự đa dạng về thành phần loài trên cạn, dưới nước đã nói lên bức tranh đa dạng sinh học của vịnh Hạ Long, đưa vịnh Hạ Long trở thành khu vực có số lượng loài nhiều nhất đã biết ở Việt Nam.</p>
       </div>
     `
@@ -1481,15 +1539,51 @@ const chapters = [
     id: "trang-108", page: "108", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Năm            Số cơ sở lưu trú     Số buồng (buồng) (cơ sở)</p>
-        <p class="p-base">1990             350                16.700</p>
-        <p class="p-base">2000              3.200              72.000</p>
-        <p class="p-base">2005              6.600              145.000</p>
-        <p class="p-base">2010              12.000             237.000</p>
-        <p class="p-base">2015              19.000             370.000</p>
-        <p class="p-base">2019              30.000             650.000</p>
-        <p class="p-justify-indent">Bảng 4.1. Phát triển hệ thống cơ sở lưu trú du lịch Việt Nam giai đoạn 1990–2019</p>
-        <p class="p-base">(Nguồn: Tổng hợp từ số liệu thống kê của Cục Du lịch Quốc gia Việt Nam.)</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Năm</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Số cơ sở lưu trú</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Số buồng (buồng)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1990</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">350</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">16.700</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2000</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">3.200</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">72.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2005</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">6.600</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">145.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2010</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">12.000</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">237.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2015</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">19.000</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">370.000</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2019</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">30.000</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">650.000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <p class="p-center" style="font-style: italic">Bảng 4.1. Phát triển hệ thống cơ sở lưu trú du lịch Việt Nam giai đoạn 1990–2019</p>
+        <p class="p-center" style="font-style: italic">(Nguồn: Tổng hợp từ số liệu thống kê của Cục Du lịch Quốc gia Việt Nam.)</p>
         <p class="p-justify-indent">Toàn ngành và các địa phương, đặc biệt là ở các địa bàn trọng điểm du lịch, đã phát huy nội lực, huy động vốn từ các thành phần kinh tế để phát triển hạ tầng và cơ sở vật chất kỹ thuật phục vụ du lịch, trong đó có hệ thống cơ sở lưu trú du lịch. Qua quá trình tích lũy trong nhiều năm và những nỗ lực vượt bậc trong những năm gần đây, đến nay hệ thống cơ sở lưu trú du lịch Việt Nam đã vươn tầm phát triển cả về số lượng và chất lượng.</p>
         <p class="p-justify-indent">Nhiều khách sạn, khu nghỉ dưỡng cao cấp của Việt Nam đã vinh dự được nhận những giải thưởng danh giá trên thế giới như World Travel Awards, World Luxury Hotel Awards…, được</p>
       </div>
@@ -3407,10 +3501,59 @@ const chapters = [
     content: `
       <div class="content-container">
         <h2 class="h2-indent">2. CÁC YẾU TỐ ĐA PHƯƠNG TIỆN SỬ DỤNG TRONG BẢN</h2>
-        <p class="p-justify-indent">S   Tên file   Vị trí  Địn  Dung  Ngu   Nội dung ảnh T                 h    lượn  ồn T                 dạn  g g</p>
-        <p class="p-justify-indent">1  Đờn  ca  Chư   JPG  264 tài tử    ơng        KB    ARTT  Một  tiết mục 1     -             IMES  Đờn ca  tài tử Mục                  được biểu diễn 1.3                             tại  Liên  hoan Đờn ca  tài tử “Hải  Phòng   - Miền   di  sản 2024”</p>
-        <p class="p-justify-indent">2   2111.di_  Chư   JPG  211 san_van  ơng        KB    Cục    Di  tích Gò Cây _hoa_oc  1     -            Du     Thị A _eo-ba_  Mục                    lịch the1      1.3              Quốc Gia Việt Nam</p>
-        <p class="p-justify-indent">3   nghenh  Chư    jpg   148K  Gemi  Các nghệ nhân an      ơng        b       ni AI   đang   dệt   và 1                    nhuộm vải thủ công</p>
+    <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+         <thead>
+            <tr>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">STT</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Tên file</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vị trí</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Định dạng</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Dung lượng</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Nguồn</th>
+                <th style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Nội dung ảnh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">Đờn ca tài tử</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 1 - Mục 1.3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">264 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">ARTTIMES</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Một tiết mục Đờn ca tài tử Mục 1 được biểu diễn tại Liên hoan Đờn ca tài tử “Hải Phòng - Miền di sản 2024”</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">2111.di_san_van_hoa_oc_eo-ba_the1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 1 - Mục 1.3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">211 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc Gia Việt Nam</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di tích Gò Cây Thị A</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">nghenhan</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">148 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Gemi ni AI</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Các nghệ nhân đang dệt và nhuộm vải thủ công</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3419,11 +3562,66 @@ const chapters = [
     id: "trang-262", page: "262", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">4   1.vinhha  Chư    jpg   581K  Báo    Di  sản   thiên long-chu  ơng        b     Nhân  nhiên  Vịnh Hạ ong3-3.   3     -             dân   Long 1.jpg    Mục 3.1</p>
-        <p class="p-justify-indent">5   2.dongt  Chư    jpg   110K  Ban   Động     Thiên hiencun  ơng        b     Quả   cung g-chuon  3     -             n   lý g3-3.1.j  Mục                Vịnh pg        3.1             Hạ Long</p>
-        <p class="p-justify-indent">6   3.hangs  Chư    jpg   196K  Báo   Hang     Sơn ondoon  ơng        b     Pháp  Đoòng   -  hang g-chuon  3     -                 luật   động lớn nhất g3-3.1.j  Mục                      thế giới pg        3.1</p>
-        <p class="p-justify-indent">7   4.chuot  Chư    jpg   235K  Báo   Kỳ lạ loài chuột dalao-ch  ơng        b     Pháp  đá  Lào tưởng uong3-3  3     -                 luật   chừng đã tuyệt .1.jpg    Mục                     chủng 11 triệu 3.1                 năm trước vẫn tồn   tại  trong rừng    Phong Nha.</p>
-        <p class="p-justify-indent">8   5.tranga  Chư    jpg   148K  Báo    Di sản Văn hóa n-chuon  ơng        b     Hà     và Thiên nhiên g3-3.1.j   3     -              Nội    thế  giới  Tràng pg      Mục             mới   An (Ninh Bình) 3.1</p>
+       <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">4</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">1.vinhhalong-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">581 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Nhân dân</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di sản thiên nhiên Vịnh Hạ Long</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">5</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">2.dongthiencung-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">110 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Ban Quản lý Vịnh Hạ Long</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Động Thiên Cung – Vịnh Hạ Long</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">6</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">3.hangson doong-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">196 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Pháp luật</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Hang Sơn Đoòng – hang động lớn nhất thế giới</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">7</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">4.chuotdalao-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">235 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Pháp luật</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Kỳ lạ loài chuột đá Lào tưởng chừng đã tuyệt chủng 11 triệu năm trước vẫn tồn tại trong rừng Phong Nha</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">8</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">5.trangan-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">148 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Hà Nội</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di sản Văn hóa và Thiên nhiên thế giới mới Tràng An (Ninh Bình)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3432,11 +3630,66 @@ const chapters = [
     id: "trang-263", page: "263", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">9   6.tranga  Chư    jpg   1.28   Cục   Du lịch sinh thái n2-chuo  ơng        9Kb   Du     trên thuyền tại ng3-3.1.  3     -                   lịch     di sản UNESCO jpg     Mục             Quốc  Tràng An 3.1                    gia Việt Nam</p>
-        <p class="p-justify-indent">1   7.hue-c   Chư    jpg   986K   Bùi   Ngọ Môn  - Cố 0   huong3-  ơng        b     Ngọc  đô Huế 3.2.jpg   3     -              Long Mục                       - Báo 3.2               Than h niên</p>
-        <p class="p-justify-indent">1   8.hoian-  Chư    jpg   128K   Vietn  Phố cổ Hội An 1   chuong3  ơng        b    am -3.2.jpg   3     -                 Touri Mục                    st 3.2</p>
-        <p class="p-justify-indent">1   9.myson  Chư    jpg   165K  edua   Di sản văn hóa 2   -chuong  ơng        b       vagi -  thế giới Mỹ Sơn 3-3.2.jp   3     -                  herit  sở hữu  vị   trí g       Mục               age   đặc  biệt  giữa 3.2                   vietn   núi non hùng vĩ am airlin es</p>
-        <p class="p-justify-indent">1   10.myso  Chư    jpg   149K   claud  Những tòa tháp 3   n2-chuo  ơng        b      ioted  với  kiến  trúc ng3-3.2.  3     -                eschi  độc đáo  tại Di jpg                                        -     -</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">9</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">6.trangan2-chuong3-3.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1.289 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia Việt Nam</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Du lịch sinh thái trên thuyền tại di sản UNESCO Tràng An</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">10</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">7.hue-chuong3-3.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">986 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Bùi Ngọc Long - Báo Thanh niên</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Ngọ Môn - Cố đô Huế</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">11</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">8.hoian-chuong3-3.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">128 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vietnam Tourism</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Phố cổ Hội An</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">12</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">9.myson-chuong3-3.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">165 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Eduavage - Heritage Vietnam Airlines</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di sản văn hóa thế giới Mỹ Sơn – sở hữu vị trí đặc biệt giữa núi non hùng vĩ</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">13</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">10.myson2-chuong3-3.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 3 - Mục 3.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">149 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Claudiotedeschi</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Những tòa tháp với kiến trúc độc đáo tại Di sản Mỹ Sơn</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3445,10 +3698,48 @@ const chapters = [
     id: "trang-264", page: "264", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Mục                   herit   tích văn hóa thế 3.2                age    giới Mỹ Sơn vietn am airlin es</p>
-        <p class="p-justify-indent">1   11.tamd  Chư    jpg   341K  Cổng  Tam Đảo - một 4   ao-chuo  ơng        b     TTĐT  điểm      nghỉ ng4-4.1.  4     -            Bộ    dưỡng lý tưởng jpg     Mục             Văn  ở miền Bắc 4.1                 hóa, thể thao và du lịch</p>
-        <p class="p-justify-indent">1   12.bieu   Chư    jpg   106K  Cục    Biểu đồ về sự 5   do1-chu  ơng        b     du     tăng    trưởng ong4-4.   4     -                   lịch    lượt khách du 1.jpg    Mục             Quốc   lịch   tại   Việt 4.1                    gia   Nam Việt Nam</p>
-        <p class="p-justify-indent">1   13.vinhd  Chư    jpg   229K  Cổng  Cục  Du    lịch 6   anh-chu  ơng        b     TTĐT  Quốc  gia  Việt ong4-4.   4     -            Bộ   Nam lần thứ 4 1.jpg    Mục             Văn   được vinh danh 4.1                 hóa,  Cơ quan quản lý thể   du    lịch   hàng thao   đầu châu Á và du lịch</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">14</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">11.tamdao-chuong4-4.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">341 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cổng TTĐT Bộ Văn hóa, Thể thao và Du lịch</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">15</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">12.bieudo1-chuong4-4.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">106 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia Việt Nam</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Biểu đồ về sự tăng trưởng lượt khách du lịch tại Việt Nam</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">16</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">13.vinhdanh-chuong4-4.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">229 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cổng TTĐT Bộ Văn hóa, Thể thao và Du lịch</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia Việt Nam lần thứ 4 được vinh danh Cơ quan quản lý du lịch hàng đầu châu Á</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3457,11 +3748,66 @@ const chapters = [
     id: "trang-265", page: "265", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">1   14.bieu   Chư    jpg   30Kb  Tổng   Biểu  đồ mức 7   do2-chu  ơng             hợp   khách quốc  tế ong4-4.   4     -              từ số  đến Việt Nam 2.jpg    Mục                   liệu 4.2                 cục Thốn g kê</p>
-        <p class="p-justify-indent">1   15.banh  Chư    jpg   155K  Cục    Truyền   thống 8   chung-c  ơng        b     Du     gói bánh chưng huong4-  4     -                   lịch    ngày Tết 4.2.jpg   Mục             Quốc 4.2                    gia Việt Nam</p>
-        <p class="p-justify-indent">1   16.lehoi  Chư    jpg   139K  Cục   Lễ  hội  truyền 9   -chuong  ơng        b     Du    thống của đồng 4-4.2.jp   4     -                   lịch    bào dân tộc Việt g       Mục             Quốc  Nam 4.2                    gia Việt Nam</p>
-        <p class="p-justify-indent">2   17.lam   Chư    jpg   149K  Báo   Du  khách  tìm 0   muoi-ch  ơng        b     Nhân  hiểu nghề làm uong4-4  4     -             dân   muối ở Thiềng .2.jpg    Mục                         Liềng, xã Thạnh 4.2                    An</p>
-        <p class="p-justify-indent">2   18.huon  Chư    jpg   34Kb  Cục   Sơ đồ cơ cấu 1   gdanvie  ơng             Du    hướng dẫn viên n-chuon  4     -                   lịch   du lịch của Việt g4-4.3.j  Mục             Quốc  Nam năm 2024. pg        4.3                    gia</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">17</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">14.bieudo2-chuong4-4.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">30 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Tổng hợp từ số liệu Cục Thống kê</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Biểu đồ mức khách quốc tế đến Việt Nam</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">18</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">15.banhchung-chuong4-4.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">155 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia Việt Nam</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Truyền thống gói bánh chưng ngày Tết</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">19</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">16.lehoi-chuong4-4.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">139 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia Việt Nam</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Lễ hội truyền thống của đồng bào dân tộc Việt Nam</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">20</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">17.lammuoi-chuong4-4.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">149 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Nhân dân</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Du khách tìm hiểu nghề làm muối ở Thiềng Liềng, xã Thạnh An</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">21</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">18.huongdanvien-chuong4-4.3.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 4 - Mục 4.3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">34 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Cục Du lịch Quốc gia</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Sơ đồ cơ cấu hướng dẫn viên du lịch của Việt Nam năm 2024</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3470,12 +3816,66 @@ const chapters = [
     id: "trang-266", page: "266", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Việt Nam</p>
-        <p class="p-justify-indent">2   hanoi-ch  Chư   JPG  498 2   uong5-5  ơng        KB     Vin    Thủ đô Hà Nội .1-a      5     -           Won    là trung tâm du Mục                ders    lịch  hàng  đầu 5.1  -                     của cả nước Ý a)</p>
-        <p class="p-justify-indent">2   vinhhalo  Chư   JPG  258 3   ng-chuo  ơng        KB     Vietn  Cảnh quan hùng ng5-5.1-  5     -           am     vĩ của Vịnh Hạ b       Mục                  Touri   Long. 5.1  -                   st Ý b)</p>
-        <p class="p-justify-indent">2   trangan-  Chư   JPG  103 4   chuong5  ơng        KB     Vietn  Quần thể danh -5.1-c    5     -           am    thắng Tràng An. Mục                  Touri 5.1  -           sm Ý c)</p>
-        <p class="p-justify-indent">2   cualo-ch  Chư   JPE   156 5   uong5-5  ơng  G    KB    Báo   Đảo Lan Châu .2-a      5     -              Lao    ven  biển Cửa Mục              động   Lò. 5.2  - Ý a)</p>
-        <p class="p-justify-indent">2   hangson  Chư   JPG   95.3 6   doong-c  ơng        KB   Vườ   Hang     Sơn huong5-  5     -             n     Đoòng 5.2.b    Mục              quốc</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">22</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">hanoi-chuong5-5.1-a.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 5 - Mục 5.1 (Ý a)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">498 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">VinWonders</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Thủ đô Hà Nội là trung tâm du lịch hàng đầu của cả nước</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">23</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">vinhhalong-chuong5-5.1-b.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 5 - Mục 5.1 (Ý b)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">258 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vietnam Tourism</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Cảnh quan hùng vĩ của Vịnh Hạ Long</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">24</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">trangan-chuong5-5.1-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 5 - Mục 5.1 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">103 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vietnam Tourism</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Quần thể danh thắng Tràng An</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">25</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">cualo-chuong5-5.2-a.JPEG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 5 - Mục 5.2 (Ý a)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPEG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">156 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Lao động</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Đảo Lan Châu ven biển Cửa Lò</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">26</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">hangsondoong-chuong5-5.2-b.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 5 - Mục 5.2 (Ý b)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">95.3 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vườn quốc gia</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Hang Sơn Đoòng</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3484,10 +3884,48 @@ const chapters = [
     id: "trang-267", page: "267", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">5.2  -                 gia Ý b)              Phon g Nha- Kẻ Bàng</p>
-        <p class="p-justify-indent">2  Du      Chư   JPG  175 7   khách    ơng        KB    Báo   Du khách cưỡi cưỡi     6     -             Dân    voi vượt sông voi     Mục                     Trí     Srêpôk tại Trung 6.1  -                   tâm   du    lịch Ý c)                    Buôn Đôn.</p>
-        <p class="p-justify-indent">2   Cồng    Chư   JPG  535 8   chiêng   ơng        KB    Ngô   Đấu Chiêng của 6     -             Than  đồng  bào  dân Mục              h      tộc   ở    Tây 6.1  -               Bình   Nguyên Ý c)</p>
-        <p class="p-justify-indent">2   can-nha  Chư  WE  455 9   -co-tram  ơng   PB   KB     Vinh  Nhà  cổ Chúng -tuoi-nh  6     -            Gấu   Pủa có tuổi đời uom-ma  Mục                    trăm năm ở xã u-reu-ph  6.2  -                Mèo Vạc, Tuyên ong-o-h   Ý a)                      Quang. a-giangd ocx-161</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">27</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">dukhachcuoivoi-chuong6-6.1-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.1 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">175 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Dân Trí</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Du khách cưỡi voi vượt sông Srêpôk tại Trung tâm du lịch Buôn Đôn</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">28</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">congchieng-chuong6-6.1-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.1 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">535 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Ngô Thanh Bình</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Đấu Chiêng của đồng bào dân tộc ở Tây Nguyên</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">29</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">can-nha-co-tram-tuoi-nhuom-mau-reu-phong-o-ha-giang.docx-161.WEBP</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý a)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">WEBP</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">455 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vinh Gấu</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Nhà cổ Chúng Pủa có tuổi đời trăm năm ở xã Mèo Vạc, Tuyên Quang</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3496,9 +3934,48 @@ const chapters = [
     id: "trang-268", page: "268", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">3          Chư   JPG  276 0   Bản     ơng        KB    Đình  Bản làng thanh làng      6     -             Minh  bình giữa mùa thanh   Mục                         lúa xanh ở Sa Pa bình      6.2  - giữa     Ý b) mùa lúa xanh ở Sa Pa</p>
-        <p class="p-justify-indent">3          Chư   JPG  182 1   Co-mot-  ơng        KB    Đình  Du khách thích Sa-Pa-ng  6     -             Minh  thú khi được đi ap-mau-  Mục                   bộ  trên những xanh-cu   6.2  -                    con đường nhỏ a-lua-an  Ý b)                       giữa      cánh h-10-17                             đồng. 1-909-w idth100 4height 670.</p>
-        <p class="p-justify-indent">3          Chư   JPG  97 2  Những   ơng        KB     Vietn  Những quán cà quán cà  6     -           amn   phê gần gũi với phê gần  Mục                 et      thiên     nhiên gũi  với  6.2  -                 được du khách thiên     Ý b)                      yêu thích. nhiên được du khách</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">30</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">banlangthanhbinh-chuong6-6.2-b.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý b)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">276 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Đình Minh</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Bản làng thanh bình giữa mùa lúa xanh ở Sa Pa</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">31</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">Co-mot-Sa-Pa-ngap-mau-xanh-cua-lua-chuong6-6.2-b.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý b)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">182 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Đình Minh</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Du khách thích thú khi được đi bộ trên những con đường nhỏ giữa cánh đồng lúa xanh ở Sa Pa</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">32</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">nhungquancaphe-chuong6-6.2-b.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý b)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">97 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Vietnamnet</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Những quán cà phê gần gũi với thiên nhiên được du khách yêu thích</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3507,9 +3984,39 @@ const chapters = [
     id: "trang-269", page: "269", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">yêu thích.</p>
-        <p class="p-justify-indent">3          Chư   JPG  468 3  Một     ơng        KB    VOV  Một phần trong phần     6     -                   bức       tranh trong    Mục                    panorama    tại bức       6.2  -                   Bảo tàng Chiến tranh     Ý c)                      thắng    Điện panora                               Biên ma   tại Bảo tàng Chiến thắng Điện Biên Phủ (Ảnh: VOV)</p>
-        <p class="p-justify-indent">3          Chư   JPG  443 4   Bảo     ơng        KB    REDS  Bảo tàng Chiến tàng     6     -           VN    thắng   lịch  sử chiến    Mục                     Điện Biên Phủ thắng     6.2  - lịch  sử  Ý c) Điện Biên Phủ</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">33</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">motphanpanorama-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">468 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">VOV</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Một phần trong bức tranh panorama tại Bảo tàng Chiến thắng Điện Biên Phủ</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">34</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">baotangdienbienphu-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">443 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">REDS VN</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Bảo tàng Chiến thắng lịch sử Điện Biên Phủ</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3518,10 +4025,57 @@ const chapters = [
     id: "trang-270", page: "270", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">3          Chư   JPG  473 5  Cụm     ơng        KB    REDS  Cụm Tượng đài Tượng   6     -           VN    Chiến    thắng đài     Mục                    Điện Biên Phủ Chiến     6.2  -                        trên đồi D1 thắng    Ý c) Điện Biên Phủ trên đồi D1</p>
-        <p class="p-justify-indent">3          Chư   JPG  737 6  Dấu tích  ơng        KB   NDĐ  Dấu tích hố Bộc hố  Bộc  6     -              T     phá trên đồi A1 phá trên  Mục đồi A1    6.2  - Ý c)</p>
-        <p class="p-justify-indent">3          Chư   JPG   1.2 7   Nghĩa    ơng      MB     dulic   Nghĩa trang liệt trang     6     -               hdie    sĩ quốc gia đồi liệt     sĩ  Mục                nbie   A1 quốc gia  6.2  -             n đồi A1    Ý c)</p>
-        <p class="p-justify-indent">3          Chư   JPG  363 8   Di   tích  ơng        KB    REDS   Di tích hầm De hầm De  6     -           VN     Castries    vẫn Castries  Mục                  được       giữ 6.2  -                    nguyên vẹn Ý c)</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">35</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">cumtuongdai-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">473 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">REDS VN</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Cụm Tượng đài Chiến thắng Điện Biên Phủ trên đồi D1</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">36</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">dautichhocbocpha-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">737 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">NDĐT</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Dấu tích hố Bộc phá trên đồi A1</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">37</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">nghiatranglietsi-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1.2 MB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">dulichdienbien</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Nghĩa trang liệt sĩ quốc gia đồi A1</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">38</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">ditichhamdecastries-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">363 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">REDS VN</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di tích hầm De Castries vẫn được giữ nguyên vẹn</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3530,9 +4084,48 @@ const chapters = [
     id: "trang-271", page: "271", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">3          Chư   JPG  437 9   Toàn     ơng        KB      dulic   Toàn cảnh khu cảnh     6     -               hdie    di  tích Sở Chỉ khu   di  Mục                nbie   huy chiến dịch tích  Sở  6.2  -             nphu  Điện Biên Phủ Chỉ huy  Ý c) chiến dịch Điện Biên Phủ</p>
-        <p class="p-justify-indent">4          Chư   JPG  448 0  Một     ơng        KB      dulic  Một     điểm điểm     6     -               hdie   check-in    săn check-in  Mục                nbie   mây  trên  đèo săn mây  6.2  -             n     Pha Đin được trên đèo  Ý c)                     du  khách  yêu Pha Đin                                thích được du khách yêu thích</p>
-        <p class="p-justify-indent">4          Chư   JPG   1.5 1   Di   tích  ơng      MB     dulic   Di tích Lán ở và Lán ở và  6     -               hdie   làm   việc  của làm việc  Mục                nbie   Đại tướng Võ của Đại  6.2  -             n     Nguyên Giáp tướng    Ý c) Võ</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">39</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">toancanhsochihuy-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">437 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">dulichdienbienphu</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Toàn cảnh khu di tích Sở Chỉ huy chiến dịch Điện Biên Phủ</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">40</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">checkinsanmayphadin-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">448 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">dulichdienbien</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Một điểm check-in săn mây trên đèo Pha Đin được du khách yêu thích</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">41</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">ditichlanvonguyengiap-chuong6-6.2-c.JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 6 - Mục 6.2 (Ý c)</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">JPG</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">1.5 MB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">dulichdienbien</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Di tích Lán ở và làm việc của Đại tướng Võ Nguyên Giáp</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3541,10 +4134,48 @@ const chapters = [
     id: "trang-272", page: "272", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Nguyên Giáp</p>
-        <p class="p-justify-indent">4    19.thaila  Chư    jpg   136K  Đinh   Các  gian  hàng 2   n-chuon  ơng        b     Trườ   tại  Lễ  hội Du g8-8.1.j   8     -              ng   -   lịch   Thái  Lan pg      Mục              Báo   năm 2024 được 8.1              Nhân  tổ   chức    tại dân    Trung tâm Hội nghị  Quốc  gia Queen  Sirikit ở thủ đô Bangkok của Thái Lan</p>
-        <p class="p-justify-indent">4   20.singa  Chư    jpg   256K  Ảnh   Open    Access 3   pore-ch  ơng        b     minh  Government uong8-8  8     -             họa .1.jpg    Mục             đô 8.1                     thị hiện đại của Singa pore</p>
-        <p class="p-justify-indent">4   21.mala  Chư    jpg   92Kb  Báo   Du  khách  Việt 4   ysia-chu  ơng              Nhân  tham     quan ong8-8.   8     -             dân   quảng  trường 1.jpg    Mục                     Merdeka,   với 8.1                         tòa        tháp Merdeka   118 tầng,  có  biểu tượng độc lập của Malaysia.</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">42</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">19.thailand-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">136 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Đinh Trường - Báo Nhân dân</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Các gian hàng tại Lễ hội Du lịch Thái Lan năm 2024 được tổ chức tại Trung tâm Hội nghị Quốc gia Queen Sirikit ở thủ đô Bangkok của Thái Lan</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">43</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">20.singapore-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">256 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Ảnh minh họa Open Access Government</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Đô thị hiện đại của Singapore</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">44</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">21.malaysia-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">92 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Nhân dân</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Du khách Việt tham quan quảng trường Merdeka, với tòa tháp Merdeka 118 tầng – biểu tượng độc lập của Malaysia</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3553,11 +4184,66 @@ const chapters = [
     id: "trang-273", page: "273", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">4   22.indo  Chư    jpg   126K   Indo  Một  ngôi  làng 5   nesia-ch  ơng        b      nesia  du lịch tại Bali, uong8-8  8     -                Trave  Indonesia. .1.jpg    Mục                               l 8.1</p>
-        <p class="p-justify-indent">4   23.nhat  Chư    jpg   375K  VOV   Những  lâu  đài 6   ban-chu  ơng        b            cổ kính là điểm ong8-8.   8     -                   hấp  dẫn  du 1.jpg    Mục                      khách  tại Nhật 8.1                    Bản</p>
-        <p class="p-justify-indent">4   24.hanq  Chư    jpg   50Kb  Du    Cung      điện 7   uoc-chu  ơng               học   Gyeongbokgung ong8-8.   8     -                Tín      -  biểu  tượng 1.jpg    Mục                Phát    lịch  sử  Hàn 8.1                    Quốc</p>
-        <p class="p-justify-indent">4   25.phuq  Chư    jpg   301K  CTV/  Một        góc 8   uoc-chu  ơng        b      Vietn  VinWonders ong8-8.   8     -           am+   Phú Quốc được 2.jpg    Mục                   đầu tư quy mô 8.2                        và hiện đại</p>
-        <p class="p-justify-indent">4   26.tauq  Chư    jpg   85Kb  Báo    Tàu  biển quốc 9   uocte-c   ơng              Nhân  tế Spectrum of huong8-  8     -             dân    the  Seas  chở 8.2.jpg   Mục                  hơn  4.000  du 8.2                       khách đa quốc tịch đã cập cảng Tân    Cảng-Cái Mép, thị xã Phú Mỹ         (Bà Rịa-Vũng   Tàu), sáng 20/2/2024</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">45</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">22.indonesia-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">126 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Indonesia Travel</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Một ngôi làng du lịch tại Bali, Indonesia</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">46</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">23.nhatban-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">375 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">VOV</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Những lâu đài cổ kính là điểm hấp dẫn du khách tại Nhật Bản</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">47</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">24.hanquoc-chuong8-8.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">50 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Du học Tín Phát</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Cung điện Gyeongbokgung – biểu tượng lịch sử Hàn Quốc</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">48</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">25.phuquoc-chuong8-8.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">301 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">CTV/Vietnam+ VinWonders</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Một góc Phú Quốc được đầu tư quy mô và hiện đại</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">49</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">26.tauquocte-chuong8-8.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 8 - Mục 8.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">85 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo Nhân dân</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Tàu biển quốc tế Spectrum of the Seas chở hơn 4.000 du khách đa quốc tịch đã cập cảng Tân Cảng - Cái Mép, thị xã Phú Mỹ (Bà Rịa - Vũng Tàu), sáng 20/2/2024</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3566,12 +4252,66 @@ const chapters = [
     id: "trang-274", page: "274", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">5   congvan  Chư    jpg   82.6   Báo   Sắp  xếp,  kiện 0           ơng        Kb     điện   toàn tổ chức bộ 10   -             tử    máy của Bộ Văn Mục                       hóa, Thể  thao 10.1                       và Du lịch</p>
-        <p class="p-justify-indent">5   hoinghi   Chư    jpg   84.6   TITC   Các  đại  biểu 1           ơng        Kb          tham  dự  hội 10   -                         nghị. Mục 10.1</p>
-        <p class="p-justify-indent">5   thitruon  Chư    jpg   61.9   TITC   Thứ trưởng Bộ 2   g       ơng        Kb          VHTTDL Hồ An 10   -                   Phong phát biểu Mục                            tại hội nghị 10.1</p>
-        <p class="p-justify-indent">5   daibieu   Chư    jpg   33.3   Báo   Đại  biểu Cầm 3           ơng        Kb     điện   Thị  Mẫn,  đại 10   -             tử     biểu Quốc  hội Mục                          tỉnh Thanh Hóa 10.2</p>
-        <p class="p-justify-indent">5   phocuct  Chư    jpg   50.7   Báo   Phó Cục trưởng 4   ruong    ơng        Kb     điện   Cục  Du    lịch 10   -             tử    Quốc  gia  Việt Mục                Nam Phạm Văn 10.2                     Thủy</p>
-        <p class="p-base">trình bày báo cáo.</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">50</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">congvan-chuong10-10.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">82.6 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo điện tử</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Sắp xếp, kiện toàn tổ chức bộ máy của Bộ Văn hóa, Thể thao và Du lịch</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">51</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">hoinghi-chuong10-10.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">84.6 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">TITC</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Các đại biểu tham dự hội nghị</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">52</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">thitruong-chuong10-10.1.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.1</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">61.9 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">TITC</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Thứ trưởng Bộ VHTTDL Hồ An Phong phát biểu tại hội nghị</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">53</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">daibieu-chuong10-10.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">33.3 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo điện tử</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Đại biểu Cầm Thị Mẫn, đại biểu Quốc hội tỉnh Thanh Hóa</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">54</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">phocuctruong-chuong10-10.2.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.2</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">50.7 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Báo điện tử</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Phó Cục trưởng Cục Du lịch Quốc gia Việt Nam Phạm Văn Thủy trình bày báo cáo</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3580,10 +4320,57 @@ const chapters = [
     id: "trang-275", page: "275", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">5   vanmieu  Chư    jpg   111K   Inter  Văn miếu Quốc 5  QTG     ơng        b      net   Tử Giám 10   - Mục 10.3</p>
-        <p class="p-justify-indent">5   khachqu  Chư   png  394K  Sea    Khách quốc tế 6   octe     ơng        B      Trave  xem đua cua ở 10   -                              l      Khu du lịch Cồn Mục                    Chim (Trà Vinh). 10.3</p>
-        <p class="p-justify-indent">5   hoetalsa  Chư    jpg   116K   Inter   Khách sạn Hotel 7   pa      ơng        b      net    de la Coupole – 10   -                       Mgallery (Sa Pa, Mục                      Lào Cai) 10.4</p>
-        <p class="p-justify-indent">5   khachsa  Chư    jpg   97.2    Inter   Khách      sạn 8   ndanang  ơng        Kb     net    Continental Đà 10   -                  Nẵng      Sun Mục                        Peninsula Resort 10.4                      đạt nhiều  giải thưởng   danh giá  ở   trong nước  và quốc tế</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 2px solid #000;">
+        <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 12%;">
+            <col style="width: 12%;">
+            <col style="width: 8%;">
+            <col style="width: 10%;">
+            <col style="width: 12%;">
+            <col style="width: 41%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">55</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">vanmieuQTG-chuong10-10.3.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">111 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Internet</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Văn miếu Quốc Tử Giám</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">56</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">khachquocte-chuong10-10.3.png</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.3</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">png</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">394 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Sea Travel</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Khách quốc tế xem đua cua ở Khu du lịch Cồn Chim (Trà Vinh)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">57</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">hoetalsapa-chuong10-10.4.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.4</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">116 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Internet</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Khách sạn Hotel de la Coupole – Mgallery (Sa Pa, Lào Cai)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">58</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000; word-break: break-all;">khachsandanang-chuong10-10.4.jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Chương 10 - Mục 10.4</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">jpg</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">97.2 KB</td>
+                <td style="text-align: center; padding: 20px 8px; border: 2px solid #000;">Internet</td>
+                <td style="text-align: left; padding: 20px 8px; border: 2px solid #000;">Khách sạn Continental Đà Nẵng Sun Peninsula Resort đạt nhiều giải thưởng danh giá trong nước và quốc tế</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
@@ -3593,8 +4380,13 @@ const chapters = [
     content: `
       <div class="content-container">
         <h2 class="h2-indent">3. DANH MỤC FOOTNOTE (chú thích)</h2>
-        <p class="p-justify-indent"><strong>CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM</strong></p>
+        <h1 class="h1-center">CHƯƠNG 3: TÀI NGUYÊN DU LỊCH VIỆT NAM</h1>
+        <p class="p-justify-indent"><strong>1. Địa hình karst: </strong>Là địa hình của các kiểu phân rã đặc trưng thông thường được đánh dấu bởi các hệ thống thoát nước theo hang động ngầm dưới đất. Đây là các khu vực mà ở đó nền đá có lớp bị hòa tan hoặc các lớp, thông thường (nhưng không phải luôn luôn) là đá carbonat chẳng hạn như đá vôi hay dolomit. Trong những chỗ như thế có rất ít hoặc thậm chí không có hệ thống thoát nước trên bề mặt.</p>
+        <p class="p-justify-indent"><strong>2. Kỷ Phấn trắng hay kỷ Creta: </strong>Là một kỷ địa chất chính trong niên đại địa chất, bắt đầu từ khi kết thúc kỷ Jura khoảng 145 triệu năm trước cho đến khi bắt đầu kỷ Cổ Cận vào khoảng 66 triệu năm trước đây. Là kỷ địa chất dài nhất trong Đại Trung sinh, kỷ Phấn Trắng chiếm khoảng gần một nửa thời gian của đại địa chất này.</p>
+        <p class="p-justify-indent"><strong>3. Net Zero hay phát thải ròng toàn cầu bằng 0: </strong>Mô tả trạng thái mà tại đó lượng khí nhà kính do hoạt động của con người thải ra nằm ở mức cân bằng với lượng khí nhà kính được loại bỏ trong một khoảng thời gian nhất định.</p>
+        <p class="p-justify-indent"><strong>4. Bhadravarman I: </strong>Là một vị vua Chăm Pa trị vì vào cuối thế kỷ IV đầu thế kỷ V, được xem là một trong những người đặt nền móng sớm cho vương quốc này. Ông gắn liền với thánh địa Mỹ Sơn khi cho xây dựng đền thờ thần Shiva dưới danh xưng Bhadresvara, thể hiện tư tưởng vua – thần trong văn hóa Ấn Độ hóa. Dấu ấn của Bhadravarman I còn được ghi lại qua các bia ký Chăm cổ, phản ánh vai trò bảo trợ tôn giáo và quyền lực của nhà vua.</p>
         <p class="p-justify-indent"><strong>CHƯƠNG 4: PHÁT TRIỂN DU LỊCH VIỆT NAM THỜI KỲ ĐỔI</strong></p>
+        <p class="p-justify-indent"><strong>1. Nghị định số 26 CP: </strong>Ngày 09/7/1960, Thủ tướng Chính phủ Phạm Văn Đồng đã thay mặt Hội đồng Chính phủ nước Việt</p>
       </div>
     `
   },
@@ -3603,8 +4395,15 @@ const chapters = [
     id: "trang-277", page: "277", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Nam Dân chủ Cộng hòa ký ban hành Nghị định số 26 CP về việc thành lập Công ty Du lịch Việt Nam trực thuộc Bộ Ngoại thương. 2. Du lịch MICE: Là loại hình du lịch kết hợp hội họp, khen thưởng, hội nghị và triển lãm, được tổ chức cho các doanh nghiệp, tổ chức hoặc đoàn khách lớn. Không chỉ dừng ở việc tham dự sự kiện, MICE còn gắn với lưu trú cao cấp, dịch vụ chuyên nghiệp và các hoạt động tham quan, trải nghiệm tại điểm đến. Đây là phân khúc du lịch có mức chi tiêu cao và đóng vai trò quan trọng trong việc nâng tầm hình ảnh điểm đến. 3. Trekking: Là hình thức du lịch đi bộ đường dài, thường diễn ra ở địa hình tự nhiên như rừng núi, đồi cao hoặc vùng hoang sơ, kết hợp khám phá cảnh quan và trải nghiệm đời sống bản địa.</p>
+        <p>Nam Dân chủ Cộng hòa ký ban hành Nghị định số 26 CP về việc thành lập Công ty Du lịch Việt Nam trực thuộc Bộ Ngoại thương.</p>
+        <p class="p-justify-indent"><strong>2. Du lịch MICE: </strong>Là loại hình du lịch kết hợp hội họp, khen thưởng, hội nghị và triển lãm, được tổ chức cho các doanh nghiệp, tổ chức hoặc đoàn khách lớn. Không chỉ dừng ở việc tham dự sự kiện, MICE còn gắn với lưu trú cao cấp, dịch vụ chuyên nghiệp và các hoạt động tham quan, trải nghiệm tại điểm đến. Đây là phân khúc du lịch có mức chi tiêu cao và đóng vai trò quan trọng trong việc nâng tầm hình ảnh điểm đến.</p>
+        <p class="p-justify-indent"><strong>3. Trekking: </strong>Là hình thức du lịch đi bộ đường dài, thường diễn ra ở địa hình tự nhiên như rừng núi, đồi cao hoặc vùng hoang sơ, kết hợp khám phá cảnh quan và trải nghiệm đời sống bản địa.</p>
         <p class="p-justify-indent"><strong>CHƯƠNG 5: DU LỊCH CÁC VÙNG KINH TẾ TRỌNG ĐIỂM</strong></p>
+        <p class="p-justify-indent"><strong>1. FDI: </strong>Vốn đầu tư trực tiếp nước ngoài.</p>
+        <p class="p-justify-indent"><strong>2. GRDP: </strong>Tổng sản phẩm trên địa bàn.</p>
+        <p class="p-justify-indent"><strong>3. Địa linh nhân kiệt: </strong>Đất thiêng sinh người hiền tài, kiệt xuất.</p>
+        <p class="p-justify-indent"><strong>4. OCOP (One commune one product): </strong>Là chương trình phát triển kinh tế khu vực nông thôn theo hướng phát huy nội lực như nguồn lao động, văn hóa địa phương, trí tuệ, sự sáng tạo,... của địa phương được Chính phủ phê duyệt triển khai thực hiện thông qua Quyết định 919/QĐ-Ttg năm 2018.</p>
+        <p class="p-justify-indent"><strong>5. Liên kết B2B (Business-to-Business): </strong>Kết nối hợp tác giữa các doanh nghiệp, trong du lịch thường để xây dựng tour, ký kết dịch vụ, mở rộng thị trường.</p>
       </div>
     `
   },
@@ -3613,18 +4412,18 @@ const chapters = [
     id: "trang-278", page: "278", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">lịch đa dạng, góp phần nâng cao hình ảnh Malaysia trên bản đồ du lịch toàn cầu.</p>
+        <p class="p-justify-indent"><strong>CHƯƠNG 6: KINH NGHIỆM PHÁT TRIỂN DU LỊCH CỦA MỘT SỐ NƯỚC</strong></p>
+        <p class="p-justify-indent"><strong>1. Chiến dịch "Visit Malaysia 2026": </strong>Là chương trình quảng bá du lịch quốc gia do Malaysia triển khai nhằm thu hút du khách quốc tế trong năm 2026. Chiến dịch tập trung giới thiệu văn hóa, thiên nhiên, du lịch bền vững và các sản phẩm du lịch đa dạng, 1. Chiến dịch “Visit Malaysia 2026”: là chương trình quảng bá du lịch quốc gia do Malaysia triển khai nhằm thu hút du khách quốc tế trong năm 2026. Chiến dịch tập trung giới thiệu văn hóa, thiên nhiên, du lịch bền vững và các sản phẩm du lịch đa dạng, góp phần nâng cao hình ảnh Malaysia trên bản đồ du lịch toàn cầu.</p>
       </div>
     `
   },
 
   {
-    id: "trang-279", page: "279", title: "",
+    id: "trang-279", page: "279", title: "BÌA 4",
     content: `
       <div style="height:100%; display:flex; align-items:center; justify-content:center;">
-        <img src="assets/icons/ebook_img/sample.png" alt="Sample Image" style="max-height:100%; width:auto; display:block; object-fit:contain;" />
+        <img src="assets/icons/ebook_img/bia_4.jpg" alt="Sample Image" style="max-height:100%; width:auto; display:block; object-fit:contain;" />
       </div>
     `
   }
-
 ];
