@@ -3672,9 +3672,9 @@ const chapters = [
     id: "trang-259", page: "259", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Bảng 4.2. Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam. (Ảnh: Trung tâm Thông tin Du lịch, 2025) (Chương 4, mục 4.3)</p>
-        <p class="p-justify-indent">Bảng  5.1. Cơ sở du  lịch và lao động du  lịch  giai đoạn 2018-2023 của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</p>
-        <p class="p-base">(Chương 5 - Mục 5.2 - Ý a)</p>
+        <p class="p-base"><strong>Bảng 4.2. Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam. (Ảnh: Trung tâm Thông tin Du lịch, 2025) (Chương 4, mục 4.3)</strong></p>
+        <p class="p-base"><strong>Bảng  5.1. Cơ sở du  lịch và lao động du  lịch  giai đoạn 2018-2023 của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</strong></p>
+        <p class="p-base"><strong>(Chương 5 - Mục 5.2 - Ý a)</strong></p>
       </div>
     `
   },
@@ -3683,7 +3683,119 @@ const chapters = [
     id: "trang-260", page: "260", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Bảng 5.2. Vốn huy động từ NSNN cho PTDL tỉnh Nghệ An giai đoạn 2021 - 2023 (Nguồn: Sở Du lịch Nghệ An) (Chương 5 - Mục 5.2 - Ý a)</p>
+      <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 8%;">TT</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 30%;">Chỉ tiêu</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Kế hoạch</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Thực hiện</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Tỷ trọng (%)</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">So với Kế hoạch (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000; font-weight: bold;">Tổng số NSNN</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">561.789</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">524.512</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">100</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">92,91</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">1</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSTW</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">322.400</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">287.532</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">57,7</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">90,15</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSDP (bao gồm đối ứng dự án ODA)</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">267.389</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">257.980</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">46,3</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">96,63</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">3</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Vốn vay ODA</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">4</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Phát hành TP CQĐP</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <p class="p-base"><strong>Bảng 5.2. Vốn huy động từ NSNN cho PTDL tỉnh Nghệ An giai đoạn 2021 - 2023 (Nguồn: Sở Du lịch Nghệ An) (Chương 5 - Mục 5.2 - Ý a)</strong></p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 8%;">TT</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 30%;">Chỉ tiêu</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Kế hoạch</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Thực hiện</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Tỷ trọng (%)</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">So với Kế hoạch (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000; font-weight: bold;">Tổng số NSNN</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">561.789</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">524.512</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">100</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">92,91</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">1</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSTW</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">322.400</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">287.532</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">57,7</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">90,15</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSDP (bao gồm đối ứng dự án ODA)</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">267.389</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">257.980</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">46,3</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">96,63</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">3</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Vốn vay ODA</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">4</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Phát hành TP CQĐP</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
       </div>
     `
   },
