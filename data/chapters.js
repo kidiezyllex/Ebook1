@@ -2626,8 +2626,8 @@ const chapters = [
     id: "trang-179", page: "179", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Một điểm check-in săn mây trên đèo Pha Đin được du khách yêu thích</p>
-        <p class="p-base">(Ảnh: dulichdienbien)</p>
+      <img src="assets/images/chuong_6/Mot_dia_diem.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Một điểm check-in săn mây trên đèo Pha Đin được du khách yêu thích (Ảnh: dulichdienbien)</p>
         <p class="p-justify-indent">Ngày nay, đèo Pha Đin là một điểm du lịch hấp dẫn của tỉnh Điện Biên, đặc biệt hút các phượt thủ say mê chinh phục “tứ đại đỉnh đèo” vùng Tây Bắc (Pha Đin, Mã Pì Lèng, Ô Quý Hồ và Khau Phạ).</p>
         <p class="p-justify-indent">Đèo Pha Đin hay Dốc Pha Đin là đèo núi có độ dài 32 km nằm trên quốc lộ 6, một phần thuộc xã Phổng Lái, tỉnh Sơn La và một phần thuộc xã Quài Tở (trước đây là xã Tỏa Tình). Điểm khởi đầu của đèo cách thị xã Sơn La về phía Tây 66 km còn điểm cuối của đèo cách thành phố Điện Biên khoảng 84 km.</p>
       </div>
@@ -2681,7 +2681,8 @@ const chapters = [
         <p class="p-justify-indent">●​Thái Lan: Chiến lược marketing và dịch vụ chuyên nghiệp</p>
         <p class="p-justify-indent">Phát biểu tại một sự kiện thúc đẩy du lịch được tổ chức mới đây, tại Tòa nhà Chính phủ Thái Lan, Thủ tướng Thái Lan Srettha Thavisin bày tỏ tin tưởng rằng: Năm 2024 sẽ là năm ghi nhận sự tăng trưởng chưa từng có của ngành du lịch.</p>
         <p class="p-justify-indent">Chính phủ Thái Lan mong muốn gây ấn tượng tốt với tất cả du khách ngay từ khi họ đặt chân đến Thái Lan như làm thủ tục nhập cảnh, sử dụng các dịch vụ và phương tiện giao thông công cộng đồng thời tham quan, trải nghiệm các địa điểm trên khắp đất nước Thái Lan.</p>
-        <p class="p-justify-indent">Các gian hàng tại Lễ hội Du lịch Thái Lan năm 2024 được tổ chức tại Trung tâm Hội nghị Quốc gia Queen Sirikit ở thủ đô Bangkok của Thái Lan. (Ảnh: Đinh Trường - Báo Nhân dân)</p>
+        <img src="assets/images/chuong_8/19_thailan-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Các gian hàng tại Lễ hội Du lịch Thái Lan năm 2024 được tổ chức tại Trung tâm Hội nghị Quốc gia Queen Sirikit ở thủ đô Bangkok của Thái Lan. (Ảnh: Đinh Trường - Báo Nhân dân)</p>
       </div>
     `
   },
@@ -2720,7 +2721,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhỏ&quot;. Tổng cục Du lịch Singapore đang hợp tác chặt chẽ với các bên liên quan trong ngành du lịch nhằm thực hiện chiến lược và lộ trình bền vững của điểm đến cho ngành du lịch phù hợp với Kế hoạch Xanh.</p>
-        <p class="p-justify-indent">Ảnh minh họa đô thị hiện đại của Singapore. (Ảnh: Open Access Government)</p>
+        <img src="assets/images/chuong_8/20_singapore-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Ảnh minh họa đô thị hiện đại của Singapore. (Ảnh: Open Access Government)</p>
         <p class="p-justify-indent">Điều quan trọng là đầu tư vào cộng đồng địa phương nếu muốn thu hút du khách toàn cầu. Những khách du lịch thích tìm kiếm những trải nghiệm địa phương đích thực, chẳng hạn như đồ ăn và thức uống có nguồn gốc địa phương sẽ giúp cân bằng hơn, giảm lượng  khí  thải carbon  khi hòa cùng với thiên nhiên. Singapore cũng tiếp tục đầu tư vào các doanh nhân và nông dân địa phương, cung cấp môi trường làm việc an toàn bên cạnh đó đào tạo lực lượng lao động tốt để khuyến khích cộng đồng địa phương phát triển. Thêm vào đó là nhu cầu đầu tư và duy trì di sản văn hóa, di tích quốc gia và các quận lịch sử để nâng cao trải nghiệm cho du khách.</p>
       </div>
     `
@@ -2744,7 +2746,8 @@ const chapters = [
     id: "trang-188", page: "188", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Du khách Việt tham quan quảng trường Merdeka, với tòa tháp Merdeka 118 tầng, có biểu tượng độc lập của Malaysia. (Ảnh: Báo Nhân dân)</p>
+        <img src="assets/images/chuong_8/21_malaysia-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Du khách Việt tham quan quảng trường Merdeka, với tòa tháp Merdeka 118 tầng, có biểu tượng độc lập của Malaysia. (Ảnh: Báo Nhân dân)</p>
         <p class="p-justify-indent">Vào năm 2024, dân số của Malaysia gần chạm ngưỡng 36 triệu người, ngành du lịch của nước này đã đón 38 triệu lượt du khách nước ngoài, tăng hơn 31% so với năm trước đó, với mức chi tiêu của du khách đạt gần 26 tỷ USD.</p>
         <p class="p-justify-indent">Sự tăng trưởng du lịch vượt bậc của Malaysia thành công là nhờ đến các chính sách miễn thị thực mạnh mẽ, cải thiện cơ sở hạ tầng và các chiến dịch quảng bá bền vững nhắm đến thị trường toàn cầu.</p>
         <p class="p-justify-indent">Đầu năm 2025, Thủ tướng Malaysia Anwar Ibrahim đã công bố chiến dịch du lịch quốc gia quy mô lớn mang tên “Visit Malaysia 2026”, chính thức khởi động vào ngày 26/9 vừa qua tại Melaka, hướng đến quảng bá hình ảnh một Malaysia hiện đại, năng động và hội nhập sâu rộng, qua đó củng cố vị thế của đất nước trên bản đồ du lịch thế giới.</p>
@@ -2773,7 +2776,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">Ông Wisnu nhấn mạnh: “Nhiều làng du lịch sở hữu những nét độc đáo cả về môi trường tự nhiên lẫn văn hóa. Do vậy, đây sẽ là điểm thu hút khách du lịch đến tham quan.”</p>
         <p class="p-justify-indent">Các làng du lịch có thể thu hút du khách bằng cách cung cấp những trải nghiệm thú vị về cuộc sống của người dân như chăn trâu, bò hoặc trồng lúa.</p>
-        <p class="p-justify-indent">Một ngôi làng du lịch tại Bali, Indonesia. (Ảnh: Indonesia Travel)</p>
+        <img src="assets/images/chuong_8/22_indonesia-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Một ngôi làng du lịch tại Bali, Indonesia. (Ảnh: Indonesia Travel)</p>
         <p class="p-justify-indent">Theo ông Sandiaga, ngoài việc thu hút khách du lịch nội địa, một trong những mục tiêu của việc tổ chức ADWI là tạo ra nhận thức về du lịch từ các chủ thể kinh doanh cũng như ngành du lịch và kinh tế sáng tạo.</p>
         <p class="p-justify-indent">Ông Sandiaga cũng khẳng định rằng làng du lịch có vai trò quan trọng về nhiều mặt, trong đó có việc thúc đẩy tiềm năng phát triển nền kinh tế sáng tạo trong môi trường địa phương, cũng như mở ra cơ hội việc làm cho các cư dân sống gần các điểm du lịch.</p>
         <p class="p-justify-indent">●​Nhật Bản - Du lịch văn hóa và công nghệ cao</p>
@@ -2785,7 +2789,8 @@ const chapters = [
     id: "trang-191", page: "191", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Những lâu đài cổ kính là điểm hấp dẫn du khách tại Nhật Bản (Ảnh: VOV)</p>
+      <img src="assets/images/chuong_8/23_nhatban-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Những lâu đài cổ kính là điểm hấp dẫn du khách tại Nhật Bản (Ảnh: VOV)</p>
         <p class="p-justify-indent">Có nhiều yếu tố tạo nên sức hút của du lịch Nhật Bản. Đầu tiên chính là thương hiệu Nhật Bản - xứ sở Hoa Anh Đào có đầy đủ mọi thứ mà du khách cần. Tâm lý chung của du khách đều mong muốn phong cảnh đẹp, món ăn đặc sắc, văn hóa độc đáo, mua sắm đa dạng… và Nhật Bản hội đủ tất cả các lợi thế này. Về cảnh sắc tự nhiên và ẩm thực thì Nhật Bản nổi tiếng với mùa hoa Anh Đào, mùa lá đỏ, cùng các món ăn như sushi, sashimi… đều nổi tiếng thế giới. Về văn hóa, ngay cả trong các đô thị hiện đại ở Nhật Bản thì vẫn tồn tại những không gian cổ xưa, truyền thống với những ngôi nhà cổ, đền chùa, lâu đài…</p>
         <p class="p-justify-indent">Còn nói đến mua sắm, nhiều thành phố lớn của Nhật Bản được coi những “thiên đường mua sắm”. Mặc dù đắt đỏ, nhưng hàng hóa tại Nhật Bản đều rất tốt, đảm bảo chất lượng và thương hiệu chuẩn, mà không phải ở nước nào cũng có được. Một yếu tố nữa là chất lượng dịch vụ tại Nhật Bản, dù đôi khi chi phí cao nhưng du khách sẽ được hưởng sự phục vụ “đáng đồng tiền bát</p>
       </div>
@@ -2812,8 +2817,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">Andong là một trong những ngôi làng cổ truyền của Hàn Quốc. Nó được bảo tồn rất tốt và là điểm đến du lịch văn hóa hấp dẫn của đất nước.</p>
         <p class="p-justify-indent">Du khách có thể tham gia các khóa học nấu ăn để học cách chế biến các món ăn truyền thống Hàn Quốc, hoặc tham gia các tour ẩm thực để thưởng thức các món ăn đặc trưng của Hàn Quốc. Hơn thế, du khách có thể thưởng thức trà đạo truyền thống của Hàn Quốc. Du khách có thể trải nghiệm loại hình nghệ thuật này tại một số quán trà và trung tâm văn hóa trên khắp đất nước, nơi họ có thể tìm hiểu về lịch sử và ý nghĩa văn hóa của trà Hàn Quốc và tham gia vào một buổi trà đạo do một trà sư hướng dẫn.</p>
-        <p class="p-base">Cung điện Gyeongbokgung- biểu tượng lịch sử Hàn Quốc</p>
-        <p class="p-base">(Ảnh: Du học Tín Phát)</p>
+        <img src="assets/images/chuong_8/24_hanquoc-chuong8-8.1.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Cung điện Gyeongbokgung- biểu tượng lịch sử Hàn Quốc (Ảnh: Du học Tín Phát)</p>
         <p class="p-justify-indent">Hàn Quốc có nhiều lễ hội và sự kiện văn hóa như các lễ hội truyền thống Hàn Quốc: Lễ hội ánh sáng Seoul Lantern Festival, Lễ hội Bắn Pháo Hoa Daegu (Đây là một trong những lễ hội bắn</p>
       </div>
     `
@@ -2872,7 +2877,8 @@ const chapters = [
     id: "trang-198", page: "198", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Một góc VinWonders Phú Quốc được đầu tư quy mô và hiện đại. (Ảnh: CTV/Vietnam+)</p>
+      <img src="assets/images/chuong_8/25_phuquoc-chuong8-8.2.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Một góc VinWonders Phú Quốc được đầu tư quy mô và hiện đại. (Ảnh: CTV/Vietnam+)</p>
         <p class="p-justify-indent">Hạ tầng du lịch Việt Nam khoảng hai thập kỷ qua là giai đoạn nhiều thăng trầm với những biến động không ngừng. Chính phủ từng thẳng thắn chỉ ra những “điểm nghẽn” của ngành như: cơ sở hạ tầng chưa đồng bộ, năng lực quản lý điểm đến thấp, phát triển du lịch chưa gắn với bảo vệ môi trường...</p>
         <p class="p-justify-indent">Thực tế cho thấy, việc đẩy mạnh xã hội hóa trong đầu tư xây dựng cơ sở hạ tầng phục vụ du lịch, tập trung phát triển chất lượng thay vì số lượng… đã giúp du lịch Việt Nam thăng hạng, nâng tầm vị thế trên trường quốc tế, trở thành “thiên đường” du lịch của thế giới.</p>
         <p class="p-justify-indent">Để hạ tầng du lịch ngày càng phát triển theo chiều sâu và bền vững, nhất thiết cần sự đồng hành của các nhà đầu tư lớn. Chẳng thế mà những năm qua, sau khi Chính phủ “bật đèn xanh” cho các nhà đầu tư lớn như VinGroup, SunGroup, FLC, Vina</p>
@@ -2900,7 +2906,8 @@ const chapters = [
         <p class="p-justify-indent">Ngoài ra, kết nối hàng không quốc tế và nội địa đóng vai trò đặc biệt quan trọng. Việc mở thêm các đường bay thẳng, tăng tần suất chuyến bay và nâng cao chất lượng dịch vụ hàng không sẽ giúp Việt Nam tiếp cận gần hơn với các thị trường du lịch lớn, giảm chi phí và thời gian di chuyển cho du khách.</p>
         <p class="p-justify-indent">●​Nâng cao chất lượng dịch vụ và nguồn nhân lực</p>
         <p class="p-justify-indent">Nguồn nhân lực là yếu tố quyết định trực tiếp đến chất lượng trải nghiệm của du khách. Nhật Bản và Singapore được đánh giá cao không chỉ bởi cảnh quan hay sản phẩm du lịch, mà còn bởi chất lượng dịch vụ chuyên nghiệp, kỷ luật và tận tâm. Hàn Quốc cũng đặc biệt chú trọng đào tạo nhân lực gắn với văn hóa phục vụ và khả năng ứng dụng công nghệ.</p>
-        <p class="p-justify-indent">Tàu biển quốc tế Spectrum of the Seas chở hơn 4.000 du khách đa quốc tịch đã cập cảng Tân Cảng-Cái Mép, thị xã Phú Mỹ (Bà Rịa-Vũng Tàu), sáng 20/2/2024 (Ảnh: Báo Nhân dân)</p>
+        <img src="assets/images/chuong_8/26_tauquocte-chuong8-8.2.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Tàu biển quốc tế Spectrum of the Seas chở hơn 4.000 du khách đa quốc tịch đã cập cảng Tân Cảng-Cái Mép, thị xã Phú Mỹ (Bà Rịa-Vũng Tàu), sáng 20/2/2024 (Ảnh: Báo Nhân dân)</p>
         <p class="p-justify-indent">Thời gian gần đây, Việt Nam liên tục đón những du khách siêu giàu trên thế giới, khẳng định sức hút ngày càng lớn của du lịch hạng sang.</p>
       </div>
     `
@@ -3085,7 +3092,8 @@ const chapters = [
         <p class="p-justify-indent">tư. Xây dựng cơ chế hợp tác giữa Nhà nước và các doanh nghiệp, hiệp hội doanh nghiệp trong xây dựng và thực thi các chính sách.</p>
         <p class="p-justify-indent">●​Kiện toàn tổ chức bộ máy quản lý du lịch</p>
         <p class="p-justify-indent">Bộ Văn hóa, Thể thao và Du lịch đã ban hành văn bản về sắp xếp, kiện toàn tổ chức bộ máy của Bộ Văn hóa, Thể thao và Du lịch.</p>
-        <p class="p-justify-indent">Công văn 415: Sắp xếp, kiện toàn tổ chức bộ máy của Bộ Văn hóa, Thể thao và Du lịch (Hình từ Internet)</p>
+        <img src="assets/images/chuong_10/congvan.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Công văn 415: Sắp xếp, kiện toàn tổ chức bộ máy của Bộ Văn hóa, Thể thao và Du lịch (Hình từ Internet)</p>
         <p class="p-justify-indent">Bộ Văn hóa, Thể thao và Du lịch ban hành Công văn 415/BVHTTDL-TCCB ngày 06/02/2025 về việc triển khai sắp xếp, kiện toàn tổ chức bộ máy của Bộ Văn hóa, Thể thao và Du lịch.</p>
       </div>
     `
@@ -3129,7 +3137,8 @@ const chapters = [
         <p class="p-justify-indent">+ Cung cấp danh sách đối tượng có nguyện vọng nghỉ hưu trước tuổi, thôi việc theo quy định tại Nghị định 178/2024/NĐ-CP theo mẫu tại Phụ lục 05.</p>
         <p class="p-base">●​Tăng cường phối hợp liên ngành</p>
         <p class="p-justify-indent">Tăng cường liên kết, hợp tác là yếu tố then chốt đổi mới, nâng cao hiệu quả quảng bá xúc tiến du lịch</p>
-        <p class="p-justify-indent"><strong>Các đại biểu tham dự hội nghị. Ảnh: TITC</strong></p>
+        <img src="assets/images/chuong_10/hoinghi.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Các đại biểu tham dự hội nghị. Ảnh: TITC</p>
         <p class="p-justify-indent">Sự quay lại của các hoạt động xúc tiến sôi động, quy mô lớn. Phát biểu tại hội nghị, Thứ trưởng Hồ An Phong nhấn mạnh ý nghĩa quan trọng của hội nghị nhằm bàn về việc thúc đẩy, đổi mới công tác xúc tiến du lịch - được xác định là một nhiệm vụ chính trị trọng tâm của ngành Du lịch năm 2025 và những năm tiếp theo theo chỉ đạo của Chính phủ, Thủ tướng Chính phủ tại Nghị quyết 82/NQ-CP và Chỉ thị 08/CT-TTg.</p>
       </div>
     `
@@ -3139,7 +3148,8 @@ const chapters = [
     id: "trang-218", page: "218", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Thứ trưởng Bộ VHTTDL Hồ An Phong phát biểu tại hội nghị. Ảnh: TITC</p>
+      <img src="assets/images/chuong_10/thitruong.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Thứ trưởng Bộ VHTTDL Hồ An Phong phát biểu tại hội nghị. Ảnh: TITC</p>
         <p class="p-justify-indent">Năm 2024, du lịch là một điểm sáng trong bức tranh kinh tế của Việt Nam, lượng khách quốc tế đến Việt Nam đang có đà tăng trưởng khả quan, góp phần hoàn thành mục tiêu đón trên 17 triệu lượt khách quốc tế trong năm 2024. Đồng thời, năm nay đánh dấu sự trở lại của các hoạt động quảng bá xúc tiến du lịch ở nước ngoài với quy mô, số lượng và tần suất tương đương như trước dịch Covid-19; góp phần thúc đẩy sự hiện diện, nâng cao hình ảnh, thương hiệu điểm đến du lịch Việt Nam tại các thị trường trọng điểm quốc tế và hỗ trợ doanh nghiệp du lịch kết nối, khai thác và mở rộng thị trường. Đặc biệt, ngành du lịch đang nhận được sự quan tâm sâu sắc của Đảng, Nhà nước. Năm 2024, Thủ tướng Chính phủ Phạm Minh Chính đã dự và phát biểu tại 2 chương trình xúc tiến, quảng bá du lịch Việt Nam tại Hàn Quốc và Trung Quốc do Bộ VHTTDL tổ chức.</p>
       </div>
     `
@@ -3179,7 +3189,7 @@ const chapters = [
         <p class="p-justify-indent">- Tổ chức, cá nhân kinh doanh du lịch được hưởng mức ưu đãi, hỗ trợ đầu tư cao nhất khi Nhà nước ban hành, áp dụng các chính sách về ưu đãi và hỗ trợ đầu tư.</p>
         <p class="p-justify-indent">- Nhà nước ưu tiên bố trí kinh phí cho các hoạt động sau đây:</p>
         <p class="p-justify-indent">+ Điều tra, đánh giá, bảo vệ, tôn tạo, phát triển giá trị tài nguyên du lịch;</p>
-        <p class="p-base">+ Lập quy hoạch về du lịch;</p>
+        <p class="p-justify-indent">+ Lập quy hoạch về du lịch;</p>
         <p class="p-justify-indent">+ Xúc tiến du lịch, xây dựng thương hiệu du lịch quốc gia, địa phương;</p>
         <p class="p-justify-indent">+ Xây dựng kết cấu hạ tầng phục vụ phát triển du lịch.</p>
         <p class="p-justify-indent">- Nhà nước có chính sách khuyến khích, hỗ trợ cho các hoạt động sau đây:</p>
@@ -3213,7 +3223,8 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">năm 2019 (trước dịch bệnh) doanh thu từ du lịch đạt 755.000 tỷ đồng, tương đương 12,5% GDP hiện hành. Trong 9 tháng năm 2023, ngành du lịch tiếp tục có những đóng góp quan trọng khi doanh thu lưu trú, ăn uống và dịch vụ lữ hành đạt 526,5 nghìn tỷ đồng (tương đương 7,24% GDP ), trong đó doanh thu dịch vụ lưu trú, ăn uống tăng 16% và du lịch lữ hành tăng 47,7% so cùng kỳ năm trước.</p>
         <p class="p-justify-indent">Theo đại biểu Cầm Thị Mẫn, đại biểu Quốc hội tỉnh Thanh Hóa, mục tiêu quan trọng nhất của lần sửa đổi Luật Đất đai lần này là phải xây dựng dự án luật đáp ứng yêu cầu phát huy tiềm năng thế mạnh của đất đai. Đồng thời, làm sao phải giảm thiểu phát sinh các khiếu nại, tố cáo, đáp ứng yêu cầu, nguyện vọng, lợi ích của người dân, doanh nghiệp.</p>
-        <p class="p-justify-indent">Đại biểu Cầm Thị Mẫn, đại biểu Quốc hội tỉnh Thanh Hóa</p>
+        <img src="assets/images/chuong_10/daibieu.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Đại biểu Cầm Thị Mẫn, đại biểu Quốc hội tỉnh Thanh Hóa</p>
       </div>
     `
   },
@@ -3234,8 +3245,8 @@ const chapters = [
     id: "trang-225", page: "225", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Phó Cục trưởng Cục Du lịch Quốc gia Việt Nam Phạm Văn Thủy</p>
-        <p class="p-base">trình bày báo cáo.</p>
+      <img src="assets/images/chuong_10/pho_cuc_truong.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Phó Cục trưởng Cục Du lịch Quốc gia Việt Nam Phạm Văn Thủy trình bày báo cáo.</p>
         <p class="p-justify-indent">Mặc dù vậy, quá trình triển khai Luật trong thực tiễn cùng với yêu cầu phát triển, sự thay đổi của xu thế thị trường đã làm bộc lộ một số vướng mắc cần được tháo gỡ. Chẳng hạn như, một số nội dung Luật Du lịch năm 2017 chưa bao quát đầy đủ các loại hình lưu trú mới: bãi cắm trại du lịch, farmstay (du lịch nghỉ dưỡng kết hợp trải nghiệm nông nghiệp), khách sạn bệnh viện, capsule hotel (buồng kén), mô hình kinh doanh dịch vụ căn hộ du lịch; chưa có tiêu chí, tiêu chuẩn của một số loại hình du lịch như du lịch trang trại, du lịch nông nghiệp, làng văn hóa du lịch; chưa có quy định về quy chế phối hợp giữa cơ quan chuyên môn về du lịch với các cơ sở đào tạo trong việc xác minh tính pháp lý của văn bằng, chứng chỉ… gây khó khăn trong thực tế triển khai công tác quản lý nhà nước về du lịch, chính sách thu hút đầu tư du lịch.</p>
       </div>
     `
@@ -3271,7 +3282,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Bên cạnh đó, Việt Nam cũng đang tập trung khai thác thế mạnh ẩm thực đa dạng, đặc sắc của các vùng, miền để hình thành sản phẩm du lịch độc đáo, khác biệt, có lợi thế cạnh tranh, góp phần tạo dựng thương hiệu nổi bật của du lịch Việt Nam. Trong đó, xu hướng “trải nghiệm sống” đang được khai thác hiệu quả như homestay tại làng dân tộc, học nấu món ăn Việt, tham gia lễ hội dân gian... Từ đó tăng khả năng giữ chân khách lâu hơn, tăng chi tiêu và giá trị lan tỏa.</p>
-        <p class="p-base">Văn miếu - Quốc tử giám</p>
+        <img src="assets/images/chuong_10/vanmieuQTG.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Văn miếu - Quốc tử giám</p>
         <p class="p-justify-indent">Du lịch sinh thái lại là hướng đi chú trọng phát triển xanh và bền vững. Sở hữu hệ sinh thái rừng, núi, sông hồ và vườn quốc gia đa dạng, Việt Nam có điều kiện lý tưởng để phát triển du lịch sinh thái, góp phần bảo tồn tài nguyên và thúc đẩy phát triển xanh. Với 02 di sản thiên nhiên, 01 di sản hỗn hợp, 04 công viên địa chất toàn cầu được UNESCO công nhận; cùng với đó là 11 khu dự trữ sinh quyển thế giới, 09 khu Ramsar và hơn 30 khu</p>
       </div>
     `
@@ -3318,7 +3330,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Đây là cách làm du lịch bảo tồn vẻ đẹp tự nhiên, văn hoá của tộc người, coi trọng vai trò cộng đồng, tránh làm mai một giá trị truyền thống. Nhờ phát triển du lịch, nhiều di sản văn hóa trước đây bị mai một thì nay đã được phục hồi, như nghề làm thuốc của người Dao, nghề thêu dệt thổ cẩm của người Thái ...</p>
-        <p class="p-justify-indent">Khách quốc tế xem đua cua ở Khu du lịch Cồn Chim (Trà Vinh). Ảnh: Sea Travel</p>
+        <img src="assets/images/chuong_10/khach_quoc_te.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+       <p class="p-center" style="font-style: italic">Khách quốc tế xem đua cua ở Khu du lịch Cồn Chim (Trà Vinh). Ảnh: Sea Travel</p>
         <p class="p-justify-indent">Tuy nhiên, du lịch di sản văn hóa cộng đồng cũng có một số tác động tiêu cực đến hệ thống các di sản văn hóa như: xu hướng “thương mại hóa” ngày càng tăng, phải cải biến một số đồ dùng, trang phục để bán được cho du khách; sân khấu hóa việc trình diễn nghi lễ của đồng bào đã cắt gọt đi một số yếu tố; lượng khách tăng cao làm quá tải khả năng đáp ứng của địa phương, tác động đến môi trường sinh thái và nếp sống văn hóa của người dân địa phương; phát triển du lịch cộng đồng với tầm nhìn ngắn hạn,</p>
       </div>
     `
@@ -3391,7 +3404,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">thành phần kinh tế để phát triển hạ tầng và cơ sở vật chất kỹ thuật phục vụ du lịch, trong đó có hệ thống cơ sở lưu trú du lịch. Qua quá trình tích lũy trong nhiều năm và những nỗ lực vượt bậc trong những năm gần đây, đến nay hệ thống cơ sở lưu trú du lịch Việt Nam đã vươn tầm phát triển cả về số lượng và chất lượng.</p>
-        <p class="p-justify-indent">Khách sạn Hotel de la Coupole – Mgallery (Sa Pa, Lào Cai)</p>
+        <img src="assets/images/chuong_10/khach_san.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Khách sạn Hotel de la Coupole – Mgallery (Sa Pa, Lào Cai)</p>
         <p class="p-justify-indent">Bên cạnh đó, các hình thức lưu trú du lịch khác cũng được mở rộng, đáng chú ý là loại hình lưu trú kết nối qua airbnb, homestay, boutique hotel, mô hình time-share (sở hữu kỳ nghỉ)... Dấu ấn về công nghệ số hiện hữu ngày càng rõ nét trong lĩnh vực kinh doanh lưu trú với xu hướng gia tăng đặt phòng trực tuyến, thanh toán điện tử, công nghệ thông minh được áp dụng trong quản lý và cung cấp tiện ích phục vụ khách tại cơ sở lưu trú.</p>
       </div>
     `
@@ -3401,7 +3415,8 @@ const chapters = [
     id: "trang-239", page: "239", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Khách sạn Continental Đà Nẵng Sun Peninsula Resort đạt nhiều giải thưởng danh giá ở trong nước và quốc tế</p>
+<img src="assets/images/chuong_10/khach_san2.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Khách sạn Continental Đà Nẵng Sun Peninsula Resort đạt nhiều giải thưởng danh giá ở trong nước và quốc tế</p>
         <p class="p-justify-indent">Nhiều khách sạn, khu nghỉ dưỡng cao cấp của Việt Nam đã vinh dự được nhận những giải thưởng danh giá trên thế giới như World Travel Awards, World Luxury Hotel Awards…, được nhiều du khách lựa chọn thông qua các website tư vấn du lịch quốc tế.</p>
         <p class="p-justify-indent">●​Hạ tầng công nghệ thông tin, du lịch thông minh</p>
         <p class="p-justify-indent">Việc sửa đổi, bổ sung Luật Du lịch sắp tới cần tính đến các nội dung liên quan đến quản lý và khai thác cơ sở dữ liệu du lịch quốc gia; tạo hành lang pháp lý thúc đẩy khởi nghiệp và đổi mới sáng tạo trong du lịch công nghệ. Về hạ tầng và nền tảng, nhiệm vụ trung tâm là xây dựng nền tảng du lịch số quốc gia dùng chung, liên thông dữ liệu từ trung ương đến địa phương và kết nối với doanh nghiệp. Trên nền tảng đó, cần hình thành bản đồ du lịch số toàn quốc, đồng thời xây dựng trung tâm dữ liệu lớn phục</p>
