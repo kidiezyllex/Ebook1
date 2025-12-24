@@ -612,9 +612,10 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-base">cụ và các kỹ thuật biểu diễn đặc trưng. Đờn ca tài tử thường được trình diễn trong các buổi hòa nhạc và sự kiện văn hóa.</p>
+        <img src="assets/images/chuong_1/Mot_tiet_muc_Don_ca.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
         <p class="p-center" style="font-style: italic">Một tiết mục Đờn ca tài tử được biểu diễn tại Liên hoan Đờn ca tài tử “Hải Phòng - Miền di sản 2024”. Nguồn: ARTTIMES</p>
         <p class="p-justify-indent">Mỹ thuật Tranh Dân Gian: Mỹ thuật tranh dân gian là một di sản nghệ thuật đặc trưng của Việt Nam. Nó thường biểu thị qua các bức tranh trên giấy, vải hoặc gốm sứ, thể hiện các chủ đề văn hóa, tín ngưỡng và cuộc sống hàng ngày.</p>
-        <p class="p-justify-indent"><strong>Di chỉ khảo cổ học ở Việt Nam:</strong></p>
+        <p class="p-justify-indent">Di chỉ khảo cổ học ở Việt Nam:</p>
         <p class="p-justify-indent">Di tích Cổ Loa: Nằm ở xã Đông Anh, Hà Nội, Cổ Loa là kinh đô của nhà nước Âu Lạc dưới thời An Dương Vương. Đây là</p>
       </div>
     `
@@ -627,7 +628,8 @@ const chapters = [
         <p class="p-justify-indent">một trong những khu di tích cổ quan trọng nhất, với cấu trúc thành lũy phức tạp và hệ thống hào bảo vệ.</p>
         <p class="p-justify-indent">Thành nhà Hồ: Được xây dựng vào cuối thế kỷ 14, thành nhà Hồ nằm ở tỉnh Thanh Hóa. Đây là một công trình kiến trúc bằng đá hiếm hoi còn lại từ thời phong kiến Việt Nam và đã được UNESCO công nhận là Di sản thế giới vào năm 2011.</p>
         <p class="p-justify-indent">Di chỉ Óc Eo: Thuộc tỉnh An Giang, di chỉ Óc Eo là một trong những di chỉ khảo cổ học quan trọng, liên quan đến nền văn hóa Óc Eo của vương quốc Phù Nam cổ đại. Đây là trung tâm thương mại và tôn giáo lớn, với nhiều hiện vật giá trị được phát hiện.</p>
-        <p class="p-justify-indent">Di tích Gò Cây Thị A. (Nguồn: Cục Du lịch Quốc Gia Việt Nam)</p>
+        <img src="assets/images/chuong_1/Di_tich_Go_Cay_Thi_A.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Di tích Gò Cây Thị A. (Nguồn: Cục Du lịch Quốc Gia Việt Nam)</p>
       </div>
     `
   },
@@ -686,7 +688,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">tiêu đến năm 2025, du lịch Việt Nam sẽ tạo việc làm cho khoảng 5,5-6 triệu việc làm, trong đó có 2 triệu lao động trực tiếp; đến năm 2030 có khoảng 8,5 triệu việc làm, trong đó có khoảng 3 triệu việc làm trực tiếp. Tuy nhiên, theo Tổng cục Du lịch (Cục Du lịch Quốc gia Việt Nam) đến nay, tỷ lệ lao động có chuyên môn về du lịch chiếm khoảng 42%/tổng số lao động toàn ngành du lịch Việt Nam, 38% được đào tạo từ các ngành khác chuyển sang và khoảng 20% chưa qua đào tạo chính quy. Trong tổng số 42% lao động được đào tạo về du lịch thì chỉ có 10% lao động có trình độ đại học và sau đại học (chiếm 3,5%); 50% lao động có trình độ sơ cấp, trung cấp và cao đẳng (chiếm 20%); 40% còn lại là lao động được bồi dưỡng qua các lớp ngắn hạn; khoảng 60% lao động trong lĩnh vực biết và sử dụng các ngoại ngữ khác nhau. Với tốc độ tăng trưởng như hiện nay, mỗi năm ngành cần 40.000 nhân viên mới và 25.000 nhân viên cần được đào tạo lại.</p>
-        <p class="p-base">Bảng 1.3. Bảng thống kê nhân lực du lịch Việt Nam năm 2012 - 2030. (Ảnh: Tự dựng dựa trên số liệu)</p>
+        <img src="assets/images/chuong_1/Thong_ke_nhan_luc_du_lich_Viet_Nam_2012_2030.png" alt="Thống kê nhân lực du lịch Việt Nam năm 2012 - 2030" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Bảng 1.3. Bảng thống kê nhân lực du lịch Việt Nam năm 2012 - 2030. (Ảnh: Tự dựng dựa trên số liệu)</p>
       </div>
     `
   },
@@ -1036,7 +1039,7 @@ const chapters = [
     id: "trang-67", page: "67", title: "",
     content: `
       <div class="content-container">
-        <img src="assets/images/chuong_3/7_hue-chuong3-3.2.jpg6_trangan2-chuong3-3.1.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <img src="assets/images/chuong_3/7_hue-chuong3-3.2.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
         <p class="p-center" style="font-style: italic">Ngọ Môn - Cố đô Huế. (Ảnh: Bùi Ngọc Long - Báo Thanh niên)</p>
         <p class="p-justify-indent">Tiêu biểu nhất là Quần thể Di tích Cố đô Huế đã được sánh ngang hàng với các kỳ quan hàng ngàn năm tuổi của nhân loại trong danh mục Di sản Văn hóa thế giới của UNESCO, được UNESCO công nhận là Di sản Văn hóa thế giới ngày 11/12/1993.</p>
         <p class="p-justify-indent">Đó là Kinh thành Huế, Hoàng thành Huế, Tử cấm thành Huế, ba tòa thành lồng vào nhau được bố trí đăng đối trên một trục dọc xuyên suốt từ mặt Nam ra mặt Bắc. Hệ thống thành quách ở đây là một mẫu mực của sự kết hợp hài hòa, nhuần nhuyễn giữa tinh hoa kiến trúc Đông và Tây; được đặt trong một khung cảnh thiên nhiên kỳ tú với nhiều yếu tố biểu tượng sẵn có tự nhiên đến mức người ta mặc nhiên xem đó là những bộ phận của Kinh thành Huế - đó là núi Ngự Bình, dòng Hương Giang, cồn Giã Viên.</p>
@@ -1151,7 +1154,7 @@ const chapters = [
         <p class="p-justify-indent">hùng vĩ. Nơi đây từng là trung tâm chính trị, văn hóa và tôn giáo của vương quốc Chăm Pa trong suốt hơn một ngàn năm, lưu giữ những giá trị lịch sử và văn hóa vô cùng độc đáo.</p>
         <img src="assets/images/chuong_3/9_myson-chuong3-3.2.jpg" alt="Động Thiên cung" style="height:auto; width:100%; display:block; object-fit:contain;" />
         <p class="p-center" style="font-style: italic">Di sản văn hóa thế giới Mỹ Sơn sở hữu vị trí đặc biệt giữa núi non hùng vĩ</p>
-        <p class="p-base">(Ảnh: eduavagi - heritage vietnamairlines)</p>
+       <p class="p-center" style="font-style: italic">(Ảnh: eduavagi - heritage vietnamairlines)</p>
         <p class="p-justify-indent">Với những công trình kiến trúc tuyệt đẹp và tinh xảo, Mỹ Sơn được UNESCO công nhận là Di sản văn hóa thế giới vào tháng 12/1999.</p>
         <p class="p-justify-indent">Thánh địa Mỹ Sơn không chỉ là địa điểm nổi tiếng thu hút khách du lịch, mà còn là niềm tự hào của dân tộc Việt Nam khi được UNESCO công nhận là Di sản văn hóa thế giới vào năm</p>
       </div>
@@ -1421,7 +1424,7 @@ const chapters = [
       <div class="content-container">
       <img src="assets/images/chuong_4/15_banhchung-chuong4-4.2.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
         <p class="p-center" style="font-style: italic">Truyền thống gói bánh chưng ngày Tết. (Ảnh: Cục Du lịch Quốc gia Việt Nam)</p>
-        <p class="p-center" style="font-style: italic">Làng cổ</p>
+        <p class="p-justify-indent" style="font-style: italic">Làng cổ</p>
         <p class="p-justify-indent">Việt Nam có nhiều đình, chùa, đền, miếu, cổng làng, cây đa, bến nước, điếm canh, nhà thờ họ và những ngôi nhà cổ mang đặc trưng của vùng châu thổ sông Hồng. Đường Lâm được ví là “Bảo tàng lối sống nông thôn, lối sống nông nghiệp” của Việt Nam. Các điểm tham quan: đền thờ và lăng Ngô Quyền, đình Mông Phụ thờ Phùng Hưng, nhà thờ họ Giang, chùa Mía, một số ngôi nhà cổ 200 – 400 năm tuổi…</p>
         <p class="p-justify-indent">Làng cổ Phước Tích (Huế) và một số làng cổ khác ở miền Trung còn giữ khá nguyên vẹn những dấu ấn cổ xưa với những</p>
       </div>
@@ -1433,12 +1436,12 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">nhà thờ họ, nhà rường cổ, hàng rào chè tàu uốn lượn theo trục đường làng, ngõ xóm và lối đi vào từng nhà.</p>
-        <p class="p-center" style="font-style: italic">Làng nghề</p>
+         <p class="p-justify-indent" style="font-style: italic">Làng nghề</p>
         <p class="p-justify-indent">Hiện còn nhiều làng nghề làm ra các sản phẩm thủ công như mây tre đan, gốm sứ, sản phẩm từ cói, điêu khắc gỗ, sơn mài, thêu ren, điêu khắc đá, dệt thủ công, giấy, tranh nghệ thuật, vàng bạc, tranh dân gian... Các làng nghề truyền thống hầu hết tập trung ở vùng đồng bằng Bắc Bộ như Hà Nội, Bắc Ninh, Hưng Yên, Ninh Bình... Một số ít rải rác ở các vùng cao, miền Trung và miền Nam.</p>
         <p class="p-justify-indent">Một số làng nghề nổi tiếng: làng gốm Bát Tràng, làng dệt lụa Vạn Phúc, làng mây tre đan Phú Vinh, làng khảm trai Chuôn Ngọ, làng sơn mài Hạ Thái, làng gỗ Đồng Kỵ (Bắc Ninh), làng đá mỹ nghệ Non Nước (Đà Nẵng), làng gốm Bàu Trúc (Ninh Thuận), làng nghề kẹo dừa (Khánh Hòa)…</p>
-        <p class="p-base">Chợ quê, chợ phiên</p>
+        <p class="p-justify-indent" style="font-style: italic">Chợ quê, chợ phiên</p>
         <p class="p-justify-indent">Ở tất cả các bản làng nông thôn Việt Nam nơi đâu cũng có chợ quê và chợ phiên (họp vào những ngày cố định theo chu kỳ trong tháng hoặc trong năm theo âm lịch) buôn bán nông sản địa phương.</p>
-        <p class="p-base">Văn hóa tâm linh và lễ hội</p>
+        <p class="p-justify-indent" style="font-style: italic">Văn hóa tâm linh và lễ hội</p>
         <p class="p-justify-indent">Đời sống tín ngưỡng ở Việt Nam phát triển khá mạnh với hàng nghìn điểm di tích và hàng trăm lễ hội được tổ chức hàng năm. Lễ hội thu hút hầu như tất cả mọi người ở mọi lứa tuổi, tầng</p>
       </div>
     `
@@ -1685,8 +1688,9 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">viên sử dụng các ngôn ngữ khác như Hàn Quốc, Tây Ban Nha, Thái Lan, Ả Rập…</p>
-        <p class="p-justify-indent">Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam (Ảnh: Trung tâm Thông tin Du lịch, 2025)</p>
-        <p class="p-base">Phương tiện vận chuyển du lịch</p>
+        <img src="assets/images/chuong_4/thong_ke_ngon_ngu.png" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Bảng thống kê ngôn ngữ sử dụng của các hướng dẫn viên du lịch tại Việt Nam (Ảnh: Trung tâm Thông tin Du lịch, 2025)</p>
+        <p class="p-justify-indent"><strong>Phương tiện vận chuyển du lịch</strong></p>
         <p class="p-justify-indent">Hiện nay, du lịch ngày càng phát triển không ngừng, kéo theo nhu cầu đi lại của du khách cũng gia tăng đáng kể. Cho dù là tour du lịch nghỉ dưỡng hay là hành trình khám phá, thì phương tiện di chuyển luôn là yếu tố không thể thiếu trong mọi chuyến đi.</p>
       </div>
     `
@@ -1698,10 +1702,10 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">Mỗi loại hình giao thông vận tải từ hàng không, đường bộ, đường sắt đến đường thủy, tất cả đều góp phần thúc đẩy sự phát triển chung của ngành du lịch. Đặc biệt, dịch vụ di chuyển hiện đại hay các giải pháp di chuyển xanh cũng đang trở thành xu hướng, mang đến cho bạn sự tiện lợi, trải nghiệm thoải mái mà vẫn bảo vệ môi trường.</p>
         <p class="p-justify-indent">Lĩnh vực này đang hướng đến việc nâng cấp các hệ thống tàu cao tốc, hàng không giá rẻ và phương thức đi lại ít phát thải nhằm thu hút du khách đến với các địa điểm du lịch. Nhờ vậy, bạn có thể dễ dàng khám phá những địa danh nổi tiếng, từ những thành phố sầm uất đến các bãi biển thơ mộng. Một hệ thống giao thông thuận tiện không chỉ thúc đẩy ngành du lịch phát triển mà còn góp phần nâng cao đời sống kinh tế địa phương.</p>
-        <p class="p-base">Giao thông đường hàng không</p>
+        <p class="p-justify-indent"><strong>Giao thông đường hàng không</strong></p>
         <p class="p-justify-indent">Ngày càng có nhiều đường bay nội địa và quốc tế được mở rộng, giúp rút ngắn khoảng cách địa lý giữa các điểm đến và mọi quốc gia trên thế giới. Thêm vào đó, sự xuất hiện của các hãng hàng không giá rẻ đã làm cho việc đi lại của bạn trở nên phổ biến hơn, mang đến nhiều lựa chọn và tiết kiệm chi phí. Và các sân bay trọng điểm như Đà Nẵng, Nội Bài, Tân Sơn Nhất góp phần thúc đẩy kinh tế du lịch phát triển.</p>
         <p class="p-justify-indent">Ngoài ra, các dịch vụ đi kèm như vận tải hành khách từ sân bay về khách sạn, đến các điểm du lịch cũng ngày càng được cải thiện, cho hành trình thêm suôn sẻ.</p>
-        <p class="p-base">Giao thông đường bộ</p>
+        <p class="p-justify-indent"><strong>Giao thông đường bộ</strong></p>
       </div>
     `
   },
@@ -1711,9 +1715,9 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Các loại hình di chuyển tại đường bộ như xe buýt, xe ô tô, xe máy,... vẫn là lựa chọn di chuyển phổ biến nhất trong du lịch, đặc biệt là các tour du lịch trong nước hoặc di chuyển giữa các điểm lân cận. Việc lựa chọn các phương tiện phù hợp có thể giúp bạn thoải mái khám phá, tận hưởng vẻ đẹp của các điểm đến. Hơn nữa, trên thị trường có rất nhiều các đơn vị cho thuê xe du lịch bạn có thể chọn, giúp bạn linh hoạt hơn về lịch trình và tối ưu chi phí.</p>
-        <p class="p-base">Giao thông đường thủy</p>
+        <p class="p-justify-indent"><strong>Giao thông đường thủy</strong></p>
         <p class="p-justify-indent">Những địa điểm du lịch ven biển, đảo hay vùng sông nước như Phú Quốc, Hạ Long,...không thể thiếu các loại hình di chuyển đường thủy để đưa đón du khách. Tàu cao tốc, phà hay du thuyền không chỉ phục vụ nhu cầu vận tải du lịch mà còn mang đến những trải nghiệm thú vị. Du khách có thể chiêm ngưỡng vẻ đẹp thiên nhiên từ một góc nhìn hoàn toàn khác, để lại những khoảnh khắc đáng nhớ.</p>
-        <p class="p-base">Giao thông đường sắt</p>
+        <p class="p-justify-indent"><strong>Giao thông đường sắt</strong></p>
         <p class="p-justify-indent">Đường sắt cũng đóng vai trò quan trọng trong du lịch, đặc biệt với những chuyến hành trình dài. Những tuyến tàu hỏa như tàu Thống Nhất Bắc - Nam hay tàu lên vùng cao nguyên xinh đẹp không chỉ giúp du khách di chuyển an toàn, tiện lợi mà còn mang lại trải nghiệm độc đáo, thưởng ngoạn cảnh sắc thiên nhiên trong suốt hành trình.</p>
         <p class="p-justify-indent">Ngày nay, giao thông phục vụ đang có xu hướng ngày càng hướng đến sự tiện lợi và bảo vệ môi trường. Các giải pháp di</p>
       </div>
@@ -1727,7 +1731,7 @@ const chapters = [
         <p class="p-justify-indent">chuyển chạy bằng năng lượng tái tạo, hệ thống xe buýt thông minh hay xe điện hiện đại đang được nhiều thành phố du lịch lựa chọn.</p>
         <p class="p-justify-indent">Nhằm giảm thiểu tác động đến môi trường, nhiều thành phố du lịch như Hội An, Đà Lạt, Huế đã phát triển mô hình xe điện, xe đạp công cộng hay một số khu vực cấm xe máy. Nhờ đó thu hút nhiều khách du lịch quốc tế, gia tăng nguồn doanh thu cho ngành du lịch.</p>
         <p class="p-justify-indent">Với sự phát triển của công nghệ, các hệ thống trực tuyến như Website, Fanpage và ứng dụng đặt xe qua app giúp bạn có thể dễ dàng lựa chọn phương tiện phù hợp và đặt xe nhanh chóng hơn. Các loại hình vận tải thông minh ngày càng được tích hợp nhiều dịch vụ, tăng tính trải nghiệm cho khách hàng, tối ưu chi phí và nâng tầm ngành du lịch trong những năm tới.</p>
-        <p class="p-base">Hệ thống khu du lịch</p>
+        <p class="p-justify-indent"><strong>Hệ thống khu du lịch</strong></p>
         <p class="p-justify-indent">Trong giai đoạn 2021–2030, tầm nhìn đến năm 2045, phát triển các khu, điểm du lịch được xác định là một định hướng trọng tâm trong Quy hoạch hệ thống du lịch Việt Nam. Theo đó, Nhà nước ưu tiên đầu tư đồng bộ, nâng cao chất lượng các Khu du lịch quốc gia đã được công nhận, đồng thời quy hoạch, phát triển hạ tầng và thu hút nguồn lực xã hội hóa nhằm hình thành các Khu du lịch quốc gia mới tại những địa bàn có tiềm năng nổi trội.</p>
         <p class="p-justify-indent">Tính đến tháng 5/2024, cả nước đã có 9 Khu du lịch quốc gia được công nhận, phân bố tương đối đồng đều giữa các vùng, góp phần hình thành các trung tâm du lịch quy mô lớn, có sức lan</p>
       </div>
@@ -1740,7 +1744,7 @@ const chapters = [
       <div class="content-container">
         <p class="p-justify-indent">tỏa và khả năng cạnh tranh cao. Song song với đó, Quy hoạch mới đã xác định 61 địa điểm tiềm năng phát triển Khu du lịch quốc gia trong thời kỳ 2021–2030, trải rộng trên 6 vùng du lịch của cả nước, bao gồm miền núi, đồng bằng, ven biển, hải đảo và các khu vực có giá trị nổi bật về tài nguyên tự nhiên, văn hóa và lịch sử.</p>
         <p class="p-justify-indent">Việc quy hoạch và đầu tư phát triển các khu, điểm du lịch theo hướng tập trung, bài bản không chỉ tạo động lực thúc đẩy tăng trưởng du lịch ở từng địa phương mà còn góp phần liên kết vùng, đa dạng hóa sản phẩm, nâng cao chất lượng dịch vụ và xây dựng thương hiệu điểm đến quốc gia. Các Khu du lịch quốc gia vì vậy được xác định là những “hạt nhân” quan trọng trong chiến lược phát triển du lịch bền vững, đóng vai trò dẫn dắt và lan tỏa cho toàn bộ hệ thống du lịch Việt Nam trong dài hạn.</p>
-        <p class="p-base">Ứng dụng công nghệ số trong du lịch</p>
+        <p class="p-justify-indent"><strong>Ứng dụng công nghệ số trong du lịch</strong></p>
         <p class="p-justify-indent">Thực tế cho thấy, việc sử dụng công nghệ trong du lịch đã được triển khai rộng khắp trong các hoạt động của ngành du lịch trong những năm gần đây. Theo đó, các hệ thống thanh toán di động, như: Apple Pay và Google Wallet đã hợp lý hóa các giao dịch, cho phép khách du lịch nước ngoài mua hàng một cách thuận tiện và an toàn, loại bỏ nhu cầu đổi tiền mặt và chuyển đổi tiền tệ. Các nền tảng đặt phòng trực tuyến như: Booking.com cung cấp cho du khách nhiều lựa chọn chỗ ở phù hợp với sở thích, từ nhà dân ấm cúng đến khu nghỉ dưỡng sang trọng, tất cả đều có thể truy cập dễ dàng chỉ bằng vài cú nhấp chuột. Các ứng dụng dịch ngôn ngữ như: Google Translate phá vỡ các rào cản giao tiếp, cho phép khách du lịch khám phá môi trường nước</p>
       </div>
     `
@@ -1786,7 +1790,8 @@ const chapters = [
     id: "trang-123", page: "123", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Thủ đô Hà Nội là trung tâm du lịch hàng đầu của cả nước. (Ảnh: Vin Wonders)</p>
+        <img src="assets/images/chuong_5/hanoi-chuong5-5.1-a.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic"><strong>Thủ đô Hà Nội là trung tâm du lịch hàng đầu của cả nước.</strong></p>
         <p class="p-justify-indent">Trong ba tháng đầu năm 2025, Thủ đô Hà Nội ước đón 7,30 triệu lượt khách, tăng 8,7% so với cùng kỳ năm 2024. Trong đó, khách du lịch quốc tế ước đạt 1,85 triệu lượt khách, tăng 17,4% so với cùng kỳ năm 2024, còn lại là khách trong nước. Tổng thu từ khách du lịch ước đạt 29.930 tỷ đồng, tăng 11,3% so với cùng kỳ năm 2024.</p>
         <p class="p-justify-indent">Trong 3 tháng đầu năm 2025, ngành du lịch Thủ đô đã tổ chức hàng loạt sự kiện quan trọng, nhất là dịp đón năm mới 2025, đón Tết Nguyên đán. Sở Du lịch Hà Nội cũng tổ chức nhiều hoạt động nhằm tìm kiếm sản phẩm mới, tăng tính liên kết giữa các địa phương như: Chương trình Khảo sát tuyến điểm và Hội nghị “Kết nối các điểm du lịch dọc tuyến sông Hồng với các doanh nghiệp lữ hành trên địa bàn thành phố Hà Nội”; Quảng Phú Cầu - Điểm nhấn làng nghề ngoại đô; Tăng sức hấp dẫn cho Hà Nội từ những điểm du lịch hoa; Chương trình khảo sát, liên kết hợp tác phát triển du lịch và phát động bảo vệ môi trường, thúc đẩy du lịch bền</p>
       </div>
@@ -1907,9 +1912,143 @@ const chapters = [
     id: "trang-133", page: "133", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Bảng 5.1. Cơ sở du lịch và lao động du lịch giai đoạn 2018-2023​ của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</p>
+      <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 25%;">CHỈ TIÊU</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 10%;">ĐVT</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2018</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2019</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2020</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2021</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2022</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">2023</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000; font-weight: bold;">1. Cơ sở dịch vụ</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">1.1. Tổng số cơ sở lưu trú</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Cơ sở</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">839</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">842</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">882</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">889</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">899</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">902</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">1.2. Tổng số buồng</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Buồng</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">20.054</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">20.359</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">21.549</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">21.642</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">21.783</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">21.950</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">1.3. Tổng số giường</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Giường</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">34.651</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">35.957</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">37.566</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">37.926</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">38.749</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">38.900</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">1.4. Tổng số đơn vị lữ hành</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Đơn vị</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">53</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">49</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">53</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">52</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">67</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">67</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000; font-weight: bold;">2. Tổng số lao động</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">Người</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">10.028</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">10.340</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">9.560</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">6.182</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">7.500</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">9.000</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <p class="p-center" style="font-style: italic">Bảng 5.1. Cơ sở du lịch và lao động du lịch giai đoạn 2018-2023​ của tỉnh Nghệ An. (Nguồn: Sở Du lịch Nghệ An)</p>
         <p class="p-justify-indent">Giai đoạn 2021 - 2024, nguồn vốn đầu tư từ NSNN (ngân sách nhà nước) cho PTDL (phát triển du lịch) đạt 623,562 tỷ đồng, chiếm tỷ trọng 3,95% trong tổng số VĐT (vốn đầu tư) cho du lịch và 0,16% trên tổng VĐT toàn xã hội tỉnh Nghệ An.</p>
-        <p class="p-justify-indent">Bảng 5.2. Vốn huy động từ NSNN cho PTDL tỉnh Nghệ An giai đoạn</p>
+        <div style="width: 100%;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: 1px solid #000;">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 8%;">TT</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000; width: 30%;">Chỉ tiêu</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Kế hoạch</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Thực hiện</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">Tỷ trọng (%)</th>
+                <th style="text-align: center; padding: 8px; border: 1px solid #000;">So với Kế hoạch (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000; font-weight: bold;">Tổng số NSNN</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">561.789</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">524.512</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">100</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000; font-weight: bold;">92,91</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">1</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSTW</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">322.400</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">287.532</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">57,7</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">90,15</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">2</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">NSDP (bao gồm đối ứng dự án ODA)</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">267.389</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">257.980</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">46,3</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">96,63</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">3</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Vốn vay ODA</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">0</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">4</td>
+                <td style="text-align: left; padding: 8px; border: 1px solid #000;">Phát hành TP CQĐP</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+                <td style="text-align: center; padding: 8px; border: 1px solid #000;">-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        <p class="p-center" style="font-style: italic">Bảng 5.2. Vốn huy động từ NSNN cho PTDL tỉnh Nghệ An giai đoạn 2021 - 2023 (Nguồn: Sở Du lịch Nghệ An)</p>
       </div>
     `
   },
@@ -1918,7 +2057,6 @@ const chapters = [
     id: "trang-134", page: "134", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">2021 - 2023 (Nguồn: Sở Du lịch Nghệ An)</p>
         <p class="p-justify-indent">Vườn Quốc gia Pù Mát - Tiềm năng phát triển du lịch sinh thái</p>
         <p class="p-justify-indent">Vườn Quốc gia Pù Mát là vùng lõi quan trọng của Khu Dự trữ sinh quyển Thế giới miền Tây Nghệ An, nơi đây hòa quyện giá trị của thiên nhiên và văn hóa.</p>
         <p class="p-justify-indent">Được thành lập vào năm 1995, Vườn quốc gia Pù Mát được giao quản lý 93.127 ha rừng đặc dụng. Nằm ở phía bắc dãy Trường Sơn, cầu nối địa lý giữa hai miền Nam - Bắc, Vườn Quốc gia Pù Mát là khu vực có tính đa dạng sinh học rất cao tại Việt Nam.</p>
@@ -1948,9 +2086,10 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">số hơn 9 triệu lượt khách đến thăm chỉ riêng trong năm 2024 - một con số ấn tượng về sức hấp dẫn không ngừng tăng của vùng đất xứ Nghệ.</p>
-        <p class="p-base">Cửa Lò - Nghỉ dưỡng biển</p>
+        <p class="p-justify-indent"><strong>Cửa Lò - Nghỉ dưỡng biển</strong></p>
         <p class="p-justify-indent">Bãi biển Cửa Lò thuộc thị xã Cửa Lò, tỉnh Nghệ An, cách thành phố Vinh 18 km, đang là điểm đến được đông đảo du khách yêu thích bởi bãi biển đẹp, không quá đông đúc, giá cả dịch vụ, đồ ăn và hàng hóa khá hợp lý, đường đi thuận lợi, người dân thân thiện, mến khách.</p>
-        <p class="p-justify-indent">Đảo Lan Châu ven biển Cửa Lò. (Ảnh: Báo Lao động)</p>
+        <img src="assets/images/chuong_5/cualo-chuong5-5.2-a.jpeg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Đảo Lan Châu ven biển Cửa Lò. (Ảnh: Báo Lao động)</p>
         <p class="p-justify-indent">Bãi tắm Cửa Lò dài trên 10 km, có độ dốc thoai thoải, cát trắng, nước trong và sạch. Phía trên bãi biển còn có nhiều khu lâm viên rộng với những rặng phi lao, rặng dừa xanh tốt. Nước biển ở đây có độ mặn cao, sóng lặng, vì thế Cửa Lò là một trong những bãi tắm lý tưởng ở Việt Nam.</p>
       </div>
     `
@@ -1987,9 +2126,10 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">lớn... Tất cả tạo nên một “vương quốc hang động”, định vị thương hiệu cho du lịch Quảng Bình.</p>
-        <p class="p-base">Vườn Quốc gia Phong Nha - Kẻ Bàng</p>
+        <p class="p-justify-indent"><strong>Vườn Quốc gia Phong Nha - Kẻ Bàng</strong></p>
         <p class="p-justify-indent">Phong Nha - Kẻ Bàng với gần 400 hang động lớn nhỏ đã được đo, vẽ với tổng chiều dài hơn 240km, Quảng Bình đã và đang hướng đến xây dựng thương hiệu về du lịch mạo hiểm vươn tầm quốc tế. Các tour khám phá hang động Phong Nha, Tú Làn, hang Tiên, hang Én, hang Va, hố sụt Kong, hang Pygmy và đặc biệt nhất là tuyến du lịch khám phá Sơn Đoòng - hang động lớn nhất thế giới, có ý nghĩa quan trọng trong nghiên cứu thám hiểm hang động ở khu vực, đóng góp hết sức to lớn trong việc quảng bá hình ảnh Việt Nam, Quảng Trị và Phong Nha - Kẻ Bàng trên khắp thế giới…</p>
-        <p class="p-justify-indent">Hang Sơn Đoòng (Ảnh: Vườn quốc gia Phong Nha - Kẻ Bàng)</p>
+        <img src="assets/images/chuong_5/hangsondoong-chuong5-5.2-b.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Hang Sơn Đoòng (Ảnh: Vườn quốc gia Phong Nha - Kẻ Bàng)</p>
         <p class="p-justify-indent">Vườn quốc gia Phong Nha - Kẻ Bàng được Thủ tướng</p>
       </div>
     `
@@ -2022,7 +2162,8 @@ const chapters = [
     id: "trang-142", page: "142", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Toàn cảnh Quần thể Di tích Cố đô Huế (Ảnh: Viet Going)</p>
+      <img src="assets/images/chuong_5/codohue-chuong5-5.2-c.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Toàn cảnh Quần thể Di tích Cố đô Huế (Ảnh: Viet Going)</p>
         <p class="p-justify-indent">Ngoài 8 di sản văn hoá được UNESCO vinh danh, tỉnh này cũng đang lưu giữ gần 1.000 di tích lịch sử văn hóa và hàng trăm lễ hội đặc sắc. Hiện nay, tỉnh Thừa Thiên Huế được đánh giá là địa phương còn bảo tồn tốt nhất các giá trị di sản truyền thống của Việt Nam, cả về di sản vật thể và phi vật thể. Đồng thời, biến di sản thành các lợi thế cho sự phát triển và đạt nhiều thành tựu từ bảo tồn di sản.</p>
         <p class="p-justify-indent">Sức hấp dẫn lớn của Huế là trải qua bao biến thiên lịch sử, Huế vẫn bảo tồn được chân dung của một kinh đô, bảo tồn được một “kiệt tác về thơ kiến trúc đô thị” với hàng trăm công trình nghệ thuật tinh vi, tuyệt mỹ, phong phú, đa dạng về phong</p>
       </div>
@@ -2059,7 +2200,8 @@ const chapters = [
     id: "trang-145", page: "145", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Phố cổ Hội An bên dòng sông Hoài (Ảnh: Báo Chính Phủ)</p>
+      <img src="assets/images/chuong_5/hoian-chuong5-5.2-d.jpeg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Phố cổ Hội An bên dòng sông Hoài (Ảnh: Báo Chính Phủ)</p>
         <p class="p-justify-indent">Ngoài ra, còn có 8 di sản văn hóa phi vật thể thuộc danh mục quốc gia, 6 di tích quốc gia đặc biệt, 84 di tích cấp quốc gia, 475 di tích cấp thành phố, 19 bảo vật quốc gia, cùng kho tàng văn hóa phi vật thể phong phú như văn hóa, văn học dân gian, nghệ thuật biểu diễn, lễ hội truyền thống, nghề thủ công mỹ nghệ và tri thức dân gian.</p>
         <p class="p-justify-indent">Với nguồn lực dồi dào này, Đà Nẵng không chỉ hướng đến trở thành trung tâm du lịch của cả nước mà còn định vị là điểm đến mang tầm khu vực và quốc tế - nơi du khách có thể trải nghiệm sự kết hợp hài hòa giữa du lịch biển, du lịch sinh thái, du lịch di sản và lễ hội văn hóa.</p>
       </div>
@@ -2070,7 +2212,7 @@ const chapters = [
     id: "trang-146", page: "146", title: "",
     content: `
       <div class="content-container">
-        <p class="p-base">Du lịch nông thôn “xanh”</p>
+        <p class="p-justify-indent"><strong>Du lịch nông thôn “xanh”</strong></p>
         <p class="p-justify-indent">Hiện tại, mô hình phát triển du lịch, hệ thống sản phẩm của Đà Nẵng đang dịch chuyển theo hướng xanh, sinh thái và đa dạng sản phẩm, dịch vụ, tạo điểm nhấn thu hút du khách. Cụ thể, nhiều sản phẩm mới đi kèm với dịch vụ, giải trí trong nhà, ẩm thực và các sản phẩm văn hóa, di sản,… gắn với nhiều sự kiện văn hóa, nghệ thuật,... tạo được ấn tượng tốt cho du khách.</p>
         <p class="p-justify-indent">Đặc biệt sau sắp xếp hành chính, Thành  phố Đà Nẵng vừa có nền tảng phát triển du lịch hiện đại, năng động mà còn kế thừa hệ giá  trị văn hóa - sinh thái phong phú của vùng di sản Quảng Nam tạo thêm nhiều gam màu độc đáo cho du lịch. Hơn nữa, Đà Nẵng kế thừa Bộ tiêu chí Du lịch xanh Quảng Nam, xem như “kim chỉ nam” để phát triển du lịch xanh.</p>
         <p class="p-justify-indent">Đà Nẵng thúc đẩy mạnh mẽ các mô hình du lịch sinh thái, du lịch cộng đồng miền núi, du lịch nông nghiệp và sản phẩm OCOP16,... nhằm tạo ra đa dạng trải nghiệm cho khách du lịch.</p>
@@ -2109,7 +2251,8 @@ const chapters = [
     id: "trang-149", page: "149", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent"><strong>Nha Trang (Ảnh: Vin Wonders)</strong></p>
+      <img src="assets/images/chuong_5/nhatrang-chuong5-5.2-e.jpeg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Nha Trang (Ảnh: Vin Wonders)</p>
         <p class="p-justify-indent">Những năm gần đây, Thành phố Nha Trang đã phát triển rất nhanh. Cơ sở hạ tầng phục vụ du lịch không ngừng được đầu tư; sản phẩm du lịch ngày càng đa dạng. Việc ứng dụng công nghệ thông tin trong quản lý, phục vụ du lịch ngày càng được đẩy mạnh. Theo thống kê của Sở Du lịch, đến nay, Nha Trang có hơn 800 cơ sở lưu trú với hơn 36.000 phòng nghỉ, trong đó có hơn 100 cơ sở lưu trú chất lượng 3 - 5 sao, đáp ứng nhu cầu lưu trú của du khách kể cả mùa cao điểm. Sự phát triển của du lịch Nha Trang không chỉ ở những con số về cơ sở lưu trú, ở lượng khách du lịch mà còn ở chất lượng dịch vụ.</p>
         <p class="p-justify-indent">Bên cạnh lợi thế về “biển xanh, cát trắng, nắng vàng”, cộng đồng làm du lịch của thành phố còn biết tạo ra những sản phẩm du lịch hấp dẫn như: Tắm bùn, lặn biển, các môn thể thao</p>
       </div>
@@ -2146,7 +2289,8 @@ const chapters = [
     id: "trang-152", page: "152", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Cảnh quan đô thị bậc nhất nước ta - Thành phố Hồ Chí Minh (Ảnh: Báo Chính phủ)</p>
+      <img src="assets/images/chuong_5/tphcm-chuong5-5.3-a.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Cảnh quan đô thị bậc nhất nước ta - Thành phố Hồ Chí Minh (Ảnh: Báo Chính phủ)</p>
         <p class="p-justify-indent">Trọng tâm của hội nghị là phiên kết nối doanh nghiệp (B2B17), nơi các bên giới thiệu sản phẩm, tiến tới ký kết hợp tác và xây dựng các tour liên tuyến. Các tour này sẽ kết hợp khám chữa bệnh tại các bệnh viện hiện đại ở Thành phố Hồ Chí Minh với giai đoạn nghỉ dưỡng, phục hồi tại những khu sinh thái, suối nước nóng, resort cao cấp ở các tỉnh Đồng bằng sông Cửu Long và Đông Nam Bộ, tạo thành một chuỗi giá  trị toàn diện giữa ngành Y tế, Du lịch và Dịch vụ chăm sóc sức khỏe.</p>
         <p class="p-justify-indent">Hội nghị Liên kết phát triển Du lịch Y tế không chỉ là một sự kiện hợp tác quan trọng, mà còn là bước khởi đầu đầy hứa hẹn</p>
         <p class="p-justify-indent">17 B2B: (Business-to-Business):  là kết nối hợp tác giữa các doanh nghiệp, trong du lịch thường để xây dựng tour, ký kết dịch vụ, mở rộng thị trường</p>
@@ -2175,6 +2319,7 @@ const chapters = [
         <p class="p-justify-indent">Du lịch sông nước kết hợp với du lịch nông nghiệp</p>
         <p class="p-justify-indent">Với lợi thế có gần 28.000 km đường thủy, du lịch sông nước gắn với nét văn hóa miệt vườn là những sản phẩm du lịch nổi bật thu hút du khách của Đồng bằng sông Cửu Long. Hiện nay, lợi thế này vẫn còn rất nhiều tiềm năng cần được các địa phương khai thác, phát huy hiệu quả hơn để sản phẩm du lịch tránh đơn điệu, trùng lặp khiến du khách cho rằng “chỉ cần đến một lần cho biết, đi một nơi biết được cả vùng”.</p>
         <p class="p-justify-indent">Đi chợ nổi trên sông, đón ánh bình minh, nghe tiếng hò vang vọng, chứng kiến khung cảnh mua bán rộn rã, thưởng thức nhiều đặc sản ẩm thực ngay trên ghe, tàu bồng bềnh theo nhịp sóng nước là những trải nghiệm thú vị mà nhiều du khách khi đến chợ nổi Cần Thơ còn lưu lại. Đây cũng là một trong những sản phẩm du lịch nổi bật của Đồng bằng sông Cửu Long (Tây Nam Bộ) từ lợi thế sông nước, miệt vườn.</p>
+        <img src="assets/images/chuong_5/dbscl-chuong5-5.3-b.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
       </div>
     `
   },
@@ -2183,7 +2328,7 @@ const chapters = [
     id: "trang-155", page: "155", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent"><strong>Sông nước ở miền Tây (Ảnh: Booking Tour)</strong></p>
+        <p class="p-center" style="font-style: italic">Sông nước ở miền Tây (Ảnh: Booking Tour)</p>
         <p class="p-justify-indent">Một địa phương khác cũng ở Đồng bằng sông Cửu Long được bao bọc bởi sông Tiền và sông Hậu và các kênh, rạch mang nhiều phù sa bồi đắp cho miệt vườn, ruộng đồng là tỉnh Đồng Tháp cũng đang tận dụng lợi thế để phát triển du lịch.</p>
         <h3 class="h3-indent">c) Phú Quốc (An Giang) - &quot;Đảo Ngọc&quot; điểm đến nghỉ dưỡng cao cấp</h3>
         <p class="p-justify-indent">Phú Quốc “đảo Ngọc” của Việt Nam là thiên đường nghỉ dưỡng nổi tiếng với những bãi biển trong xanh, cát trắng mịn và hệ sinh thái nguyên sơ hiếm có. Nằm trong vịnh Thái Lan, Phú Quốc cuốn hút du khách bởi vẻ đẹp dung hòa giữa biển trời khoáng đạt và những trải nghiệm văn hóa, ẩm thực đặc sắc. Từ những khu nghỉ dưỡng sang trọng, những làng chài bình yên, cho đến rừng nguyên sinh kỳ vĩ, Phú Quốc mang đến hành trình khám phá đa dạng, phù hợp cho mọi du khách. Không chỉ vậy, hòn đảo này còn là điểm đến du lịch xanh đang phát triển mạnh, hướng đến sự bền vững và cân bằng với thiên nhiên.</p>
@@ -2195,7 +2340,8 @@ const chapters = [
     id: "trang-156", page: "156", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Phú quốc - Đảo Ngọc của Đông Nam Á (Ảnh: VTV)</p>
+      <img src="assets/images/chuong_5/phuquoc-chuong5-5.3-c.jpg" alt="" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Phú quốc - Đảo Ngọc của Đông Nam Á (Ảnh: VTV)</p>
         <p class="p-justify-indent">Năm 2024, đặc khu Phú Quốc đón trên 8,1 triệu lượt khách (tăng 36,4% so với cùng kỳ, vượt 12,2% so với kế hoạch năm), khách quốc tế ước đón hơn 1,8 triệu lượt khách (tăng 93,6% so với cùng kỳ, vượt 58,5% kế hoạch năm). Tổng thu du lịch tại đảo ngọc trong năm qua đạt khoảng 43.879 tỷ đồng, tăng 104% so với cùng kỳ và vượt so với 86,7% kế hoạch năm.</p>
         <p class="p-justify-indent">Đặc khu Phú Quốc giữ vị trí đặc biệt quan trọng, vừa là trung tâm du lịch, dịch vụ, kinh tế biển đảo, vừa là cửa ngõ giao thương quốc tế, đóng vai trò chiến lược về quốc phòng, an ninh và đối ngoại. Vượt qua nhiều điểm đến nổi bật khác trong khu vực, Phú Quốc của Việt Nam vừa được các chuyên gia cũng như độc giả của Condé Nast Traveler bình chọn là hòn đảo đẹp nhất châu Á và đứng thứ 3 thế giới. Bảng xếp hạng này nằm trong khuôn khổ giải thưởng Reader&#x27;s choice Award do tạp chí du lịch danh tiếng Condé Nast Traveler (Mỹ) tổ chức thường niên.</p>
       </div>
