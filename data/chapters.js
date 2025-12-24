@@ -1833,7 +1833,8 @@ const chapters = [
     id: "trang-127", page: "127", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify-indent">Cảnh quan hùng vĩ của Vịnh Hạ Long. (Ảnh: Vietnam Tourist)</p>
+      <img src="assets/images/chuong_5/vinhhalong-chuong5-5.1-b.jpg" alt="Tam Đảo - một điểm nghỉ dưỡng lý tưởng ở miền Bắc" style="height:auto; width:100%; display:block; object-fit:contain;" />
+       <p class="p-center" style="font-style: italic">Cảnh quan hùng vĩ của Vịnh Hạ Long. (Ảnh: Vietnam Tourist)</p>
         <p class="p-justify-indent">Năm 2023, ngành du lịch phục hồi mạnh mẽ với lượng khách du lịch đạt 8,6 triệu lượt, tổng thu từ du lịch đạt 19.000 tỷ đồng. Đánh giá về chặng đường phát triển của Hạ Long, nhiều chuyên gia khẳng định, du lịch Hạ Long đang ngày một thay đổi theo hướng bền vững. Trên đà tăng trưởng này, mục tiêu trở thành trung tâm du lịch đẳng cấp quốc tế của Hạ Long, Quảng Ninh, đang dần thành hiện thực.</p>
         <h3 class="h3-indent">c) Ninh Bình - Tràng An và danh thắng Tam Cốc, Bích Động</h3>
         <p class="p-justify-indent">Ninh Bình được mệnh danh là vùng đất hội tụ vẻ đẹp ngoạn mục của thiên nhiên và chiều sâu văn hóa, lịch sử. Được thiên nhiên ưu ái ban tặng hệ thống núi đá vôi hùng vĩ, những dòng sông uốn lượn giữa thảm thực vật xanh mướt và quần thể hang động kỳ ảo, Ninh Bình trở thành một trong những điểm đến nổi bật nhất của du lịch Việt Nam.</p>
@@ -1846,7 +1847,8 @@ const chapters = [
     content: `
       <div class="content-container">
         <p class="p-justify-indent">Quần thể danh thắng Tràng An có diện tích 6.172 ha thuộc địa bàn các huyện Hoa Lư, Gia Viễn, Nho Quan, thị xã Tam Điệp và thành phố Ninh Bình, cách thủ đô Hà Nội khoảng 90km về phía đông nam. Quần thể danh thắng Tràng An bao gồm ba vùng được bảo vệ liền kề nhau là khu di tích lịch sử văn hóa cố đô Hoa Lư, khu danh thắng Tràng An - Tam Cốc - Bích Động và rừng nguyên sinh đặc dụng Hoa Lư.</p>
-        <p class="p-justify-indent"><strong>Quần thể danh thắng Tràng An. (Ảnh: Vietnam Tourism)</strong></p>
+        <img src="assets/images/chuong_5/trangan-chuong5-5.1-c.jpg" alt="Quần thể danh thắng Tràng An" style="height:auto; width:100%; display:block; object-fit:contain;" />
+        <p class="p-center" style="font-style: italic">Quần thể danh thắng Tràng An. (Ảnh: Vietnam Tourism)</p>
         <p class="p-justify-indent">Tràng An được ví như một “Hạ Long trên cạn” với vẻ đẹp tráng lệ được tạo nên bởi hệ thống núi đá muôn hình vạn trạng soi bóng xuống những dòng suối nhỏ quanh co, uốn lượn nối liền các hang động và thung lũng hoang sơ. Vẻ hài hòa của núi đá, sông nước, rừng cây và bầu trời ở Tràng An tạo nên một thế giới tự nhiên sống động, đầy quyến rũ. Nơi đây còn là nơi bảo tồn và lưu giữ nhiều hệ sinh thái rừng ngập nước, rừng trên núi đá vôi, các di chỉ khảo cổ học và các di tích lịch sử văn hóa đặc sắc.</p>
       </div>
     `
