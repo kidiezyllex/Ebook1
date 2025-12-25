@@ -393,6 +393,7 @@ body {
   transition: transform .28s ease;
   overflow: auto;
   padding: 18px;
+  padding-right: 26.5px;
   box-sizing: border-box;
 }
 
@@ -718,11 +719,6 @@ body {
 .sidebar::-webkit-scrollbar-corner,
 .sidebar .list-panel::-webkit-scrollbar-corner {
   background: transparent;
-}
-
-/* Slight padding inside sidebar so scrollbar doesn't touch content edge */
-.sidebar .sidebar-content {
-  padding-right: 12px;
 }
 
 /* If you want a subtle inset border on the sidebar edge to match the frame */
@@ -1087,7 +1083,6 @@ hr {
 }
 
 .intro-sidebar {
-  padding: 16px;
   line-height: 1.6;
   font-size: 14px;
 }
@@ -1108,8 +1103,9 @@ hr {
 .intro-title {
   text-align: center;
   margin: 8px 0;
-  font-size: 20px;
+  font-size: 18px !important;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 /* Tác giả */
