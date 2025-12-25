@@ -155,11 +155,11 @@ const chapters = [
     content: `
       <div class="content-container">
         <h1 class="h1-center">GIỚI THIỆU NỘI DUNG SÁCH</h1>
-        <p class="p-justify">"Dấu chân du lịch Việt Nam" là bản thảo được biên soạn công phu, tổng hợp và sưu tầm từ nhiều nguồn tư liệu chính thống, uy tín, bao gồm các báo cáo ngành, nghiên cứu khoa học, văn kiện của Đảng và Nhà nước, cùng hệ thống dữ liệu do các tổ chức trong nước và quốc tế công bố. Mục tiêu của cuốn sách là mang đến cho độc giả một cái nhìn tổng quan, sâu sắc và khách quan về quá trình phát triển du lịch Việt Nam, từ nền tảng lý luận đến thực tiễn vận hành, từ những điều kiện tự nhiên – văn hóa đặc sắc đến các hướng đi chiến lược trong tương lai.</p>
+        <p class="p-justify-indent">"Dấu chân du lịch Việt Nam" là bản thảo được biên soạn công phu, tổng hợp và sưu tầm từ nhiều nguồn tư liệu chính thống, uy tín, bao gồm các báo cáo ngành, nghiên cứu khoa học, văn kiện của Đảng và Nhà nước, cùng hệ thống dữ liệu do các tổ chức trong nước và quốc tế công bố. Mục tiêu của cuốn sách là mang đến cho độc giả một cái nhìn tổng quan, sâu sắc và khách quan về quá trình phát triển du lịch Việt Nam, từ nền tảng lý luận đến thực tiễn vận hành, từ những điều kiện tự nhiên – văn hóa đặc sắc đến các hướng đi chiến lược trong tương lai.</p>
 
-        <p class="p-justify">Trong bối cảnh ngành du lịch Việt Nam đang có bước chuyển mình mạnh mẽ, việc có được một tài liệu tổng hợp, hệ thống và dễ tiếp cận trở nên vô cùng cần thiết. Cuốn sách không chỉ phục vụ nhu cầu tham khảo của các nhà nghiên cứu, giảng viên, sinh viên ngành du lịch, mà còn dành cho độc giả phổ thông có niềm yêu thích khám phá, tìm hiểu về đất nước và con người Việt Nam. Với lối trình bày mạch lạc, kết hợp giữa phân tích lý luận, dẫn chứng thực tiễn và các ví dụ sinh động, "Dấu chân du lịch Việt Nam" giúp người đọc hình dung rõ hơn những giá trị nổi bật đã, đang và sẽ góp phần định hình thương hiệu du lịch quốc gia.</p>
+        <p class="p-justify-indent">Trong bối cảnh ngành du lịch Việt Nam đang có bước chuyển mình mạnh mẽ, việc có được một tài liệu tổng hợp, hệ thống và dễ tiếp cận trở nên vô cùng cần thiết. Cuốn sách không chỉ phục vụ nhu cầu tham khảo của các nhà nghiên cứu, giảng viên, sinh viên ngành du lịch, mà còn dành cho độc giả phổ thông có niềm yêu thích khám phá, tìm hiểu về đất nước và con người Việt Nam. Với lối trình bày mạch lạc, kết hợp giữa phân tích lý luận, dẫn chứng thực tiễn và các ví dụ sinh động, "Dấu chân du lịch Việt Nam" giúp người đọc hình dung rõ hơn những giá trị nổi bật đã, đang và sẽ góp phần định hình thương hiệu du lịch quốc gia.</p>
 
-        <p class="p-justify">Một trong những điểm nhấn quan trọng của cuốn sách là khả năng kết nối tài nguyên du lịch phong phú của Việt Nam theo một cấu trúc chặt chẽ. Từ những bãi biển trải dài của Phú Quốc, Nha Trang, Mũi Né đến các di sản thiên nhiên thế giới như Vịnh Hạ Long, Vườn quốc gia Phong Nha – Kẻ Bàng; từ những quần thể di tích lịch sử – văn hóa như Cố đô Huế, Phố cổ Hội An đến bản sắc văn hóa độc đáo của đồng bào các dân tộc miền núi phía Bắc và Tây Nguyên – tất cả được tái hiện bằng góc nhìn hệ thống, hướng đến mục tiêu làm sáng rõ sức hấp dẫn đặc trưng của từng vùng miền. Những địa danh quen thuộc như Sa Pa, Hà Giang, Đà Lạt, Cần Thơ, hay những điểm đến mới nổi như Bình Liêu, Quy Nhơn, Lý Sơn cũng được đề cập như những gợi ý tham khảo thiết thực dành cho độc giả muốn lập kế hoạch du lịch.</p>
+        <p class="p-justify-indent">Một trong những điểm nhấn quan trọng của cuốn sách là khả năng kết nối tài nguyên du lịch phong phú của Việt Nam theo một cấu trúc chặt chẽ. Từ những bãi biển trải dài của Phú Quốc, Nha Trang, Mũi Né đến các di sản thiên nhiên thế giới như Vịnh Hạ Long, Vườn quốc gia Phong Nha – Kẻ Bàng; từ những quần thể di tích lịch sử – văn hóa như Cố đô Huế, Phố cổ Hội An đến bản sắc văn hóa độc đáo của đồng bào các dân tộc miền núi phía Bắc và Tây Nguyên – tất cả được tái hiện bằng góc nhìn hệ thống, hướng đến mục tiêu làm sáng rõ sức hấp dẫn đặc trưng của từng vùng miền. Những địa danh quen thuộc như Sa Pa, Hà Giang, Đà Lạt, Cần Thơ, hay những điểm đến mới nổi như Bình Liêu, Quy Nhơn, Lý Sơn cũng được đề cập như những gợi ý tham khảo thiết thực dành cho độc giả muốn lập kế hoạch du lịch.</p>
       </div>
     `
   },
@@ -168,11 +168,11 @@ const chapters = [
     id: "trang-7", page: "7", title: "",
     content: `
       <div class="content-container">
-        <p class="p-justify">"Dấu chân du lịch Việt Nam" là cuốn cẩm nang hữu ích dành cho những ai muốn khám phá Việt Nam một cách có hệ thống. Cuốn sách không chỉ gợi ý những điểm đến mà còn mang đến những trải nghiệm phong phú, những nét văn hóa độc đáo, những lễ hội đặc trưng của từng vùng miền, từ Nam Trung Bộ sôi động đến Tây Nguyên gió lộng, từ Đông Bắc hùng vĩ đến những vùng đất khác của đất nước. Mỗi điểm đến không chỉ được mô tả bởi vẻ đẹp thiên nhiên mà còn qua những câu chuyện, giá trị văn hóa và chiều sâu lịch sử, nhằm giúp độc giả hiểu, cảm nhận và ghi nhớ những giá trị tiềm ẩn.</p>
+        <p class="p-justify-indent">"Dấu chân du lịch Việt Nam" là cuốn cẩm nang hữu ích dành cho những ai muốn khám phá Việt Nam một cách có hệ thống. Cuốn sách không chỉ gợi ý những điểm đến mà còn mang đến những trải nghiệm phong phú, những nét văn hóa độc đáo, những lễ hội đặc trưng của từng vùng miền, từ Nam Trung Bộ sôi động đến Tây Nguyên gió lộng, từ Đông Bắc hùng vĩ đến những vùng đất khác của đất nước. Mỗi điểm đến không chỉ được mô tả bởi vẻ đẹp thiên nhiên mà còn qua những câu chuyện, giá trị văn hóa và chiều sâu lịch sử, nhằm giúp độc giả hiểu, cảm nhận và ghi nhớ những giá trị tiềm ẩn.</p>
 
-        <p class="p-justify">Bên cạnh việc gợi ý điểm đến, cuốn sách còn truyền cảm hứng cho việc khám phá Việt Nam một cách có trách nhiệm. Những thông điệp về phát triển du lịch bền vững, tôn trọng thiên nhiên, trân trọng di sản và bảo tồn văn hóa được lồng ghép xuyên suốt các trang sách. Sự kết hợp giữa tri thức khoa học và tinh thần nhân văn tạo nên một bản thảo vừa hữu ích cho nghiên cứu, vừa giàu giá trị truyền cảm hứng cho độc giả.</p>
+        <p class="p-justify-indent">Bên cạnh việc gợi ý điểm đến, cuốn sách còn truyền cảm hứng cho việc khám phá Việt Nam một cách có trách nhiệm. Những thông điệp về phát triển du lịch bền vững, tôn trọng thiên nhiên, trân trọng di sản và bảo tồn văn hóa được lồng ghép xuyên suốt các trang sách. Sự kết hợp giữa tri thức khoa học và tinh thần nhân văn tạo nên một bản thảo vừa hữu ích cho nghiên cứu, vừa giàu giá trị truyền cảm hứng cho độc giả.</p>
 
-        <p class="p-justify">Với tất cả nội dung đó, "Dấu chân du lịch Việt Nam" không chỉ là một tập hợp thông tin mà còn là sự kết nối giữa lý thuyết và thực tiễn, giữa tri thức và kinh nghiệm, là cầu nối giữa quá khứ và định hướng tương lai. Tác phẩm hy vọng sẽ trở thành một tài liệu tham khảo đáng tin cậy và là người bạn đồng hành của mỗi độc giả trên hành trình khám phá vùng đất Việt Nam tươi đẹp và đa dạng.</p>
+        <p class="p-justify-indent">Với tất cả nội dung đó, "Dấu chân du lịch Việt Nam" không chỉ là một tập hợp thông tin mà còn là sự kết nối giữa lý thuyết và thực tiễn, giữa tri thức và kinh nghiệm, là cầu nối giữa quá khứ và định hướng tương lai. Tác phẩm hy vọng sẽ trở thành một tài liệu tham khảo đáng tin cậy và là người bạn đồng hành của mỗi độc giả trên hành trình khám phá vùng đất Việt Nam tươi đẹp và đa dạng.</p>
       </div>
     `
   },
@@ -184,11 +184,11 @@ const chapters = [
       <div class="content-container">
         <h1 class="h1-center">LỜI NHÀ XUẤT BẢN</h1>
         
-        <p class="p-justify">Nhà xuất bản Hà Nội trân trọng giới thiệu đến quý độc giả cuốn sách "Dấu chân du lịch Việt Nam" – công trình biên soạn mang tính tổng hợp và hệ thống, phản ánh toàn diện bức tranh du lịch Việt Nam từ quá khứ, hiện tại đến những triển vọng tương lai. Tác phẩm được xây dựng trên nền tảng tư liệu chính thống, có độ tin cậy cao, kết hợp giữa lý luận chuyên ngành và những dẫn chứng thực tiễn sinh động.</p>
+        <p class="p-justify-indent">Nhà xuất bản Hà Nội trân trọng giới thiệu đến quý độc giả cuốn sách "Dấu chân du lịch Việt Nam" – công trình biên soạn mang tính tổng hợp và hệ thống, phản ánh toàn diện bức tranh du lịch Việt Nam từ quá khứ, hiện tại đến những triển vọng tương lai. Tác phẩm được xây dựng trên nền tảng tư liệu chính thống, có độ tin cậy cao, kết hợp giữa lý luận chuyên ngành và những dẫn chứng thực tiễn sinh động.</p>
 
-        <p class="p-justify">Cuốn sách mang đến góc nhìn sâu sắc về tài nguyên du lịch, chính sách phát triển, thành tựu, khó khăn, cũng như các định hướng chiến lược nhằm thúc đẩy du lịch Việt Nam phát triển bền vững. Đặc biệt, nội dung còn gợi mở nhiều điểm đến đặc sắc trên khắp mọi miền đất nước, giúp độc giả có thêm cảm hứng khám phá và trải nghiệm.</p>
+        <p class="p-justify-indent">Cuốn sách mang đến góc nhìn sâu sắc về tài nguyên du lịch, chính sách phát triển, thành tựu, khó khăn, cũng như các định hướng chiến lược nhằm thúc đẩy du lịch Việt Nam phát triển bền vững. Đặc biệt, nội dung còn gợi mở nhiều điểm đến đặc sắc trên khắp mọi miền đất nước, giúp độc giả có thêm cảm hứng khám phá và trải nghiệm.</p>
 
-        <p class="p-justify">Với hình thức trình bày khoa học, ngôn ngữ chuẩn mực và tính ứng dụng cao, "Dấu chân du lịch Việt Nam" là tài liệu tham khảo hữu ích cho nhà quản lý, nhà nghiên cứu, giảng viên, sinh viên và độc giả yêu thích du lịch. Nhà xuất bản Hà Nội tin tưởng rằng cuốn sách sẽ đóng góp tích cực vào việc lan tỏa giá trị văn hóa, lịch sử và vẻ đẹp thiên nhiên của Việt Nam đến đông đảo bạn đọc.</p>
+        <p class="p-justify-indent">Với hình thức trình bày khoa học, ngôn ngữ chuẩn mực và tính ứng dụng cao, "Dấu chân du lịch Việt Nam" là tài liệu tham khảo hữu ích cho nhà quản lý, nhà nghiên cứu, giảng viên, sinh viên và độc giả yêu thích du lịch. Nhà xuất bản Hà Nội tin tưởng rằng cuốn sách sẽ đóng góp tích cực vào việc lan tỏa giá trị văn hóa, lịch sử và vẻ đẹp thiên nhiên của Việt Nam đến đông đảo bạn đọc.</p>
 
         <p class="p-center" style="font-weight: bold; font-size: var(--reader-font-size);">Chúng tôi trân trọng giới thiệu.</p>
       </div>
@@ -202,13 +202,13 @@ const chapters = [
       <div class="content-container">
         <h1 class="h1-center">LỜI CỦA CÁC TÁC GIẢ SƯU TẦM</h1>
         
-        <p class="p-justify">Chúng tôi biên soạn cuốn "Dấu chân du lịch Việt Nam" với mong muốn đóng góp một tài liệu tổng hợp, hệ thống và đáng tin cậy dành cho những ai quan tâm tới sự phát triển của ngành du lịch nước nhà. Tác phẩm được xây dựng trên cơ sở sưu tầm, chọn lọc từ nhiều nguồn tư liệu chính thống, các báo cáo nghiên cứu, văn kiện định hướng và dữ liệu thực tiễn của các cơ quan chuyên môn trong và ngoài nước.</p>
+        <p class="p-justify-indent">Chúng tôi biên soạn cuốn "Dấu chân du lịch Việt Nam" với mong muốn đóng góp một tài liệu tổng hợp, hệ thống và đáng tin cậy dành cho những ai quan tâm tới sự phát triển của ngành du lịch nước nhà. Tác phẩm được xây dựng trên cơ sở sưu tầm, chọn lọc từ nhiều nguồn tư liệu chính thống, các báo cáo nghiên cứu, văn kiện định hướng và dữ liệu thực tiễn của các cơ quan chuyên môn trong và ngoài nước.</p>
 
-        <p class="p-justify">Trong quá trình thực hiện, chúng tôi nỗ lực bảo đảm tính khách quan, khoa học và độ chính xác cao nhất. Cuốn sách không chỉ nhằm phản ánh hiện trạng và tiềm năng du lịch Việt Nam, mà còn mong muốn góp phần gợi mở những suy nghĩ tích cực về con đường phát triển bền vững trong tương lai.</p>
+        <p class="p-justify-indent">Trong quá trình thực hiện, chúng tôi nỗ lực bảo đảm tính khách quan, khoa học và độ chính xác cao nhất. Cuốn sách không chỉ nhằm phản ánh hiện trạng và tiềm năng du lịch Việt Nam, mà còn mong muốn góp phần gợi mở những suy nghĩ tích cực về con đường phát triển bền vững trong tương lai.</p>
 
-        <p class="p-justify">Chúng tôi hy vọng rằng những thông tin và góc nhìn được chia sẻ trong sách sẽ trở thành nguồn tham khảo hữu ích, đồng thời mang lại cảm hứng khám phá cho độc giả yêu mến văn hóa và cảnh quan của đất nước.</p>
+        <p class="p-justify-indent">Chúng tôi hy vọng rằng những thông tin và góc nhìn được chia sẻ trong sách sẽ trở thành nguồn tham khảo hữu ích, đồng thời mang lại cảm hứng khám phá cho độc giả yêu mến văn hóa và cảnh quan của đất nước.</p>
 
-        <p class="p-justify">Xin trân trọng cảm ơn sự đồng hành và ủng hộ của quý bạn đọc.</p>
+        <p class="p-justify-indent">Xin trân trọng cảm ơn sự đồng hành và ủng hộ của quý bạn đọc.</p>
       </div>
     `
   },
