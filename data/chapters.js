@@ -113,20 +113,20 @@ const chapters = [
     id: "trang-5", page: "5", title: "TRANG TRÁCH NHIỆM",
     content: `
       <div class="content-container" style="text-align: center;">
-        <p class="p-justify-indent"><strong>DẤU CHÂN DU LỊCH VIỆT NAM</strong></p>
+        <p class="p-center"><strong>DẤU CHÂN DU LỊCH VIỆT NAM</strong></p>
         
         <p class="p-base">Không phần nào trong xuất bản phẩm này được xuất bản hoặc phát hành dưới bất kỳ hình thức nào nếu không có sự cho phép của Nhà xuất bản Hà Nội</p>
         
-        <div style="width: 50%; border-top: 1px solid #999; margin: 15px auto;"></div>
+        <div style="width: 90%; border-top: 2px solid #000; margin: 15px auto;"></div>
         
-        <p class="p-justify-indent"><strong>NHÀ XUẤT BẢN HÀ NỘI</strong></p>
+        <p class="p-center"><strong>NHÀ XUẤT BẢN HÀ NỘI</strong></p>
         <p class="p-base">Số 4, Tống Duy Tân, Hàng Bông, Hoàn Kiếm, Hà Nội</p>
         <p class="p-base"><strong>Điện thoại:</strong> (024) 3 825 2916 &nbsp;&nbsp; <strong>Fax:</strong> (024) 3 928 9143</p>
 
         <div style="margin-bottom: 15px;">
           <p class="p-base"><strong>Chịu trách nhiệm xuất bản:</strong></p>
           <p class="p-base"><strong>Tổng Giám đốc - Tổng Biên tập:</strong></p>
-          <p class="p-base" style="font-weight: bold; text-transform: uppercase;">VŨ VĂN VIỆT</p>
+          <p class="p-base" style="text-transform: uppercase;">VŨ VĂN VIỆT</p>
         </div>
 
         <div style="margin-bottom: 15px; line-height: 1.6;">
@@ -137,7 +137,7 @@ const chapters = [
           <p class="p-base"><strong>Thiết kế bìa sách:</strong> Hà An</p>
         </div>
         
-        <div style="width: 50%; border-top: 1px solid #999; margin: 15px auto;"></div>
+        <div style="width: 90%; border-top: 2px solid #000; margin: 15px auto;"></div>
         
         <div style="font-size: 0.9em;">
           <p class="p-base">Giấy chấp nhận đăng ký kế hoạch xuất bản số: 1711-2021/CXBIPH/05-130/HN</p>
